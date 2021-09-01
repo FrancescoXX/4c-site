@@ -1,6 +1,6 @@
 const Join = () => {
   return (
-    <div className="py-6 bg-white">
+    <main className="py-6 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <div className="inline-flex rounded-md shadow">
@@ -9,12 +9,12 @@ const Join = () => {
               className="inline-flex items-center justtify-center px-5 py-3 border border-transparent
                 text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-800"
             >
-              Join the Community!
+              Join the Community! 
             </a>
           </div>
         </div>
       </div>
-    </div>
+    </main>
     // <div className="py-6 bg-white">
     //   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     //     <div className="inline-flex rounded-md shadow">
