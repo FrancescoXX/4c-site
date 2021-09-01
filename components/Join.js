@@ -9,7 +9,7 @@ const Join = () => {
               className="inline-flex items-center justtify-center px-5 py-3 border border-transparent
                 text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-800"
             >
-              Join the Community !
+              Join the Community!
             </a>
           </div>
         </div>
