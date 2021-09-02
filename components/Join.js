@@ -1,3 +1,4 @@
+import { FaDiscord } from "react-icons/fa";
 const Join = () => {
   return (
     <main className="py-6 bg-white">
@@ -9,7 +10,10 @@ const Join = () => {
               className="inline-flex items-center justtify-center px-5 py-3 border border-transparent
                 text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-800"
             >
-              Join the Community! 
+              <span className="px-1">
+                <FaDiscord />
+              </span>
+              Join the Community!
             </a>
           </div>
         </div>
