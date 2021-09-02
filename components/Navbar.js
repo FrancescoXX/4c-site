@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa"
 
 const Navbar = () => {
   return (
@@ -6,11 +6,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between flex-wrap">
           <div className="w-0 flex-1 flex items-center">
-            <p className="ml-3 font-medium text-2xl text-white truncate">
+            <p className="ml-3 font-medium text-2xl text-white truncate rounded-lg">
               {/* <span className="md:hidden">Lorem Ipsum</span> */}
               <span
-                className="hiddden md:inline text-l font-sans font-semibold border-2 border-transparent rounded-md shadow-sm
-              bg-black  "
+                className="hiddden md:inline text-l font-sans font-semibold border-2 border-transparent shadow-sm
+              bg-black p-2.5"
               >
                 4C
               </span>
@@ -21,7 +21,7 @@ const Navbar = () => {
               href="https://github.com/FrancescoXX/4c-site"
               target="_blank"
               className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm
-            text-sm font-medium text-white bg-black hover:bg-gray-500"
+            text-sm font-medium text-white bg-black hover:bg-gray-700"
             >
               <span className="px-1">
                 <FaGithub />
@@ -41,6 +41,6 @@ const Navbar = () => {
         </div>
       </div>
     </header>
-  );
-};
-export default Navbar;
+  )
+}
+export default Navbar
