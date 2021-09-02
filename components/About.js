@@ -3,9 +3,9 @@ const About = () => {
     <div className="py-6 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">
+          <p className="text-base text-red-600 font-semibold tracking-wide uppercase">
             What does 4C stand for?
-          </h2>
+          </p>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             The Cool Community For Content Creators
           </p>
