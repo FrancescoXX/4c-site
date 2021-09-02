@@ -3,7 +3,7 @@ const About = () => {
     <div className="py-6 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <p className="text-base text-red-600 font-semibold tracking-wide uppercase">
+          <p className="text-base text-red-600 font-semibold tracking-wide uppercase m-6">
             What does 4C stand for?
           </p>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -21,7 +21,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
