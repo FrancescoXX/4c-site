@@ -1,17 +1,24 @@
-import Head from "next/head";
-import Navbar from "../components/Navbar";
-import About from "../components/About";
-import Join from "../components/Join";
+//Components - these provide styling and layout for the page
+import Layout from "../components/Layout";
+import Hero from "../components/Hero";
+
+//Content - this is the detail on the page
+import content from "../content/homepage";
+
 export default function Home() {
+  //Set up our SEO for the page
+  const seo = {
+    metaTitle: "4C",
+  };
+
+  //Our page components - layout provides all the wrapping elements
   return (
-    <>
-      <Head>
-        <title>4C</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Navbar />
-      <About />
-      <Join />
-    </>
+    <Layout
+      className="flex flex-col min-h-screen bg-orange-50 justify-center"
+      seo={seo}
+    >
+      <Hero {...content.hero} />
+      {/* Other components go here */}
+    </Layout>
   );
 }

@@ -1,0 +1,7 @@
+.btn {
+  @apply inline-flex items-center justify-center gap-2 px-8 py-3 rounded-md font-semibold antialiased transition duration-200 ease-in-out no-underline outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600;
+}
+
+.btn-primary {
+  @apply rounded-full rounded-bl-none bg-gray-900 text-white font-medium shadow-2xl hover:shadow-md transform hover:translate-y-1 translate-x-0;
+}
