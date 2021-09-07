@@ -1,13 +1,16 @@
 /* ./styles/globals.css */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss/base";
 
-@import 'tailwindcss/base';
+@import "tailwindcss/components";
+@import "./button.css";
 
-@import 'tailwindcss/components';
-@import './button.css';
+@import "tailwindcss/utilities";
 
-@import 'tailwindcss/utilities';
-
-* {
-  font-family: 'Inter', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-heading;
 }
