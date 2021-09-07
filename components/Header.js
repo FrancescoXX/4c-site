@@ -3,12 +3,12 @@ import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <header className="absolute w-full my-6">
+    <header className="absolute w-full my-6 z-50">
       <div className="container">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-12">
             {/* Logo - Todo update to SVG */}
-            <p className="font-semibold text-2xl text-gray-900 mr-16">4C</p>
+            <p className="font-heading text-2xl text-gray-900 mr-16">4C</p>
 
             {/* Links (for the future) */}
             {/* <div className="text-gray-500 flex gap-12 font-medium">
