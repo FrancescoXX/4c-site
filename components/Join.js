@@ -2,13 +2,12 @@ import { FaDiscord } from "react-icons/fa";
 const Join = () => {
   return (
     <main className="py-6 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <div className="inline-flex rounded-md shadow">
+          <div className="inline-flex shadow rounded-md">
             <a
               href="https://discord.com/invite/TcmA2kbJeA"
-              className="inline-flex items-center justtify-center px-5 py-3 border border-transparent
-                text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-800"
+              className="inline-flex items-center px-5 py-3 text-base font-medium text-white bg-red-600 border border-transparent justtify-center rounded-md hover:bg-red-800"
             >
               <span className="px-1">
                 <FaDiscord />
