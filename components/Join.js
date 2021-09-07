@@ -16,6 +16,18 @@ const Join = () => {
               Join the Community!
             </a>
           </div>
+
+          <div class="flex justify-center py-14">
+            <iframe
+              width="350"
+              height="500"
+              frameborder="0"
+              allowtransparency="true"
+              sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+              src="https://discord.com/widget?id=784142072763383858&theme=dark"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </main>
