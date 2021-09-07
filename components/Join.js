@@ -17,7 +17,7 @@ const Join = () => {
             </a>
           </div>
 
-          <div class="flex justify-center py-14">
+          <div className="flex justify-center py-14">
             <iframe
               width="350"
               height="500"
