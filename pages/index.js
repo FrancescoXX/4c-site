@@ -4,7 +4,7 @@ import About from "../components/About";
 import Join from "../components/Join";
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <>
       <Head>
         <title>4C</title>
         <link rel="icon" href="/favicon.ico" />
@@ -12,6 +12,6 @@ export default function Home() {
       <Navbar />
       <About />
       <Join />
-    </div>
+    </>
   );
 }
