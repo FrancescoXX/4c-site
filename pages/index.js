@@ -14,7 +14,7 @@ export default function Home() {
   //Our page components - layout provides all the wrapping elements
   return (
     <Layout
-      className="flex flex-col min-h-screen bg-orange-50 justify-center"
+      className="flex flex-col justify-center min-h-screen bg-orange-50"
       seo={seo}
     >
       <Hero {...content.hero} />
