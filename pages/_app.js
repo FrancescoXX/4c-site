@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
           content="4C: The Cool Community for Content Creators"
         />
       </Head>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </div>
   );
 }
