@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Hero = ({ eyebrow, title, description, primaryLink, secondaryLink }) => {
   return (
-    <section className="container">
+    <section className="container overflow-x-hidden">
       <div className="items-center grid md:grid-cols-3 lg:grid-cols-2 gap-12">
         <div className="col-span-2 lg:col-span-1">
           <p className="text-sm font-bold tracking-wide text-orange-600 uppercase">
