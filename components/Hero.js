@@ -3,9 +3,9 @@ import Image from "next/image";
 const Hero = ({ eyebrow, title, description, primaryLink, secondaryLink }) => {
   return (
     <section className="container">
-      <div className="grid md:grid-cols-3 lg:grid-cols-2 items-center gap-12">
+      <div className="items-center grid md:grid-cols-3 lg:grid-cols-2 gap-12">
         <div className="col-span-2 lg:col-span-1">
-          <p className="text-sm text-orange-600 font-bold tracking-wide uppercase">
+          <p className="text-sm font-bold tracking-wide text-orange-600 uppercase">
             {eyebrow}
           </p>
 
@@ -13,9 +13,9 @@ const Hero = ({ eyebrow, title, description, primaryLink, secondaryLink }) => {
             {title}
           </h1>
 
-          <div className="prose-lg text-gray-500 my-8">{description}</div>
+          <div className="my-8 text-gray-500 prose-lg">{description}</div>
 
-          <div className="flex flex-wrap justify-center md:justify-start gap-4 my-8">
+          <div className="flex flex-wrap justify-center my-8 md:justify-start gap-4">
             {primaryLink}
             {secondaryLink}
           </div>

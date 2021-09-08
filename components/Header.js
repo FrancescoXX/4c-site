@@ -1,14 +1,14 @@
-import Link from "next/link";
+// import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <header className="absolute w-full my-6 z-50">
+    <header className="absolute z-50 w-full my-6">
       <div className="container">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-12">
             {/* Logo - Todo update to SVG */}
-            <p className="font-heading text-2xl text-gray-900 mr-16">4C</p>
+            <p className="mr-16 text-2xl text-gray-900 font-heading">4C</p>
 
             {/* Links (for the future) */}
             {/* <div className="text-gray-500 flex gap-12 font-medium">
