@@ -11,7 +11,7 @@
 1.  Clone the repo:
 
     ```console
-    $ git clone git@github.com:FrancescoXX/4c-site.git
+    git clone https://github.com/FrancescoXX/4c-site.git
     ```
 
 2.  Navigate to the cloned directory:
