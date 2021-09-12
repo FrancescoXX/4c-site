@@ -23,6 +23,7 @@ const Navbar = () => {
 
           <div className="">
             <SocialLink
+              
               link="https://github.com/FrancescoXX/4c-site"
               Icon={FaGithub}
               label="See the Repo"
@@ -37,7 +38,7 @@ const Navbar = () => {
 export default Navbar;
 
 const SocialLink = ({ link, Icon, label }) => (
-  <a href={link} target="_blank">
+  <a href={link} target="_blank" rel="noopener noreferrer">
     <Icon className="text-2xl" />
     <span className="sr-only">{label}</span>
   </a>
