@@ -4,7 +4,7 @@ import { PageConfig } from ".";
 
 const pageConfig: PageConfig = {
   hero: {
-    pageLogo: "What is 4C?",
+    pageEyebrow: "What is 4C?",
     pageHeadline: (
       <>
         The Cool Community For{" "}

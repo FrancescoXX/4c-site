@@ -3,19 +3,26 @@ import { ReactElement, ReactNode } from "react";
 import Image from "next/image";
 
 export interface HeroProps {
-  pageLogo: ReactNode;
+  pageEyebrow: ReactNode;
   pageHeadline: ReactNode;
   pageDescription: ReactNode;
   primaryCTA: ReactNode;
   secondaryCTA: ReactNode;
 }
 
-export default function Hero({pageLogo, pageHeadline, pageDescription, primaryCTA, secondaryCTA}: HeroProps): ReactElement {
-  return <section className="container">
+export default function Hero({
+  pageEyebrow,
+  pageHeadline,
+  pageDescription,
+  primaryCTA,
+  secondaryCTA,
+}: HeroProps): ReactElement {
+  return (
+    <section className="container">
       <div className="items-center grid md:grid-cols-3 lg:grid-cols-2 gap-12">
         <div className="col-span-2 lg:col-span-1">
           <p className="text-sm font-bold tracking-wide text-orange-600 uppercase">
-            {pageLogo}
+            {pageEyebrow}
           </p>
 
           <h1 className="mt-2 text-5xl font-extrabold tracking-tight text-gray-900 md:text-6xl">
@@ -34,4 +41,5 @@ export default function Hero({pageLogo, pageHeadline, pageDescription, primaryCT
         </div>
       </div>
     </section>
+  );
 }
