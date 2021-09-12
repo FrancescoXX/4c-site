@@ -1,7 +1,9 @@
-// import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
+// import Link from "next/link";
+import { ReactElement } from "react";
+import SocialLink from "./Header/SocialLink";
 
-const Navbar = () => {
+export default function Header(): ReactElement {
   return (
     <header className="absolute z-50 w-full my-6">
       <div className="container">
@@ -21,9 +23,8 @@ const Navbar = () => {
             </div> */}
           </div>
 
-          <div className="">
+          <div>
             <SocialLink
-              
               link="https://github.com/FrancescoXX/4c-site"
               Icon={FaGithub}
               label="See the Repo"
@@ -33,13 +34,4 @@ const Navbar = () => {
       </div>
     </header>
   );
-};
-
-export default Navbar;
-
-const SocialLink = ({ link, Icon, label }) => (
-  <a href={link} target="_blank" rel="noopener noreferrer">
-    <Icon className="text-2xl" />
-    <span className="sr-only">{label}</span>
-  </a>
-);
+}

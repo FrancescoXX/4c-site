@@ -1,15 +1,17 @@
 import { FaDiscord, FaPlayCircle } from "react-icons/fa";
 
-export default {
+import { PageConfig } from ".";
+
+const pageConfig: PageConfig = {
   hero: {
-    eyebrow: "What is 4C?",
-    title: (
+    pageLogo: "What is 4C?",
+    pageHeadline: (
       <>
         The Cool Community For{" "}
         <strong className="text-orange-600">Content Creators</strong>
       </>
     ),
-    description: (
+    pageDescription: (
       <>
         <p>
           Creating content can be rewarding, but it can also be a challenge to
@@ -21,7 +23,7 @@ export default {
         </p>
       </>
     ),
-    primaryLink: (
+    primaryCTA: (
       <a
         href="https://discord.com/invite/TcmA2kbJeA"
         className="btn btn-primary"
@@ -30,7 +32,7 @@ export default {
         Join the Community!
       </a>
     ),
-    secondaryLink: (
+    secondaryCTA: (
       <a href="https://discord.com/invite/TcmA2kbJeA" className="btn">
         <FaPlayCircle className="text-3xl text-orange-600" />
         Why 4C?
@@ -38,3 +40,5 @@ export default {
     ),
   },
 };
+
+export default pageConfig;

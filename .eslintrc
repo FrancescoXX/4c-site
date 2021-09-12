@@ -15,7 +15,6 @@
     }
   },
   "rules": {
-    "no-console": ["warn"],
     "no-nested-ternary": 0,
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error"

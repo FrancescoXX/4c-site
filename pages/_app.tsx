@@ -1,7 +1,10 @@
 import "../styles/global.css";
-import Head from "next/head";
 
-function MyApp({ Component, pageProps }) {
+import { AppProps } from "next/dist/shared/lib/router/router";
+import Head from "next/head";
+import { ReactElement } from "react";
+
+export default function App({ Component, pageProps }: AppProps): ReactElement {
   return (
     <div>
       <Head>
@@ -14,5 +17,3 @@ function MyApp({ Component, pageProps }) {
     </div>
   );
 }
-
-export default MyApp;
