@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <meta
           name="description"
-          content="4C: The Cool Community for Content Creators"
+          content="4C: The Cool Community for Content Creators where creators from across platforms come together to grow and learn together as a community."
         />
       </Head>
       <Component {...pageProps} />

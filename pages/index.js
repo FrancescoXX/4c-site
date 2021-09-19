@@ -8,7 +8,7 @@ import content from "../content/homepage";
 export default function Home() {
   //Set up our SEO for the page
   const seo = {
-    metaTitle: "4C",
+    metaTitle: "4C - Community",
   };
 
   //Our page components - layout provides all the wrapping elements
