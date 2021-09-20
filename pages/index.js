@@ -1,6 +1,7 @@
 //Components - these provide styling and layout for the page
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
+import { NextSeo } from "next-seo";
 
 //Content - this is the detail on the page
 import content from "../content/homepage";
