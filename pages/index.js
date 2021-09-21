@@ -2,6 +2,7 @@
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import { NextSeo } from "next-seo";
+import Head from 'next/head';
 
 //Content - this is the detail on the page
 import content from "../content/homepage";
@@ -10,6 +11,9 @@ export default function Home() {
   //Our page components - layout provides all the wrapping elements
   return (
     <Layout className="flex flex-col justify-center min-h-screen overflow-hidden bg-orange-50">
+      <Head>
+        <link rel="icon" href="https://res.cloudinary.com/codegowdacloud/image/upload/v1632206291/logo_gsnxnf.jpg" />
+      </Head>
       <Hero {...content.hero} />
       {/* Other components go here */}
       <NextSeo
