@@ -31,3 +31,7 @@
     ```console
     $ npm run dev
     ```
+5. Once you make the commited changes push your code to GitHub and it will get merged(if valid).
+6. If you are unsure about Git and GitHub check this "[https://blog.avneesh.tech/git-and-github-crash-course]"
+7. If you are unsure about making a pull request for submitting your code, then check this "[https://blog.avneesh.tech/how-to-contribute-to-an-open-source-project]"
+8. All the best in making something new and happy coding!!!
