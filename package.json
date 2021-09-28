@@ -7,7 +7,9 @@
     "format": "prettier --write \"{components,content,docs,pages,styles,utils}/**/*.{js,jsx,ts,tsx,css,scss,json,yaml,md}\"",
     "format:check": "prettier --check '{components,content,docs,pages,styles,utils}/**/*.{js,jsx,ts,tsx,css,scss,json,yaml,md}'",
     "lint": "eslint --fix '{components,pages,utils}/**/*.{js,jsx,ts,tsx}'",
-    "lint:check": "eslint '{components,pages,utils}/**/*.{js,jsx,ts,tsx}'"
+    "lint:check": "eslint '{components,pages,utils}/**/*.{js,jsx,ts,tsx}'",
+    "prepare": "husky install",
+    "pre-commit": "yarn format; git add -A ."
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
@@ -32,6 +34,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-tailwind": "^0.2.0",
+    "husky": "^7.0.2",
     "postcss": "^8.3.6",
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.5",
