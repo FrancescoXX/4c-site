@@ -1,4 +1,4 @@
-<img align='right' src='./logo.jpg' alt='4C logo'>
+<img align='right' src='./logo.jpg' alt='4C logo' height='200px'>
 
 # 4c
 
@@ -11,7 +11,7 @@
 1.  Clone the repo:
 
     ```console
-    git clone https://github.com/FrancescoXX/4c-site.git
+    $ git clone git@github.com:FrancescoXX/4c-site.git
     ```
 
 2.  Navigate to the cloned directory:
