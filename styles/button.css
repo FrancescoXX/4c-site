@@ -1,5 +1,5 @@
 .btn {
-  @apply inline-flex items-center justify-center gap-2 px-8 py-3 rounded-md font-semibold antialiased transition duration-200 ease-in-out no-underline outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600;
+  @apply inline-flex items-center justify-center gap-2 px-8 py-3 rounded-md font-semibold antialiased transition duration-200 ease-in-out no-underline outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 cursor-pointer;
 }
 
 .btn-primary {
