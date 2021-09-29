@@ -23,7 +23,6 @@ const Navbar = () => {
 
           <div className="">
             <SocialLink
-              
               link="https://github.com/FrancescoXX/4c-site"
               Icon={FaGithub}
               label="See the Repo"
