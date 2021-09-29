@@ -1,6 +1,6 @@
 import { FaDiscord, FaPlayCircle } from "react-icons/fa";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default {
   hero: {
@@ -36,7 +36,7 @@ export default {
       <a onClick={() => toast("Video coming soon!!!")} className="btn">
         <FaPlayCircle className="text-3xl text-orange-600" />
         Why 4C?
-        <ToastContainer/>
+        <ToastContainer />
       </a>
     ),
   },
