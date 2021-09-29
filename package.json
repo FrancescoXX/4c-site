@@ -9,7 +9,7 @@
     "lint": "eslint --fix '{components,pages,utils}/**/*.{js,jsx,ts,tsx}'",
     "lint:check": "eslint '{components,pages,utils}/**/*.{js,jsx,ts,tsx}'",
     "prepare": "husky install",
-    "pre-commit": "yarn format"
+    "pre-commit": "npm run format"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.4.1",
