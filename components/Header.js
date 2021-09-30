@@ -1,5 +1,7 @@
 // import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
+import SocialLink from "./SocialLink";
 
 const Navbar = () => {
   return (
@@ -8,7 +10,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-12">
             {/* Logo - Todo update to SVG */}
-            <p className="mr-16 text-2xl text-gray-900 font-heading">4C</p>
+            <Link href="/">
+              <p className="mr-16 text-2xl text-gray-900 cursor-pointer font-heading">
+                4C
+              </p>
+            </Link>
 
             {/* Links (for the future) */}
             {/* <div className="text-gray-500 flex gap-12 font-medium">
@@ -21,7 +27,12 @@ const Navbar = () => {
             </div> */}
           </div>
 
-          <div className="">
+          <div className="flex items-center text-lg space-x-4">
+            <Link href="/contributors">
+              <span className="font-semibold cursor-pointer hover:text-orange-600">
+                contributors
+              </span>
+            </Link>
             <SocialLink
               link="https://github.com/FrancescoXX/4c-site"
               Icon={FaGithub}
@@ -35,10 +46,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-const SocialLink = ({ link, Icon, label }) => (
-  <a href={link} target="_blank" rel="noopener noreferrer">
-    <Icon className="text-2xl" />
-    <span className="sr-only">{label}</span>
-  </a>
-);

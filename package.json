@@ -9,9 +9,10 @@
     "lint": "eslint --fix '{components,pages,utils}/**/*.{js,jsx,ts,tsx}'",
     "lint:check": "eslint '{components,pages,utils}/**/*.{js,jsx,ts,tsx}'",
     "prepare": "husky install",
-    "pre-commit": "npm run format && git add -A"
+    "pre-commit": "npm run format && git add -A ."
   },
   "dependencies": {
+    "@octokit/core": "^3.5.1",
     "@tailwindcss/typography": "^0.4.1",
     "heroicons": "^1.0.4",
     "next": "^11.1.0",
