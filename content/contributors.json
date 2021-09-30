@@ -1,5 +1,104 @@
 {
-  "github": [],
+  "github": [
+    {
+      "name": "Ayush Kumar Agarwal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32107448?v=4",
+      "github": "ayushhagarwal",
+      "twitter": "ayushdev_24",
+      "blogUrl": "https://ayushdev.com/"
+    },
+    {
+      "name": "Dan Spratling",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11349104?v=4",
+      "github": "danspratling",
+      "twitter": "dan_spratling",
+      "blogUrl": "danspratling.dev"
+    },
+    {
+      "name": "Avneesh Agarwal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76690419?v=4",
+      "github": "avneesh0612",
+      "twitter": "avneesh0612",
+      "blogUrl": "https://www.avneesh.tech/"
+    },
+    {
+      "name": "Siddharth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76640268?v=4",
+      "github": "SiddharthShyniben",
+      "twitter": null,
+      "blogUrl": ""
+    },
+    {
+      "name": "Francesco Ciulla",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18360871?v=4",
+      "github": "FrancescoXX",
+      "twitter": "FrancescoCiull4",
+      "blogUrl": "francescociulla.com"
+    },
+    {
+      "name": "Arjun Joshi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83960724?v=4",
+      "github": "Arjun-Joshi20",
+      "twitter": null,
+      "blogUrl": "https://arjunjoshi.netlify.app/"
+    },
+    {
+      "name": "Piyush Panchal ",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77259664?v=4",
+      "github": "Programmer005",
+      "twitter": "piyushpanchal_",
+      "blogUrl": "https://piyush-008.netlify.app/"
+    },
+    {
+      "name": "Posandu Mapa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76736580?v=4",
+      "github": "Posandu",
+      "twitter": null,
+      "blogUrl": "https://www.tronic247.com"
+    },
+    {
+      "name": "Pradipta Ghoshal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50803990?v=4",
+      "github": "ProCode2",
+      "twitter": "ProCode1",
+      "blogUrl": ""
+    },
+    {
+      "name": "Manolo Edge",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17043260?v=4",
+      "github": "nombrekeff",
+      "twitter": "nombrekeff",
+      "blogUrl": "https://manoloedge.com/"
+    },
+    {
+      "name": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80873472?v=4",
+      "github": "cpaule1811",
+      "twitter": null,
+      "blogUrl": ""
+    },
+    {
+      "name": "Michael Ketzer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46134133?v=4",
+      "github": "michaelketzer",
+      "twitter": "michaelketzer",
+      "blogUrl": "https://streamdota.com"
+    },
+    {
+      "name": "Ujjwal Sharma",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46123077?v=4",
+      "github": "ugwls",
+      "twitter": "ugwls",
+      "blogUrl": ""
+    },
+    {
+      "name": "Saad Irfan ⚡️",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44341551?v=4",
+      "github": "msaaddev",
+      "twitter": "msaaddev",
+      "blogUrl": "https://msaad.dev"
+    }
+  ],
   "external": [],
   "sponsors": []
 }
