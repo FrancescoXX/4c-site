@@ -20,7 +20,8 @@
     "next-seo": "^4.28.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "react-toastify": "^8.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.3",
