@@ -31,3 +31,13 @@
     ```console
     $ npm run dev
     ```
+
+## Contributing
+
+All contributions are welcome. Learn more about contributing in the [CONTRIBUTING](./CONTRIBUTING.md) file.
+
+Not sure what to contribute? Check out the [GitHub "contribute" page](https://github.com/FrancescoXX/4c-site/contribute)
+
+## License
+
+[MIT](./LICENSE)
