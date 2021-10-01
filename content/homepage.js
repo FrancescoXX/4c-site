@@ -27,6 +27,7 @@ export default {
       <a
         href="https://discord.com/invite/TcmA2kbJeA"
         className="btn btn-primary"
+        target="_blank"
       >
         <FaDiscord />
         Join the Community!
