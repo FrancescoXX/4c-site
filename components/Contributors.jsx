@@ -66,7 +66,7 @@ const Contributors = () => {
   return (
     <main className="flex items-start justify-start w-full mt-20">
       <section className="hidden mt-40 text-2xl bg-orange-100 md:block max-w-max">
-        <button>
+        <button
           onClick={() => setTab("Contributors")}
           className={`py-4 px-6  rounded hover:text-orange-600 transition-all delay-100 ease-out cursor-pointer ${
             tab === "Contributors" ? "text-orange-600" : "text-gray-700"
@@ -74,14 +74,14 @@ const Contributors = () => {
         >
           Contributors
      </button>
-        <h6
+         <button
           onClick={() => setTab("Sponsors")}
           className={`py-4 px-6 rounded hover:text-orange-600 transition-all delay-100 ease-out cursor-pointer ${
             tab === "Sponsors" ? "text-orange-600" : "text-gray-700"
           }`}
         >
           Sponsors
-        </h6>
+         </button>
       </section>
       <section className="flex-1 text-4xl font-bold text-center text-orange-600">
         <h1>{tab}</h1>
