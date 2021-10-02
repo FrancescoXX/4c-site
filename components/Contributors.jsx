@@ -13,14 +13,8 @@ const getContributors = (users) => {
       whileHover={{
         position: "relative",
         zIndex: 1,
-        scale: [1, 1.4, 1.2],
-        rotate: [0, 10, -10, 0],
-        filter: [
-          "hue-rotate(0)",
-          "hue-rotate(360deg)",
-          "hue-rotate(100deg)",
-          "hue-rotate(0)",
-        ],
+        scale: [1, 1.2, 1.1],
+        rotate: [0, 2, -5, 0],
       }}
     >
       <ProfileCard
