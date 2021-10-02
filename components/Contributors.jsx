@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 import ProfileCard from "./ProfileCard";
+import { motion } from "framer-motion";
 
 // import contributors data
 import contributors from "../content/contributors.json";
@@ -8,15 +9,24 @@ import contributors from "../content/contributors.json";
 const getContributors = (users) => {
   let contribs = [...users.github, ...users.external];
   return contribs.map((user) => (
-    <ProfileCard
-      username={user.name}
-      avatarUrl={user.avatarUrl}
-      socials={[
-        { type: "github", username: user.github },
-        { type: "twitter", username: user.twitter },
-        { type: "blog", username: user.blogUrl },
-      ]}
-    />
+    <motion.div
+      whileHover={{
+        position: "relative",
+        zIndex: 1,
+        scale: [1, 1.2, 1.1],
+        rotate: [0, 2, -5, 0],
+      }}
+    >
+      <ProfileCard
+        username={user.name}
+        avatarUrl={user.avatarUrl}
+        socials={[
+          { type: "github", username: user.github },
+          { type: "twitter", username: user.twitter },
+          { type: "blog", username: user.blogUrl },
+        ]}
+      />
+    </motion.div>
   ));
 };
 
