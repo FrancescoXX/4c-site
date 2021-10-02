@@ -66,14 +66,14 @@ const Contributors = () => {
   return (
     <main className="flex items-start justify-start w-full mt-20">
       <section className="hidden mt-40 text-2xl bg-orange-100 md:block max-w-max">
-        <h6
+        <button>
           onClick={() => setTab("Contributors")}
           className={`py-4 px-6  rounded hover:text-orange-600 transition-all delay-100 ease-out cursor-pointer ${
             tab === "Contributors" ? "text-orange-600" : "text-gray-700"
           }`}
         >
           Contributors
-        </h6>
+     </button>
         <h6
           onClick={() => setTab("Sponsors")}
           className={`py-4 px-6 rounded hover:text-orange-600 transition-all delay-100 ease-out cursor-pointer ${
