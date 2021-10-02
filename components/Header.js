@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="flex items-center text-lg space-x-4">
             <Link href="/contributors">
               <span className="font-semibold cursor-pointer hover:text-orange-600">
-                <button type="button" class="btn btn-primary">
+                <button type="button" className="btn btn-primary">
                   contributors
                 </button>
               </span>
