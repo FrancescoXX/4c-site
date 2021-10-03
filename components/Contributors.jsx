@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 import ProfileCard from "./ProfileCard";
@@ -66,7 +65,7 @@ const getSponsors = (users) => {
 const Contributors = () => {
   const [tab, setTab] = useState("Contributors");
   return (
-    <main className="flex items-start justify-start w-full mt-20">
+    <div className="flex items-start justify-start mt-20">
       <section className="hidden mt-40 text-2xl bg-orange-100 md:block max-w-max">
         <button
           onClick={() => setTab("Contributors")}
@@ -75,15 +74,15 @@ const Contributors = () => {
           }`}
         >
           Contributors
-     </button>
-         <button
+        </button>
+        <button
           onClick={() => setTab("Sponsors")}
           className={`py-4 px-6 rounded hover:text-orange-600 transition-all delay-100 ease-out cursor-pointer ${
             tab === "Sponsors" ? "text-orange-600" : "text-gray-700"
           }`}
         >
           Sponsors
-         </button>
+        </button>
       </section>
       <section className="flex-1 text-4xl font-bold text-center text-orange-600">
         <h1>{tab}</h1>
@@ -93,7 +92,7 @@ const Contributors = () => {
             : getSponsors(contributors.sponsors)}
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 
