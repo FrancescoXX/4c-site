@@ -1,22 +1,26 @@
 import React, { useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 import ProfileCard from "./ProfileCard";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 
 // import contributors data
 import contributors from "../content/contributors.json";
 
 const getContributors = (users) => {
-  let contribs = [...users.github, ...users.external];
-  return contribs.map((user) => (
-    <motion.div
-      whileHover={{
+  const shouldReduceMotion = useReducedMotion();
+
+  const hoverAnimation = shouldReduceMotion
+    ? {}
+    : {
         position: "relative",
         zIndex: 1,
         scale: [1, 1.2, 1.1],
         rotate: [0, 2, -5, 0],
-      }}
-    >
+      };
+
+  let contribs = [...users.github, ...users.external];
+  return contribs.map((user) => (
+    <motion.div whileHover={hoverAnimation}>
       <ProfileCard
         username={user.name}
         avatarUrl={user.avatarUrl}
