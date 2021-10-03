@@ -27,7 +27,7 @@ const Hero = ({ eyebrow, title, description, primaryLink, secondaryLink }) => {
           <iframe
             width="350"
             height="500"
-            frameborder="0"
+            frameBorder="0"
             allowtransparency="true"
             sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
             src="https://discord.com/widget?id=784142072763383858&theme=dark"

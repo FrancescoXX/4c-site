@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 import ProfileCard from "./ProfileCard";
+import { motion } from "framer-motion";
 
 // import contributors data
 import contributors from "../content/contributors.json";
@@ -8,15 +9,25 @@ import contributors from "../content/contributors.json";
 const getContributors = (users) => {
   let contribs = [...users.github, ...users.external];
   return contribs.map((user) => (
-    <ProfileCard
-      username={user.name}
-      avatarUrl={user.avatarUrl}
-      socials={[
-        { type: "github", username: user.github },
-        { type: "twitter", username: user.twitter },
-        { type: "blog", username: user.blogUrl },
-      ]}
-    />
+    <motion.div
+      key={user.name}
+      whileHover={{
+        position: "relative",
+        zIndex: 1,
+        scale: [1, 1.2, 1.1],
+        rotate: [0, 2, -5, 0],
+      }}
+    >
+      <ProfileCard
+        username={user.name}
+        avatarUrl={user.avatarUrl}
+        socials={[
+          { type: "github", username: user.github },
+          { type: "twitter", username: user.twitter },
+          { type: "blog", username: user.blogUrl },
+        ]}
+      />
+    </motion.div>
   ));
 };
 
@@ -56,25 +67,25 @@ const Contributors = () => {
   return (
     <main className="flex items-start justify-start w-full mt-20">
       <section className="hidden mt-40 text-2xl bg-orange-100 md:block max-w-max">
-        <h6
+        <button
           onClick={() => setTab("Contributors")}
           className={`py-4 px-6  rounded hover:text-orange-600 transition-all delay-100 ease-out cursor-pointer ${
             tab === "Contributors" ? "text-orange-600" : "text-gray-700"
           }`}
         >
           Contributors
-        </h6>
-        <h6
+        </button>
+        <button
           onClick={() => setTab("Sponsors")}
           className={`py-4 px-6 rounded hover:text-orange-600 transition-all delay-100 ease-out cursor-pointer ${
             tab === "Sponsors" ? "text-orange-600" : "text-gray-700"
           }`}
         >
           Sponsors
-        </h6>
+        </button>
       </section>
       <section className="flex-1 text-4xl font-bold text-center text-orange-600">
-        <h2>{tab}</h2>
+        <h1>{tab}</h1>
         <div className="flex flex-wrap items-center justify-center m-4 overflow-y-auto">
           {tab === "Contributors"
             ? getContributors(contributors)
