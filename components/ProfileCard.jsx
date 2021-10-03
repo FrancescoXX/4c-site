@@ -16,7 +16,7 @@ const socialMediaData = {
   },
 };
 
-const getSocials = (socials) => {
+const getSocials = (socials, username) => {
   socials = socials.filter((social) => social.username);
 
   return socials.map((social) => {
@@ -26,7 +26,7 @@ const getSocials = (socials) => {
       <SocialLink
         link={socialMedia.url + social.username}
         Icon={socialMedia.icon}
-        label={social.type}
+        label={username + "'s " + social.type}
         key={social.type}
       />
     );
@@ -41,7 +41,7 @@ const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
       </div>
       <span className="mt-3 text-lg text-gray-700">{username}</span>
       <div className="flex items-center justify-center space-x-3">
-        {getSocials(socials)}
+        {getSocials(socials, username)}
       </div>
     </div>
   );
