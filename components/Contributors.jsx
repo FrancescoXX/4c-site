@@ -68,7 +68,7 @@ const getSponsors = (users) => {
 const Contributors = () => {
   const [tab, setTab] = useState("Contributors");
   return (
-    <main className="flex items-start justify-start w-full mt-20">
+    <div className="flex items-start justify-start mt-20">
       <section className="hidden mt-40 text-2xl bg-orange-100 md:block max-w-max">
         <button
           onClick={() => setTab("Contributors")}
@@ -95,7 +95,7 @@ const Contributors = () => {
             : getSponsors(contributors.sponsors)}
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 
