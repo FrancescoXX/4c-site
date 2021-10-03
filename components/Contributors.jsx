@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 import ProfileCard from "./ProfileCard";
@@ -75,15 +74,15 @@ const Contributors = () => {
           }`}
         >
           Contributors
-     </button>
-         <button
+        </button>
+        <button
           onClick={() => setTab("Sponsors")}
           className={`py-4 px-6 rounded hover:text-orange-600 transition-all delay-100 ease-out cursor-pointer ${
             tab === "Sponsors" ? "text-orange-600" : "text-gray-700"
           }`}
         >
           Sponsors
-         </button>
+        </button>
       </section>
       <section className="flex-1 text-4xl font-bold text-center text-orange-600">
         <h1>{tab}</h1>
