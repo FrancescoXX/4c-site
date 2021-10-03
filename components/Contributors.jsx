@@ -10,6 +10,7 @@ const getContributors = (users) => {
   let contribs = [...users.github, ...users.external];
   return contribs.map((user) => (
     <motion.div
+      key={user.name}
       whileHover={{
         position: "relative",
         zIndex: 1,

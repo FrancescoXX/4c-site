@@ -1,38 +1,35 @@
 import React from "react";
-import { FaBlog, FaGithub, FaLink, FaTwitter } from "react-icons/fa";
+import { FaBlog, FaGithub, FaTwitter } from "react-icons/fa";
 import SocialLink from "./SocialLink";
+
+const socialMediaData = {
+  github: {
+    url: "https://github.com/",
+    icon: FaGithub,
+  },
+  twitter: {
+    url: "https://twitter.com/",
+    icon: FaTwitter,
+  },
+  blog: {
+    icon: FaBlog,
+  },
+};
 
 const getSocials = (socials) => {
   socials = socials.filter((social) => social.username);
+
   return socials.map((social) => {
-    switch (social.type) {
-      case "github":
-        return (
-          <SocialLink
-            link={`https://github.com/${social.username}`}
-            Icon={FaGithub}
-            label="github"
-          />
-        );
-      case "twitter":
-        return (
-          <SocialLink
-            link={`https://twitter.com/${social.username}`}
-            Icon={FaTwitter}
-            label="twitter"
-          />
-        );
-      case "blog":
-        return <SocialLink link={social.username} Icon={FaBlog} label="blog" />;
-      default:
-        return (
-          <SocialLink
-            link={social.username}
-            Icon={FaLink}
-            label="social link"
-          />
-        );
-    }
+    const socialMedia = socialMediaData[social.type];
+
+    return (
+      <SocialLink
+        link={socialMedia.url + social.username}
+        Icon={socialMedia.icon}
+        label={social.type}
+        key={social.type}
+      />
+    );
   });
 };
 
