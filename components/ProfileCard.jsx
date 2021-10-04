@@ -22,9 +22,14 @@ const getSocials = (socials, username) => {
   return socials.map((social) => {
     const socialMedia = socialMediaData[social.type];
 
+    if (social.type == "blog" && !social.username.includes("http")) {
+      social.username = `http://${social.username}`;
+    }
     return (
       <SocialLink
-        link={socialMedia.url + social.username}
+        link={[
+          socialMedia.url ? socialMedia.url + social.username : social.username,
+        ]}
         Icon={socialMedia.icon}
         label={username + "'s " + social.type}
         key={social.type}
