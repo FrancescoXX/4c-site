@@ -7,7 +7,7 @@ import Contributors from "../components/Contributors";
 export default function Home() {
   // Our page components - layout provides all the wrapping elements
   return (
-    <Layout className="flex flex-col justify-center w-full min-h-screen overflow-hidden bg-orange-50">
+    <Layout className="flex flex-col justify-center w-full bg-orange-50">
       <Head>
         <link
           rel="icon"

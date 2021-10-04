@@ -5,9 +5,9 @@ import SocialLink from "./SocialLink";
 
 const Navbar = () => {
   return (
-    <header className="absolute z-50 w-full my-6">
+    <header className="w-full py-6 bg-orange-50">
       <div className="container">
-        <div className="flex items-center justify-between">
+        <nav className="flex items-center justify-between">
           <div className="flex items-center gap-12">
             {/* Logo - Todo update to SVG */}
             <Link href="/">
@@ -41,7 +41,7 @@ const Navbar = () => {
               label="See the Repo"
             />
           </div>
-        </div>
+        </nav>
       </div>
     </header>
   );
