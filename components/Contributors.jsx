@@ -16,7 +16,7 @@ const getContributors = (users) => {
         scale: [1, 1.2, 1.1],
         rotate: [0, 2, -5, 0],
       }}
-    >
+      >
       <ProfileCard
         username={user.name}
         avatarUrl={user.avatarUrl}

@@ -6,12 +6,12 @@ import SocialLink from "./SocialLink";
 const Navbar = () => {
   return (
     <header className="absolute z-50 w-full my-6">
-      <div className="container">
+      <nav className="container">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-12">
             {/* Logo - Todo update to SVG */}
             <Link href="/">
-              <p className="mr-16 text-2xl text-gray-900 cursor-pointer font-heading">
+              <p className="mr-16 text-2xl text-gray-900 cursor-pointer font-heading hover:text-orange-600">
                 4C
               </p>
             </Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="flex items-center text-lg space-x-4">
             <Link href="/contributors">
               <span className="font-semibold cursor-pointer hover:text-orange-600">
-                <button type="button" class="btn btn-primary">
+                <button type="button" class="btn btn-primary hover:bg-orange-600">
                   contributors
                 </button>
               </span>
@@ -42,7 +42,7 @@ const Navbar = () => {
             />
           </div>
         </div>
-      </div>
+      </nav>
     </header>
   );
 };
