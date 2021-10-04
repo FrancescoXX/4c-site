@@ -1,23 +1,26 @@
 import React, { useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 import ProfileCard from "./ProfileCard";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 
 // import contributors data
 import contributors from "../content/contributors.json";
 
 const getContributors = (users) => {
-  let contribs = [...users.github, ...users.external];
-  return contribs.map((user) => (
-    <motion.div
-      key={user.name}
-      whileHover={{
+  const shouldReduceMotion = useReducedMotion();
+
+  const hoverAnimation = shouldReduceMotion
+    ? {}
+    : {
         position: "relative",
         zIndex: 1,
         scale: [1, 1.2, 1.1],
         rotate: [0, 2, -5, 0],
-      }}
-    >
+      };
+
+  let contribs = [...users.github, ...users.external];
+  return contribs.map((user) => (
+    <motion.div key={user.name} whileHover={hoverAnimation}>
       <ProfileCard
         username={user.name}
         avatarUrl={user.avatarUrl}
@@ -65,7 +68,7 @@ const getSponsors = (users) => {
 const Contributors = () => {
   const [tab, setTab] = useState("Contributors");
   return (
-    <main className="flex items-start justify-start w-full mt-20">
+    <div className="flex items-start justify-start mt-20">
       <section className="hidden mt-40 text-2xl bg-orange-100 md:block max-w-max">
         <button
           onClick={() => setTab("Contributors")}
@@ -92,7 +95,7 @@ const Contributors = () => {
             : getSponsors(contributors.sponsors)}
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 
