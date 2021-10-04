@@ -20,7 +20,7 @@ const Hero = ({ eyebrow, title, description, primaryLink, secondaryLink }) => {
             {secondaryLink}
           </div>
         </div>
-        <div className="hidden mt-6 lg:block transform lg:scale-110 md:translate-x-24">
+        <div className="hidden mt-16 lg:block transform lg:scale-110 md:translate-x-24">
           <Image src="/g10.png" alt="" width={1200} height={1369} />
         </div>
         <div className="flex justify-start py-2">
