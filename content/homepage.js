@@ -36,7 +36,7 @@ export default {
     secondaryLink: (
       <a onClick={() => toast("Video coming soon!!!")} className="btn">
         <FaPlayCircle className="text-3xl text-orange-600" />
-        <span className="hover:text-orange-600" >Why 4C?</span>
+        <span className="hover:text-orange-600">Why 4C?</span>
         <ToastContainer />
       </a>
     ),

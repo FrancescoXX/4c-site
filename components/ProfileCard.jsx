@@ -42,7 +42,9 @@ const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
       <div className="w-32 h-32 overflow-hidden rounded-full shadow-sm">
         <img src={avatarUrl} alt={username} className="object-contain" />
       </div>
-      <span className="mt-3 text-lg text-gray-700 hover:text-orange-600 ">{username}</span>
+      <span className="mt-3 text-lg text-gray-700 hover:text-orange-600 ">
+        {username}
+      </span>
       <div className="flex items-center justify-center space-x-3">
         {getSocials(socials)}
       </div>
