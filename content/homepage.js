@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 export default {
   hero: {
-    eyebrow: "What is 4C?",
+    eyebrow: <p id="title">What is 4C?</p>,
     title: (
       <>
         The Cool Community For{" "}
