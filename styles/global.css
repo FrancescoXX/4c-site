@@ -14,3 +14,7 @@ h5,
 h6 {
   @apply font-heading;
 }
+
+#title{
+  font-size: 1.34rem;
+}
