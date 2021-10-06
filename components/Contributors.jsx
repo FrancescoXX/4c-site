@@ -1,69 +1,9 @@
 import React, { useState } from "react";
-import { FaDiscord } from "react-icons/fa";
-import ProfileCard from "./ProfileCard";
-import { motion, useReducedMotion } from "framer-motion";
+import GetContributors from "./GetContributors";
+import Sponsors from "./Sponsors";
 
 // import contributors data
 import contributors from "../content/contributors.json";
-
-const getContributors = (users) => {
-  const shouldReduceMotion = useReducedMotion();
-
-  const hoverAnimation = shouldReduceMotion
-    ? {}
-    : {
-        position: "relative",
-        zIndex: 1,
-        scale: [1, 1.2, 1.1],
-        rotate: [0, 2, -5, 0],
-      };
-
-  let contribs = [...users.github, ...users.external];
-  return contribs.map((user) => (
-    <motion.div key={user.name} whileHover={hoverAnimation}>
-      <ProfileCard
-        username={user.name}
-        avatarUrl={user.avatarUrl}
-        socials={[
-          { type: "github", username: user.github },
-          { type: "twitter", username: user.twitter },
-          { type: "blog", username: user.blogUrl },
-        ]}
-      />
-    </motion.div>
-  ));
-};
-
-const getSponsors = (users) => {
-  if (users.length === 0) {
-    return (
-      <div className="flex flex-col items-center justify-center h-64 p-8 text-lg text-gray-600 bg-orange-300 shadow-md space-y-6 rounded-md">
-        <p>
-          None yet. But do you want to support us? Join our discord and shoot a
-          message. We'll love to talk!
-        </p>
-        <a
-          href="https://discord.com/invite/TcmA2kbJeA"
-          className="btn btn-primary"
-        >
-          <FaDiscord />
-          Join the Community!
-        </a>
-      </div>
-    );
-  }
-  return users.map((user) => (
-    <ProfileCard
-      username={user.name}
-      avatarUrl={user.avatarUrl}
-      socials={[
-        { type: "github", username: user.github },
-        { type: "twitter", username: user.twitter },
-        { type: "blog", username: user.blogUrl },
-      ]}
-    />
-  ));
-};
 
 const Contributors = () => {
   const [tab, setTab] = useState("Contributors");
@@ -90,9 +30,11 @@ const Contributors = () => {
       <section className="flex-1 text-4xl font-bold text-center text-orange-600">
         <h1>{tab}</h1>
         <div className="flex flex-wrap items-center justify-center m-4 overflow-y-auto">
-          {tab === "Contributors"
-            ? getContributors(contributors)
-            : getSponsors(contributors.sponsors)}
+          {tab === "Contributors" ? (
+            <GetContributors users={contributors} />
+          ) : (
+            <Sponsors users={contributors.sponsors} />
+          )}
         </div>
       </section>
     </div>
