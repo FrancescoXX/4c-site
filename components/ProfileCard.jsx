@@ -1,38 +1,40 @@
 import React from "react";
-import { FaBlog, FaGithub, FaLink, FaTwitter } from "react-icons/fa";
+import { FaBlog, FaGithub, FaTwitter } from "react-icons/fa";
 import SocialLink from "./SocialLink";
 
-const getSocials = (socials) => {
+const socialMediaData = {
+  github: {
+    url: "https://github.com/",
+    icon: FaGithub,
+  },
+  twitter: {
+    url: "https://twitter.com/",
+    icon: FaTwitter,
+  },
+  blog: {
+    icon: FaBlog,
+  },
+};
+
+const getSocials = (socials, username) => {
   socials = socials.filter((social) => social.username);
+
   return socials.map((social) => {
-    switch (social.type) {
-      case "github":
-        return (
-          <SocialLink
-            link={`https://github.com/${social.username}`}
-            Icon={FaGithub}
-            label="github"
-          />
-        );
-      case "twitter":
-        return (
-          <SocialLink
-            link={`https://twitter.com/${social.username}`}
-            Icon={FaTwitter}
-            label="twitter"
-          />
-        );
-      case "blog":
-        return <SocialLink link={social.username} Icon={FaBlog} label="blog" />;
-      default:
-        return (
-          <SocialLink
-            link={social.username}
-            Icon={FaLink}
-            label="social link"
-          />
-        );
+    const socialMedia = socialMediaData[social.type];
+
+    if (social.type == "blog" && !social.username.includes("http")) {
+      social.username = `http://${social.username}`;
     }
+    return (
+      <SocialLink
+        link={[
+          socialMedia.url ? socialMedia.url + social.username : social.username,
+        ]}
+        Icon={socialMedia.icon}
+        label={username + "'s " + social.type}
+        key={social.type}
+      />
+    );
   });
 };
 
@@ -44,7 +46,7 @@ const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
       </div>
       <span className="mt-3 text-lg text-gray-700">{username}</span>
       <div className="flex items-center justify-center space-x-3">
-        {getSocials(socials)}
+        {getSocials(socials, username)}
       </div>
     </div>
   );

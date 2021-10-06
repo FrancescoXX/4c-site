@@ -23,7 +23,7 @@ const getNewContributors = async (existing) => {
   return res.data.filter(user => !existing.includes(user.login) && user.type !== "Bot").map(async user => {
     let d = await octokit.request("GET /users/{username}", { username: user.login })
     const newUser = {
-      name: d.data.name,
+      name: d.data.name ?? d.data.login,
       avatarUrl: d.data.avatar_url,
       github: d.data.login,
       twitter: d.data.twitter_username,

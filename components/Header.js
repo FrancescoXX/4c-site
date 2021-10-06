@@ -2,8 +2,10 @@
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import SocialLink from "./SocialLink";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const router = useRouter();
   return (
     <header className="absolute z-50 w-full my-6">
       <div className="container">
@@ -30,7 +32,13 @@ const Navbar = () => {
           <div className="flex items-center text-lg space-x-4">
             <Link href="/contributors">
               <span className="font-semibold cursor-pointer hover:text-orange-600">
-                contributors
+                <button
+                  type="button"
+                  className="btn btn-primary disabled:hidden"
+                  disabled={router.asPath === "/contributors"}
+                >
+                  contributors
+                </button>
               </span>
             </Link>
             <SocialLink
