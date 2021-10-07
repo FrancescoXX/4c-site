@@ -49,8 +49,8 @@ const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
         <Image
           src={avatarUrl}
           alt={username}
-          width={300}
-          height={300}
+          width={200}
+          height={200}
           className="object-contain"
         />
       </div>
