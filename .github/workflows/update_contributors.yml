@@ -6,6 +6,7 @@ on:
 
 jobs:
     update:
+        if: ${{ github.repository == ‘FrancescoXX/4c-site’ }}
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
@@ -26,7 +27,7 @@ jobs:
                   git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
                   git config --local user.name "github-actions[bot]"
                   git add .
-                  git diff --staged --quiet || git commit -am "Update Contributor JSON - $(date -d '+5 hours +30 minutes' +'%d %b %Y | %I:%M %p')"
+                  git diff --quiet && git diff --staged --quiet || git commit -am "Update Contributor JSON - $(date -d '+5 hours +30 minutes' +'%d %b %Y | %I:%M %p')"
             - name: Push changes
               uses: ad-m/github-push-action@master
               with:
