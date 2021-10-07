@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBlog, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaBlog, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
 import SocialLink from "./SocialLink";
 
 const socialMediaData = {
@@ -13,6 +13,9 @@ const socialMediaData = {
   },
   blog: {
     icon: FaBlog,
+  },
+  youtube: {
+    icon: FaYoutube,
   },
 };
 

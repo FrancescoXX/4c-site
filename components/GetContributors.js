@@ -13,7 +13,7 @@ const GetContributors = ({ users }) => {
         rotate: [0, 2, -5, 0],
       };
 
-  let contribs = [...users.github, ...users.external];
+  let contribs = users.profiles;
   return contribs.map((user) => (
     <motion.div key={user.name} whileHover={hoverAnimation}>
       <ProfileCard
@@ -22,6 +22,7 @@ const GetContributors = ({ users }) => {
         socials={[
           { type: "github", username: user.github },
           { type: "twitter", username: user.twitter },
+          { type: "youtube", username: user.youtube },
           { type: "blog", username: user.blogUrl },
         ]}
       />
