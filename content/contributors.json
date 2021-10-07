@@ -1,5 +1,5 @@
 {
-  "github": [
+  "profiles": [
     {
       "name": "Ayush Kumar Agarwal",
       "avatarUrl": "https://avatars.githubusercontent.com/u/32107448?v=4",
@@ -169,6 +169,5 @@
       "blogUrl": ""
     }
   ],
-  "external": [],
   "sponsors": []
 }

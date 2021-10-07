@@ -25,8 +25,9 @@ export default function Home() {
         canonical="https://www.4c.rocks/"
         openGraph={{
           url: "https://www.4c.rocks/",
-          title: "4C",
-          description: "The Cool Community For Content Creators",
+          title: "4C - Creator Community",
+          description:
+            "The Cool Community For Content Creators or 4C is a community where different content creator from every domain have come together to help each other and grow.",
           images: [
             {
               url: "/logo.jpg",
