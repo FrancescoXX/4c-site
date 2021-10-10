@@ -42,7 +42,12 @@ const getSocials = (socials, username) => {
   });
 };
 
-const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
+const ProfileCard = ({
+  username,
+  avatarUrl,
+  socials = [],
+  contributions = 0,
+}) => {
   return (
     <div className="flex flex-col items-center justify-center w-64 h-64 m-4 border border-gray-300 shadow rounded-md hover:shadow-lg">
       <div className="w-32 h-32 overflow-hidden rounded-full shadow-sm">
@@ -55,6 +60,9 @@ const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
         />
       </div>
       <span className="mt-3 text-lg text-gray-700">{username}</span>
+      <span className="my-2 text-sm text-gray-500">
+        {contributions} Contributions
+      </span>
       <div className="flex items-center justify-center space-x-3">
         {getSocials(socials, username)}
       </div>

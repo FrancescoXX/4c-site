@@ -25,6 +25,7 @@ const GetContributors = ({ users }) => {
           { type: "youtube", username: user.youtube },
           { type: "blog", username: user.blogUrl },
         ]}
+        contributions={user.contributions}
       />
     </motion.div>
   ));
