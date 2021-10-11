@@ -13,7 +13,7 @@ const GetContributors = ({ users }) => {
         rotate: [0, 2, -5, 0],
       };
 
-  let contribs = users.profiles;
+  let contribs = users.contributors;
   return contribs.map((user) => (
     <motion.div key={user.name} whileHover={hoverAnimation}>
       <ProfileCard
