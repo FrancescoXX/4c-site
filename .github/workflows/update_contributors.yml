@@ -6,7 +6,7 @@ on:
 
 jobs:
     update:
-        if: ${{ github.repository == ‘FrancescoXX/4c-site’ }}
+        if: github.repository == 'FrancescoXX/4c-site'
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2

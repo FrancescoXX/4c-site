@@ -1,6 +1,7 @@
 import React from "react";
 import { FaBlog, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
 import SocialLink from "./SocialLink";
+import Image from "next/image";
 
 const socialMediaData = {
   github: {
@@ -45,7 +46,13 @@ const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
   return (
     <div className="flex flex-col items-center justify-center w-64 h-64 m-4 border border-gray-300 shadow rounded-md hover:shadow-lg">
       <div className="w-32 h-32 overflow-hidden rounded-full shadow-sm">
-        <img src={avatarUrl} alt={username} className="object-contain" />
+        <Image
+          src={avatarUrl}
+          alt={username}
+          width={200}
+          height={200}
+          className="object-contain"
+        />
       </div>
       <span className="mt-3 text-lg text-gray-700">{username}</span>
       <div className="flex items-center justify-center space-x-3">

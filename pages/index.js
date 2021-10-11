@@ -10,7 +10,7 @@ import content from "../content/homepage";
 export default function Home() {
   // Our page components - layout provides all the wrapping elements
   return (
-    <Layout className="flex flex-col justify-center min-h-screen overflow-hidden bg-orange-50">
+    <Layout className="flex flex-col justify-center bg-orange-50">
       <Head>
         <link
           rel="icon"
