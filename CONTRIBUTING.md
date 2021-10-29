@@ -1,32 +1,8 @@
 # Contributing to The 4C Site
 
-<!--
-Hey there!
-==========
-
-Thanks for checking this out. If you find this helpful, please leave a star!
-If you have any suggestions, feel free to open a pull request or an issue.
-
-To make life easier, do a quick search-and-replace for:
-The 4C Site: The project's display name (ex. Angular)
-4c-site: The name of the repo the project (ex. angular)
-FrancescoXX: The username under which the repo is (ex. angular)
-{email}: The email address where to reach you.
-Keep a lookout for text in curly braces.
--->
-
-<!--
-Core concepts
-=============
-
-1. Be descriptive.
-2. Make it easy for people to get relevant information
-3. Show how to develop locally
--->
-
 **✨👍First off, thanks for taking the time to contribute to The 4C Site!👍✨**
 
-These are a set of guidelines on how to contribute to The 4C Site.
+These are a set of guidelines on how to contribute to the site.
 **They are only guidelines, not rules.** Use your best judgment and feel free
 to propose changes to this guide.
 
@@ -61,41 +37,20 @@ Before you contribute, **make sure to read the [Code of Conduct](./CODE_OF_CONDU
   </ol>
 </details>
 
-<!--
-Code of Conduct – the first thing to show.
--->
+
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[The 4C Site Code of Conduct][code-of-conduct]. By participating,
-you are expected to uphold this code. Please report unacceptable behavior to <{email}>.
+[Code of Conduct][code-of-conduct]. By participating,
+you are expected to uphold this code. Please report unacceptable behavior to <4c.contactus@gmail.com>.
 
-<!--
-There are times when people have doubts about how things work and why they work
-that way
--->
+
 ## I don't want to read this whole thing. I just have a question!!!
 
-<!--
-Add ways to ask questions here. There are many ways
-(like a chat, email, dedicated message board, etc.), but one example is given here.
--->
 To ask questions, open a [discussion][discussion].
 Use the help category to ask questions. Make sure to search for existing
 discussions before you do so.
 
-<!--
-If your project is really complex, add a "What should I know?" section here.
--->
-
-<!--
-How can I contribute?
-=====================
-
-1. By reporting a bug
-2. By submitting an enhancement
-3. By helping with the code
--->
 ## How can I contribute?
 
 You can help us fix issues by reporting bugs. To learn more, read [Reporting bugs](#reporting-bugs).
@@ -107,7 +62,7 @@ You can also help by tackling [issues]. To learn more, read [Your first code con
 ### Reporting bugs
 
 > **If you want to report a security vulnerability, do not open an issue for it!**
-> **Send an email to <{email}>, and you will receive instructions from there**
+> **Send an email to <4c.contactus@gmail.com>, and you will receive instructions from there**
 >
 > Also, check out [The security guidelines](./SECURITY.md)
 
@@ -123,14 +78,6 @@ for helps us resolve issues faster.
 
 #### Before Submitting A Bug Report
 
-- First of all, **test with the latest update release** to see if the issue persists.
-  Frequently, a bug report submitted for an older release is first suggested to
-  test with the available latest update release or even an available latest beta release.
-  <!--
-  If you have a debugging guide, link to it here.
-  -->
-- **Make sure that all your own code is logical and proper**. Use your instincts.
-  Maybe a proofread by someone else may help.
 - **Perform a search on GitHub and Google** to see if this has happened before.
   If it has, comment on the issue instead of opening a new one.
 
@@ -141,14 +88,11 @@ and provide the following information by filling in the [template][new-issue].
 
 **Explain the problem and include additional details to help maintainers reproduce the problem:**
 - **Use a clear and descriptive title** for the issue to identify the problem. Title it `"[Bug]: Title here"`.
-<!-- - **Describe the exact steps which reproduce the problem** in as many details as possible.
+- **Describe the exact steps which reproduce the problem** in as many details as possible.
   For example, start by explaining how you got to the website, what your network speed is,
   etc. When listing steps, don't just say what you did, but explain how you did it.
-  For example: if you clicked a button,
-  explain if you used the mouse or a the keyboard. And if you used the keyboard, which key? -->
-<!-- - **Provide specific examples** to demonstrate the steps. Include links to files
-  or GitHub projects, or copy/paste-able snippets, which you use in those examples.
-  If you're providing snippets in the issue, use Markdown code blocks. -->
+  For example: if you clicked a button, explain if you used the mouse or a the keyboard.
+  And if you used the keyboard, which key?
 - **Describe the behavior** you observed after following the steps and point out
   **what exactly is the problem** with that behavior.
 - **Explain which behavior you expected** to see instead and why.
@@ -165,18 +109,17 @@ and provide the following information by filling in the [template][new-issue].
 - **Did the problem start happening recently** (after the site was updated)
   or, was this always a problem?
   - If the problem started happening recently, **can you reproduce it in an older version**
-    of The 4C Site? What's the most recent version in which the problem doesn't happen?
+    of the site? What's the most recent version in which the problem doesn't happen?
 - **Can you reliably reproduce the issue?** If not, provide details about how
   often the problem happens** and under which conditions it usually happens.
 
 Include details about your configuration and environment:
 
-<!-- - **Which version** of The 4C Site are you using? -->
 - What's the **name and version of the OS** you're using?
 
 ## Suggesting enhancements
 
-This section guides you through submitting an enhancement suggestion for {project-name},
+This section guides you through submitting an enhancement suggestion for the site,
 including new features and minor improvements to existing functionality.
 Following these guidelines helps maintainers and the community understand your
 suggestion and find related reports.
@@ -189,10 +132,6 @@ you would take if the feature you're requesting existed.
 
 #### Before Submitting An Enhancement Suggestion
 
-<!-- URL to Github Release or npm package? -->
-<!-- - **Check if you're using the latest version of The 4C Site**
-	and if you can get the desired behavior by changing The 4C Site's options/settings. -->
-<!-- - **Check if there's already a plugin that provides that enhancement.** -->
 - **Perform a search on GitHub and Google** to see if the enhancement has already
   been suggested. If it has, comment on the existing issue instead of
   opening a new one.
@@ -213,24 +152,14 @@ Create an issue on the repository and provide the following information:
   keybinding visualizer like [Keycastr][keycastr]. You can use [this tool][licecap]
   to record GIFs on macOS and Windows, and [this tool][silentcast] on Linux.
 - **Explain why this enhancement would be helpful** to most The 4C Site users.
-  <!-- and isn't something that can or should be implemented as a community package. -->
 - **List some other projects** where this enhancement exists.
-<!-- - **Specify which version** of The 4C Site you are using. Sometimes the enhancement
-  you would like has already been implemented in a future version. -->
-  <!-- You can get the exact version of The 4C Site by looking at the package.json -->
 
 ### Your first code contribution
 
 Want to help but are not sure what to do? You can go through the [issues][issues],
 or go to the [contributing page][contributing].
 
-<!--
-List out the names of labels that have been approved. For example: `help-wanted`, etc.
-Here's an example:
--->
-
-Or, you can look through these issues:
-- [Help wanted](https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted++repo%3AfrancescoXX%2F4c-site+sort%3Acomments-desc&type=issues)
+Or, you can look through these [Good first issues: ](https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue++repo%3AfrancescoXX%2F4c-site+sort%3Acomments-desc&type=issues)
 
 The issue lists are sorted by the total number of comments. While not perfect, it gives a reasonable idea of the impact a given change will have.
 
@@ -247,9 +176,7 @@ To get a local copy, follow these steps:
 2.  **Cloning and setting up**
 
     Once you have a fork, you can clone it:
-    <!--
-    Use the console language because it highlights the prompt.
-    -->
+
     ```console
     you@computer$ git clone https://github.com/your-username/4c-site.git
     ```
@@ -259,10 +186,6 @@ To get a local copy, follow these steps:
     you@computer$ cd 4c-site
     ```
 
-    <!--
-    Fill in instructions for installing dependencies here
-    Here's an example:
-    -->
     And you can install dependencies by running:
 
     ```console
@@ -273,14 +196,10 @@ To get a local copy, follow these steps:
 
 #### Running
 
-<!--
-Show how to run your program locally. Here's an example:
--->
-
 You can start a dev server by running:
 
 ```console
-you@computer$ npm run start
+you@computer$ npm run dev
 ```
 
 This will load a lightweight, hot reloading server. All changes
@@ -288,19 +207,15 @@ will be reflected automatically.
 
 #### Building
 
-<!--
-Include this if there is a build step.
--->
-
 To build the code, run:
 
- ```console
+```console
 you@computer$ npm run build
 ```
 
-This will run {build-tool} to build the code.
+This will use nextjs to build the code.
 
-#### Testing
+<!-- #### Testing
 
 Tests are located in the `/tests` folder. After writing your code, you can run tests by running:
 
@@ -308,11 +223,11 @@ Tests are located in the `/tests` folder. After writing your code, you can run t
 you@computer$ npm run test
 ```
 
-We use {test-framework} to write tests.
+We use {test-framework} to write tests. -->
 
 ### Pull requests
 
-If you have made any changes to the code and you want to add the changes to The 4C Site, you can open a PR.
+If you have made any changes to the code and you want to add the changes to the site, you can open a PR.
 
 You can follow the [GitHub pull request tutorial](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 If you don't know how to open a Pull Request or what a Pull Request is.
@@ -330,19 +245,7 @@ Before you open a Pull Request:
 - Use the present tense ("Add this..", not "Added this...")
 - Use the imperative mood ("Do this...", not "Does this...")
 - Limit the first line to 72 characters
-<!-- - When only changing documentation, include [ci skip] in the commit title -->
 - Consider starting your commit messages with an applicable [Gitmoji](https://gitmoji.dev):
-
-<!--
-If you follow any style guides, add it/link to it here
-You can also say which linter, if any, is used to lint code.
-
-You might want to add style guides for
-- programming languages,
-- tests,
-- documentation,
-- etc.
--->
 
 [discussions]: https://docs.github.com/en/discussions
 [new-issue]: https://github.com/FrancescoXX/4c-site/issues/new/choose
