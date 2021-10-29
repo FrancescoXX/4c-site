@@ -41,7 +41,7 @@ module.exports = {
         'white-space': 'nowrap'
       }
     })
-  })]
+  })],
   variants: {},
   plugins: [require("@tailwindcss/typography")],
 };
