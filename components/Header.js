@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <header className="w-full py-6 bg-orange-50">
       <div className="container">
-        <nav className="flex items-center justify-between">
+        <nav className="flex items-start justify-between">
           <div className="flex items-center gap-12">
             {/* Logo - Todo update to SVG */}
             <Link href="/">
