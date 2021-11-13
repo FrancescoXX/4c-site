@@ -1,5 +1,11 @@
 import React from "react";
-import { FaBlog, FaGithub, FaTwitter, FaYoutube } from "react-icons/fa";
+import {
+  FaBlog,
+  FaGithub,
+  FaTwitter,
+  FaYoutube,
+  FaTwitch,
+} from "react-icons/fa";
 import SocialLink from "./SocialLink";
 import Image from "next/image";
 
@@ -17,6 +23,9 @@ const socialMediaData = {
   },
   youtube: {
     icon: FaYoutube,
+  },
+  twitch: {
+    icon: FaTwitch,
   },
 };
 
