@@ -9,8 +9,7 @@ const GetContributors = ({ users }) => {
     : {
         position: "relative",
         zIndex: 1,
-        scale: [1, 1.2, 1.1],
-        rotate: [0, 2, -5, 0],
+        scale: [1, 1.1, 1.1],
       };
 
   let contribs = users.profiles;
@@ -23,6 +22,7 @@ const GetContributors = ({ users }) => {
           { type: "github", username: user.github },
           { type: "twitter", username: user.twitter },
           { type: "youtube", username: user.youtube },
+          { type: "twitch", username: user.twitch },
           { type: "blog", username: user.blogUrl },
         ]}
       />

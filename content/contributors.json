@@ -9,6 +9,14 @@
       "contributions": 50
     },
     {
+      "name": "InHuOfficial",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81360444?v=4",
+      "github": "InHuOfficial",
+      "twitter": "InHuOfficial",
+      "blogUrl": "https://dev.to/inhuofficial",
+      "contributions": 0
+    },
+    {
       "name": "Avneesh Agarwal",
       "avatarUrl": "https://avatars.githubusercontent.com/u/76690419?v=4",
       "github": "avneesh0612",
@@ -34,9 +42,11 @@
     },
     {
       "name": "Francesco Ciulla",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/18360871?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/FrancescoXX",
       "github": "FrancescoXX",
       "twitter": "FrancescoCiull4",
+      "youtube": "https://www.youtube.com/c/FrancescoCiulla",
+      "twitch": "https://www.twitch.tv/francesco_ciulla",
       "blogUrl": "https://discord.com/invite/TcmA2kbJeA",
       "contributions": 10
     },
@@ -209,5 +219,24 @@
       "contributions": 1
     }
   ],
-  "sponsors": []
+  "sponsors": [
+    {
+      "name": "InHuOfficial",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81360444?v=4",
+      "github": "InHuOfficial",
+      "twitter": "InHuOfficial",
+      "blogUrl": "https://dev.to/inhuofficial",
+      "contributions": 0
+    },
+    {
+      "name": "Francesco Ciulla",
+      "avatarUrl": "https://avatars.githubusercontent.com/FrancescoXX",
+      "github": "FrancescoXX",
+      "twitter": "FrancescoCiull4",
+      "youtube": "https://www.youtube.com/c/FrancescoCiulla",
+      "twitch": "https://www.twitch.tv/francesco_ciulla",
+      "blogUrl": "https://discord.com/invite/TcmA2kbJeA",
+      "contributions": 10
+    }
+  ]
 }
