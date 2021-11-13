@@ -29,7 +29,7 @@ const Contributors = () => {
       </section>
       <section className="flex-1 text-4xl font-bold text-center text-orange-600">
         <h1>{tab}</h1>
-        <div className="flex flex-wrap items-center justify-center m-4 overflow-y-auto">
+        <div className="flex flex-wrap items-center justify-center m-4 pb-4 overflow-y-auto">
           {tab === "Contributors" ? (
             <GetContributors users={contributors} />
           ) : (
