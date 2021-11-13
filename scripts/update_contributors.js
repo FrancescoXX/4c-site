@@ -93,8 +93,7 @@ const octokit = new Octokit({
 });
 
 let contributors = {
-  profiles: [],
-  sponsors: [],
+  profiles: []
 }
 
 addContributorsTOJSON()

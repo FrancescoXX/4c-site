@@ -7,7 +7,6 @@ const GetContributors = ({ users }) => {
   const hoverAnimation = shouldReduceMotion
     ? {}
     : {
-        position: "relative",
         zIndex: 1,
         scale: [1, 1.1, 1.1],
       };

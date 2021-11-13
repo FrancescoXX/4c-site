@@ -226,25 +226,5 @@
       "blogUrl": "https://samippoudel.com.np/",
       "contributions": 1
     }
-  ],
-  "sponsors": [
-    {
-      "name": "InHuOfficial",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/81360444?v=4",
-      "github": "InHuOfficial",
-      "twitter": "InHuOfficial",
-      "blogUrl": "https://dev.to/inhuofficial",
-      "contributions": 0
-    },
-    {
-      "name": "Francesco Ciulla",
-      "avatarUrl": "https://avatars.githubusercontent.com/FrancescoXX",
-      "github": "FrancescoXX",
-      "twitter": "FrancescoCiull4",
-      "youtube": "https://www.youtube.com/c/FrancescoCiulla",
-      "twitch": "https://www.twitch.tv/francesco_ciulla",
-      "blogUrl": "https://discord.com/invite/TcmA2kbJeA",
-      "contributions": 10
-    }
   ]
 }

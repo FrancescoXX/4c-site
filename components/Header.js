@@ -31,13 +31,13 @@ const Navbar = () => {
           <div className="flex items-center text-lg space-x-4">
             <Link href="/contributors">
               <span className="font-semibold cursor-pointer hover:text-orange-600">
-                <button
+                {/* <button
                   type="button"
                   className="btn btn-primary disabled:hidden"
                   disabled={router.asPath === "/contributors"}
                 >
                   contributors
-                </button>
+                </button> */}
               </span>
             </Link>
             <SocialLink
