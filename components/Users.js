@@ -4,7 +4,7 @@ import ProfileCard from "./ProfileCard";
 const Contributors = ({ users }) => {
   if (users.length === 0) {
     return (
-      <div className="flex flex-col items-center justify-center h-64 p-8 text-lg text-gray-600 bg-orange-300 shadow-md space-y-6 rounded-md">
+      <div className="flex flex-col items-center justify-start h-64 p-8 text-lg text-gray-600 bg-orange-300 shadow-md space-y-6 rounded-md">
         <p>
           None yet. But do you want to support us? Join our discord and shoot a
           message. We'll love to talk!
