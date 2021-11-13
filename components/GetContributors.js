@@ -3,7 +3,6 @@ import ProfileCard from "./ProfileCard";
 
 const GetContributors = ({ users }) => {
   const shouldReduceMotion = useReducedMotion();
-
   const hoverAnimation = shouldReduceMotion
     ? {}
     : {
@@ -11,8 +10,7 @@ const GetContributors = ({ users }) => {
         scale: [1, 1.1, 1.1],
       };
 
-  let contribs = users.profiles;
-  return contribs.map((user) => (
+  return users.profiles.map((user) => (
     <motion.div key={user.name} whileHover={hoverAnimation}>
       <ProfileCard
         username={user.name}

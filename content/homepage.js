@@ -1,14 +1,29 @@
-import { FaDiscord, FaPlayCircle } from "react-icons/fa";
-import { ToastContainer, toast } from "react-toastify";
+import { FaDiscord } from "react-icons/fa";
 import "react-toastify/dist/ReactToastify.css";
 
 export default {
-  hero: {
-    eyebrow: "What is 4C?",
+  main: {
+    eyebrow: "👋 ",
     title: (
       <>
-        The Cool Community For{" "}
-        <strong className="text-orange-600">Content Creators</strong>
+        <div className="text-base">The</div>
+        <div>
+          <span className="text-primary">
+            <span className="text-orange-600">C</span>ool{" "}
+          </span>
+          <span className="text-primary">
+            <span className="text-orange-600">C</span>ommunity
+          </span>
+        </div>
+        <div className="text-xs">of</div>
+        <div>
+          <span className="text-primary">
+            <span className="text-orange-600">C</span>ontent{" "}
+          </span>
+          <span className="text-primary">
+            <span className="text-orange-600">C</span>reators
+          </span>
+        </div>
       </>
     ),
     description: (
@@ -30,14 +45,7 @@ export default {
         target="_blank"
       >
         <FaDiscord />
-        Join the Community!
-      </a>
-    ),
-    secondaryLink: (
-      <a onClick={() => toast("Video coming soon!!!")} className="btn">
-        <FaPlayCircle className="text-3xl text-orange-600" />
-        Why 4C?
-        <ToastContainer />
+        Join Discord Channel
       </a>
     ),
   },
