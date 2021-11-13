@@ -18,15 +18,14 @@ const Navbar = () => {
               </p>
             </Link>
 
-            {/* Links (for the future) */}
-            {/* <div className="text-gray-500 flex gap-12 font-medium">
-              <Link href="/about">
+            <div className="text-gray-500 flex gap-12 font-medium">
+              {/* <Link href="/about">
                 <a>About</a>
+              </Link> */}
+              <Link href="/contributors">
+                <a>Contributors</a>
               </Link>
-              <Link href="/more">
-                <a>More</a>
-              </Link>
-            </div> */}
+            </div>
           </div>
 
           <div className="flex items-center text-lg space-x-4">

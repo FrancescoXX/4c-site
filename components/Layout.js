@@ -2,7 +2,6 @@ import Head from "next/head";
 import { NextSeo } from "next-seo";
 import Header from "./Header";
 import config from "../4c.config";
-// import { Footer } from "../Footer";
 
 const Layout = ({ header, children, ...rest }) => {
   return (
@@ -32,7 +31,6 @@ const Layout = ({ header, children, ...rest }) => {
         }}
       />
       <main {...rest}>{children}</main>
-      {/* <Footer {...footer} /> */}
     </>
   );
 };

@@ -1,7 +1,7 @@
 import { FaDiscord } from "react-icons/fa";
 import ProfileCard from "./ProfileCard";
 
-const Sponsors = ({ users }) => {
+const Contributors = ({ users }) => {
   if (users.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center h-64 p-8 text-lg text-gray-600 bg-orange-300 shadow-md space-y-6 rounded-md">
@@ -32,4 +32,4 @@ const Sponsors = ({ users }) => {
   ));
 };
 
-export default Sponsors;
+export default Contributors;
