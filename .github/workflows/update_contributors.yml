@@ -19,7 +19,7 @@ jobs:
             - name: Create local changes
               run: |
                   npm install
-                  node scripts/update_contributors.js
+                #   node scripts/update_contributors.js
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             - name: Commit files
