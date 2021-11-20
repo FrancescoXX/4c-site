@@ -19,7 +19,7 @@ const Main = ({ eyebrow, title, description, primaryLink }) => {
         </div>
         <div>
           <iframe
-            width="350"
+            width="100%"
             height="500"
             frameBorder="0"
             allowtransparency="true"
