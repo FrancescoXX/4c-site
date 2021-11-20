@@ -17,7 +17,7 @@ const Main = ({ eyebrow, title, description, primaryLink }) => {
             {primaryLink}
           </div>
         </div>
-        <div className="hidden mt-12 lg:block transform lg:scale-100 md:translate-x-24">
+        <div>
           <iframe
             width="350"
             height="500"
