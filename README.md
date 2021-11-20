@@ -1,4 +1,4 @@
-<img align='right' src='./logo2-4c.svg' alt='4C logo' height='200px'>
+<img align='right' src='./logo2-4c.svg' alt='4C logo' height='100px'>
 
 # 4C
 
