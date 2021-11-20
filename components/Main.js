@@ -1,7 +1,7 @@
 const Main = ({ eyebrow, title, description, primaryLink }) => {
   return (
     <section className="container">
-      <div className="items-center grid md:grid-cols-2 lg:grid-cols-2 gap-12">
+      <div className="items-center grid md:grid-cols-1 lg:grid-cols-2 gap-12">
         <div className="col-span-1">
           <p className="text-2xl font-bold tracking-wide text-gray-600 uppercase">
             {eyebrow}
