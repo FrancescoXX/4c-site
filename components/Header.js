@@ -5,7 +5,7 @@ const Navbar = () => {
     <header className="w-full py-6 pb-10 bg-orange-50">
       <div className="container">
         <nav className="flex items-start justify-between">
-          <div className="flex items-center gap-6 md:gap-12">
+          <div className="flex flex-wrap items-center gap-6 md:gap-12">
             <Link href="/">
               <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
                 4C
