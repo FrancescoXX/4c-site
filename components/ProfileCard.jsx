@@ -53,7 +53,7 @@ const getSocials = (socials, username) => {
 
 const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
   return (
-    <div className="flex flex-col items-center justify-center w-64 h-64 m-4 border-gray-300 rounded-md shadow hover:shadow-lg">
+    <div className="flex flex-col items-center justify-center w-64 h-64 m-4 border-gray-300 shadow rounded-md hover:shadow-lg">
       <div className="w-32 h-32 overflow-hidden rounded-full shadow-sm">
         <Image
           src={avatarUrl}
