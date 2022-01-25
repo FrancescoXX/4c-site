@@ -7,12 +7,12 @@ const Navbar = () => {
         <nav className="flex items-start justify-between">
           <div className="flex flex-wrap items-center gap-6 md:gap-12">
             <Link href="/">
-              <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+              <button className="px-4 py-2 font-bold text-white bg-orange-500 rounded hover:bg-orange-700">
                 4C
               </button>
             </Link>
             <Link href="/contributors">
-              <button className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+              <button className="px-4 py-2 font-bold text-white bg-orange-500 rounded hover:bg-orange-700">
                 Contributors
               </button>
             </Link>
