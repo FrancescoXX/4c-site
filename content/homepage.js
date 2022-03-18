@@ -45,7 +45,7 @@ export default {
         target="_blank"
       >
         <FaDiscord />
-        Join Discord Channel
+        Join Discord Server
       </a>
     ),
   },
