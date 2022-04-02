@@ -1,4 +1,4 @@
-const Main = ({ eyebrow, title, description, primaryLink }) => {
+const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
   return (
     <section className="container">
       <div className="items-center grid md:grid-cols-1 lg:grid-cols-2 gap-12">
@@ -15,6 +15,7 @@ const Main = ({ eyebrow, title, description, primaryLink }) => {
 
           <div className="flex flex-wrap justify-start my-8 md:justify-start gap-4">
             {primaryLink}
+            {twitterLink}
           </div>
         </div>
         <div>
