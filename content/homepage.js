@@ -1,4 +1,4 @@
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaTwitter } from "react-icons/fa";
 import "react-toastify/dist/ReactToastify.css";
 
 export default {
@@ -46,6 +46,16 @@ export default {
       >
         <FaDiscord />
         Join Discord Server
+      </a>
+    ),
+    twitterLink: (
+      <a
+        href="https://twitter.com/4ccommunityhq"
+        className="btn btn-primary"
+        target="_blank"
+      >
+        <FaTwitter />
+        Follow on Twitter
       </a>
     ),
   },
