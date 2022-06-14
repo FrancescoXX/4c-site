@@ -3,15 +3,15 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
     <section className="container">
       <div className="items-center grid md:grid-cols-1 lg:grid-cols-2 gap-12">
         <div className="col-span-1">
-          <p className="text-2xl font-bold tracking-wide text-gray-600 uppercase">
+          <p className="text-2xl font-bold tracking-wide text-white uppercase">
             {eyebrow}
           </p>
 
-          <h1 className="mt-2 text-5xl font-extrabold tracking-tight text-gray-900 md:text-6xl">
+          <h1 className="mt-2 text-5xl font-extrabold tracking-tight text-white md:text-6xl">
             {title}
           </h1>
 
-          <div className="my-8 text-gray-500 prose-lg">{description}</div>
+          <div className="my-8 text-slate-200 prose-lg">{description}</div>
 
           <div className="flex flex-wrap justify-start my-8 md:justify-start gap-4">
             {primaryLink}

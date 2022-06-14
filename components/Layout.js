@@ -5,7 +5,7 @@ import config from "../4c.config";
 
 const Layout = ({ header, children, ...rest }) => {
   return (
-    <div className="min-h-screen bg-orange-50">
+    <div className="min-h-screen bg-theme">
       <Header {...header} />
       <Head>
         <link rel="icon" href={config.favicon} />
