@@ -3,7 +3,7 @@ import Contributors from "../components/Contributors";
 
 export default function Home() {
   return (
-    <Layout className="flex flex-col justify-start bg-orange-50">
+    <Layout className="flex flex-col justify-start">
       <Contributors />
     </Layout>
   );

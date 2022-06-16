@@ -63,7 +63,7 @@ const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
           className="object-contain"
         />
       </div>
-      <span className="mt-3 text-lg text-gray-700">{username}</span>
+      <span className="mt-3 text-lg text-sky-200">{username}</span>
       <div className="flex items-center justify-center space-x-3">
         {getSocials(socials, username)}
       </div>

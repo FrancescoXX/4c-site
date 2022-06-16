@@ -9,19 +9,19 @@ export default {
         <div className="text-base">The</div>
         <div>
           <span className="text-primary">
-            <span className="text-orange-600">C</span>ool{" "}
+            <span className="text-theme">C</span>ool{" "}
           </span>
           <span className="text-primary">
-            <span className="text-orange-600">C</span>ommunity
+            <span className="text-theme">C</span>ommunity
           </span>
         </div>
         <div className="text-xs">of</div>
         <div>
           <span className="text-primary">
-            <span className="text-orange-600">C</span>ontent{" "}
+            <span className="text-theme">C</span>ontent{" "}
           </span>
           <span className="text-primary">
-            <span className="text-orange-600">C</span>reators
+            <span className="text-theme">C</span>reators
           </span>
         </div>
       </>
