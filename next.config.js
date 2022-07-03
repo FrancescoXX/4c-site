@@ -10,4 +10,13 @@ module.exports = withPWA({
     skipWaiting: true,
     disable: process.env.NODE_ENV === "development",
   },
+  async redirects() {
+    return [
+      {
+        source: '/join',
+        destination: 'https://discord.com/invite/TcmA2kbJeA',
+        permanent: true,
+      },
+    ]
+  },
 });
