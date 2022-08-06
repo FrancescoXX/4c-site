@@ -10,5 +10,5 @@ module.exports = {
   },
   url: "https://www.4c.rocks/",
   logo: "/logo.jpg", // Relative public path to Base URL or Absolute Path
-  favicon: "https://res.cloudinary.com/codegowdacloud/image/upload/v1632206291/logo_gsnxnf.jpg",
+  favicon: "/favicon.ico",
 }
