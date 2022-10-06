@@ -1,24 +1,42 @@
+import router from "next/router";
 import { useFormik } from "formik";
 import { formSchema } from "./validation/formSchema";
+import Loading from "../Loading.jsx";
+import Axios from "axios";
 
 const JoinusForm = () => {
   const formik = useFormik({
     initialValues: {
       fullName: "",
       email: "",
-      location: "",
       github: "",
       twitter: "",
       question1: "",
       question2: "",
-      question3: [""],
-      question4: "",
+      question3: "",
     },
     validationSchema: formSchema,
     onSubmit: (values) => {
-      console.log(values);
+      // console.log(values);
     },
   });
+
+  const [loading, setLoading] = React.useState(false);
+
+  const handleSubmit = () => {
+    // console.log(formik.values);
+    setLoading(true);
+    Axios.post(process.env.NEXT_PUBLIC_SHEETS_API, formik.values)
+      .then(function (response) {
+        setLoading(false);
+        alert("Thank you!! Your form has been submitted successfully!!");
+        router.push("/");
+      })
+      .catch(function (error) {
+        setLoading(false);
+        alert(error.message);
+      });
+  };
   return (
     <div className="container mx-auto">
       <div className="max-w-xl p-5 mx-auto my-10 bg-white rounded-md shadow-sm">
@@ -173,29 +191,33 @@ const JoinusForm = () => {
 
               <textarea
                 rows="5"
-                name="question4"
-                id="question4"
+                name="question3"
+                id="question3"
                 placeholder="Your Message"
                 className="w-full text-sm px-3 py-2 placeholder-gray-300 text-black border border-gray-300 rounded-md  focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
                 onChange={formik.handleChange}
                 required
               ></textarea>
-              {formik.errors.question4 && (
+              {formik.errors.question3 && (
                 <p className="block ml-2 mt-2 text-left text-sm text-red-600 dark:text-red-500">
-                  <span className="font-medium">{formik.errors.question4}</span>
+                  <span className="font-medium">{formik.errors.question3}</span>
                 </p>
               )}
             </div>
             <div className="mb-4">
-              <button
-                form="loginform"
-                onClick={() => console.log(formik.values)}
-                className="w-full text-sm px-2 py-4 text-white bg-blue-500
+              {loading ? (
+                <Loading />
+              ) : (
+                <button
+                  form="loginform"
+                  onClick={handleSubmit}
+                  className="w-full text-sm px-2 py-4 text-white bg-blue-500
             rounded-md  focus:bg-indigo-600 focus:outline-none"
-                type="submit"
-              >
-                Submit your application
-              </button>
+                  type="submit"
+                >
+                  Submit your application
+                </button>
+              )}
             </div>
           </form>
         </div>
