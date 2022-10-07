@@ -6,7 +6,7 @@ export default {
     eyebrow: "👋 ",
     title: (
       <>
-        <div className="text-base">The</div>
+        <div className="">The</div>
         <div>
           <span className="text-primary">
             <span className="text-theme">C</span>ool{" "}
