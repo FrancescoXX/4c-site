@@ -2,8 +2,14 @@ import Head from "next/head";
 import { NextSeo } from "next-seo";
 import Header from "./Header";
 import config from "../4c.config";
+import { motion } from "framer-motion";
 
 const Layout = ({ header, children, ...rest }) => {
+  const variants = {
+    hidden: { opacity: 0, x: 20, y: -100 },
+    enter: { opacity: 1, x: 0, y: 0 },
+    exit: { opacity: 0, x: 200, y: 200 },
+  };
   return (
     <div className="min-h-screen bg-theme">
       <Header {...header} />
@@ -30,7 +36,16 @@ const Layout = ({ header, children, ...rest }) => {
           site_name: config.siteName,
         }}
       />
-      <main {...rest}>{children}</main>
+      <motion.main
+        {...rest}
+        variants={variants}
+        initial="hidden"
+        animate="enter"
+        exit="exit"
+        transition={{ type: "linear" }}
+      >
+        {children}
+      </motion.main>
     </div>
   );
 };

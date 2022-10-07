@@ -3,6 +3,7 @@ import Head from "next/head";
 import Router from "next/router";
 import { useEffect } from "react";
 import { GTMPageView } from "../utils/gtm";
+import { AnimatePresence } from "framer-motion";
 
 function MyApp({ Component, pageProps }) {
   // Initiate GTM
@@ -22,7 +23,13 @@ function MyApp({ Component, pageProps }) {
           content="4C: The Cool Community for Content Creators"
         />
       </Head>
-      <Component {...pageProps} />
+
+      <AnimatePresence
+        exitBeforeEnter
+        onExitComplete={() => window.scrollTo(0, 0)}
+      >
+        <Component {...pageProps} />
+      </AnimatePresence>
     </div>
   );
 }
