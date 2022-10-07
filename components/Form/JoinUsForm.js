@@ -1,3 +1,4 @@
+import React from "react";
 import router from "next/router";
 import { useFormik } from "formik";
 import { formSchema } from "./validation/formSchema";
@@ -16,9 +17,6 @@ const JoinusForm = () => {
       question3: "",
     },
     validationSchema: formSchema,
-    onSubmit: (values) => {
-      // console.log(values);
-    },
   });
 
   const [loading, setLoading] = React.useState(false);
@@ -27,7 +25,7 @@ const JoinusForm = () => {
     // console.log(formik.values);
     setLoading(true);
     Axios.post(process.env.NEXT_PUBLIC_SHEETS_API, formik.values)
-      .then(function (response) {
+      .then(function () {
         setLoading(false);
         alert("Thank you!! Your form has been submitted successfully!!");
         router.push("/");
