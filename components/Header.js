@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header className="p-[3em] my-[0] max-w-[700px]">
+    <header className="p-[3em] my-[0] max-w-[800px]">
       <div className="container">
         <nav className="flex items-start justify-between">
           <div className="flex flex-wrap items-center gap-6 md:gap-5">
