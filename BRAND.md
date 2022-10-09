@@ -9,3 +9,7 @@
         <td><img src="http://placehold.jp/708fe6/ffffff/80x80.png?text=%20"> <br>#708fe6</td>
     </tr>
 </table>
+
+## Font 
+
+Font: Poppins Bold
