@@ -6,11 +6,14 @@ const Navbar = () => {
       <div className="container">
         <nav className="flex items-start justify-between">
           <div className="flex flex-wrap items-center gap-6 md:gap-5">
-            <Link href="/">
-              <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                4C
-              </button>
-            </Link>
+          <img
+            width="6%"
+            height="500"
+            frameBorder="0"
+            allowtransparency="true"
+            
+            src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
+          ></img>
             <Link href="/contributors">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Contributors
