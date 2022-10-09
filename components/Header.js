@@ -16,7 +16,7 @@ const Navbar = () => {
             </Link>
             <Link href="/contributors">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                Contributors
+                Active Members
               </button>
             </Link>
 
