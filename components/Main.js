@@ -1,6 +1,6 @@
 const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
   return (
-    <section className="container">
+    <section className="container mt-[4em]">
       <div className="items-center grid md:grid-cols-1 lg:grid-cols-2 gap-12">
         <div className="col-span-1">
           <p className="text-2xl font-bold tracking-wide text-white uppercase">

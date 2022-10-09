@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <header className="w-full py-6 pb-10">
+    <header className="p-[3em] my-[0] max-w-[700px]">
       <div className="container">
         <nav className="flex items-start justify-between">
           <div className="flex flex-wrap items-center gap-6 md:gap-5">
@@ -22,7 +22,7 @@ const Navbar = () => {
                 Faq
               </button>
             </Link>
-            
+
             <Link href="/projects">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Projects
