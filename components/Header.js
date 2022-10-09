@@ -16,6 +16,13 @@ const Navbar = () => {
                 Contributors
               </button>
             </Link>
+
+            <Link href="/Faq">
+              <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                Faq
+              </button>
+            </Link>
+            
             <Link href="/projects">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Projects
