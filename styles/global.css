@@ -32,11 +32,11 @@ h6 {
 }
 
 .text-theme {
-  color: #bad6fc;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
   .text-theme {
-    color: #60a5fa;
+    color: #fff;
   }
 }
