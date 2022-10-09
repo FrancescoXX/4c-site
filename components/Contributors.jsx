@@ -6,7 +6,7 @@ import Users from "./Users";
 import contributors from "../content/contributors.json";
 
 const Contributors = () => {
-  const [tab] = useState("Contributors");
+  const [tab] = useState("Active Members");
   return (
     <div className="flex items-start justify-start mt-[3em]">
       <section className="flex-1 text-4xl font-bold text-center text-white">
