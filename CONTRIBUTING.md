@@ -41,7 +41,7 @@ Before you contribute, **make sure to read the [Code of Conduct](./CODE_OF_CONDU
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
-[Code of Conduct][code-of-conduct]. By participating,
+[Code of Conduct](CODE_OF_CONDUCT.md). By participating,
 you are expected to uphold this code. Please report unacceptable behavior to <4c.contactus@gmail.com>.
 
 
