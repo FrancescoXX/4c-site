@@ -8,13 +8,12 @@ const Navbar = () => {
           <div className="flex flex-wrap items-center gap-6 md:gap-5">
             <Link href="/">
               <img
-                className="max-w-[50px] w-[100%]"
+                className="w-[100%] max-w-[50px]"
                 frameBorder="0"
                 allowtransparency="true"
                 src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
               />
             </Link>
-
             <Link href="/contributors">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Contributors
