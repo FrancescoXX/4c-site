@@ -1,8 +1,8 @@
-<img align='right' src='./4c_banner.jpg' alt='4C logo' height='100px'>
+<img align='right' src='./mediakit/4c_banner.jpg' alt='4C logo' height='100px'>
 
 # 4C
 
-> Repository for the [4c.rocks](https://www.4c.rocks/) website. 
+> Repository for the [4c.rocks](https://www.4c.rocks/) website.
 
 **The Cool Community For Content Creators** or **4C**, is a community to connect with other like-minded creators, collaborate on ideas, and motivate each other to create and publish!
 
