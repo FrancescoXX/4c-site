@@ -1,4 +1,4 @@
-# 4C
+# 4C (The Cool Community of Content Creators)
 
 > Repository for the [4c.rocks](https://www.4c.rocks/) website.
 
