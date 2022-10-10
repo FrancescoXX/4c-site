@@ -26,7 +26,7 @@ Project Link  | Projects Title | Description (optional) | Twitter handle |
 | https://github.com/AliReza1083/Weather-Api | Weather API | The place where you can check the Weather of a Country/City | [Ali Reza](https://twitter.com/Ali_Developer05) |
 | https://github.com/akshitagupta15june/Face-X | Face-X | Demonstration of different algorithms and operations on faces. | [Akshita_archer](https://twitter.com/Akshita_archer) |
 | https://github.com/krishnanshagarwal112/Library | Library | A basic library management system [only frontend] | [KrishnanshDev](https://twitter.com/krishnanshdev) |
-| https://github.com/beccalyria/discord-bot | Becca Lyria | A community management and moderation bot for Discord. | [Becca Lyria](https://twitter.com/BeccaLyria) |
+| https://github.com/beccalyria/discord-bot | Becca Lyria | A community management and moderation bot for Discord. | [Becca Lyria](https://twitter.com/becca_lyria) |
 | https://github.com/Njong392/Abbreve | Abbreve | Open source dictionary for slang | [njong_emy](https://twitter.com/njong_emy)
 | https://github.com/tobySolutions/tobiloba-portfolio | Tobiloba Adedeji | My portfolio website, version 1.0 | [toby_solutions](https://twitter.com/toby_solutions) |
 | https://github.com/Yudai-creator/yudai-creator-definitive | Yuida Creator Portfolio Website | Building my portfolio of porjects, where I going to turn this website into the center point of my brand. | [Yudai H](https://twitter.com/creator_yudai) |
