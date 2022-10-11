@@ -8,7 +8,7 @@ const Navbar = () => {
           <div className="flex flex-wrap items-center gap-6 md:gap-5">
             <Link href="/">
               <img
-                className="w-[100%] max-w-[50px]"
+                className="w-[100%] max-w-[50px] hover:cursor-pointer"
                 frameBorder="0"
                 allowtransparency="true"
                 src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
