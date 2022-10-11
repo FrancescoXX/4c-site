@@ -1,12 +1,18 @@
-{
-    "questions": "What does \"4C\" stands for?",
-    "answers": "4C stands for \"Cool Community of Content Creators\"."
-  },
-  {
-    "questions": "What is the goal of \"4C\" ",
-    "answers": "We discuss Content Creation using Videos, Articles and Social Media. Our goal is to create a decentralized community, where everyone can create some events related to the community on their channels."
-  },
-  {
-    "questions": "Is \"4C\" open-source and how can I contribute ?",
-    "answers": "4C is open source. All contributions are welcome. Visit our contributions page to learn how you can contribute ."
-  }
+ [
+    {
+      "questions": "What does \"4C\" stands for?",
+      "answers": "4C stands for \"Cool Community of Content Creators\"."
+    },
+    {
+      "questions": "What is the goal of \"4C\" ",
+      "answers": "We discuss Content Creation using Videos, Articles and Social Media. Our goal is to create a decentralized community, where everyone can create some events related to the community on their channels."
+    },
+    {
+      "questions": "Is \"4C\" open-source and how can I contribute ?",
+      "answers": "4C is open source. All contributions are welcome. Visit our contributions page to learn how you can contribute ."
+    },
+    {
+      "questions": "How can I join the community ?",
+      "answers": "Join our Discord Server and visit the #start-here channel."
+    }    
+]
