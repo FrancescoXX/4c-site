@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header className="p-[3em] my-[0] max-w-[840px]">
       <div className="container">
-        <nav className="flex items-start justify-between">
+        <nav className="fixed flex items-start justify-between">
           <div className="flex flex-wrap items-center gap-6 md:gap-5">
             <Link href="/">
               <img
@@ -35,6 +35,11 @@ const Navbar = () => {
             <Link href="/Blog">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Blog
+              </button>
+            </Link>
+            <Link href="/Faq">
+              <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                Faq
               </button>
             </Link>
             <iframe
