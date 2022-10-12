@@ -37,6 +37,11 @@ const Navbar = () => {
                 Blog
               </button>
             </Link>
+            <Link href="/videos">
+              <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                Videos
+              </button>
+            </Link>
             <iframe
               src="https://ghbtns.com/github-btn.html?user=FrancescoXX&repo=4c-site&type=star&count=true&size=large"
               frameBorder="0"
