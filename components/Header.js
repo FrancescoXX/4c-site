@@ -14,13 +14,13 @@ const Navbar = () => {
                 src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
               />
             </Link>
-            <Link href="/activeMembers">
+            <Link href="/active-members">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Active Members
               </button>
             </Link>
 
-            <Link href="/Faq">
+            <Link href="/faq">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 FAQ
               </button>
@@ -32,7 +32,7 @@ const Navbar = () => {
               </button>
             </Link>
 
-            <Link href="/Blog">
+            <Link href="/blog">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Blog
               </button>
