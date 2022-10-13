@@ -6,6 +6,11 @@
 
 <img src='./mediakit/4c_banner.jpg' alt='4C logo'>
 
+## Tech Stack 
+  - Nextjs
+  - Javascript
+  - Tailwind Css
+  
 ## Running the project
 
 1.  Clone the repo:
