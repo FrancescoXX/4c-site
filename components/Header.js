@@ -41,6 +41,8 @@ const Navbar = () => {
             <Link href="/activities">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Activities
+              </button>
+            </Link>
             <Link href="/videos">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Videos
