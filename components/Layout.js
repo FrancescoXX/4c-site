@@ -3,6 +3,7 @@ import { NextSeo } from "next-seo";
 import Header from "./Header";
 import config from "../4c.config";
 import { motion } from "framer-motion";
+import Footer from "./Footer";
 
 const Layout = ({ header, children, ...rest }) => {
   const variants = {
@@ -46,6 +47,7 @@ const Layout = ({ header, children, ...rest }) => {
       >
         {children}
       </motion.main>
+      <Footer />
     </div>
   );
 };
