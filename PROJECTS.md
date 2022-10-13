@@ -31,3 +31,4 @@ Project Link  | Projects Title | Description (optional) | Twitter handle |
 | https://github.com/tobySolutions/tobiloba-portfolio | Tobiloba Adedeji | My portfolio website, version 1.0 | [toby_solutions](https://twitter.com/toby_solutions) |
 | https://github.com/Yudai-creator/yudai-creator-definitive | Yuida Creator Portfolio Website | Building my portfolio of porjects, where I going to turn this website into the center point of my brand. | [Yudai H](https://twitter.com/creator_yudai) |
 | https://github.com/Dun-sin/Code-Magic | Code Magic | Get short css code you can use in your applications | [Dunsin](https://twitter.com/DunsinWebDev) |
+| https://github.com/IAmTamal/Milan | Project Milan | A hub for users to collaborate with NGOs and make Earth a better place | [Tamal](https://twitter.com/mrTamall) |
