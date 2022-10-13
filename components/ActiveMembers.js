@@ -3,19 +3,19 @@ import GetContributors from "./GetContributors";
 import Users from "./Users";
 
 // import contributors data
-import contributors from "../content/contributors.json";
+import activeMembers from "../content/contributors.json";
 
-const Contributors = () => {
+const ActiveMembers = () => {
   const [tab] = useState("Active Members");
   return (
     <div className="flex items-start justify-start mt-[3em]">
       <section className="flex-1 text-4xl font-bold text-center text-white">
         <h1>{tab}</h1>
         <div className="flex flex-wrap items-center justify-center pb-4 m-2 overflow-y-auto">
-          {tab === "Contributors" ? (
-            <GetContributors users={contributors} />
+          {tab === "Active Members" ? (
+            <GetContributors users={activeMembers} />
           ) : (
-            <Users users={contributors.profiles} />
+            <Users users={activeMembers.profiles} />
           )}
         </div>
       </section>
@@ -23,4 +23,4 @@ const Contributors = () => {
   );
 };
 
-export default Contributors;
+export default ActiveMembers;
