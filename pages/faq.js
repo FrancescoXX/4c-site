@@ -11,7 +11,7 @@ const Faq = () => {
         <div className="accordion-items">
           {Faqs.map((item, index) => (
             <div className="items">
-              <div className="questions text-sm mt-10">
+              <div className="questions text-xl mt-10">
                 <h3>
                   {index + 1}. {item.questions}
                 </h3>
