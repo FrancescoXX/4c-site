@@ -49,7 +49,7 @@ const Navbar = () => {
 
               </button>
             </Link>
-            <iframe
+     <iframe
               src="https://ghbtns.com/github-btn.html?user=FrancescoXX&repo=4c-site&type=star&count=true&size=large"
               frameBorder="0"
               scrolling="0"
@@ -57,6 +57,7 @@ const Navbar = () => {
               height="30"
               title="GitHub"
             ></iframe>
+
           </div>
         </nav>
       </div>
