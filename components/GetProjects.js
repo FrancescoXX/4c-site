@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 // import contributors data
 import allProjects from "../content/projects.json";
-import imgTest from "../content/contributors.json";
 
 const GetProjects = () => {
   return (
@@ -10,22 +9,23 @@ const GetProjects = () => {
       <section className="flex-1 text-center text-white">
         <h1 className="text-4xl mb-10">Projects</h1>
         <div className="flex flex-wrap items-center text-left justify-center pb-4 m-2 overflow-y-auto">
-          {allProjects.projects.map((item) => (
-            // test
-            // test
-            // test
-            // test
-            <a href={item.link}>
-              <div className="cursor-pointer items flex flex-col p-3  justify-between w-64 h-64 m-4 border bg-gray-300 shadow rounded-md hover:shadow-lg">
+          {allProjects.projects.map((project) => (
+            <a href={project.link}>
+              <div className="cursor-pointer itemsGroup flex flex-col p-3  justify-between w-64 h-64 m-4 border bg-gray-300 shadow rounded-md hover:shadow-lg">
                 <div className="w-100 h-32 flex justify-center items-center shadow-sm text-center rounded-md bg-black">
+                  {/* TODO */}
+                  {/* add screenshot in projects json file and remove p tag, uncomment img tag */}
+                  {/* <img src={project.screenshot}/> */}
                   <p>IMG Preview</p>
                 </div>
                 <div className="text-black">
-                  <span className="mt-3 text-lg text-gray-800">
-                    Author: {item.name}
+                  <span className="mt-3 text-md text-gray-800">
+                    Author: {project.name}
                   </span>
-                  <h6 className="mb-2">Title: {item.title}</h6>
-                  <p className="hidden">Except: {item.description}</p>
+                  <h6 className="mb-2">Title: {project.title}</h6>
+                  {/* TODO */}
+                  {/* description will show if hoverover itemsGroup(its a clas name. for now, description hidden)  */}
+                  <p className="hidden">Except: {project.description}</p>
                 </div>
               </div>
             </a>
