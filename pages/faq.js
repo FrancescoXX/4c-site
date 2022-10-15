@@ -3,8 +3,9 @@ import Faqs from "../content/faq.json";
 
 const Faq = () => {
   return (
-    <Layout className="flex flex-col  items-left justify-center text-5xl ">
-      <div className="page-title text-center text-white">
+    <Layout className="flex flex-col items-left justify-center text-5xl ">
+      <div className=" mt-40 page-title text-center text-white">
+      
         <h2>FAQ</h2>
       </div>
       <div className="faq-wrapper lg:px-20 px-10 text-white">

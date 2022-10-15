@@ -11,7 +11,7 @@ const Videos = () => {
   };
   return (
     <Layout className="flex flex-col  items-center justify-center text-5xl ">
-      <div className="mt-4 mb-12 font-bold text-white ">Videos</div>
+      <div className="mt-40 mb-12 font-bold text-white ">Videos</div>
       <YouTube videoId="az-ILjdFCe8" opts={opts} />
     </Layout>
   );
