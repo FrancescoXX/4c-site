@@ -31,6 +31,23 @@
     ```console
     $ npm run dev
     ```
+   ##If you get problem in the above step then follow the step given below
+   
+1.  Go to 4c-site folder, and open the terminal.
+  
+    ```console
+    $ cd 4c-site
+    ```
+2.  In the terminal write 
+  
+    ```console
+    $ export NODE_OPTIONS=--openssl-legacy-provider
+    ```
+    If you get error in the above code then only use the below code
+    ```console
+    $ unset NODE_OPTIONS=""
+    ```
+6.  npm run dev   
 
 ## Open in Gitpod
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FrancescoXX/4c-site)
