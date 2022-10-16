@@ -32,7 +32,6 @@ const Navbar = () => {
               </button>
             </Link>
 
-
             <Link href="/blog">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Blog
@@ -48,10 +47,8 @@ const Navbar = () => {
             <Link href="/videos">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Videos
-
               </button>
             </Link>
-
           </div>
         </nav>
       </div>
