@@ -14,7 +14,7 @@ const Navbar = () => {
                 src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
               />
             </Link>
-            <Link href="/active-members">
+            <Link href="/activeMembers">
               <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
                 Active Members
               </button>
@@ -51,6 +51,7 @@ const Navbar = () => {
 
               </button>
             </Link>
+
           </div>
         </nav>
       </div>

@@ -1,27 +1,22 @@
 import Layout from "../components/Layout";
 import Faqs from "../content/faq.json";
+import FaqAccordian from "../components/FaqAccordian";
 
 const Faq = () => {
   return (
-    <Layout className="flex flex-col  items-left justify-center text-5xl ">
-      <div className="page-title text-center text-white">
-        <h2>FAQ</h2>
+    <Layout className="flex flex-col justify-center text-5xl items-left">
+      <div className="mb-16 text-center text-white page-title">
+        <h1
+          role="heading"
+          class="text-xl font-bold text-white xl:text-6xl md:text-5xl leading-10"
+        >
+          Frequently asked questions
+        </h1>
       </div>
-      <div className="faq-wrapper lg:px-20 px-10 text-white">
-        <div className="accordion-items">
-          {Faqs.map((item, index) => (
-            <div className="items">
-              <div className="questions text-xl mt-10">
-                <h3>
-                  {index + 1}. {item.questions}
-                </h3>
-              </div>
-              <div className="answers pl-5 mt-2 text-gray-300 text-sm">
-                <p>{item.answers}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+      <div className="flex flex-col items-center justify-center">
+        {Faqs.map((faq) => (
+          <FaqAccordian faq={faq} />
+        ))}
       </div>
     </Layout>
   );
