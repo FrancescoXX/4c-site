@@ -1,11 +1,10 @@
 import Layout from "../components/Layout";
+import GetProjects from "../components/GetProjects";
 
-const Projects = () => {
+export default function joinOurTeam() {
   return (
-    <Layout className="flex flex-col  items-center justify-center text-5xl ">
-      <div className="mt-40 font-bold text-white ">Projects</div>
+    <Layout className="flex flex-col justify-center">
+      <GetProjects />
     </Layout>
   );
-};
-
-export default Projects;
+}
