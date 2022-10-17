@@ -4,13 +4,13 @@ const Footer = () => {
     <footer className="text-black flex flex-col items-center text-center py-5 bg-white">
       <div className="flex items-center pb-3">
         <div className="flex gap-10">
-          <a href="">
+          <a href="https://github.com/FrancescoXX/4c-site">
             <FaGithub />
           </a>
-          <a href="">
+          <a href="https://discord.com/invite/TcmA2kbJeA">
             <FaDiscord />
           </a>
-          <a href="">
+          <a href="https://twitter.com/4ccommunityhq">
             <FaTwitter />
           </a>
         </div>
