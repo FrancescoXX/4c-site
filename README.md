@@ -8,30 +8,33 @@
 
 ## Running the project
 
-1.  Clone the repo:
+1.  Fork this repository
+
+2.  Clone the repo:
 
     ```console
-    $ git clone git@github.com:FrancescoXX/4c-site.git
+    $ git clone git@github.com:<your github username>/4c-site.git
     ```
 
-2.  Navigate to the cloned directory:
+3.  Navigate to the cloned directory:
 
     ```console
     $ cd 4c-site
     ```
 
-3.  Install dependencies:
+4.  Install dependencies:
 
     ```console
     $ npm install
     ```
 
-4.  Run the project
+5.  Run the project
 
     ```console
     $ npm run dev
     ```
-   ##If you get problem in the above step then follow the step given below
+   
+## Incase there is an error during the execution of the above steps, follow the ones below:
    
 1.  Go to 4c-site folder, and open the terminal.
   
@@ -43,7 +46,8 @@
     ```console
     $ export NODE_OPTIONS=--openssl-legacy-provider
     ```
-    If you get error in the above code then only use the below code
+    If you get an error in the above code then use the option below
+    
     ```console
     $ unset NODE_OPTIONS=""
     ```
