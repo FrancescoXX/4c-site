@@ -4,17 +4,17 @@ const FaqAccordian = ({ faq }) => {
   const [box, setBox] = useState(false);
   return (
     <div class="flex items-center justify-center w-full mb-8 lg:w-1/2 md:w-8/12 sm:w-9/12 flex-column">
-      <div class="w-full p-8 bg-white rounded shadow">
+      <div
+        class="w-full p-8 bg-white rounded shadow cursor-pointer"
+        onClick={() => setBox(!box)}
+      >
         <div class="flex items-center justify-between">
           <div>
             <h2 class="text-base font-semibold leading-none text-gray-800">
               {faq.questions}
             </h2>
           </div>
-          <button
-            onClick={() => setBox(!box)}
-            class="cursor-pointer focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white"
-          >
+          <button class="cursor-pointer focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white">
             {box ? (
               <svg
                 role="button"
