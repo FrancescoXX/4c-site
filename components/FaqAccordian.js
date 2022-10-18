@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const FaqAccordian = ({ faq }) => {
   const [box, setBox] = useState(false);
   return (
-    <div class="flex items-center justify-center w-full mb-8 lg:w-1/2 md:w-8/12 sm:w-9/12 flex-column">
+    <div class="flex items-center justify-center w-9/12 mb-8 lg:w-1/2 md:w-8/12 sm:w-9/12 flex-column">
       <div
         class="w-full p-8 bg-white rounded shadow cursor-pointer"
         onClick={() => setBox(!box)}
