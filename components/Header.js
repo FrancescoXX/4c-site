@@ -1,11 +1,29 @@
 import Link from "next/link";
+import { BsX } from "react-icons/bs";
+import { useState, useEffect } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
+  const [menuActive, setMenuActive] = useState(false);
+  const [screenSize, setScreenSize] = useState();
+  useEffect(() => {
+    const handleResize = () => setScreenSize(window.innerWidth);
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  useEffect(() => {
+    if (screenSize <= 800) {
+      setMenuActive(false);
+    } else {
+      setMenuActive(true);
+    }
+  }, [screenSize]);
   return (
     <header className="p-[3em] my-[0] max-w-[940px]">
       <div className="container">
         <nav className="flex items-start justify-between">
-          <div className="flex flex-wrap items-center gap-6 md:gap-5">
+          <div className="relative flex flex-wrap items-center justify-between gap-6 w-[100%]  ">
             <Link href="/">
               <img
                 className="w-[100%] max-w-[50px] hover:cursor-pointer"
@@ -14,41 +32,59 @@ const Navbar = () => {
                 src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
               />
             </Link>
-            <Link href="/active-members">
-              <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                Active Members
+            <div
+              className={`fixed md:relative flex flex-col md:flex-row p-2 bg-[#708fe6] md:bg-transparent h-[100vh] md:h-full top-0 md:top-0 right-0 md:right-0 all ease-in-out gap-6 transition ease-in-out delay-150  ${
+                menuActive ? "" : "hidden"
+              } z-50  `}
+            >
+              <button
+                className=" text-xl md:hidden"
+                onClick={() => setMenuActive(false)}
+              >
+                <BsX />
               </button>
-            </Link>
+              <Link href="/active-members">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                  Active Members
+                </button>
+              </Link>
 
-            <Link href="/faq">
-              <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                FAQ
-              </button>
-            </Link>
+              <Link href="/faq">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                  FAQ
+                </button>
+              </Link>
 
-            <Link href="/projects">
-              <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                Projects
-              </button>
-            </Link>
+              <Link href="/projects">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                  Projects
+                </button>
+              </Link>
 
-            <Link href="/blog">
-              <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                Blog
-              </button>
-            </Link>
+              <Link href="/blog">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                  Blog
+                </button>
+              </Link>
 
-            <Link href="/activities">
-              <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                Activities
-              </button>
-            </Link>
+              <Link href="/activities">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                  Activities
+                </button>
+              </Link>
 
-            <Link href="/videos">
-              <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                Videos
-              </button>
-            </Link>
+              <Link href="/videos">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                  Videos
+                </button>
+              </Link>
+            </div>
+            <button
+              className="text-xl  md:hidden "
+              onClick={() => setMenuActive(true)}
+            >
+              <GiHamburgerMenu />
+            </button>
           </div>
         </nav>
       </div>
