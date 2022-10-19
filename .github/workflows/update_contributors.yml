@@ -1,35 +1,38 @@
 name: Update Contributors JSON
 on:
-    schedule:
-        - cron: '0 */3 * * *'
-    workflow_dispatch:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
 
 jobs:
-    update:
-        if: github.repository == 'FrancescoXX/4c-site'
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
-              with:
-                  ref: main
-            - uses: actions/setup-node@v2
-              with:
-                node-version: '14'
-                cache: npm
-            - name: Create local changes
-              run: |
-                  npm install
-                #   node scripts/update_contributors.js
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            - name: Commit files
-              run: |
-                  git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-                  git config --local user.name "github-actions[bot]"
-                  git add .
-                  git diff --quiet && git diff --staged --quiet || git commit -am "Update Contributor JSON - $(date -d '+5 hours +30 minutes' +'%d %b %Y | %I:%M %p')"
-            - name: Push changes
-              uses: ad-m/github-push-action@master
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: main
+  update:
+    if: github.repository == 'FrancescoXX/4c-site'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          cache: npm
+      - name: Create local changes
+        run: |
+          npm install
+          node scripts/update_contributors.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          GUILD_ID: ${{ secrets.GUILD_ID }}
+          ACTIVE_ROLE_ID: ${{ secrets.ACTIVE_ROLE_ID }}
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -am "Update Contributor JSON - $(date -d '+5 hours +30 minutes' +'%d %b %Y | %I:%M %p')"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
