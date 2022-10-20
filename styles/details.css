@@ -1,0 +1,7 @@
+.details summary::after {
+  content: ">";
+}
+
+.details[open] summary::after {
+  @apply rotate-[270deg];
+}

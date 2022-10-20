@@ -13,11 +13,11 @@ const Faq = () => {
           Frequently asked questions
         </h1>
       </div>
-      <div className="flex flex-col items-center justify-center">
+      <ul className="flex flex-col items-center justify-center">
         {Faqs.map((faq) => (
           <FaqAccordian faq={faq} />
         ))}
-      </div>
+      </ul>
     </Layout>
   );
 };
