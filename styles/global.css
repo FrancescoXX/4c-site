@@ -3,6 +3,7 @@
 
 @import "tailwindcss/components";
 @import "./button.css";
+@import "./details.css";
 
 @import "tailwindcss/utilities";
 
