@@ -13,7 +13,10 @@ const GetProjects = () => {
             <a href={project.link}>
               <div className="cursor-pointer itemsGroup flex flex-col p-3  justify-between w-64 h-64 m-4 border bg-gray-300 shadow rounded-md hover:shadow-lg">
                 <div className="w-100 h-32 flex justify-center items-center shadow-sm text-center rounded-md bg-black">
-                  <img src={project.screenshot} />
+                  <img
+                    className="h-full w-full rounded-sm overflow-hidden object-contain"
+                    src={project.screenshot}
+                  />
                 </div>
                 <div className="text-black">
                   <span className="mt-3 text-md text-gray-800">
