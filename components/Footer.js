@@ -5,13 +5,16 @@ const Footer = () => {
       <div className="flex items-center pb-3">
         <div className="flex gap-10">
           <a href="https://github.com/FrancescoXX/4c-site">
-            <FaGithub />
+            <span class="sr-only">Github Repository</span>
+            <FaGithub aria-hidden="true" />
           </a>
           <a href="https://discord.com/invite/TcmA2kbJeA">
-            <FaDiscord />
+            <span class="sr-only">Discord Server</span>
+            <FaDiscord aria-hidden="true" />
           </a>
           <a href="https://twitter.com/4ccommunityhq">
-            <FaTwitter />
+            <span class="sr-only">Twitter</span>
+            <FaTwitter aria-hidden="true" />
           </a>
         </div>
       </div>
