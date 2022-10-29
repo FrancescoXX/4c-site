@@ -103,6 +103,14 @@
       "description": "A hub for users to collaborate with NGOs and make Earth a better place",
       "link": "https://github.com/IAmTamal/Milan",
       "twitter": "https://twitter.com/mrTamall"
+    },
+    {
+      "name": "Avie",
+      "title": "SpacesLounge",
+      "screenshot": "https://i.ibb.co/ZMpDrBM/Spaces-Lounge.png",
+      "description": "Twitter Spaces Host and Speaker's Lounge",
+      "link": "https://github.com/avie-dev/spaceslounge",
+      "twitter": "https://twitter.com/AvieDev"
     }
   ]
 }
