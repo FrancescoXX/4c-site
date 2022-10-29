@@ -180,10 +180,10 @@
     },
     {
       "name": "Naomi",
-      "avatarUrl": "",
-      "github": "",
-      "twitter": "",
-      "blogUrl": "",
+      "avatarUrl": "https://avatars.githubusercontent.com/naomi-lgbt",
+      "github": "naomi-lgbt",
+      "twitter": "naomi_lgbt",
+      "blogUrl": "https://www.naomi.lgbt/",
       "contributions": 0
     },
     {
@@ -203,10 +203,10 @@
       "contributions": 3
     },
     {
-      "name": "Pradumna",
-      "avatarUrl": "",
-      "github": "",
-      "twitter": "",
+      "name": "Pradumna Saraf",
+      "avatarUrl": "https://avatars.githubusercontent.com/Pradumnasaraf",
+      "github": "Pradumnasaraf",
+      "twitter": "pradumna_saraf",
       "blogUrl": "",
       "contributions": 0
     },
@@ -220,9 +220,9 @@
     },
     {
       "name": "Rakesh.js",
-      "avatarUrl": "",
-      "github": "",
-      "twitter": "",
+      "avatarUrl": "https://avatars.githubusercontent.com/RakeshSangem",
+      "github": "RakeshSangem",
+      "twitter": "RakeshSangem8",
       "blogUrl": "",
       "contributions": 0
     },
@@ -236,42 +236,43 @@
     },
     {
       "name": "ShorunTech",
-      "avatarUrl": "",
-      "github": "",
-      "twitter": "",
-      "blogUrl": "",
+      "avatarUrl": "https://avatars.githubusercontent.com/ShorunTech",
+      "github": "ShorunTech",
+      "twitter": "shoruntech",
+      "blogUrl": "linkfree.eddiehub.io/ShorunTech",
       "contributions": 0
     },
     {
       "name": "Shubhangi",
-      "avatarUrl": "",
-      "github": "",
-      "twitter": "",
+      "avatarUrl": "https://avatars.githubusercontent.com/codewithshubhi",
+      "github": "codewithshubhi",
+      "twitter": "heyShubhi",
       "blogUrl": "",
       "contributions": 0
     },
     {
-      "name": "Sid",
-      "avatarUrl": "",
-      "github": "",
-      "twitter": "",
-      "blogUrl": "",
+      "name": "Siddharth Shyniben",
+      "avatarUrl": "https://avatars.githubusercontent.com/SiddharthShyniben",
+      "github": "SiddharthShyniben",
+      "twitter": "SiddharthShyn",
+      "blogUrl": "https://blog.siddu.tech/",
       "contributions": 0
     },
     {
-      "name": "Sumit ",
-      "avatarUrl": "",
-      "github": "",
-      "twitter": "",
-      "blogUrl": "",
+      "name": "Sumit",
+      "avatarUrl": "https://avatars.githubusercontent.com/sumitsaurabh927",
+      "github": "sumitsaurabh927",
+      "twitter": "sumitsaurabh927",
+      "blogUrl": "https://sumitsaurabh.hashnode.dev/",
       "contributions": 0
     },
     {
-      "name": "TechSquidTV",
-      "avatarUrl": "",
-      "github": "",
-      "twitter": "",
-      "blogUrl": "",
+      "name": "Kyle TechSquidTV",
+      "avatarUrl": "https://avatars.githubusercontent.com/TechSquidTV",
+      "github": "TechSquidTV",
+      "twitter": "TechSquidTV",
+      "youtube":"techsquidtv"
+      "blogUrl": "https://techsquidtv.com/",
       "contributions": 0
     },
     {
@@ -284,7 +285,7 @@
     },
     {
       "name": "Vaibhav",
-      "avatarUrl": "",
+      "avatarUrl": "https://avatars.githubusercontent.com/TechSquidTV",
       "github": "",
       "twitter": "",
       "blogUrl": "",
@@ -292,10 +293,10 @@
     },
     {
       "name": "Yudai",
-      "avatarUrl": "",
-      "github": "",
-      "twitter": "",
-      "blogUrl": "",
+      "avatarUrl": "https://avatars.githubusercontent.com/Yudai-creator",
+      "github": "Yudai-creator",
+      "twitter": "creator_yudai",
+      "blogUrl": "https://yudaicreator.com/",
       "contributions": 0
     }
   ]
