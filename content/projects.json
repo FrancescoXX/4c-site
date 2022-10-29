@@ -111,6 +111,14 @@
       "description": "Twitter Spaces Host and Speaker's Lounge",
       "link": "https://github.com/avie-dev/spaceslounge",
       "twitter": "https://twitter.com/AvieDev"
+    },
+    {
+      "name": "J S Vignesh Kanna",
+      "title": "TailwindCSS Bootstrap",
+      "screenshot": "https://user-images.githubusercontent.com/42484705/197696771-9aaf4f6d-1928-4d66-9d2b-01ad479d289a.png",
+      "description": "An opensource tailwindCSS UI component collection",
+      "link": "https://github.com/jsvigneshkanna/tailwind_ui_components",
+      "twitter": "https://twitter.com/jsvigneshkanna"
     }
   ]
 }
