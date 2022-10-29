@@ -1,20 +1,11 @@
 {
   "profiles": [
     {
-      "name": "Ayush Kumar Agarwal",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/32107448?v=4",
-      "github": "ayushhagarwal",
-      "twitter": "ayushdev_24",
-      "blogUrl": "https://ayushdev.com/",
-      "contributions": 50
-    },
-    {
-      "name": "InHuOfficial",
+      "name": "Graham",
       "avatarUrl": "https://avatars.githubusercontent.com/u/81360444?v=4",
       "github": "InHuOfficial",
-      "twitter": "InHuOfficial",
+      "twitter": "Grahamthedev",
       "blogUrl": "https://dev.to/inhuofficial",
-      "contributions": 0
     },
     {
       "name": "Avneesh Agarwal",
