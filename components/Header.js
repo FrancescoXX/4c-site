@@ -43,41 +43,62 @@ const Navbar = () => {
               >
                 <BsX />
               </button>
-              <Link href="/active-members">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                  Active Members
-                </button>
-              </Link>
 
-              <Link href="/faq">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                  FAQ
-                </button>
-              </Link>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.4c.rocks/active-members"
+                    className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                  >
+                    Active Members
+                  </a>
+                </li>
 
-              <Link href="/projects">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                  Projects
-                </button>
-              </Link>
+                <li>
+                  <a
+                    href="https://www.4c.rocks/faq"
+                    className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                  >
+                    FAQ
+                  </a>
+                </li>
 
-              <Link href="/blog">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                  Blog
-                </button>
-              </Link>
+                <li>
+                  <a
+                    href="https://www.4c.rocks/projects"
+                    className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                  >
+                    Projects
+                  </a>
+                </li>
 
-              <Link href="/activities">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                  Activities
-                </button>
-              </Link>
+                <li>
+                  <a
+                    href="https://www.4c.rocks/blog"
+                    className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                  >
+                    Blog
+                  </a>
+                </li>
 
-              <Link href="/videos">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                  Videos
-                </button>
-              </Link>
+                <li>
+                  <a
+                    href="https://www.4c.rocks/activities"
+                    className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                  >
+                    Activities
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.4c.rocks/videos"
+                    className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                  >
+                    Videos
+                  </a>
+                </li>
+              </ul>
             </div>
             <button
               className="text-xl  md:hidden "
