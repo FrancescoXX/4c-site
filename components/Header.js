@@ -20,7 +20,7 @@ const Navbar = () => {
     }
   }, [screenSize]);
   return (
-    <header className="p-[2em] my-[0] w-full">
+    <header className="p-[3em] my-[0] max-w-[940px]">
       <div className="container">
         <nav className="flex items-start justify-between">
           <div className="relative flex flex-wrap items-center justify-between gap-6 w-[100%]  ">
@@ -44,37 +44,37 @@ const Navbar = () => {
                 <BsX />
               </button>
               <Link href="/active-members">
-                <button className=" font-bold text-white transition-all ease-out hover:drop-shadow-lg">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   Active Members
                 </button>
               </Link>
 
               <Link href="/projects">
-                <button className=" font-bold text-white transition-all ease-out hover:drop-shadow-lg">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   Projects
                 </button>
               </Link>
 
               <Link href="/blog">
-                <button className=" font-bold text-white transition-all ease-out hover:drop-shadow-lg">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   Blog
                 </button>
               </Link>
 
               <Link href="/activities">
-                <button className=" font-bold text-white transition-all ease-out hover:drop-shadow-lg">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   Activities
                 </button>
               </Link>
 
               <Link href="/videos">
-                <button className=" font-bold text-white transition-all ease-out hover:drop-shadow-lg ">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   Videos
                 </button>
               </Link>
 
               <Link href="/faq">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   FAQ
                 </button>
               </Link>
