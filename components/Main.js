@@ -1,6 +1,6 @@
 const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
   return (
-    <section className="container mt-[4em] mb-[4em]  md:mb-[0em]">
+    <section className="container p-[2em] mt-[4em] mb-[4em]  md:mb-[0em]">
       <div className="items-center grid md:grid-cols-1 lg:grid-cols-2 gap-12">
         <div className="col-span-1">
           <p className="text-2xl font-bold tracking-wide text-white uppercase">
@@ -20,7 +20,7 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
         </div>
         <div>
           <iframe
-            width="100%"
+            width="95%"
             height="500"
             frameBorder="0"
             allowtransparency="true"
