@@ -44,38 +44,38 @@ const Navbar = () => {
                 <BsX />
               </button>
               <Link href="/active-members">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   Active Members
                 </button>
               </Link>
 
-              <Link href="/faq">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
-                  FAQ
-                </button>
-              </Link>
-
               <Link href="/projects">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   Projects
                 </button>
               </Link>
 
               <Link href="/blog">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   Blog
                 </button>
               </Link>
 
               <Link href="/activities">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   Activities
                 </button>
               </Link>
 
               <Link href="/videos">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                   Videos
+                </button>
+              </Link>
+
+              <Link href="/faq">
+                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
+                  FAQ
                 </button>
               </Link>
             </div>

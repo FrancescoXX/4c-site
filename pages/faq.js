@@ -8,7 +8,7 @@ const Faq = () => {
       <div className="mb-16 text-center text-white page-title">
         <h1
           role="heading"
-          class="text-xl font-bold text-white xl:text-6xl md:text-5xl leading-10"
+          class="font-semibold text-white xl:text-6xl md:text-5xl leading-10 uppercase tracking-wider"
         >
           Frequently asked questions
         </h1>
