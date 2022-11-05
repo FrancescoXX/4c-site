@@ -20,9 +20,9 @@ const GetProjects = () => {
                 </div>
                 <div className="text-white">
                   <span className="mt-3 text-md text-white font-bold">
-                    Author: {project.name}
+                    {project.name}
                   </span>
-                  <h6 className="mb-2">Title: {project.title}</h6>
+                  <h6 className="mb-2">{project.title}</h6>
                   {/* TODO */}
                   {/* description will show if hoverover itemsGroup(its a clas name. for now, description hidden)  */}
                   <p className="hidden">Except: {project.description}</p>
