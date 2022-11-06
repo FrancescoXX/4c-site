@@ -1,4 +1,13 @@
-# 0.4.0 (2022-11-06)
+# [0.5.0](https://github.com/RakeshSangem/4c-site/compare/v0.4.0...v0.5.0) (2022-11-06)
+
+
+### Features
+
+* improved project card ([0e353df](https://github.com/RakeshSangem/4c-site/commit/0e353dff4adf174e57121a8748778642d97109e6))
+
+
+
+# [0.4.0](https://github.com/RakeshSangem/4c-site/compare/8b4c3f7bda23dce32a75f4a09eea4018819e97d9...v0.4.0) (2022-11-06)
 
 
 ### Bug Fixes
