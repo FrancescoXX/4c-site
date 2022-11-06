@@ -1,3 +1,12 @@
+## [0.5.1](https://github.com/RakeshSangem/4c-site/compare/v0.5.0...v0.5.1) (2022-11-06)
+
+
+### Bug Fixes
+
+* animatioin duration on hover ([f884e6d](https://github.com/RakeshSangem/4c-site/commit/f884e6db9c19517e0e961859d831c3e1211eb37a))
+
+
+
 # [0.5.0](https://github.com/RakeshSangem/4c-site/compare/v0.4.0...v0.5.0) (2022-11-06)
 
 
