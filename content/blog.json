@@ -1,0 +1,20 @@
+{
+  "blogs": [
+    {
+      "name": "Francesco Ciulla",
+      "title": "FREE Web3 Resources (demo blog)",
+      "screenshot": "https://user-images.githubusercontent.com/18360871/199210192-f5599a23-f0b1-49ff-9c52-2554a72a2c14.png",
+      "description": "A list of resources to learn Web3 for FREE",
+      "link": "https://github.com/FrancescoXX/free-Web3-resources",
+      "twitter": "https://twitter.com/FrancescoCiull4"
+    },
+    {
+      "name": "Francesco Ciulla 2",
+      "title": "4C - Content Creator(demo blog)",
+      "screenshot": "https://raw.githubusercontent.com/devvsakib/random-image-for-thumbnail/main/Screenshot_2.png",
+      "description": "A home of content creator",
+      "link": "https://github.com/FrancescoXX/free-Web3-resources",
+      "twitter": "https://twitter.com/FrancescoCiull4"
+    }
+  ]
+}
