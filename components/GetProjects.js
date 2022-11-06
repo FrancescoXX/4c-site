@@ -7,13 +7,14 @@ const GetProjects = () => {
   return (
     <div className="flex items-start justify-start mt-[3em]">
       <section className="flex-1 text-center text-white">
-        <h1 className="mb-10 text-4xl tracking-widest uppercase">Projects</h1>
+        <h1 className="mb-5 text-4xl tracking-widest uppercase">Projects</h1>
+        <p className="text-white/70">Projects by 4c community Members</p>
         <div className="flex flex-wrap items-center justify-center pt-4 pb-4 m-2 overflow-y-auto text-left gap-5">
           {allProjects.projects.map((project) => (
-            <div className="flex flex-col rounded-lg w-[300px] h-[400px] hover:scale-[1.02] hover:-translate-y-1 transition-all ease-out duration-300">
+            <div className="flex flex-col overflow-hidden rounded-lg group w-[300px] h-[400px] hover:scale-[1.02] hover:-translate-y-1 transition-all ease-in-out duration-200">
               <div className="flex items-center justify-center w-full text-center shadow-sm rounded-tl-xl rounded-tr-xl">
                 <img
-                  className="object-cover w-full overflow-hidden max-h-[200px] rounded-tl-xl rounded-tr-xl"
+                  className="object-cover w-full overflow-hidden group-hover:scale-[1.03] max-h-[200px] rounded-tl-xl rounded-tr-xl transition-all ease-in-out duration-300"
                   src={project?.screenshot}
                 />
               </div>
@@ -61,7 +62,7 @@ const GetProjects = () => {
                         d="M1 10c0-3.9 3.1-7 7-7s7 3.1 7 7h-1c0-3.3-2.7-6-6-6s-6 2.7-6 6H1zm4 0c0-1.7 1.3-3 3-3s3 1.3 3 3-1.3 3-3 3-3-1.3-3-3zm1 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2z"
                       ></path>
                     </svg>
-                    Live
+                    View
                   </a>
                   <a
                     className="flex items-center px-3 mr-3 text-sm rounded-full py-1.5 bg-[#111827] gap-2 hover:bg-sky-700"
