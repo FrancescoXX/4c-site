@@ -5,9 +5,9 @@ import blogs from "../content/blog.json";
 const styles = "hover:text-gray-300 cursor-pointer";
 const BlogCard = () => {
   return (
-    <section className="flex flex-wrap items-center justify-between p-10">
+    <section className="flex flex-wrap items-center justify-center p-10 w-full">
       {blogs.blogs.map((blog) => (
-        <div className="text-white w-[400px] bg-gray-800 shadow-md p-5 m-5">
+        <div className="text-white w-[330px]  xl:w-[380px] bg-gray-800 shadow-md p-5 m-5">
           <div className="flex justify-between text-2xl">
             <a href={blog.twitter} target="_blank">
               <FaTwitter className={styles} />
