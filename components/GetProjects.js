@@ -5,10 +5,12 @@ import allProjects from "../content/projects.json";
 
 const GetProjects = () => {
   return (
-    <div className="flex items-start justify-start mt-[3em]">
+    <div className="flex items-start justify-start">
       <section className="flex-1 text-center text-white">
-        <h1 className="mb-5 text-4xl tracking-widest uppercase">Projects</h1>
-        <p className="text-white/70">Projects by 4c community Members</p>
+        <h1 className="p-0 my-2 text-4xl tracking-widest uppercase">
+          Projects
+        </h1>
+        <p className="mb-3 text-white/70">Projects by 4c community Members</p>
         <div className="flex flex-wrap items-center justify-center pt-4 pb-4 m-2 overflow-y-auto text-left gap-5">
           {allProjects.projects.map((project) => (
             <div className="flex flex-col overflow-hidden rounded-lg group w-[300px] h-[400px] hover:scale-[1.02] hover:-translate-y-1 transition-all ease-in-out duration-200">
