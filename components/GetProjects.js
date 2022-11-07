@@ -9,9 +9,9 @@ const GetProjects = () => {
       <section className="flex-1 text-center text-white">
         <h1 className="mb-5 text-4xl tracking-widest uppercase">Projects</h1>
         <p className="text-white/70">Projects by 4c community Members</p>
-        <div className="flex flex-wrap items-center justify-center pt-4 pb-4 m-2 overflow-y-auto text-left gap-5">
+        <div className="flex flex-wrap items-center justify-center pt-4 pb-4 m-2 overflow-y-auto text-left gap-20">
           {allProjects.projects.map((project) => (
-            <div className="flex flex-col overflow-hidden rounded-lg group w-[300px] h-[400px] hover:scale-[1.02] hover:-translate-y-1 transition-all ease-in-out duration-200">
+            <div className="flex flex-col overflow-hidden rounded-lg group w-[280px] h-[380px] hover:scale-[1.02] hover:-translate-y-1 transition-all ease-in-out duration-200">
               <div className="flex items-center justify-center w-full text-center shadow-sm rounded-tl-xl rounded-tr-xl">
                 <img
                   className="object-cover w-full overflow-hidden group-hover:scale-[1.03] max-h-[200px] rounded-tl-xl rounded-tr-xl transition-all ease-in-out duration-300"

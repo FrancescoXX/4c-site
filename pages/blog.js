@@ -1,11 +1,11 @@
 import Layout from "../components/Layout";
+import BlogCard from "../components/BlogCard";
 
 const Projects = () => {
   return (
     <Layout className="flex flex-col  items-center justify-center text-5xl ">
-      <div className="mt-40 font-bold text-white tracking-widest uppercase">
-        Blog
-      </div>
+      <h1 className="uppercase tracking-widest text-white mb-20">BLOG</h1>
+      <BlogCard />
     </Layout>
   );
 };
