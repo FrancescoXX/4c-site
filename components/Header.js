@@ -32,7 +32,7 @@ const Navbar = () => {
                 src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
               />
             </Link>
-            <div
+            <ul
               className={`fixed md:relative flex flex-col md:flex-row p-2 bg-[#708fe6] md:bg-transparent h-[100vh] md:h-full top-0 md:top-0 right-0 md:right-0 all ease-in-out gap-6 transition ease-in-out delay-150  ${
                 menuActive ? "" : "hidden"
               } z-50  `}
@@ -43,42 +43,55 @@ const Navbar = () => {
               >
                 <BsX />
               </button>
-              <Link href="/active-members">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
-                  Active Members
-                </button>
-              </Link>
-
-              <Link href="/projects">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
+              <li>
+                <a
+                  href="https://www.4c.rocks/active-members"
+                  class="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                >
+                  Actvie Members
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.4c.rocks/projects"
+                  class="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                >
                   Projects
-                </button>
-              </Link>
-
-              <Link href="/blog">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.4c.rocks/blog"
+                  class="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                >
                   Blog
-                </button>
-              </Link>
-
-              <Link href="/activities">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.4c.rocks/activities"
+                  class="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                >
                   Activities
-                </button>
-              </Link>
-
-              <Link href="/videos">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.4c.rocks/videos"
+                  class="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                >
                   Videos
-                </button>
-              </Link>
-
-              <Link href="/faq">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.4c.rocks/faq"
+                  class="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme"
+                >
                   FAQ
-                </button>
-              </Link>
-            </div>
+                </a>
+              </li>
+            </ul>
             <button
               className="text-xl  md:hidden "
               onClick={() => setMenuActive(true)}
