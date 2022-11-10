@@ -17,7 +17,7 @@ const GetProjects = () => {
             >
               <div className="flex items-center justify-center w-full text-center shadow-sm rounded-tl-xl rounded-tr-xl">
                 <img
-                  className="object-cover w-full overflow-hidden group-hover:scale-[1.03] max-h-[200px] rounded-tl-xl rounded-tr-xl transition-all ease-in-out duration-300"
+                  className="object-cover w-full overflow-hidden max-w-[100%] group-hover:scale-[1.03] max-h-[9rem] rounded-tl-xl rounded-tr-xl transition-all ease-in-out duration-300"
                   src={project?.screenshot}
                 />
               </div>
