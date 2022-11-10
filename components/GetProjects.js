@@ -9,7 +9,7 @@ const GetProjects = () => {
       <section className="flex-1 text-center text-white">
         <h1 className="mb-5 text-4xl tracking-widest uppercase">Projects</h1>
         <p className="text-white/70">Projects by 4c community Members</p>
-        <div className="flex flex-wrap items-center justify-center pt-4 pb-4 my-[1rem] overflow-y-auto text-left gap-20">
+        <div className="flex flex-wrap items-center justify-center pt-4 my-[1rem] overflow-y-auto text-left gap-20">
           {allProjects.projects.map((project) => (
             <div
               key={project.name}
@@ -23,7 +23,7 @@ const GetProjects = () => {
               </div>
               <div className="flex flex-col justify-self-end gap-[.2rem] w-full bg-[#f1f5f9] p-[20px] rounded-br-xl rounded-bl-xl">
                 <div className="text-black ">
-                  <h2 className="text-xl">{project.title}</h2>
+                  <h2 className="text-base w-[30ch]">{project.title}</h2>
                   <h4 className="flex items-center text-sm font-normal opacity-75 gap-2">
                     <svg width="12" height="24" viewBox="0 0 30 34" fill="none">
                       <path
@@ -42,7 +42,9 @@ const GetProjects = () => {
                     {project.name}
                   </h4>
                   <div className="flex flex-auto my-[.5rem]">
-                    <p className="flex text-sm ">{project.description}</p>
+                    <p className="text-sm w-full truncate hover:overflow-visible hover:break-words hover:whitespace-normal">
+                      {project.description}
+                    </p>
                   </div>
                   {/* <p className="flex h-full text-md">{project.description}</p> */}
                 </div>
