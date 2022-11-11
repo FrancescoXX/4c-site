@@ -9,11 +9,11 @@ const GetProjects = () => {
       <section className="flex-1 text-center text-white">
         <h1 className="mb-5 text-4xl tracking-widest uppercase">Projects</h1>
         <p className="text-white/70">Projects by 4c community Members</p>
-        <div className="flex flex-wrap items-center justify-center pt-4 my-[1rem] overflow-y-auto text-left gap-20">
+        <div className="flex flex-wrap items-center justify-center pt-4 my-[1rem] overflow-y-auto text-left gap-[1.5rem]">
           {allProjects.projects.map((project) => (
             <div
               key={project.name}
-              className="flex flex-col shrink rounded-lg group w-[280px] h-[24rem] hover:scale-[1.02] hover:-translate-y-1 transition-all ease-in-out duration-200"
+              className="flex flex-col shrink rounded-lg group w-[280px] h-[22rem] hover:scale-[1.02] hover:-translate-y-1 transition-all ease-in-out duration-200"
             >
               <div className="flex items-center justify-center w-full text-center shadow-sm rounded-tl-xl rounded-tr-xl">
                 <img
