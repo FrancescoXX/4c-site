@@ -27,7 +27,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className="font-medium text-white/90">
+      <p className="font-medium text-white/90 md:max-lg: text-sm">
         4C | Developed by 4C Community &#169; 2022
       </p>
     </footer>
