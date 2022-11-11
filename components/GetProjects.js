@@ -9,18 +9,21 @@ const GetProjects = () => {
       <section className="flex-1 text-center text-white">
         <h1 className="mb-5 text-4xl tracking-widest uppercase">Projects</h1>
         <p className="text-white/70">Projects by 4c community Members</p>
-        <div className="flex flex-wrap items-center justify-center pt-4 pb-4 m-2 overflow-y-auto text-left gap-20">
+        <div className="flex flex-wrap items-center justify-center pt-4 my-[1rem] overflow-y-auto text-left gap-20">
           {allProjects.projects.map((project) => (
-            <div className="flex flex-col overflow-hidden rounded-lg group w-[280px] h-[380px] hover:scale-[1.02] hover:-translate-y-1 transition-all ease-in-out duration-200">
+            <div
+              key={project.name}
+              className="flex flex-col shrink rounded-lg group w-[280px] h-[24rem] hover:scale-[1.02] hover:-translate-y-1 transition-all ease-in-out duration-200"
+            >
               <div className="flex items-center justify-center w-full text-center shadow-sm rounded-tl-xl rounded-tr-xl">
                 <img
-                  className="object-cover w-full overflow-hidden group-hover:scale-[1.03] max-h-[200px] rounded-tl-xl rounded-tr-xl transition-all ease-in-out duration-300"
+                  className="object-cover w-full overflow-hidden  group-hover:scale-[1.00] max-h-[9rem] rounded-tl-xl rounded-tr-xl transition-all ease-in-out duration-300"
                   src={project?.screenshot}
                 />
               </div>
-              <div className="flex flex-col w-full h-full bg-[#f1f5f9] p-[20px] rounded-br-xl rounded-bl-xl">
+              <div className="flex flex-col justify-self-end gap-[.2rem] w-full bg-[#f1f5f9] p-[20px] rounded-br-xl rounded-bl-xl">
                 <div className="text-black ">
-                  <h2 className="text-xl">{project.title}</h2>
+                  <h2 className="text-base w-[30ch]">{project.title}</h2>
                   <h4 className="flex items-center text-sm font-normal opacity-75 gap-2">
                     <svg width="12" height="24" viewBox="0 0 30 34" fill="none">
                       <path
@@ -38,12 +41,14 @@ const GetProjects = () => {
                     </svg>
                     {project.name}
                   </h4>
-                  <div className="flex flex-auto mt-2">
-                    <p className="flex text-sm ">{project.description}</p>
+                  <div className="flex flex-auto my-[.5rem]">
+                    <p className="text-sm w-full truncate hover:overflow-visible hover:break-words hover:whitespace-normal">
+                      {project.description}
+                    </p>
                   </div>
                   {/* <p className="flex h-full text-md">{project.description}</p> */}
                 </div>
-                <div className="flex items-center w-full h-10 mt-auto bg-red my-[10px]">
+                <div className="flex self-end items-center w-full h-10 mt-auto bg-red my-[10px]">
                   <a
                     className="flex items-center px-4 mr-3 text-sm rounded-full py-1.5 bg-[#1e293b] gap-2  hover:bg-sky-700"
                     href="#"
