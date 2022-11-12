@@ -1,22 +1,25 @@
-import React from "react";
-
+import { React } from "react";
 // import contributors data
 import allProjects from "../content/projects.json";
-
+import NotFoundImg from "./NotFoundImg.js";
 const GetProjects = () => {
   return (
     <div className="flex items-start justify-start mt-[3em]">
       <section className="flex-1 text-center text-white">
         <h1 className="mb-5 text-4xl tracking-widest uppercase">Projects</h1>
         <p className="text-white/70">Projects by 4c community Members</p>
-        <div className="flex flex-wrap items-center justify-center pt-4 my-[1rem] overflow-y-auto text-left gap-[1.5rem]">
+        <div className="flex overflow-hidden flex-wrap items-center justify-center pt-4 my-[1rem] overflow-y-auto text-left gap-[1.5rem]">
           {allProjects.projects.map((project) => (
             <div
               key={project.name}
               className="flex flex-col shrink rounded-lg group w-[280px] h-[22rem] hover:scale-[1.02] hover:-translate-y-1 transition-all ease-in-out duration-200"
             >
               <div className="flex items-center justify-center w-full text-center shadow-sm rounded-tl-xl rounded-tr-xl">
-                <img
+                {/* <NotFoundImg
+                  src={project?.screenshot}
+                  alt="Not Found"
+                /> */}
+                <NotFoundImg
                   className="object-cover w-full overflow-hidden  group-hover:scale-[1.00] max-h-[9rem] rounded-tl-xl rounded-tr-xl transition-all ease-in-out duration-300"
                   src={project?.screenshot}
                 />
