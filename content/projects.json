@@ -6,7 +6,8 @@
       "screenshot": "https://user-images.githubusercontent.com/18360871/199210192-f5599a23-f0b1-49ff-9c52-2554a72a2c14.png",
       "description": "A list of resources to learn Web3 for FREE",
       "link": "https://github.com/FrancescoXX/free-Web3-resources",
-      "twitter": "https://twitter.com/FrancescoCiull4"
+      "twitter": "https://twitter.com/FrancescoCiull4",
+      "live_link": "https://www.freeweb3resources.com"
     },
     {
       "name": "Pradumna Saraf",
@@ -14,7 +15,8 @@
       "screenshot": "https://user-images.githubusercontent.com/51878265/198830989-51ac5f4c-92f1-4c75-b106-8f82e841a2d2.png",
       "description": "Contains resources to learn about Open Source, Git, and GitHub.",
       "link": "https://github.com/Pradumnasaraf/open-source-with-pradumna",
-      "twitter": "https://twitter.com/pradumna_saraf"
+      "twitter": "https://twitter.com/pradumna_saraf",
+      "live_link": "https://oswp.study/#/"
     },
     {
       "name": "Susmita Dey",
@@ -22,7 +24,8 @@
       "screenshot": "https://user-images.githubusercontent.com/98955085/184510782-3f699206-4768-4b3a-aa6d-40c924e13578.png",
       "description": "The one step solution to get relief from your stress. Live a stress-free life by using this website.",
       "link": "https://github.com/Susmita-Dey/Sukoon",
-      "twitter": "https://twitter.com/its_SusmitaDey"
+      "twitter": "https://twitter.com/its_SusmitaDey",
+      "live_link": "https://sukoon-stress-free.netlify.app/"
     },
     {
       "name": "thegeekyb0y",
@@ -30,23 +33,26 @@
       "screenshot": "https://user-images.githubusercontent.com/18360871/199207091-a66dac6a-4397-4142-af56-87c941f9e1e3.png",
       "description": "Compiled list of Free resources to learn Python",
       "link": "https://github.com/thegeekyb0y/learnpython",
-      "twitter": "https://twitter.com/thegeekyb0y"
+      "twitter": "https://twitter.com/thegeekyb0y",
+      "live_link": ""
     },
     {
       "name": "Ali Reza",
       "title": "Portfolio",
       "screenshot": "https://i.ibb.co/xFFgTKv/Banner.png",
       "description": "I want to make a Portfolio to show my talents and show what skills I have.",
-      "link": "https://alireza05.netlify.app",
-      "twitter": "https://twitter.com/Ali_Developer05"
+      "link": "https://github.com/AliReza1083/Portfolio",
+      "twitter": "https://twitter.com/Ali_Developer05",
+      "live_link": "https://alireza05.netlify.app"
     },
     {
       "name": "Aditya Bisht",
       "title": "BetterPoll",
       "screenshot": "https://i.postimg.cc/66Z6kmf0/Capture.png",
       "description": "A complete campus management android app.",
-      "link": "https://github.com/adityabisht02",
-      "twitter": "https://twitter.com/AdityaB35550332"
+      "link": "https://github.com/adityabisht02/BetterPoll-Android",
+      "twitter": "https://twitter.com/AdityaB35550332",
+      "live_link": ""
     },
     {
       "name": "Akshita Gupta",
@@ -54,7 +60,8 @@
       "screenshot": "https://user-images.githubusercontent.com/18360871/199206838-97ebea3b-a413-412c-ab72-ae7763315b31.png",
       "description": "Demonstration of different algorithms and operations on faces.",
       "link": "https://github.com/akshitagupta15june/Face-X",
-      "twitter": "https://twitter.com/Akshita_archer"
+      "twitter": "https://twitter.com/Akshita_archer",
+      "live_link": "https://www.youtube.com/watch?v=VK-IaRY9szg"
     },
     {
       "name": "Krishnansh Agarwal",
@@ -62,7 +69,8 @@
       "screenshot": "https://i.postimg.cc/P5mgxvDr/Screenshot-20221101-110821-Chrome.jpg",
       "description": "A basic library management system [only frontend]",
       "link": "https://github.com/krishnanshagarwal112/Library",
-      "twitter": "https://twitter.com/KrishnanshDev"
+      "twitter": "https://twitter.com/KrishnanshDev",
+      "live_link": ""
     },
     {
       "name": "Becca Lyria",
@@ -70,7 +78,8 @@
       "screenshot": "https://cdn.nhcarrigan.com/banners/becca.png",
       "description": "A community management and moderation bot for Discord.",
       "link": "https://github.com/beccalyria/discord-bot",
-      "twitter": "https://twitter.com/becca_lyria"
+      "twitter": "https://twitter.com/becca_lyria",
+      "live_link": "https://www.beccalyria.com"
     },
     {
       "name": "Njong Emy",
@@ -78,7 +87,8 @@
       "screenshot": "https://images2.imgbox.com/02/5a/8MUFjojh_o.png",
       "description": "Open source dictionary for slang",
       "link": "https://github.com/Njong392/Abbreve",
-      "twitter": "https://twitter.com/njong_emy"
+      "twitter": "https://twitter.com/njong_emy",
+      "live_link": "https://www.abbreve.tech"
     },
     {
       "name": "Tobiloba Adedeji",
@@ -86,7 +96,8 @@
       "screenshot": "https://i.ibb.co/Hq16Q2L/tobiloba-portfolio.png",
       "description": "My portfolio website, version 1.0",
       "link": "https://github.com/tobySolutions/tobiloba-portfolio",
-      "twitter": "https://twitter.com/toby_solutions"
+      "twitter": "https://twitter.com/toby_solutions",
+      "live_link": ""
     },
     {
       "name": "Yudai H",
@@ -94,7 +105,8 @@
       "screenshot": "https://raw.githubusercontent.com/Yudai-creator/Yudai-creator/master/Screenshot%202022-10-30%20at%2015-16-19%20Yudai%20Creator.png",
       "description": "Building my portfolio of porjects, where I going to turn this website into the center point of my brand.",
       "link": "https://github.com/Yudai-creator/yudai-creator-definitive",
-      "twitter": "https://twitter.com/creator_yudai"
+      "twitter": "https://twitter.com/creator_yudai",
+      "live_link": "https://yudaicreator.com"
     },
     {
       "name": "Dunsin",
@@ -102,7 +114,8 @@
       "screenshot": "https://user-images.githubusercontent.com/78784850/198844365-b79a5bb2-f3bc-47bc-94d6-b6389552b1a5.png",
       "description": "Get short css code you can use in your applications",
       "link": "https://github.com/Dun-sin/Code-Magic",
-      "twitter": "https://twitter.com/DunsinWebDev"
+      "twitter": "https://twitter.com/DunsinWebDev",
+      "live_link": "https://code-magic.vercel.app"
     },
     {
       "name": "Tamal Das",
@@ -110,15 +123,17 @@
       "screenshot": "https://repository-images.githubusercontent.com/448605691/1733befc-d033-4816-8e07-4d764d4cabac",
       "description": "A hub for users to collaborate with NGOs and make Earth a better place",
       "link": "https://github.com/IAmTamal/Milan",
-      "twitter": "https://twitter.com/mrTamall"
+      "twitter": "https://twitter.com/mrTamall",
+      "live_link": "https://milaan.vercel.app"
     },
     {
       "name": "Avie",
       "title": "SpacesLounge",
       "screenshot": "https://i.ibb.co/ZMpDrBM/Spaces-Lounge.png",
       "description": "Twitter Spaces Host and Speaker's Lounge",
-      "link": "https://spaceslounge.vercel.app/",
-      "twitter": "https://twitter.com/AvieDev"
+      "link": "https://github.com/avie-dev/spaceslounge",
+      "twitter": "https://twitter.com/AvieDev",
+      "live_link": "https://spaceslounge.vercel.app"
     },
     {
       "name": "J S Vignesh Kanna",
@@ -126,7 +141,8 @@
       "screenshot": "https://user-images.githubusercontent.com/42484705/197696771-9aaf4f6d-1928-4d66-9d2b-01ad479d289a.png",
       "description": "An opensource tailwindCSS UI component collection",
       "link": "https://github.com/jsvigneshkanna/tailwind_ui_components",
-      "twitter": "https://twitter.com/jsvigneshkanna"
+      "twitter": "https://twitter.com/jsvigneshkanna",
+      "live_link": "https://tailwindcsscomponents.vercel.app"
     }
   ]
 }
