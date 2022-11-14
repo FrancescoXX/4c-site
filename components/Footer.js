@@ -1,24 +1,35 @@
 import { FaGithub, FaTwitter, FaDiscord } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="text-black flex flex-col items-center text-center py-5 bg-white">
-      <div className="flex items-center pb-3">
+    <footer className="flex flex-col items-center py-8 text-center gap-4 text-white/80 bg-[#0d1117] md:max-md: p-4">
+      <div className="flex items-center">
         <div className="flex gap-10">
-          <a href="https://github.com/FrancescoXX/4c-site">
+          <a
+            className="text-2xl hover:text-white"
+            href="https://github.com/FrancescoXX/4c-site"
+          >
             <span className="sr-only">Github Repository</span>
             <FaGithub aria-hidden="true" />
           </a>
-          <a href="https://discord.com/invite/TcmA2kbJeA">
+          <a
+            className="text-2xl hover:text-white"
+            href="https://discord.com/invite/TcmA2kbJeA"
+          >
             <span className="sr-only">Discord Server</span>
             <FaDiscord aria-hidden="true" />
           </a>
-          <a href="https://twitter.com/4ccommunityhq">
+          <a
+            className="text-2xl hover:text-white"
+            href="https://twitter.com/4ccommunityhq"
+          >
             <span className="sr-only">Twitter</span>
             <FaTwitter aria-hidden="true" />
           </a>
         </div>
       </div>
-      <p>4C | Developed by 4C Community &#169; 2022</p>
+      <p className="font-medium text-white/80 md:max-md: text-xs">
+        4C | Developed by 4C Community &#169; 2022
+      </p>
     </footer>
   );
 };
