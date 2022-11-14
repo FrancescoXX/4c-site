@@ -7,8 +7,12 @@ const GetProjects = () => {
   return (
     <div className="flex items-start justify-start mt-[3em]">
       <section className="flex-1 text-center text-white">
-        <h1 className="mb-5 text-4xl tracking-widest uppercase">Projects</h1>
-        <p className="text-white/70">Projects by 4c community Members</p>
+        <h1 className="mb-5 text-4xl tracking-widest uppercase text-black sm:text-white">
+          Projects
+        </h1>
+        <p className="text-black/70 sm:text-white/70">
+          Projects by 4c community Members
+        </p>
         <div className="flex flex-wrap items-center justify-center pt-4 my-[1rem] overflow-y-auto text-left gap-[1.5rem]">
           {allProjects.projects.map((project) => (
             <div
