@@ -1,3 +1,13 @@
+# [0.8.0](https://github.com/FrancescoXX/4c-site/compare/v0.6.0...v0.8.0) (2022-11-18)
+
+
+### Features
+
+* add free frontend resources project ([ae79dfb](https://github.com/FrancescoXX/4c-site/commit/ae79dfbac7bea48f91a8be0c6bd623ebf9f936c1))
+* reduced the image file size ([cce5343](https://github.com/FrancescoXX/4c-site/commit/cce53436d841af53d7e116192ae6dcfff9872df9))
+
+
+
 # [0.6.0](https://github.com/FrancescoXX/4c-site/compare/v0.3.1...v0.6.0) (2022-11-11)
 
 

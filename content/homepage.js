@@ -15,7 +15,7 @@ export default {
             <span className="text-theme">C</span>ommunity
           </span>
         </div>
-        <div className="text-xs">of</div>
+        <div className="text-x">of</div>
         <div>
           <span className="text-primary">
             <span className="text-theme">C</span>ontent{" "}

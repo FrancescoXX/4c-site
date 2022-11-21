@@ -7,8 +7,12 @@ const GetProjects = () => {
   return (
     <div className="flex items-start justify-start mt-[3em]">
       <section className="flex-1 text-center text-white">
-        <h1 className="mb-5 text-4xl tracking-widest uppercase">Projects</h1>
-        <p className="text-white/70">Projects by 4c community Members</p>
+        <h1 className="mb-5 text-4xl tracking-widest uppercase text-black sm:text-white">
+          Projects
+        </h1>
+        <p className="text-black/70 sm:text-white/70">
+          Projects by 4c community Members
+        </p>
         <div className="flex flex-wrap items-center justify-center pt-4 my-[1rem] overflow-y-auto text-left gap-[1.5rem]">
           {allProjects.projects.map((project) => (
             <div
@@ -21,7 +25,7 @@ const GetProjects = () => {
                   src={project?.screenshot}
                 />
               </div>
-              <div className="flex flex-col justify-self-end gap-[.2rem] w-full bg-[#f1f5f9] p-[20px] rounded-br-xl rounded-bl-xl">
+              <div className="flex flex-col justify-self-end gap-[.2rem] w-full  bg-[#f1f5f9] p-[20px] rounded-br-xl rounded-bl-xl">
                 <div className="text-black ">
                   <h2 className="text-base w-[30ch]">{project.title}</h2>
                   <h4 className="flex items-center text-sm font-normal opacity-75 gap-2">
@@ -50,7 +54,7 @@ const GetProjects = () => {
                 </div>
                 <div className="flex self-end items-center w-full h-10 mt-auto bg-red my-[10px]">
                   <a
-                    className="flex items-center px-4 mr-3 text-sm rounded-full py-1.5 bg-[#1e293b] gap-2  hover:bg-sky-700"
+                    className="flex items-center px-4 mr-3 text-sm rounded-full py-1.5 bg-[#1e293b] gap-2 transition-all ease-in  hover:bg-sky-700"
                     href={project.live_link}
                   >
                     <svg
@@ -70,7 +74,7 @@ const GetProjects = () => {
                     View
                   </a>
                   <a
-                    className="flex items-center px-3 mr-3 text-sm rounded-full py-1.5 bg-[#111827] gap-2 hover:bg-sky-700"
+                    className="flex items-center px-3 mr-3 text-sm rounded-full py-1.5 bg-[#111827] gap-2 transition-all ease-in hover:bg-sky-700"
                     href={project.link}
                   >
                     <svg
