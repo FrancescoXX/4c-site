@@ -15,10 +15,10 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
             {description}
           </div>
 
-          <div className="flex flex-col md:flex-row flex-wrap justify-start my-8 md:justify-start gap-4">
-            {primaryLink}
-            {twitterLink}
-          </div>
+          <ul className="flex flex-col md:flex-row flex-wrap my-8 md:justify-start gap-4">
+            <li className="self-center break:self-start">{primaryLink}</li>
+            <li className="self-center break:self-start">{twitterLink}</li>
+          </ul>
         </div>
         <div>
           <iframe
