@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "href": "/active-members",
+      "pageName": "Active Members"
+    },
+    {
+      "href": "/projects",
+      "pageName": "Projects"
+    },
+    {
+      "href": "/blog",
+      "pageName": "Blog"
+    },
+    {
+      "href": "/activities",
+      "pageName": "Activities"
+    },
+    {
+      "href": "/videos",
+      "pageName": "Videos"
+    },
+    {
+      "href": "/faq",
+      "pageName": "FAQ"
+    }
+  ]
+}

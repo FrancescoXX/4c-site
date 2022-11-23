@@ -1,7 +1,11 @@
-import Link from "next/link";
 import { BsX } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+
+// import navbar data
+import navbarData from "../content/navbar.json";
+
+const navItems = navbarData.pages;
 
 const Navbar = () => {
   const [menuActive, setMenuActive] = useState(false);
@@ -24,16 +28,16 @@ const Navbar = () => {
       <div className="container">
         <nav className="flex items-start justify-between">
           <div className="relative flex flex-wrap items-center justify-between gap-6 w-[100%]  ">
-            <Link href="/">
+            <a href="/">
               <img
                 className="w-[100%] max-w-[50px] hover:cursor-pointer"
                 frameBorder="0"
                 allowtransparency="true"
                 src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
               />
-            </Link>
+            </a>
             <div
-              className={`fixed md:relative flex flex-col md:flex-row p-2 bg-[#708fe6] md:bg-transparent h-[100vh] md:h-full top-0 md:top-0 right-0 md:right-0 all ease-in-out gap-6 transition ease-in-out delay-150  ${
+              className={`fixed md:relative flex flex-col md:flex-row p-2 bg-[#708fe6] md:bg-transparent h-[100vh] md:h-full top-0 md:top-0 right-0 md:right-0 all ease-in-out gap-6 transition delay-150  ${
                 menuActive ? "" : "hidden"
               } z-50  `}
             >
@@ -43,44 +47,21 @@ const Navbar = () => {
               >
                 <BsX />
               </button>
-              <Link href="/active-members">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
-                  Active Members
-                </button>
-              </Link>
-
-              <Link href="/projects">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
-                  Projects
-                </button>
-              </Link>
-
-              <Link href="/blog">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
-                  Blog
-                </button>
-              </Link>
-
-              <Link href="/activities">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
-                  Activities
-                </button>
-              </Link>
-
-              <Link href="/videos">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
-                  Videos
-                </button>
-              </Link>
-
-              <Link href="/faq">
-                <button className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
-                  FAQ
-                </button>
-              </Link>
+              <ul className="list-none flex flex-col justify-center items-center gap-[2rem] md:gap-[1rem] md:flex-row">
+                {navItems.map((navItem, idx) => (
+                  <li key={idx}>
+                    <a
+                      href={navItem.href}
+                      className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1"
+                    >
+                      {navItem.pageName}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
             <button
-              className="text-xl  md:hidden "
+              className="text-xl block md:hidden"
               onClick={() => setMenuActive(true)}
             >
               <GiHamburgerMenu />
