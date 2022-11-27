@@ -5,6 +5,7 @@ import {
   FaTwitter,
   FaYoutube,
   FaTwitch,
+  FaLinkedin,
 } from "react-icons/fa";
 import SocialLink from "./SocialLink";
 import Image from "next/image";
@@ -26,6 +27,10 @@ const socialMediaData = {
   },
   twitch: {
     icon: FaTwitch,
+  },
+  linkedin: {
+    icon: FaLinkedin,
+    url: "https://www.linkedin.com/in/",
   },
 };
 
