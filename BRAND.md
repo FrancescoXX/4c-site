@@ -1,3 +1,10 @@
+# :gem: 4C (The Cool Community of Content Creators) style guide.
+
+<img src='./mediakit/4c_banner.jpg' alt='4C logo'>
+
+
+
+
 ## Typography 
 
 Font Family: Poppins
