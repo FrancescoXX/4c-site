@@ -1,3 +1,9 @@
+## Font 
+
+Font: Poppins Bold
+
+
+
 ## Colors
 
 <table>
@@ -10,6 +16,3 @@
     </tr>
 </table>
 
-## Font 
-
-Font: Poppins Bold
