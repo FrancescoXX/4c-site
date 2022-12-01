@@ -1,6 +1,14 @@
-## Font 
+## Typography 
 
-Font: Poppins Bold
+Font Family: Poppins
+
+| Name          | Weight | 
+| ------------- | ------------- |
+| Headings(h1,h2) |Bold|
+| Subheadings(h3,h4) |Medium|
+| Body Text |Regular|
+
+
 
 
 
