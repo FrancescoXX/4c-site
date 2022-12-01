@@ -57,6 +57,8 @@ Call to Action Guidelines
 | gap           | 0.5rem|
 | background-color| rgb(17 24 39 / var(--tw-bg-opacity))|
 |font-weight    | 500   |
+|border-radius  | 9999px   |
+|border-bottom-left-radius| 0px|
 
 
 NavBar Buttons
