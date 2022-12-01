@@ -24,3 +24,7 @@ Typescale: Following Tailwind CSS typescale system
     </tr>
 </table>
 
+4C Gradient CSS code
+
+linear-gradient( 34deg, rgba(68, 18, 115, 1) 0%, rgba(5, 30, 75, 1) 21%, rgba(52, 79, 141, 1) 58%, rgba(106, 137, 223, 1) 80%, rgba(145, 227, 226, 1) 99% );
+
