@@ -143,6 +143,15 @@
       "link": "https://github.com/jsvigneshkanna/tailwind_ui_components",
       "twitter": "https://twitter.com/jsvigneshkanna",
       "live_link": "https://tailwindcsscomponents.vercel.app"
+    },
+    {
+      "name": "Ibrahim",
+      "title": "Free Frontend Resources",
+      "screenshot": "https://i.ibb.co/ysBfwq9/banner.jpg",
+      "description": "Free Resources and Tools For Frontend Developers",
+      "link": "https://github.com/ibrahimraimi/free-frontend-resources",
+      "twitter": "https://twitter.com/ibrahimraimi_",
+      "live_link": ""
     }
   ]
 }

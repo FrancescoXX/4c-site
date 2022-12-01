@@ -21,6 +21,7 @@ const GetContributors = ({ users }) => {
           { type: "youtube", username: user.youtube },
           { type: "twitch", username: user.twitch },
           { type: "blog", username: user.blogUrl },
+          { type: "linkedin", username: user.linkedin },
         ]}
       />
     </motion.div>

@@ -17,6 +17,9 @@ module.exports = {
         ],
         sans: ['"Poppins"', ...defaultTheme.fontFamily.sans],
       },
+      screens: {
+        'break': '500px',
+      },
     },
   },
   corePlugins: {

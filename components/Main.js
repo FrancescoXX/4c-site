@@ -3,7 +3,7 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
     <section className="container p-[2em] mt-[4em] mb-[4em]  md:mb-[0em]">
       <div className="items-center grid md:grid-cols-1 lg:grid-cols-2 gap-12">
         <div className="col-span-1">
-          <p className="text-2xl font-bold tracking-wide text-white uppercase">
+          <p className="hidden md:block text-2xl font-bold tracking-wide text-white uppercase">
             {eyebrow}
           </p>
 
@@ -11,12 +11,14 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
             {title}
           </h1>
 
-          <div className="my-8 text-slate-200 prose-lg">{description}</div>
-
-          <div className="flex flex-wrap justify-start my-8 md:justify-start gap-4">
-            {primaryLink}
-            {twitterLink}
+          <div className="my-8 mx-[auto] text-slate-200 prose-lg">
+            {description}
           </div>
+
+          <ul className="flex flex-col md:flex-row flex-wrap my-8 md:justify-start gap-4">
+            <li className="self-center break:self-start">{primaryLink}</li>
+            <li className="self-center break:self-start">{twitterLink}</li>
+          </ul>
         </div>
         <div>
           <iframe
