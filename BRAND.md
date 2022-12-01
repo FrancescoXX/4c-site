@@ -37,5 +37,11 @@ linear-gradient( 34deg, rgba(68, 18, 115, 1) 0%, rgba(5, 30, 75, 1) 21%, rgba(52
 
 <img src='https://ik.imagekit.io/u33i3sss0/4c/4c_gradient_iEc5YnyaL.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669915186734' alt='4C gradient'>
 
+## Buttons
+
+Call to Action Buttons
+
+<img src='https://ik.imagekit.io/u33i3sss0/4c/Screenshot_2022-12-01_at_12-46-50_4C_-_Creator_Community_RFydcD8tX.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669916827713' alt='4C cta button'>
+
 
 
