@@ -57,3 +57,21 @@ Call to Action Guidelines
 | gap           | 0.5rem|
 | background-color| rgb(17 24 39 / var(--tw-bg-opacity))|
 |font-weight    | 500   |
+
+
+NavBar Buttons
+
+<img src='https://ik.imagekit.io/u33i3sss0/4c/Screenshot_2022-12-01_at_14-42-11_4C_-_Creator_Community_is2hpLuyR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669923773411' alt='4C cta button'>
+
+
+NavBar Button Guidelines
+
+| Style         | Values | 
+| ------------- | ------------- |
+| padding-left  | 1rem   |
+| padding-right | 1rem   |
+| padding-top   | 0.5rem|
+| padding-bottom   | 0.5rem|
+| background-color| white|
+|font-weight    | bold   |
+|color    | black   |
