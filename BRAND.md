@@ -8,7 +8,7 @@ Font Family: Poppins
 | Subheadings(h3,h4) |Medium|
 | Body Text |Regular|
 
-
+Typescale: Following Tailwind CSS typescale system
 
 ## Colors
 
