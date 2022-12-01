@@ -35,3 +35,7 @@ Typescale: Following Tailwind CSS typescale system
 
 linear-gradient( 34deg, rgba(68, 18, 115, 1) 0%, rgba(5, 30, 75, 1) 21%, rgba(52, 79, 141, 1) 58%, rgba(106, 137, 223, 1) 80%, rgba(145, 227, 226, 1) 99% );
 
+<img src='https://ik.imagekit.io/u33i3sss0/4c/4c_gradient_iEc5YnyaL.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669915186734' alt='4C gradient'>
+
+
+
