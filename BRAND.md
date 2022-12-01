@@ -10,9 +10,9 @@ Font Family: Poppins
 
 
 
-
-
 ## Colors
+
+4C Brand Colors
 
 <table>
     <tr>
