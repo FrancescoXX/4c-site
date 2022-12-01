@@ -56,3 +56,4 @@ Call to Action Guidelines
 |justify-content| center|
 | gap           | 0.5rem|
 | background-color| rgb(17 24 39 / var(--tw-bg-opacity))|
+|font-weight    | 500   |
