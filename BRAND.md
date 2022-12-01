@@ -75,3 +75,15 @@ NavBar Button Guidelines
 | background-color| white|
 |font-weight    | bold   |
 |color    | black   |
+
+
+
+## Effects
+
+Shadows
+
+box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+Transitions
+
+transition: all 150ms ease-out
