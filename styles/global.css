@@ -26,6 +26,10 @@ img {
   max-width: 100%;
 }
 
+.hamburger {
+  display: block;
+}
+
 .bg-theme {
   background: rgb(68, 18, 115);
   background: linear-gradient(
@@ -49,5 +53,11 @@ img {
 @media (min-width: 768px) {
   .text-theme {
     color: #fff;
+  }
+}
+
+@media (min-width: 801px) {
+  .hamburger {
+    display: none;
   }
 }

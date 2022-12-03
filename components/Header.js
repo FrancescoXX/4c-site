@@ -61,7 +61,7 @@ const Navbar = () => {
               </ul>
             </div>
             <button
-              className="text-xl block md:hidden"
+              className="text-xl hamburger"
               onClick={() => setMenuActive(true)}
             >
               <GiHamburgerMenu />
