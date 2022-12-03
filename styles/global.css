@@ -16,6 +16,16 @@ h6 {
   @apply font-heading;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
 .bg-theme {
   background: rgb(68, 18, 115);
   background: linear-gradient(
