@@ -9,6 +9,9 @@ module.exports = {
       padding: "1rem",
     },
     extend: {
+      screens: {
+        'laptop': '801px',
+      },
       fontFamily: {
         heading: [
           '"Red Hat Display"',
