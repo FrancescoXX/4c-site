@@ -27,7 +27,9 @@ const GetProjects = () => {
               </div>
               <div className="flex flex-col justify-self-end gap-[.2rem] w-full  bg-[#f1f5f9] p-[20px] rounded-br-xl rounded-bl-xl">
                 <div className="text-black ">
-                  <h2 className="text-base w-[30ch]">{project.title}</h2>
+                  <h2 className="text-base w-[30ch] text-[.95rem]">
+                    {project.title}
+                  </h2>
                   <h4 className="flex items-center text-sm font-normal opacity-75 gap-2">
                     <svg width="12" height="24" viewBox="0 0 30 34" fill="none">
                       <path
