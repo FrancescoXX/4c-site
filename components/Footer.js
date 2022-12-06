@@ -1,4 +1,4 @@
-import { FaGithub, FaTwitter, FaDiscord } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaDiscord, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="flex flex-col items-center py-8 text-center gap-4 text-white/80 bg-[#0d1117] md:max-md: p-4">
@@ -24,6 +24,13 @@ const Footer = () => {
           >
             <span className="sr-only">Twitter</span>
             <FaTwitter aria-hidden="true" />
+          </a>
+          <a
+            className="text-2xl hover:text-white"
+            href="https://www.linkedin.com/company/4ccommunity/about/"
+          >
+            <span className="sr-only">LinkedIn</span>
+            <FaLinkedin aria-hidden="true" />
           </a>
         </div>
       </div>
