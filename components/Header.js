@@ -47,7 +47,7 @@ const Navbar = () => {
               >
                 <BsX />
               </button>
-              <ul className="list-none flex flex-col justify-center items-center gap-[2rem] md:gap-[0.5rem] md:flex-row">
+              <ul className="flex flex-col items-center justify-center list-none gap-[2rem] md:gap-[0.5rem] md:flex-row">
                 {navItems.map((navItem, idx) => (
                   <li key={idx}>
                     <a
