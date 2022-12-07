@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       screens: {
         'laptop': '801px',
+        'break': '500px'
       },
       fontFamily: {
         heading: [
@@ -19,10 +20,7 @@ module.exports = {
           ...defaultTheme.fontFamily.sans,
         ],
         sans: ['"Poppins"', ...defaultTheme.fontFamily.sans],
-      },
-      screens: {
-        'break': '500px',
-      },
+      }
     },
   },
   corePlugins: {

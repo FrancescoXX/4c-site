@@ -17,7 +17,7 @@ const Navbar = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
   useEffect(() => {
-    if (screenSize <= 800) {
+    if (screenSize <= 1024) {
       setMenuActive(false);
     } else {
       setMenuActive(true);
@@ -37,17 +37,17 @@ const Navbar = () => {
               />
             </a>
             <div
-              className={`fixed md:relative flex flex-col md:flex-row p-2 bg-[#708fe6] md:bg-transparent h-[100vh] md:h-full top-0 md:top-0 right-0 md:right-0 all ease-in-out gap-6 transition delay-150  ${
+              className={`fixed lg:relative flex flex-col lg:flex-row p-2 bg-[#708fe6] lg:bg-transparent h-[100vh] lg:h-full top-0 lg:top-0 right-0 lg:right-0 all ease-in-out gap-6 transition delay-150  ${
                 menuActive ? "" : "hidden"
               } z-50  `}
             >
               <button
-                className=" text-xl md:hidden"
-                onClick={() => setMenuActive(false)}
+                className=" text-xl lg:hidden"
+                onClick={() => setMenuActive(!menuActive)}
               >
                 <BsX />
               </button>
-              <ul className="list-none flex flex-col justify-center items-center gap-[2rem] md:gap-[0.5rem] md:flex-row">
+              <ul className="flex flex-col items-center justify-center list-none gap-[2rem] lg:gap-[0.5rem] lg:flex-row">
                 {navItems.map((navItem, idx) => (
                   <li key={idx}>
                     <a
@@ -62,7 +62,7 @@ const Navbar = () => {
             </div>
             <button
               className="text-xl hamburger"
-              onClick={() => setMenuActive(true)}
+              onClick={() => setMenuActive(!menuActive)}
             >
               <GiHamburgerMenu />
             </button>

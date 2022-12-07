@@ -56,7 +56,7 @@ img {
   }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 1024px) {
   .hamburger {
     display: none;
   }
