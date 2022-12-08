@@ -1,6 +1,7 @@
 import { BsX } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Link from "next/link";
 
 // import navbar data
 import navbarData from "../content/navbar.json";
@@ -47,18 +48,16 @@ const Navbar = () => {
               >
                 <BsX />
               </button>
-              <ul className="flex flex-col items-center justify-center list-none gap-[2rem] lg:gap-[0.5rem] lg:flex-row">
+
+              <div className="flex flex-col items-center justify-center list-none gap-[2rem] lg:gap-[0.5rem] lg:flex-row">
                 {navItems.map((navItem, idx) => (
-                  <li key={idx}>
-                    <a
-                      href={navItem.href}
-                      className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1"
-                    >
+                  <Link href={navItem.href}>
+                    <a className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1">
                       {navItem.pageName}
                     </a>
-                  </li>
+                  </Link>
                 ))}
-              </ul>
+              </div>
             </div>
             <button
               className="text-xl hamburger"
