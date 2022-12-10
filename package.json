@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@octokit/core": "^3.5.1",
+    "@tailwindcss/line-clamp": "^0.4.2",
     "@tailwindcss/typography": "^0.5.1",
     "axios": "^0.22.0",
     "csv-parse": "^4.16.3",

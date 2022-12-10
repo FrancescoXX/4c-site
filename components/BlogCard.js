@@ -9,7 +9,7 @@ const BlogCard = () => {
       {blogs.blogs.map((blog, index) => (
         <div
           key={index}
-          className="text-black  w-[330px] h-[450px]  xl:w-[380px] bg-[#f1f5f9] rounded-xl  shadow-md p-5 m-5"
+          className="text-black group w-[330px] h-[450px] hover:h-[max-content] hov-bg-theme transition-all ease-out hover:-translate-y-1 xl:w-[380px] bg-[#f1f5f9] rounded-xl  shadow-md p-5 m-5"
         >
           <div className="flex justify-between text-2xl">
             <a href={blog.twitter} target="_blank">
@@ -29,7 +29,7 @@ const BlogCard = () => {
             />
           </a>
           <div>
-            <p className="text-[18px] text-black/80  mt-5 leading-6">
+            <p className="text-[18px] text-black/80 group-hover:line-clamp-none line-clamp-2  mt-5 leading-6">
               {blog.description}
             </p>
           </div>
