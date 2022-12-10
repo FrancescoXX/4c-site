@@ -10,7 +10,11 @@ const navItems = navbarData.pages;
 const Navbar = () => {
   const [menuActive, setMenuActive] = useState(false);
   const [screenSize, setScreenSize] = useState();
+  const [activeButton, setActiveButton] = useState();
+
   useEffect(() => {
+    const local = window.localStorage.getItem("active");
+    setActiveButton(local);
     const handleResize = () => setScreenSize(window.innerWidth);
     window.addEventListener("resize", handleResize);
     handleResize();
@@ -52,7 +56,15 @@ const Navbar = () => {
                   <li key={idx}>
                     <a
                       href={navItem.href}
-                      className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1"
+                      onClick={() => {
+                        window.localStorage.setItem("active", navItem.href);
+                      }}
+                      className={`px-4 py-2 font-bold  rounded hov-bg-theme transition-all ease-out hover:-translate-y-1  ${
+                        activeButton == navItem.href
+                          ? "bg-[#708fe6] text-white"
+                          : "bg-white text-black"
+                      }`}
+                      // className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1"
                     >
                       {navItem.pageName}
                     </a>
