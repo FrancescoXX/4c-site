@@ -40,7 +40,7 @@ If you try to run the project locally and you get something similar to this:
 <img src='https://media.discordapp.net/attachments/881808811344683028/1051093955518935060/image.png' alt='node error'>
 
 
-####Follow the steps below: 
+###Follow the steps below to resolve the issue
 
 If you don't have nvm manager, you can follow this steps:
 1.  Download [nvm-setup.exe](https://github.com/coreybutler/nvm-windows/releases)
