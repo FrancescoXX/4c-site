@@ -33,7 +33,14 @@ For contributing to code, you will need;
 
 ### :bookmark: Contribution steps
 
-> Disclaimer: *In order to run this project locally, your node version should be less then v16.18.1.*
+> Disclaimer: *In order to run this project locally, you might require some additional configurations. 
+If you try to run the project locally and you get something similar to this: 
+*
+
+<img src='https://media.discordapp.net/attachments/881808811344683028/1051093955518935060/image.png' alt='node error'>
+
+
+####Follow the steps below: 
 
 If you don't have nvm manager, you can follow this steps:
 1.  Download [nvm-setup.exe](https://github.com/coreybutler/nvm-windows/releases)
