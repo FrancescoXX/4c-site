@@ -33,6 +33,25 @@ For contributing to code, you will need;
 
 ### :bookmark: Contribution steps
 
+> Disclaimer: *In order to run this project locally, your node version should be less then v16.18.1.*
+
+If you don't have nvm manager, you can follow this steps:
+1.  Download [nvm-setup.exe](https://github.com/coreybutler/nvm-windows/releases)
+2.  Install nvm-setup.exe in your system
+3.  In the terminal
+    ```console
+    $ nvm install 16.16.0
+    ```
+4.  ```console
+    $ nvm use 16.16.0
+    ``` 
+5.  ```console
+    $ node -v
+    ``` 
+6.  Now your node version should be 16.16.0, you can go ahead now :)
+7.  Restart your system
+
+
 You can directly work on this project on Gitpod
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/FrancescoXX/4c-site)
@@ -42,46 +61,48 @@ Or, to work on it locally,
 1.  [Fork](https://github.com/FrancescoXX/4c-site) this repository
 
 2.  Clone the repo
-
     ```console
     $ git clone git@github.com:<your github username>/4c-site.git
     ```
 
 3.  Navigate to the cloned directory
-
     ```console
     $ cd 4c-site
     ```
 
 4.  Install dependencies
-
     ```console
     $ npm install
     ```
 
 5.  Start the project on `localhost`
-
     ```console
     $ npm run dev
-    ```
-   
+    ```   
 
 In the course of trying to set up the project locally, if you come across an errror that says `PWA is not supported`, you can try the following steps below to fix it;
-   
-1.  Go to 4c-site folder using `cd 4c-site`
-
-2.  In the terminal,
-  
+> For Linux or Mac 👇   
+1.   Go to 4c-site folder using `cd 4c-site`
+2.  In the terminal,  
     ```console
     $ export NODE_OPTIONS=--openssl-legacy-provider
     ```
-    If you get an error in the above code then use the option below
-    
+3.  If you get an error in the above code then use the option below    
     ```console
     $ unset NODE_OPTIONS=""
     ```
-6.  npm run dev   
-
+4.  ```console
+    $ npm run dev 
+    ```
+> For Windows 👇 
+1.  Go to 4c-site folder using `cd 4c-site`
+2.  In the terminal,  
+    ```console
+    $ set NODE_OPTIONS=--openssl-legacy-provider
+    ```
+3.  ```console
+    $ npm run dev 
+    ```
 
 ### :bookmark: Adding a project to the project page
 > Note: *The project page is reserved to display projects for community members only. Each member can put up only one project.*
