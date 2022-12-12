@@ -62,7 +62,7 @@ const Navbar = () => {
                       className={`px-4 py-2 font-bold  rounded hov-bg-theme transition-all ease-out hover:-translate-y-1 hover:cursor-pointer
                        ${
                          activeButton == navItem.href
-                           ? "bg-[#708fe6] text-white"
+                           ? "bg-[#708fe6] text-white bg-theme"
                            : "bg-white text-black"
                        }`}
                       // className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1"
