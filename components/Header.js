@@ -42,24 +42,23 @@ const Navbar = () => {
               />
             </Link>
             <div
-              className={`fixed lg:relative flex flex-col lg:flex-row p-2 bg-[#708fe6] lg:bg-transparent h-[100vh] lg:h-full top-0 lg:top-0 right-0 lg:right-0 all ease-in-out gap-6 transition delay-150  ${
-                menuActive ? "" : "hidden"
-              } z-50  `}
+              className={`fixed lg:relative flex flex-col lg:flex-row p-2 drop-shadow-3xl lg:drop-shadow-sm bg-[#708fe6] lg:bg-transparent h-[100vh] lg:h-full top-0 lg:top-0 right-0 lg:right-0 all ease-in-out gap-6 transition delay-150 
+              ${menuActive ? "" : "hidden"} z-50  `}
             >
               <button
-                className=" text-xl lg:hidden"
+                className="text-3xl text-white lg:hidden"
                 onClick={() => setMenuActive(!menuActive)}
               >
                 <BsX />
               </button>
-              <div className="flex flex-col items-center justify-center list-none gap-[2rem] lg:gap-[0.5rem] lg:flex-row">
+              <div className="flex flex-col items-center justify-center list-none gap-[2rem] lg:gap-[0.6rem] lg:flex-row">
                 {navItems.map((navItem, idx) => (
                   <Link href={navItem.href} key={idx}>
                     <span
                       onClick={() => {
                         window.localStorage.setItem("active", navItem.href);
                       }}
-                      className={`px-4 py-2 font-bold  rounded hov-bg-theme transition-all ease-out hover:-translate-y-1 hover:cursor-pointer
+                      className={`px-4 py-2 font-bold  rounded hov-bg-theme transition-all ease-out hover:-translate-y-1 hover:cursor-pointer w-[100%] lg:w-auto 
                        ${
                          activeButton == navItem.href
                            ? "bg-[#708fe6] text-white bg-theme"
@@ -74,7 +73,7 @@ const Navbar = () => {
               </div>
             </div>
             <button
-              className="text-xl hamburger"
+              className="text-3xl hamburger"
               onClick={() => setMenuActive(!menuActive)}
             >
               <GiHamburgerMenu />

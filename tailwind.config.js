@@ -24,6 +24,9 @@ module.exports = {
         ],
         sans: ['"Poppins"', ...defaultTheme.fontFamily.sans],
       },
+      dropShadow: {
+        '3xl': '0 0 10px #0000006e',
+      },
     },
   },
   corePlugins: {
