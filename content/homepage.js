@@ -51,7 +51,7 @@ export default {
     twitterLink: (
       <a
         href="https://twitter.com/4ccommunityhq"
-        className="btn btn-primary"
+        className="btn btn-twitter"
         target="_blank"
       >
         <FaTwitter />
