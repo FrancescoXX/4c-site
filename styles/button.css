@@ -5,3 +5,6 @@
 .btn-primary {
   @apply rounded-full rounded-bl-none bg-gray-900 hover:bg-[#7289DA] text-white font-medium shadow-2xl hover:shadow-md transform hover:translate-y-1 translate-x-0;
 }
+.btn-twitter {
+  @apply rounded-full rounded-bl-none bg-gray-900 hover:bg-[rgb(29,161,242)] text-white font-medium shadow-2xl hover:shadow-md transform hover:translate-y-1 translate-x-0;
+}
