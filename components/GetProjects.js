@@ -65,6 +65,7 @@ const GetProjects = () => {
                       <a
                         className="flex items-center px-4 mr-3 text-sm rounded-full py-1.5 bg-[#1e293b] gap-2 transition-all ease-in  hover:bg-sky-700"
                         href={project.live_link}
+                        target="_blank"
                       >
                         <svg
                           stroke="currentColor"
@@ -85,6 +86,7 @@ const GetProjects = () => {
                       <a
                         className="flex items-center px-3 mr-3 text-sm rounded-full py-1.5 bg-[#111827] gap-2 transition-all ease-in hover:bg-sky-700"
                         href={project.link}
+                        target="_blank"
                       >
                         <svg
                           stroke="currentColor"
