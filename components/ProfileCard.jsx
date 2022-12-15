@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import SocialLink from "./SocialLink";
 import Image from "next/image";
-import { description } from "../4c.config";
+// import { description } from "../4c.config";
 
 const socialMediaData = {
   github: {

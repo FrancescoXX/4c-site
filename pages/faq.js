@@ -14,8 +14,8 @@ const Faq = () => {
         </h1>
       </div>
       <ul className="flex flex-col items-center justify-center">
-        {Faqs.map((faq) => (
-          <FaqAccordian faq={faq} />
+        {Faqs.map((faq, index) => (
+        <FaqAccordian key={index} faq={faq} />
         ))}
       </ul>
     </Layout>
