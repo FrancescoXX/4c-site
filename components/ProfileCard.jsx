@@ -9,7 +9,6 @@ import {
 } from "react-icons/fa";
 import SocialLink from "./SocialLink";
 import Image from "next/image";
-import { description } from "../4c.config";
 
 const socialMediaData = {
   github: {
@@ -71,13 +70,13 @@ const ProfileCard = ({ username, avatarUrl, socials = [], description }) => {
       </div>
       <span className="mt-3 text-lg text-white">{username}</span>
       {description?.length > 0 ? (
-        <div className="mt-[.2em] text-sm w-[20ch] truncate hover:w-[30ch] hover:text-clip p-[.4em]">
+        <div className="text-sm truncate mt-[.2em] w-[20ch] hover:w-[30ch] hover:text-clip p-[.4em]">
           {description}
         </div>
       ) : (
         ""
       )}
-      <div className="flex items-center justify-center space-x-3 bg-blue-500/60 pr-4 pl-4 pt-1 pb-1 rounded">
+      <div className="flex items-center justify-center pt-1 pb-1 pl-4 pr-4 rounded space-x-3 bg-blue-500/60">
         {getSocials(socials, username)}
       </div>
     </div>

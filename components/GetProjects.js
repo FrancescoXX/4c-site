@@ -7,27 +7,27 @@ const GetProjects = () => {
   return (
     <div className="flex items-start justify-start mt-[3em]">
       <section className="flex-1 text-center text-white">
-        <h1 className="mb-5 text-4xl tracking-widest uppercase text-black sm:text-white">
+        <h1 className="mb-5 text-4xl tracking-widest text-black uppercase sm:text-white">
           Projects
         </h1>
         <p className="text-black/70 sm:text-white/70">
           Projects by 4c community Members
         </p>
-        <div className="flex justify-center items-center">
+        <div className="flex items-center justify-center">
           <div className="max-w-[1400px]">
-            <div className="grid lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2 grid-flow-row  items-center justify-center pt-4 my-[1rem] text-left gap-[1.5rem]">
+            <div className="items-center justify-center pt-4 text-left grid lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2 grid-flow-row my-[1rem] gap-[1.5rem]">
               {allProjects.projects.map((project) => (
                 <div
                   key={project.name}
-                  className="p-2 flex flex-col shrink rounded-lg group w-[280px] transition-all ease-in-out duration-200"
+                  className="flex flex-col p-2 rounded-lg shrink group w-[280px] transition-all ease-in-out duration-200"
                 >
-                  <div className="flex items-center h-full justify-center w-full text-center shadow-sm rounded-tl-xl rounded-tr-xl">
+                  <div className="flex items-center justify-center w-full h-full text-center shadow-sm rounded-tl-xl rounded-tr-xl">
                     <img
-                      className="object-cover w-full overflow-hidden h-full max-h-[8rem] rounded-tl-xl rounded-tr-xl transition-all ease-in-out duration-300"
+                      className="object-cover w-full h-full overflow-hidden max-h-[8rem] rounded-tl-xl rounded-tr-xl transition-all ease-in-out duration-300"
                       src={project?.screenshot}
                     />
                   </div>
-                  <div className="flex flex-col justify-self-end gap-[.2rem] w-full  bg-[#f1f5f9] p-[20px] rounded-br-xl rounded-bl-xl">
+                  <div className="flex flex-col w-full justify-self-end gap-[.2rem] bg-[#f1f5f9] p-[20px] rounded-br-xl rounded-bl-xl">
                     <div className="text-black ">
                       <h2 className="text-base w-[30ch] text-[.95rem]">
                         {project.title}
@@ -55,13 +55,13 @@ const GetProjects = () => {
                         {project.name}
                       </h4>
                       <div className="flex flex-auto my-[.5rem]">
-                        <p className="text-sm w-full truncate">
+                        <p className="w-full text-sm truncate">
                           {project.description}
                         </p>
                       </div>
                       {/* <p className="flex h-full text-md">{project.description}</p> */}
                     </div>
-                    <div className="flex self-end items-center w-full h-10 mt-auto bg-red my-[10px]">
+                    <div className="flex items-center self-end w-full h-10 mt-auto bg-red my-[10px]">
                       <a
                         className="flex items-center px-4 mr-3 text-sm rounded-full py-1.5 bg-[#1e293b] gap-2 transition-all ease-in  hover:bg-sky-700"
                         href={project.live_link}
