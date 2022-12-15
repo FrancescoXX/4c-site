@@ -16,9 +16,12 @@ const GetVideos = () => {
       <section className="flex-1 text-center text-white">
         <h1 className="mb-5 text-4xl tracking-widest uppercase">Videos</h1>
         {/* <p className="text-white/70">Projects by 4c community Members</p> */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center pt-[.3rem] my-[2rem] overflow-y-auto text-left gap-[1rem]">
-          {allVideos.videos.map((video) => (
-            <div className="p-2 rounded-lg group transition-all ease-in-out duration-200">
+        <div className="overflow-y-auto text-left grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center pt-[.3rem] my-[2rem] gap-[1rem]">
+          {allVideos.videos.map((video, index) => (
+            <div
+              key={index}
+              className="p-2 rounded-lg group transition-all ease-in-out duration-200"
+            >
               <YouTube videoId={video.videoId} opts={opts} />
             </div>
           ))}
