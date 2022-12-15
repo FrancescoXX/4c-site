@@ -41,7 +41,7 @@ const getSocials = (socials, username) => {
   return socials.map((social) => {
     const socialMedia = socialMediaData[social.type];
 
-    if (social.type == "blog" && !social.username.includes("http")) {
+    if (social.type == "blog" && !social?.username?.includes("http")) {
       social.username = `http://${social.username}`;
     }
     return (
