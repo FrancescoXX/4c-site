@@ -40,7 +40,7 @@ const getSocials = (socials, username) => {
   return socials.map((social) => {
     const socialMedia = socialMediaData[social.type];
 
-    if (social.type == "blog" && !social.username.includes("http")) {
+    if (social.type == "blog" && !social?.username?.includes("http")) {
       social.username = `http://${social.username}`;
     }
     return (
@@ -56,7 +56,7 @@ const getSocials = (socials, username) => {
   });
 };
 
-const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
+const ProfileCard = ({ username, avatarUrl, socials = [], description }) => {
   return (
     <div className="flex flex-col items-center justify-center w-64 h-64 m-4 rounded-md">
       <div className="w-32 h-32 overflow-hidden rounded-full shadow-sm">
@@ -69,7 +69,14 @@ const ProfileCard = ({ username, avatarUrl, socials = [] }) => {
         />
       </div>
       <span className="mt-3 text-lg text-white">{username}</span>
-      <div className="flex items-center justify-center space-x-3 bg-blue-500/60 pr-4 pl-4 pt-1 pb-1 rounded">
+      {description?.length > 0 ? (
+        <div className="text-sm truncate mt-[.2em] w-[20ch] hover:w-[30ch] hover:text-clip p-[.4em]">
+          {description}
+        </div>
+      ) : (
+        ""
+      )}
+      <div className="flex items-center justify-center pt-1 pb-1 pl-4 pr-4 rounded space-x-3 bg-blue-500/60">
         {getSocials(socials, username)}
       </div>
     </div>

@@ -1,7 +1,7 @@
 import { FaGithub, FaTwitter, FaDiscord, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="flex flex-col items-center py-8 text-center gap-4 text-white/80 bg-[#0d1117] md:max-md: p-4">
+    <footer className="flex flex-col items-center p-4 py-8 text-center gap-4 text-white/80 bg-[#0d1117] md:max-md:">
       <div className="flex items-center">
         <div className="flex gap-10">
           <a
@@ -34,7 +34,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className="font-medium text-white/80 md:max-md: text-xs">
+      <p className="text-xs font-medium text-white/80 md:max-md:">
         4C | Developed by 4C Community &#169; 2022
       </p>
     </footer>

@@ -38,7 +38,7 @@ const JoinusForm = () => {
   return (
     <div className="container mx-auto">
       <div className="max-w-xl p-5 mx-auto my-10 bg-white rounded-md shadow-sm">
-        <div className="text-center pb-10">
+        <div className="pb-10 text-center">
           <h1 className="my-3 text-base font-normal text-gray-700">
             4C is a community to connect with other like-minded creators,
             collaborate on ideas, and motivate each other to create and publish!
@@ -49,7 +49,7 @@ const JoinusForm = () => {
             <div className="mb-4">
               <label
                 htmlFor="name"
-                className="block text-left ml-2 text-sm text-gray-600"
+                className="block ml-2 text-sm text-left text-gray-600"
               >
                 Full Name
               </label>
@@ -57,11 +57,11 @@ const JoinusForm = () => {
                 type="text"
                 name="fullName"
                 placeholder="John Doe"
-                className="w-full text-sm px-3 py-2 placeholder-gray-300 text-black border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                className="w-full px-3 py-2 text-sm text-black placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
                 onChange={formik.handleChange}
               />
               {formik.errors.fullName && (
-                <p className="block ml-2 mt-2 text-left text-sm text-red-600 dark:text-red-500">
+                <p className="block mt-2 ml-2 text-sm text-left text-red-600 dark:text-red-500">
                   <span className="font-medium">{formik.errors.fullName}</span>
                 </p>
               )}
@@ -69,7 +69,7 @@ const JoinusForm = () => {
             <div className="mb-4">
               <label
                 htmlFor="email"
-                className="block text-left ml-2 text-sm text-gray-600"
+                className="block ml-2 text-sm text-left text-gray-600"
               >
                 Email Address
               </label>
@@ -79,11 +79,11 @@ const JoinusForm = () => {
                 id="email"
                 placeholder="you@email.com"
                 required
-                className="w-full text-sm px-3 py-2 placeholder-gray-300 text-black border border-gray-300 rounded-md  focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                className="w-full px-3 py-2 text-sm text-black placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
                 onChange={formik.handleChange}
               />
               {formik.errors.email && (
-                <p className="block ml-2 mt-2 text-left text-sm text-red-600 dark:text-red-500">
+                <p className="block mt-2 ml-2 text-sm text-left text-red-600 dark:text-red-500">
                   <span className="font-medium">{formik.errors.email}</span>
                 </p>
               )}
@@ -91,7 +91,7 @@ const JoinusForm = () => {
             <div className="mb-4">
               <label
                 htmlFor="github"
-                className="block text-left ml-2 text-sm text-gray-600"
+                className="block ml-2 text-sm text-left text-gray-600"
               >
                 Github Username
               </label>
@@ -101,11 +101,11 @@ const JoinusForm = () => {
                 id="github"
                 placeholder="@"
                 required
-                className="w-full text-sm px-3 py-2 placeholder-gray-300 text-black border border-gray-300 rounded-md  focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                className="w-full px-3 py-2 text-sm text-black placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
                 onChange={formik.handleChange}
               />
               {formik.errors.github && (
-                <p className="block ml-2 mt-2 text-left text-sm text-red-600 dark:text-red-500">
+                <p className="block mt-2 ml-2 text-sm text-left text-red-600 dark:text-red-500">
                   <span className="font-medium">{formik.errors.github}</span>
                 </p>
               )}
@@ -113,7 +113,7 @@ const JoinusForm = () => {
             <div className="mb-4">
               <label
                 htmlFor="twitter"
-                className="block text-left ml-2 text-sm text-gray-600"
+                className="block ml-2 text-sm text-left text-gray-600"
               >
                 Twitter Username
               </label>
@@ -123,11 +123,11 @@ const JoinusForm = () => {
                 id="twitter"
                 placeholder="@"
                 required
-                className="w-full text-sm px-3 py-2 placeholder-gray-300 text-black border border-gray-300 rounded-md  focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                className="w-full px-3 py-2 text-sm text-black placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
                 onChange={formik.handleChange}
               />
               {formik.errors.twitter && (
-                <p className="block ml-2 mt-2 text-left text-sm text-red-600 dark:text-red-500">
+                <p className="block mt-2 ml-2 text-sm text-left text-red-600 dark:text-red-500">
                   <span className="font-medium">{formik.errors.twitter}</span>
                 </p>
               )}
@@ -135,7 +135,7 @@ const JoinusForm = () => {
             <div className="mb-4">
               <label
                 htmlFor="message"
-                className="block text-left ml-2 mb-2 text-sm text-gray-600"
+                className="block mb-2 ml-2 text-sm text-left text-gray-600"
               >
                 What do you know about 4C Community?{" "}
               </label>
@@ -145,13 +145,13 @@ const JoinusForm = () => {
                 name="question1"
                 id="question1"
                 placeholder="Your Message"
-                className="w-full text-sm px-3 py-2 placeholder-gray-300 text-black border border-gray-300 rounded-md  focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                className="w-full px-3 py-2 text-sm text-black placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
                 onChange={formik.handleChange}
                 required
               ></textarea>
 
               {formik.errors.question1 && (
-                <p className="block ml-2 mt-2 text-left text-sm text-red-600 dark:text-red-500">
+                <p className="block mt-2 ml-2 text-sm text-left text-red-600 dark:text-red-500">
                   <span className="font-medium">{formik.errors.question1}</span>
                 </p>
               )}
@@ -159,7 +159,7 @@ const JoinusForm = () => {
             <div className="mb-4">
               <label
                 htmlFor="message"
-                className="block text-left ml-2 mb-2 text-sm text-gray-600"
+                className="block mb-2 ml-2 text-sm text-left text-gray-600"
               >
                 Why do you want to join our staff team?
               </label>
@@ -169,12 +169,12 @@ const JoinusForm = () => {
                 name="question2"
                 id="question2"
                 placeholder="Your Message"
-                className="w-full text-sm px-3 py-2 placeholder-gray-300 text-black border border-gray-300 rounded-md  focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                className="w-full px-3 py-2 text-sm text-black placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
                 onChange={formik.handleChange}
                 required
               ></textarea>
               {formik.errors.question2 && (
-                <p className="block ml-2 mt-2 text-left text-sm text-red-600 dark:text-red-500">
+                <p className="block mt-2 ml-2 text-sm text-left text-red-600 dark:text-red-500">
                   <span className="font-medium">{formik.errors.question2}</span>
                 </p>
               )}
@@ -182,7 +182,7 @@ const JoinusForm = () => {
             <div className="mb-4">
               <label
                 htmlFor="message"
-                className="block text-left ml-2 mb-2 text-sm text-gray-600"
+                className="block mb-2 ml-2 text-sm text-left text-gray-600"
               >
                 Tell us something cool about yourself
               </label>
@@ -192,12 +192,12 @@ const JoinusForm = () => {
                 name="question3"
                 id="question3"
                 placeholder="Your Message"
-                className="w-full text-sm px-3 py-2 placeholder-gray-300 text-black border border-gray-300 rounded-md  focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
+                className="w-full px-3 py-2 text-sm text-black placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300"
                 onChange={formik.handleChange}
                 required
               ></textarea>
               {formik.errors.question3 && (
-                <p className="block ml-2 mt-2 text-left text-sm text-red-600 dark:text-red-500">
+                <p className="block mt-2 ml-2 text-sm text-left text-red-600 dark:text-red-500">
                   <span className="font-medium">{formik.errors.question3}</span>
                 </p>
               )}
@@ -209,8 +209,7 @@ const JoinusForm = () => {
                 <button
                   form="loginform"
                   onClick={handleSubmit}
-                  className="w-full text-sm px-2 py-4 text-white bg-blue-500
-            rounded-md  focus:bg-indigo-600 focus:outline-none"
+                  className="w-full px-2 py-4 text-sm text-white bg-blue-500 rounded-md focus:bg-indigo-600 focus:outline-none"
                   type="submit"
                 >
                   Submit your application
