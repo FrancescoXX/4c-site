@@ -1,7 +1,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 import ProfileCard from "./ProfileCard";
 
-const GetContributors = ({ users }) => {
+const GetActivemembers = ({ users }) => {
   const shouldReduceMotion = useReducedMotion();
   const hoverAnimation = shouldReduceMotion
     ? {}
@@ -28,4 +28,4 @@ const GetContributors = ({ users }) => {
   ));
 };
 
-export default GetContributors;
+export default GetActivemembers;

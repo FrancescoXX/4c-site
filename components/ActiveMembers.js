@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import GetContributors from "./GetContributors";
+import GetActivemembers from "./GetActivemembers";
 import Users from "./Users";
 
 // import contributors data
-import activeMembers from "../content/contributors.json";
+import activeMembers from "../content/activemembers.json";
 
 const ActiveMembers = () => {
   const [tab] = useState("Active Members");
@@ -13,7 +13,7 @@ const ActiveMembers = () => {
         <h1 className="tracking-widest uppercase">{tab}</h1>
         <div className="flex flex-wrap items-center justify-center pb-4 m-2 overflow-y-auto">
           {tab === "Active Members" ? (
-            <GetContributors users={activeMembers} />
+            <GetActivemembers users={activeMembers} />
           ) : (
             <Users users={activeMembers.profiles} />
           )}
