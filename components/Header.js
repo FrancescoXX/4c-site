@@ -29,10 +29,10 @@ const Navbar = () => {
     }
   }, [screenSize]);
   return (
-    <div className="flex justify-center items-center">
-      <header className="p-[3em] my-[0] max-w-[940px]">
+    <div className="flex items-center justify-center">
+      <header className="p-[3em] my-[0] w-full md:max-w-[940px]">
         <div className="container">
-          <nav className="flex items-start justify-between">
+          <nav className="flex items-start justify-between  md:justify-center">
             <div className="relative flex flex-wrap items-center justify-between gap-6 w-[100%]  ">
               <Link href="/">
                 <img
