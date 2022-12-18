@@ -9,7 +9,8 @@ const BlogCard = () => {
       {blogs.blogs.map((blog, index) => (
         <div
           key={index}
-          className="p-5 m-5 text-black shadow-md group w-[330px] h-[450px] hov-bg-theme transition-all ease-out xl:w-[380px] bg-[#f1f5f9] rounded-xl"
+          className="p-5 m-5 text-black shadow-md w-[330px] h-[450px]  hov-bg-theme transition-all ease-out hover:-translate-y-1 xl:w-[380px] bg-[#f1f5f9] rounded-xl"
+ 
         >
           <div className="flex justify-between text-2xl">
             <a href={blog.twitter} target="_blank">

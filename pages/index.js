@@ -3,6 +3,7 @@ import Main from "../components/Main";
 import content from "../content/homepage";
 import { useRouter } from "next/router";
 import React from "react";
+import GoToTop from "../components/GoToTop";
 
 export default function Home() {
   const router = useRouter();
@@ -17,6 +18,7 @@ export default function Home() {
       <Layout className="flex flex-col justify-center">
         <Main {...content.main} />
       </Layout>
+      <GoToTop />
     </div>
   );
 }
