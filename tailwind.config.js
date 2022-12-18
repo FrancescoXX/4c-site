@@ -25,7 +25,10 @@ module.exports = {
         sans: ['"Poppins"', ...defaultTheme.fontFamily.sans],
       },
       dropShadow: {
-        '3xl': '0 0 10px #0000006e',
+        "3xl": "0 0 10px #0000006e",
+      },
+      maxWidth: {
+        bodyContainer: "1300px",
       },
     },
   },
@@ -41,7 +44,6 @@ module.exports = {
           border: "0",
           padding: "0",
           margin: "0",
-
           position: "absolute !important",
           height: "1px",
           width: "1px",

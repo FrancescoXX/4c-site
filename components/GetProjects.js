@@ -14,7 +14,7 @@ const GetProjects = () => {
           Projects by 4c community Members
         </p>
         <div className="flex items-center justify-center">
-          <div className="max-w-[1400px]">
+          <div className="max-w-bodyContainer">
             <div className="items-center justify-center pt-4 text-left grid lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2 grid-flow-row my-[1rem] gap-[1.5rem]">
               {allProjects.projects.map((project) => (
                 <div
