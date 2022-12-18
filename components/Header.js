@@ -29,59 +29,61 @@ const Navbar = () => {
     }
   }, [screenSize]);
   return (
-    <header className="p-[3em] my-[0] max-w-[940px]">
-      <div className="container">
-        <nav className="flex items-start justify-between">
-          <div className="relative flex flex-wrap items-center justify-between gap-6 w-[100%]  ">
-            <Link href="/">
-              <img
-                className="w-[100%] max-w-[50px] hover:cursor-pointer"
-                frameBorder="0"
-                allowtransparency="true"
-                src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
-              />
-            </Link>
-            <div
-              className={`fixed lg:relative flex flex-col lg:flex-row p-2 drop-shadow-3xl lg:drop-shadow-sm bg-[#708fe6] lg:bg-transparent h-[100vh] lg:h-full top-0 lg:top-0 right-0 lg:right-0 all ease-in-out gap-6 transition delay-150 
+    <div className="flex justify-center items-center">
+      <header className="p-[3em] my-[0] max-w-[940px]">
+        <div className="container">
+          <nav className="flex items-start justify-between">
+            <div className="relative flex flex-wrap items-center justify-between gap-6 w-[100%]  ">
+              <Link href="/">
+                <img
+                  className="w-[100%] max-w-[50px] hover:cursor-pointer"
+                  frameBorder="0"
+                  allowtransparency="true"
+                  src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
+                />
+              </Link>
+              <div
+                className={`fixed lg:relative flex flex-col lg:flex-row p-2 drop-shadow-3xl lg:drop-shadow-sm bg-[#708fe6] lg:bg-transparent h-[100vh] lg:h-full top-0 lg:top-0 right-0 lg:right-0 all ease-in-out gap-6 transition delay-150 
               ${menuActive ? "" : "hidden"} z-50  `}
-            >
-              <button
-                className="text-3xl text-white lg:hidden"
-                onClick={() => setMenuActive(!menuActive)}
               >
-                <BsX />
-              </button>
-              <div className="flex flex-col items-center justify-center list-none gap-[2rem] lg:gap-[0.6rem] lg:flex-row">
-                {navItems.map((navItem, idx) => (
-                  <Link href={navItem.href} key={idx}>
-                    <span
-                      onClick={() => {
-                        window.localStorage.setItem("active", navItem.href);
-                      }}
-                      className={`px-4 py-2 font-bold  rounded hov-bg-theme transition-all ease-out hover:-translate-y-1 hover:cursor-pointer w-[100%] lg:w-auto 
+                <button
+                  className="text-3xl text-white lg:hidden"
+                  onClick={() => setMenuActive(!menuActive)}
+                >
+                  <BsX />
+                </button>
+                <div className="flex flex-col items-center justify-center list-none gap-[2rem] lg:gap-[0.6rem] lg:flex-row">
+                  {navItems.map((navItem, idx) => (
+                    <Link href={navItem.href} key={idx}>
+                      <span
+                        onClick={() => {
+                          window.localStorage.setItem("active", navItem.href);
+                        }}
+                        className={`px-4 py-2 font-bold  rounded hov-bg-theme transition-all ease-out hover:-translate-y-1 hover:cursor-pointer w-[100%] lg:w-auto 
                        ${
                          activeButton == navItem.href
                            ? "bg-[#708fe6] text-white bg-theme"
                            : "bg-white text-black"
                        }`}
-                      // className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1"
-                    >
-                      {navItem.pageName}
-                    </span>
-                  </Link>
-                ))}
+                        // className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1"
+                      >
+                        {navItem.pageName}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
               </div>
+              <button
+                className="text-3xl hamburger"
+                onClick={() => setMenuActive(!menuActive)}
+              >
+                <GiHamburgerMenu />
+              </button>
             </div>
-            <button
-              className="text-3xl hamburger"
-              onClick={() => setMenuActive(!menuActive)}
-            >
-              <GiHamburgerMenu />
-            </button>
-          </div>
-        </nav>
-      </div>
-    </header>
+          </nav>
+        </div>
+      </header>
+    </div>
   );
 };
 
