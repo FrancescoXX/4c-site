@@ -5,7 +5,7 @@ import allVideos from "../content/videos.json";
 const GetVideos = () => {
   return (
     <div className="flex items-center justify-center mt-[3em]">
-      <section className="flex-1 text-center max-w-[1300px] text-white">
+      <section className="flex-1 text-center max-w-bodyContainer text-white">
         <h1 className="mb-5 text-4xl tracking-widest uppercase">Videos</h1>
         <p className="text-white/70">Videos by 4c community Members</p>
         <div className="mx-4 lg:mx-12">
