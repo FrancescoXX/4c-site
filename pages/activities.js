@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
       <Layout className="flex flex-col  items-center justify-center text-3xl ">
-        <div className="px-10 mt-40 font-normal text-white md:font-bold md:px-0">
+        <div className="mt-40 px-10 font-normal text-white md:px-0 md:font-bold">
           New Activites Coming Soon ...
         </div>
       </Layout>

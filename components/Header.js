@@ -30,10 +30,10 @@ const Navbar = () => {
   }, [screenSize]);
   return (
     <div className="flex items-center justify-center">
-      <header className="p-[3em] my-[0] w-full md:max-w-[940px]">
+      <header className="my-[0] w-full p-[3em]">
         <div className="container">
           <nav className="flex items-start justify-between  md:justify-center">
-            <div className="relative flex flex-wrap items-center justify-between gap-6 w-[100%]  ">
+            <div className="relative flex w-[100%] flex-wrap items-center justify-between gap-6  ">
               <Link href="/">
                 <img
                   className="w-[100%] max-w-[50px] hover:cursor-pointer"
@@ -43,7 +43,7 @@ const Navbar = () => {
                 />
               </Link>
               <div
-                className={`fixed lg:relative flex flex-col lg:flex-row p-2 drop-shadow-3xl lg:drop-shadow-sm bg-[#708fe6] lg:bg-transparent h-[100vh] lg:h-full top-0 lg:top-0 right-0 lg:right-0 all ease-in-out gap-6 transition delay-150 
+                className={`all fixed top-0 right-0 flex h-[100vh] flex-col gap-6 bg-[#708fe6] p-2 drop-shadow-3xl transition delay-150 ease-in-out lg:relative lg:top-0 lg:right-0 lg:h-full lg:flex-row lg:bg-transparent lg:drop-shadow-sm 
               ${menuActive ? "" : "hidden"} z-50  `}
               >
                 <button
@@ -52,17 +52,17 @@ const Navbar = () => {
                 >
                   <BsX />
                 </button>
-                <div className="flex flex-col items-center justify-center list-none gap-[2rem] lg:gap-[0.6rem] lg:flex-row">
+                <div className="flex list-none flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
                   {navItems.map((navItem, idx) => (
                     <Link href={navItem.href} key={idx}>
                       <span
                         onClick={() => {
                           window.localStorage.setItem("active", navItem.href);
                         }}
-                        className={`px-4 py-2 font-bold  rounded hov-bg-theme transition-all ease-out hover:-translate-y-1 hover:cursor-pointer w-[100%] lg:w-auto 
+                        className={`hov-bg-theme w-[100%] rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto 
                        ${
                          activeButton == navItem.href
-                           ? "bg-[#70b7e6] text-white bg-theme"
+                           ? "bg-theme bg-[#70b7e6] text-white"
                            : "bg-white text-black"
                        }`}
                         // className="px-4 py-2 font-bold text-black bg-white rounded hov-bg-theme transition-all ease-out hover:-translate-y-1"
@@ -74,7 +74,7 @@ const Navbar = () => {
                 </div>
               </div>
               <button
-                className="text-3xl hamburger"
+                className="hamburger text-3xl"
                 onClick={() => setMenuActive(!menuActive)}
               >
                 <GiHamburgerMenu />

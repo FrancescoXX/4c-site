@@ -1,10 +1,10 @@
 const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
   return (
     <div className="flex items-center justify-center">
-      <section className="container max-w-bodyContainer p-[2em] mt-[4em] mb-[4em]  md:mb-[0em]">
-        <div className="items-center grid md:grid-cols-1 lg:grid-cols-2 gap-12">
+      <section className="container mt-[4em] mb-[4em] max-w-bodyContainer p-[2em]  md:mb-[0em]">
+        <div className="grid items-center gap-12 md:grid-cols-1 lg:grid-cols-2">
           <div className="col-span-1">
-            <p className="hidden text-2xl font-bold tracking-wide text-white uppercase md:block">
+            <p className="hidden text-2xl font-bold uppercase tracking-wide text-white md:block">
               {eyebrow}
             </p>
 
@@ -12,11 +12,11 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
               {title}
             </h1>
 
-            <div className="my-8 mx-[auto] text-slate-200 prose-lg">
+            <div className="prose-lg my-8 mx-[auto] text-slate-200">
               {description}
             </div>
 
-            <ul className="flex flex-col flex-wrap my-8 md:flex-row md:justify-start gap-4">
+            <ul className="my-8 flex flex-col flex-wrap gap-4 md:flex-row md:justify-start">
               <li className="self-center break:self-start">{primaryLink}</li>
               <li className="self-center break:self-start">{twitterLink}</li>
             </ul>
