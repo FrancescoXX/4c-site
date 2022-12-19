@@ -13,7 +13,7 @@ const GetVideos = () => {
             {allVideos.videos.map((video, index) => (
               <div
                 key={index}
-                className="details hov-bg-theme my-4 w-full w-auto cursor-pointer rounded rounded-xl bg-white bg-[#f1f5f9] bg-opacity-20 p-4 text-white shadow shadow-md backdrop-blur-lg transition-all ease-out hover:-translate-y-1 sm:m-5 sm:w-80 sm:p-6 "
+                className="details hov-bg-theme my-4 w-auto w-full cursor-pointer rounded rounded-xl bg-white bg-[#f1f5f9] bg-opacity-20 p-4 text-white shadow shadow-md backdrop-blur-lg transition-all ease-out hover:-translate-y-1 sm:m-5 sm:w-80 sm:p-6"
               >
                 <a
                   href={`https://www.youtube.com/watch?v=${video.videoId}`}
@@ -24,9 +24,9 @@ const GetVideos = () => {
                     className="rounded"
                     alt=""
                   />
-                  <div className="text-left">
-                    <h2 className="text-sm sm:text-lg">{video.videoTitle}</h2>
-                    <span className="text-sm font-thin text-gray-200">
+                  <div>
+                    <h2>{video.videoTitle}</h2>
+                    <span className="text-sm font-thin text-gray-300">
                       {video.videoAuthor}
                     </span>
                   </div>
