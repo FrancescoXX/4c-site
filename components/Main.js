@@ -16,9 +16,9 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
               {description}
             </div>
 
-            <ul className="my-8 flex flex-row content-center flex-wrap gap-4 md:flex-row md:justify-start">
-              <li className="self-center break:self-start">{primaryLink}</li>
-              <li className="self-center break:self-start">{twitterLink}</li>
+             <ul className="my-8 flex sm:flex-row sm:justify-center flex-col content-center gap-4 md:flex-row md:justify-start">
+              <li className="self-center ">{primaryLink}</li>
+              <li className="self-center ">{twitterLink}</li>
             </ul>
           </div>
           <div>
