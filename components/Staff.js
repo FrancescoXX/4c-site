@@ -8,11 +8,11 @@ import staff from "../content/staff.json";
 const Staff = () => {
   const [tab] = useState("Staff");
   return (
-    <div className="flex justify-center items-center">
-      <div className="flex max-w-bodyContainer items-start justify-start mt-[3em]">
-        <section className="flex-1 text-4xl font-bold text-center text-white">
-          <h1 className="tracking-widest uppercase">{tab}</h1>
-          <div className="flex flex-wrap items-center justify-center pb-4 m-2 overflow-y-auto gap-[1.8rem]">
+    <div className="flex items-center justify-center">
+      <div className="mt-[3em] flex max-w-bodyContainer items-start justify-start">
+        <section className="flex-1 text-center text-4xl font-bold text-white">
+          <h1 className="uppercase tracking-widest">{tab}</h1>
+          <div className="m-2 flex flex-wrap items-center justify-center gap-[1.8rem] overflow-y-auto pb-4">
             {tab === "Staff" ? (
               <GetStaff users={staff} />
             ) : (

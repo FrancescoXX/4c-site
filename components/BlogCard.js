@@ -5,11 +5,11 @@ import blogs from "../content/blog.json";
 const styles = "transition-all ease-in cursor-pointer";
 const BlogCard = () => {
   return (
-    <section className="flex flex-wrap items-center justify-center w-full p-10">
+    <section className="flex w-full flex-wrap items-center justify-center p-10">
       {blogs.blogs.map((blog, index) => (
         <div
           key={index}
-          className="p-5 m-5 text-black shadow-md w-[330px] h-[450px]  hov-bg-theme transition-all ease-out hover:-translate-y-1 xl:w-[380px] bg-[#f1f5f9] rounded-xl"
+          className="hov-bg-theme m-5 h-[450px] w-[330px] rounded-xl bg-[#f1f5f9]  p-5 text-black shadow-md transition-all ease-out hover:-translate-y-1 xl:w-[380px]"
         >
           <div className="flex justify-between text-2xl">
             <a href={blog.twitter} target="_blank">
@@ -20,16 +20,16 @@ const BlogCard = () => {
             </a>
           </div>
           <div>
-            <h2 className="my-10 text-2xl title">{blog.title}</h2>
+            <h2 className="title my-10 text-2xl">{blog.title}</h2>
           </div>
           <a href={blog.link} target="_blank">
             <img
-              className="object-contain rounded-md max-h-[20rem]"
+              className="max-h-[20rem] rounded-md object-contain"
               src={blog.screenshot}
             />
           </a>
           <div>
-            <p className="mt-5 text-[18px] text-black/80 line-clamp-2 leading-6">
+            <p className="mt-5 text-[18px] leading-6 text-black/80 line-clamp-2">
               {blog.description}
             </p>
           </div>

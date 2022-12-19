@@ -5,9 +5,9 @@ import allProjects from "../content/projects.json";
 
 const GetProjects = () => {
   return (
-    <div className="flex items-start justify-start mt-[3em]">
+    <div className="mt-[3em] flex items-start justify-start">
       <section className="flex-1 text-center text-white">
-        <h1 className="mb-5 text-4xl tracking-widest text-black uppercase sm:text-white">
+        <h1 className="mb-5 text-4xl uppercase tracking-widest text-black sm:text-white">
           Projects
         </h1>
         <p className="text-black/70 sm:text-white/70">
@@ -15,24 +15,24 @@ const GetProjects = () => {
         </p>
         <div className="flex items-center justify-center">
           <div className="max-w-bodyContainer">
-            <div className="items-center justify-center pt-4 text-left grid lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2 grid-flow-row my-[1rem] gap-[1.5rem]">
+            <div className="my-[1rem] grid grid-flow-row items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {allProjects.projects.map((project) => (
                 <div
                   key={project.name}
-                  className="flex flex-col p-2 rounded-lg shrink group w-[280px] transition-all ease-in-out duration-200"
+                  className="group flex w-[280px] shrink flex-col rounded-lg p-2 transition-all duration-200 ease-in-out"
                 >
-                  <div className="flex items-center justify-center w-full h-full text-center shadow-sm rounded-tl-xl rounded-tr-xl">
+                  <div className="flex h-full w-full items-center justify-center rounded-tl-xl rounded-tr-xl text-center shadow-sm">
                     <img
-                      className="object-cover w-full h-full overflow-hidden max-h-[8rem] rounded-tl-xl rounded-tr-xl transition-all ease-in-out duration-300"
+                      className="h-full max-h-[8rem] w-full overflow-hidden rounded-tl-xl rounded-tr-xl object-cover transition-all duration-300 ease-in-out"
                       src={project?.screenshot}
                     />
                   </div>
-                  <div className="flex flex-col w-full justify-self-end gap-[.2rem] bg-[#f1f5f9] p-[20px] rounded-br-xl rounded-bl-xl">
+                  <div className="flex w-full flex-col gap-[.2rem] justify-self-end rounded-br-xl rounded-bl-xl bg-[#f1f5f9] p-[20px]">
                     <div className="text-black ">
-                      <h2 className="text-base w-[30ch] text-[.95rem]">
+                      <h2 className="w-[30ch] text-base text-[.95rem]">
                         {project.title}
                       </h2>
-                      <h4 className="flex items-center text-sm font-normal opacity-75 gap-2">
+                      <h4 className="flex items-center gap-2 text-sm font-normal opacity-75">
                         <svg
                           width="12"
                           height="24"
@@ -54,16 +54,16 @@ const GetProjects = () => {
                         </svg>
                         {project.name}
                       </h4>
-                      <div className="flex flex-auto my-[.5rem]">
-                        <p className="w-full text-sm truncate">
+                      <div className="my-[.5rem] flex flex-auto">
+                        <p className="w-full truncate text-sm">
                           {project.description}
                         </p>
                       </div>
                       {/* <p className="flex h-full text-md">{project.description}</p> */}
                     </div>
-                    <div className="flex items-center self-end w-full h-10 mt-auto bg-red my-[10px]">
+                    <div className="bg-red my-[10px] mt-auto flex h-10 w-full items-center self-end">
                       <a
-                        className="flex items-center px-4 mr-3 text-sm rounded-full py-1.5 bg-[#1e293b] gap-2 transition-all ease-in  hover:bg-sky-700"
+                        className="mr-3 flex items-center gap-2 rounded-full bg-[#1e293b] px-4 py-1.5 text-sm transition-all ease-in  hover:bg-sky-700"
                         href={project.live_link}
                         target="_blank"
                       >
@@ -84,7 +84,7 @@ const GetProjects = () => {
                         View
                       </a>
                       <a
-                        className="flex items-center px-3 mr-3 text-sm rounded-full py-1.5 bg-[#111827] gap-2 transition-all ease-in hover:bg-sky-700"
+                        className="mr-3 flex items-center gap-2 rounded-full bg-[#111827] px-3 py-1.5 text-sm transition-all ease-in hover:bg-sky-700"
                         href={project.link}
                         target="_blank"
                       >

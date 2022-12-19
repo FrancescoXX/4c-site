@@ -5,11 +5,11 @@ function Loading() {
     <button
       disabled
       type="button"
-      className="w-full px-2 py-4 text-sm text-white bg-blue-500 rounded-md focus:bg-indigo-600 focus:outline-none"
+      className="w-full rounded-md bg-blue-500 px-2 py-4 text-sm text-white focus:bg-indigo-600 focus:outline-none"
     >
       <svg
         role="status"
-        className="inline w-4 h-4 mr-3 text-white animate-spin"
+        className="mr-3 inline h-4 w-4 animate-spin text-white"
         viewBox="0 0 100 101"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -8,10 +8,10 @@ import activeMembers from "../content/activemembers.json";
 const ActiveMembers = () => {
   const [tab] = useState("Active Members");
   return (
-    <div className="flex items-center justify-center mt-[3em]">
-      <section className="max-w-bodyContainer flex-1 text-4xl font-bold text-center text-white">
-        <h1 className="tracking-widest uppercase">{tab}</h1>
-        <div className="flex flex-wrap items-center justify-center pb-4 m-2 overflow-y-auto">
+    <div className="mt-[3em] flex items-center justify-center">
+      <section className="max-w-bodyContainer flex-1 text-center text-4xl font-bold text-white">
+        <h1 className="uppercase tracking-widest">{tab}</h1>
+        <div className="m-2 flex flex-wrap items-center justify-center overflow-y-auto pb-4">
           {tab === "Active Members" ? (
             <GetActivemembers users={activeMembers} />
           ) : (

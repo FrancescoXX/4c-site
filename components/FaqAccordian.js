@@ -4,12 +4,12 @@ const FaqAccordian = ({ faq }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <li className="flex items-center justify-center w-9/12 mb-8 lg:w-1/2 md:w-8/12 sm:w-9/12 flex-column">
+    <li className="flex-column mb-8 flex w-9/12 items-center justify-center sm:w-9/12 md:w-8/12 lg:w-1/2">
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full p-8 bg-white rounded shadow cursor-pointer bg-opacity-20 backdrop-blur-lg details"
+        className="details w-full cursor-pointer rounded bg-white bg-opacity-20 p-8 shadow backdrop-blur-lg"
       >
-        <summary className="relative pr-4 text-base font-bold leading-none text-white list-none after:absolute after:transition-all after:duration-300 after:ease-in-out after:-top-2 after:right-0 after:text-[#fdfdfd] after:font-light after:text-2xl after:rotate-90">
+        <summary className="relative list-none pr-4 text-base font-bold leading-none text-white after:absolute after:-top-2 after:right-0 after:rotate-90 after:text-2xl after:font-light after:text-[#fdfdfd] after:transition-all after:duration-300 after:ease-in-out">
           {faq.questions}
         </summary>
 

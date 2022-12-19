@@ -1,10 +1,10 @@
 .btn {
-  @apply inline-flex items-center justify-center gap-2 px-8 py-3 rounded-md font-semibold antialiased transition duration-200 ease-in-out no-underline outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600 cursor-pointer;
+  @apply inline-flex cursor-pointer items-center justify-center gap-2 rounded-md px-8 py-3 font-semibold no-underline antialiased outline-none transition duration-200 ease-in-out focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2;
 }
 
 .btn-primary {
-  @apply rounded-full rounded-bl-none bg-gray-900 hover:bg-[#7289DA] text-white font-medium shadow-2xl hover:shadow-md transform hover:translate-y-1 translate-x-0;
+  @apply translate-x-0 transform rounded-full rounded-bl-none bg-gray-900 font-medium text-white shadow-2xl hover:translate-y-1 hover:bg-[#7289DA] hover:shadow-md;
 }
 .btn-twitter {
-  @apply rounded-full rounded-bl-none bg-gray-900 hover:bg-[rgb(29,161,242)] text-white font-medium shadow-2xl hover:shadow-md transform hover:translate-y-1 translate-x-0;
+  @apply translate-x-0 transform rounded-full rounded-bl-none bg-gray-900 font-medium text-white shadow-2xl hover:translate-y-1 hover:bg-[rgb(29,161,242)] hover:shadow-md;
 }
