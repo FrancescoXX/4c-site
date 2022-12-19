@@ -9,11 +9,11 @@ const GetVideos = () => {
         <h1 className="mb-5 text-4xl uppercase tracking-widest">Videos</h1>
         <p className="text-white/70">Videos by 4c community Members</p>
         <div className="mx-4 lg:mx-12">
-          <div className="my-[1rem] grid grid-flow-row items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="flex w-full flex-wrap items-center justify-center p-10">
             {allVideos.videos.map((video, index) => (
               <div
                 key={index}
-                className="flex flex-col rounded-lg p-2 transition-all duration-200 ease-in-out"
+                className="details hov-bg-theme my-4 w-auto w-full cursor-pointer rounded rounded-xl bg-white bg-[#f1f5f9] bg-opacity-20 p-4 text-white shadow shadow-md backdrop-blur-lg transition-all ease-out hover:-translate-y-1 sm:m-5 sm:w-80 sm:p-6"
               >
                 <a
                   href={`https://www.youtube.com/watch?v=${video.videoId}`}
