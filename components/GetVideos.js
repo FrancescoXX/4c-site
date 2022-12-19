@@ -4,16 +4,16 @@ import allVideos from "../content/videos.json";
 
 const GetVideos = () => {
   return (
-    <div className="flex items-center justify-center mt-[3em]">
-      <section className="flex-1 text-center text-white max-w-bodyContainer">
-        <h1 className="mb-5 text-4xl tracking-widest uppercase">Videos</h1>
+    <div className="mt-[3em] flex items-center justify-center">
+      <section className="max-w-bodyContainer flex-1 text-center text-white">
+        <h1 className="mb-5 text-4xl uppercase tracking-widest">Videos</h1>
         <p className="text-white/70">Videos by 4c community Members</p>
         <div className="mx-4 lg:mx-12">
-          <div className="flex flex-wrap items-center justify-center w-full p-10">
+          <div className="my-[1rem] grid grid-flow-row items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {allVideos.videos.map((video, index) => (
               <div
                 key={index}
-                className="w-full p-6 bg-white rounded shadow cursor-pointer details bg-opacity-20 backdrop-blur-lg hov-bg-theme m-5 w-80 rounded-xl bg-[#f1f5f9]  p-5 text-white shadow-md transition-all ease-out hover:-translate-y-1 "
+                className="flex flex-col rounded-lg p-2 transition-all duration-200 ease-in-out"
               >
                 <a
                   href={`https://www.youtube.com/watch?v=${video.videoId}`}
@@ -24,9 +24,9 @@ const GetVideos = () => {
                     className="rounded"
                     alt=""
                   />
-                  <div className="text-left">
-                    <h2 className="text-lg">{video.videoTitle}</h2>
-                    <span className="text-sm font-thin text-gray-200">
+                  <div>
+                    <h2>{video.videoTitle}</h2>
+                    <span className="text-sm font-thin text-gray-300">
                       {video.videoAuthor}
                     </span>
                   </div>
