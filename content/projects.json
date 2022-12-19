@@ -152,6 +152,15 @@
       "link": "https://github.com/ibrahimraimi/free-frontend-resources",
       "twitter": "https://twitter.com/ibrahimraimi_",
       "live_link": ""
+    },
+    {
+      "name": "Mahesh Kasbe",
+      "title": "K-Dash",
+      "screenshot": "https://raw.githubusercontent.com/Mahesh-Kasabe/K-Dash/master/Images/overview.png",
+      "description": "Browser Based Kubernetes Real Time Monitoring Tool",
+      "link": "https://github.com/Mahesh-Kasabe/K-Dash",
+      "twitter": "https://twitter.com/maheshstwt",
+      "live_link": "https://youtu.be/0oRW_ZetXoc"
     }
   ]
 }
