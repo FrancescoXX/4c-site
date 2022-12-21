@@ -2,18 +2,15 @@
 
 <img src='./mediakit/4c_banner.jpg' alt='4C logo'>
 
-
-
-
-## Typography 
+## Typography
 
 Font Family: Poppins
 
-| Name          | Weight | 
-| ------------- | ------------- |
-| Headings(h1,h2) |Bold|
-| Subheadings(h3,h4) |Medium|
-| Body Text |Regular|
+| Name               | Weight  |
+| ------------------ | ------- |
+| Headings(h1,h2)    | Bold    |
+| Subheadings(h3,h4) | Medium  |
+| Body Text          | Regular |
 
 Typescale: Following Tailwind CSS typescale system
 
@@ -43,42 +40,37 @@ Call to Action Buttons
 
 <img src='https://ik.imagekit.io/u33i3sss0/4c/Screenshot_2022-12-01_at_12-46-50_4C_-_Creator_Community_RFydcD8tX.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669916827713' alt='4C cta button'>
 
-
 Call to Action Guidelines
 
-| Style         | Values | 
-| ------------- | ------------- |
-| padding-left  | 2rem   |
-| padding-right | 2rem   |
-| padding-top   | 0.75rem|
-| display       | inline-flex|
-| align-items   | center|
-|justify-content| center|
-| gap           | 0.5rem|
-| background-color| rgb(17 24 39 / var(--tw-bg-opacity))|
-|font-weight    | 500   |
-|border-radius  | 9999px   |
-|border-bottom-left-radius| 0px|
-
+| Style                     | Values                               |
+| ------------------------- | ------------------------------------ |
+| padding-left              | 2rem                                 |
+| padding-right             | 2rem                                 |
+| padding-top               | 0.75rem                              |
+| display                   | inline-flex                          |
+| align-items               | center                               |
+| justify-content           | center                               |
+| gap                       | 0.5rem                               |
+| background-color          | rgb(17 24 39 / var(--tw-bg-opacity)) |
+| font-weight               | 500                                  |
+| border-radius             | 9999px                               |
+| border-bottom-left-radius | 0px                                  |
 
 NavBar Buttons
 
 <img src='https://ik.imagekit.io/u33i3sss0/4c/Screenshot_2022-12-01_at_14-42-11_4C_-_Creator_Community_is2hpLuyR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669923773411' alt='4C cta button'>
 
-
 NavBar Button Guidelines
 
-| Style         | Values | 
-| ------------- | ------------- |
-| padding-left  | 1rem   |
-| padding-right | 1rem   |
-| padding-top   | 0.5rem|
-| padding-bottom   | 0.5rem|
-| background-color| white|
-|font-weight    | bold   |
-|color    | black   |
-
-
+| Style            | Values |
+| ---------------- | ------ |
+| padding-left     | 1rem   |
+| padding-right    | 1rem   |
+| padding-top      | 0.5rem |
+| padding-bottom   | 0.5rem |
+| background-color | white  |
+| font-weight      | bold   |
+| color            | black  |
 
 ## Effects
 

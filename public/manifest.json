@@ -1,12 +1,11 @@
 {
-    "theme_color": "#FFF7ED",
-    "background_color": "#EA580C",
-    "display": "standalone",
-    "scope": "/",
-    "start_url": "/",
-    "name": "4c",
-    "description": "The Cool Community For Content Creators",
-    "short_name": "4c",
-    "icons": [
-    ]
+  "theme_color": "#FFF7ED",
+  "background_color": "#EA580C",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "4c",
+  "description": "The Cool Community For Content Creators",
+  "short_name": "4c",
+  "icons": []
 }

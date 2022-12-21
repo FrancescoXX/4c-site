@@ -13,10 +13,10 @@ module.exports = withPWA({
   async redirects() {
     return [
       {
-        source: '/join',
-        destination: 'https://discord.com/invite/TcmA2kbJeA',
+        source: "/join",
+        destination: "https://discord.com/invite/TcmA2kbJeA",
         permanent: true,
       },
-    ]
+    ];
   },
 });

@@ -29,7 +29,7 @@ const Navbar = () => {
     }
   }, [screenSize]);
   return (
-    <div className=" container flex items-center justify-center max-w-bodyContainer">
+    <div className=" container flex max-w-bodyContainer items-center justify-center">
       <header className="my-[0] w-full p-[3em]">
         <div className="container">
           <nav className="flex items-start justify-between  md:justify-center">
