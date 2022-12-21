@@ -5,3 +5,7 @@
 .details[open] summary::after {
   @apply rotate-[270deg];
 }
+
+.headTitle {
+  @apply text-2xl md:text-2xl lg:text-3xl;
+}
