@@ -7,7 +7,7 @@ const GetProjects = () => {
   return (
     <div className="mt-[3em] flex items-start justify-start">
       <section className="flex-1 text-center text-white">
-        <h1 className="mb-5 text-4xl uppercase tracking-widest text-black sm:text-white">
+        <h1 className="headTitle mb-5 uppercase tracking-widest text-black sm:text-white">
           Projects
         </h1>
         <p className="text-black/70 sm:text-white/70">
