@@ -6,11 +6,11 @@ import GoToTop from "../components/GoToTop";
 const Faq = () => {
   return (
     <div>
-      <Layout className="items-left flex flex-col justify-center text-5xl">
-        <div className="page-title mb-16 text-center text-white">
+      <Layout className="items-left mt-4 flex flex-col justify-center px-3">
+        <div className="page-title mb-16 mt-[30px] text-center text-white">
           <h1
             role="heading"
-            class="font-semibold uppercase leading-10 tracking-wider text-white md:text-5xl xl:text-6xl"
+            class="headTitle font-semibold uppercase leading-10 tracking-wider text-white"
           >
             Frequently asked questions
           </h1>

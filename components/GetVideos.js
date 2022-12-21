@@ -1,12 +1,11 @@
 import React from "react";
-// import contributors data
 import allVideos from "../content/videos.json";
 
 const GetVideos = () => {
   return (
     <div className="mt-[3em] flex items-center justify-center">
       <section className="max-w-bodyContainer flex-1 text-center text-white">
-        <h1 className="mb-5 text-4xl uppercase tracking-widest">Videos</h1>
+        <h1 className="headTitle mb-5 uppercase tracking-widest">Videos</h1>
         <p className="text-white/70">Videos by 4c community Members</p>
         <div className="mx-4 lg:mx-12">
           <div className="flex w-full flex-wrap items-center justify-center p-10">
