@@ -22,7 +22,7 @@ const GetVideos = () => {
                   <img
                     src={`https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`}
                     className="rounded"
-                    alt=""
+                    alt={video.videoTitle}
                   />
                   <div>
                     <h2>{video.videoTitle}</h2>
