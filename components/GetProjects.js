@@ -2,14 +2,13 @@ import React from "react";
 
 // import contributors data
 import allProjects from "../content/projects.json";
+import Title from "./Title";
 
 const GetProjects = () => {
   return (
     <div className="mt-[3em] flex items-start justify-start">
       <section className="flex-1 text-center text-white">
-        <h1 className="headTitle mb-5 uppercase tracking-widest text-black sm:text-white">
-          Projects
-        </h1>
+        <Title heading="Projects" />
         <p className="text-black/70 sm:text-white/70">
           Projects by 4c community Members
         </p>

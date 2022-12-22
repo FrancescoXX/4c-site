@@ -1,14 +1,13 @@
 import Layout from "../components/Layout";
 import BlogCard from "../components/BlogCard";
 import GoToTop from "../components/GoToTop";
+import Title from "../components/Title";
 
 const Projects = () => {
   return (
     <div>
       <Layout className="flex flex-col  items-center justify-center">
-        <h1 className="headTitle mb-20 uppercase tracking-widest text-white">
-          BLOG
-        </h1>
+        <Title heading="Blogs" />
         <BlogCard />
       </Layout>
       <GoToTop />
