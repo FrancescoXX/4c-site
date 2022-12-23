@@ -3,6 +3,7 @@
 ## **Changes proposed**
 
 ## **Check List (Check all the appllicable boxes)**
+
 - [ ] My code follows the code style of this project.
 - [ ] My change requires changes to the documentation.
 - [ ] I have updated the documentation accordingly.

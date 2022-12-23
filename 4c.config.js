@@ -11,4 +11,4 @@ module.exports = {
   url: "https://www.4c.rocks/",
   logo: "/logo.jpg", // Relative public path to Base URL or Absolute Path
   favicon: "/favicon.ico",
-}
+};

@@ -37,13 +37,11 @@ Before you contribute, **make sure to read the [Code of Conduct](./CODE_OF_CONDU
   </ol>
 </details>
 
-
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the
 [Code of Conduct](CODE_OF_CONDUCT.md). By participating,
 you are expected to uphold this code. Please report unacceptable behavior to <4c.contactus@gmail.com>.
-
 
 ## I don't want to read this whole thing. I just have a question!!!
 
@@ -61,8 +59,7 @@ You can also help by tackling [issues]. To learn more, read [Your first code con
 
 ### Reporting bugs
 
-> **If you want to report a security vulnerability, do not open an issue for it!**
-> **Send an email to <4c.contactus@gmail.com>, and you will receive instructions from there**
+> **If you want to report a security vulnerability, do not open an issue for it!** > **Send an email to <4c.contactus@gmail.com>, and you will receive instructions from there**
 >
 > Also, check out [The security guidelines](./SECURITY.md)
 
@@ -87,6 +84,7 @@ Bugs are tracked as [GitHub issues][issues]. Create an issue on the repository
 and provide the following information by filling in the [template][new-issue].
 
 **Explain the problem and include additional details to help maintainers reproduce the problem:**
+
 - **Use a clear and descriptive title** for the issue to identify the problem. Title it `"[Bug]: Title here"`.
 - **Describe the exact steps which reproduce the problem** in as many details as possible.
   For example, start by explaining how you got to the website, what your network speed is,
@@ -106,12 +104,13 @@ and provide the following information by filling in the [template][new-issue].
   information using the guidelines below.
 
 **Provide more context by answering these questions:**
+
 - **Did the problem start happening recently** (after the site was updated)
   or, was this always a problem?
   - If the problem started happening recently, **can you reproduce it in an older version**
     of the site? What's the most recent version in which the problem doesn't happen?
 - **Can you reliably reproduce the issue?** If not, provide details about how
-  often the problem happens** and under which conditions it usually happens.
+  often the problem happens\*\* and under which conditions it usually happens.
 
 Include details about your configuration and environment:
 
@@ -173,6 +172,7 @@ To get a local copy, follow these steps:
 1.  **Forking the [repo]**.
 
     You can follow the [GitHub help instructions to do so](https://help.github.com/articles/fork-a-repo/)
+
 2.  **Cloning and setting up**
 
     Once you have a fork, you can clone it:
@@ -182,6 +182,7 @@ To get a local copy, follow these steps:
     ```
 
     Next, you can navigate to your clone:
+
     ```console
     you@computer$ cd 4c-site
     ```
@@ -233,6 +234,7 @@ You can follow the [GitHub pull request tutorial](https://docs.github.com/en/git
 If you don't know how to open a Pull Request or what a Pull Request is.
 
 Before you open a Pull Request:
+
 - Follow the [styleguides](#styleguides)
 - Write tests
 - Follow the instructions in the Pull request's template
@@ -252,7 +254,6 @@ Before you open a Pull Request:
 [issues]: https://github.com/FrancescoXX/4c-site/issues
 [contributing]: https://github.com/FrancescoXX/4c-site/contribute
 [repo]: https://github.com/FrancescoXX/4c-site
-
 [keycastr]: https://github.com/keycastr/keycastr
 [licecap]: https://www.cockos.com/licecap/
 [silentcast]: https://github.com/colinkeenan/silentcast
