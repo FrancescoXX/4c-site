@@ -124,10 +124,12 @@ First run
 ```console
     $ npm run format:check
 ```
-Then run 
+If you get this error "Code style issues found in the above file(s). Forgot to run Prettier?"
+Run this command 
 ```console
     $ npx prettier --write .
 ```
+Done!
 
 ### :bookmark: Adding a project to the project page
 
