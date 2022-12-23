@@ -119,6 +119,15 @@ In the course of trying to set up the project locally, if you come across an err
 7.  ```console
     $ npm run dev
     ```
+### Format check
+First run 
+```console
+    $ npm run format:check
+```
+Then run 
+```console
+    $ npx prettier --write .
+```
 
 ### :bookmark: Adding a project to the project page
 
