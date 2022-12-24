@@ -120,7 +120,7 @@ In the course of trying to set up the project locally, if you come across an err
     $ npm run dev
     ```
 ### Format check
-First run 
+Before PR, please check formatting first 
 ```console
     $ npm run format:check
     $ npm run lint:check
