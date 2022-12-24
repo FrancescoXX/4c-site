@@ -130,6 +130,13 @@ Run this command
 ```console
     $ npx prettier --write .
 ```
+```console
+    $ npm run lint -- --fix
+```
+For specific file
+```console
+    $ eslint --fix "[file_path/filename]"
+```
 Done!
 
 ### :bookmark: Adding a project to the project page
