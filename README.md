@@ -106,11 +106,11 @@ In the course of trying to set up the project locally, if you come across an err
     ```console
     $ unset NODE_OPTIONS=""
     ```
-4.  ````console
+4.  ```console
         $ npm run dev
-        ```
+    ```
+
     > For Windows 👇
-    ````
 5.  Go to 4c-site folder using `cd 4c-site`
 6.  In the terminal,
     ```console
@@ -123,6 +123,7 @@ In the course of trying to set up the project locally, if you come across an err
 First run 
 ```console
     $ npm run format:check
+    $ npm run lint:check
 ```
 If you get this error "Code style issues found in the above file(s). Forgot to run Prettier?"
 Run this command 
