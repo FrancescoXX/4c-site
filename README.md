@@ -149,13 +149,14 @@ For example,
 
 ```json
 {
-  "name": "Francesco Ciulla",
-  "title": "FREE Web3 Resources",
-  "screenshot": "https://user-images.githubusercontent.com/18360871/199210192-f5599a23-f0b1-49ff-9c52-2554a72a2c14.png",
-  "description": "A list of resources to learn Web3 for FREE",
-  "link": "https://github.com/FrancescoXX/free-Web3-resources",
-  "twitter": "https://twitter.com/FrancescoCiull4",
-  "live_link": "https://www.freeweb3resources.com"
+    "name": "Francesco Ciulla",
+    "title": "FREE Web3 Resources",
+    "screenshot": "https://user-images.githubusercontent.com/18360871/199210192-f5599a23-f0b1-49ff-9c52-2554a72a2c14.png",
+    "description": "A list of resources to learn Web3 for FREE",
+    "link": "https://github.com/FrancescoXX/free-Web3-resources",
+    "twitter": "https://twitter.com/FrancescoCiull4",
+    "live_link": "https://www.freeweb3resources.com",
+    "stack": ["React", "CSS", "Solidity"]
 }
 ```
 
