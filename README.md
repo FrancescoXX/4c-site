@@ -111,6 +111,7 @@ In the course of trying to set up the project locally, if you come across an err
     ```
 
     > For Windows 👇
+
 5.  Go to 4c-site folder using `cd 4c-site`
 6.  In the terminal,
     ```console
@@ -119,24 +120,33 @@ In the course of trying to set up the project locally, if you come across an err
 7.  ```console
     $ npm run dev
     ```
+
 ### Format check
-Before PR, please check formatting first 
+
+Before PR, please check formatting first
+
 ```console
     $ npm run format:check
     $ npm run lint:check
 ```
+
 If you get this error "Code style issues found in the above file(s). Forgot to run Prettier?"
-Run this command 
+Run this command
+
 ```console
     $ npx prettier --write .
 ```
+
 ```console
     $ npm run lint -- --fix
 ```
+
 For specific file
+
 ```console
     $ eslint --fix "[file_path/filename]"
 ```
+
 Done!
 
 ### :bookmark: Adding a project to the project page
