@@ -123,7 +123,7 @@ In the course of trying to set up the project locally, if you come across an err
 
 ### Format check
 
-Before PR, please check formatting first
+Before PR, please check formatting first. Eslint may show error, just make sure prettier formatting is ok.
 
 ```console
     $ npm run format:check
@@ -133,10 +133,16 @@ Before PR, please check formatting first
 If you get this error "Code style issues found in the above file(s). Forgot to run Prettier?"
 Run this command
 
+>Prettier
 ```console
     $ npx prettier --write .
 ```
+For specific file
 
+```console
+    $ npx prettier --write "[file_path/filename]"
+```
+>Lint
 ```console
     $ npm run lint -- --fix
 ```
