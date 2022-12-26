@@ -8,6 +8,7 @@ const Contributors = ({ users }) => {
       </div>
     );
   }
+  console.log("hello");
   return users.map((user) => (
     <ProfileCard
       username={user.name}

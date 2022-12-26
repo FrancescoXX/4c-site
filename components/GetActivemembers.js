@@ -1,6 +1,6 @@
 import { motion, useReducedMotion } from "framer-motion";
 import ProfileCard from "./ProfileCard";
-
+import React, { useEffect, useState } from "react";
 const GetActivemembers = ({ users }) => {
   const shouldReduceMotion = useReducedMotion();
   const hoverAnimation = shouldReduceMotion
@@ -9,9 +9,11 @@ const GetActivemembers = ({ users }) => {
         zIndex: 1,
         scale: [1, 1.1, 1.1],
       };
+  console.log(users, "ff");
 
-  return users.profiles.map((user) => (
-    <motion.div key={user.name} whileHover={hoverAnimation}>
+  return users.map((user, index) => (
+    <motion.div key={index} whileHover={hoverAnimation}>
+      {user.name}
       <ProfileCard
         username={user.name}
         avatarUrl={user.avatarUrl}

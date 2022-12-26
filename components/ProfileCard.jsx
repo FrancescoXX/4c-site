@@ -57,17 +57,19 @@ const getSocials = (socials, username) => {
 };
 
 const ProfileCard = ({ username, avatarUrl, socials = [], description }) => {
+  console.log(username, "uu");
   return (
     <div className="m-4 flex h-64 w-64 flex-col items-center justify-center rounded-md">
       <div className="h-32 w-32 overflow-hidden rounded-full shadow-sm">
-        <Image
+        {/* <Image
           src={avatarUrl}
           alt={username}
           width={200}
           height={200}
           className="object-contain"
-        />
+        /> */}
       </div>
+      {username + "gggggg"}
       <span className="mt-3 text-lg text-white">{username}</span>
       {description?.length > 0 ? (
         <div className="mt-[.2em] w-[20ch] truncate p-[.4em] text-sm hover:w-[30ch] hover:text-clip">
