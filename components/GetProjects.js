@@ -18,7 +18,7 @@ const GetProjects = () => {
               {allProjects.projects.map((project) => (
                 <div
                   key={project.name}
-                  className="group flex w-[280px] shrink flex-col rounded-lg p-2 transition-all duration-200 ease-in-out"
+                  className="group flex w-[280px] shrink flex-col rounded-lg p-2 transition-all duration-200 ease-in-out hover:scale-110 transition duration-300 ease-in-out max-w-xs shadow-md shadow-cyan-500/50 transition duration-300 ease-in-out" 
                 >
                   <div className="flex h-full w-full items-center justify-center rounded-tl-xl rounded-tr-xl text-center shadow-sm">
                     <img
