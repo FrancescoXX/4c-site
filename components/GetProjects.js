@@ -14,7 +14,7 @@ const GetProjects = () => {
         </p>
         <div className="flex items-center justify-center">
           <div className="max-w-bodyContainer">
-            <div className="my-[1rem] flex flex-wrap items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="my-[1rem] grid grid-flow-row items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {allProjects.projects.map((project) => (
                 <div
                   key={project.name}
@@ -58,13 +58,22 @@ const GetProjects = () => {
                           {project.description}
                         </p>
                       </div>
-                      {/* <p className="flex h-full text-md">{project.description}</p> */}
                     </div>
                     <div className="bg-red my-[10px] mt-auto flex h-10 w-full items-center self-end">
                       <a
-                        className="mr-3 flex items-center gap-2 rounded-full bg-[#1e293b] px-4 py-1.5 text-sm transition-all ease-in  hover:bg-sky-700"
+                        className={
+                          project.live_link == ""
+                            ? "mr-3 flex items-center gap-2 rounded-full bg-gray-500 px-4 py-1.5 text-sm transition-all ease-in  hover:bg-sky-700"
+                            : "mr-3 flex items-center gap-2 rounded-full bg-[#1e293b] px-4 py-1.5 text-sm transition-all ease-in  hover:bg-sky-700"
+                        }
+                        // className="mr-3 flex items-center gap-2 rounded-full bg-[#1e293b] px-4 py-1.5 text-sm transition-all ease-in  hover:bg-sky-700"
                         href={project.live_link}
                         target="_blank"
+                        style={
+                          project.live_link == ""
+                            ? { pointerEvents: "none" }
+                            : { pointerEvents: "auto" }
+                        }
                       >
                         <svg
                           stroke="currentColor"
