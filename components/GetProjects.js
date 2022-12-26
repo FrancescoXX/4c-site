@@ -14,7 +14,7 @@ const GetProjects = () => {
         </p>
         <div className="flex items-center justify-center">
           <div className="max-w-bodyContainer">
-            <div className="my-[1rem] grid grid-flow-row items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="my-[1rem] flex flex-wrap items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {allProjects.projects.map((project) => (
                 <div
                   key={project.name}
