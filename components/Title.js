@@ -4,7 +4,7 @@ function Title({ heading }) {
   // Main Heading component
   return (
     <>
-      <h1 className="mb-5 tracking-widest text-white uppercase headTitle">
+      <h1 className="headTitle mb-5 uppercase tracking-widest text-white">
         {heading}
       </h1>
     </>

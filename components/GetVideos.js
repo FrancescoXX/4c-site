@@ -4,16 +4,16 @@ import Title from "./Title";
 
 const GetVideos = () => {
   return (
-    <div className="flex items-center justify-center mt-[3em]">
-      <section className="flex-1 text-center text-white max-w-bodyContainer">
+    <div className="mt-[3em] flex items-center justify-center">
+      <section className="max-w-bodyContainer flex-1 text-center text-white">
         <Title heading="Videos" />
         <p className="text-white/70">Videos by 4c community Members</p>
         <div className="mx-4 lg:mx-12">
-          <div className="flex flex-wrap items-center justify-center w-full p-10">
+          <div className="flex w-full flex-wrap items-center justify-center p-10">
             {allVideos.videos.map((video, index) => (
               <div
                 key={index}
-                className="w-auto w-full p-4 my-4 text-white bg-white rounded shadow shadow-md cursor-pointer details hov-bg-theme rounded-xl bg-[#f1f5f9] bg-opacity-20 backdrop-blur-lg transition-all ease-out hover:-translate-y-1 sm:m-5 sm:w-80 sm:p-6"
+                className="details hov-bg-theme my-4 w-auto w-full cursor-pointer rounded rounded-xl bg-white bg-[#f1f5f9] bg-opacity-20 p-4 text-white shadow shadow-md backdrop-blur-lg transition-all ease-out hover:-translate-y-1 sm:m-5 sm:w-80 sm:p-6"
               >
                 <a
                   href={`https://www.youtube.com/watch?v=${video.videoId}`}
