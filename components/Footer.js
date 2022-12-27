@@ -5,6 +5,7 @@ const Footer = () => {
       <div className="flex items-center">
         <div className="flex gap-10">
           <a
+            target="_blank"
             className="text-2xl hover:text-white"
             href="https://github.com/FrancescoXX/4c-site"
           >
@@ -12,6 +13,7 @@ const Footer = () => {
             <FaGithub aria-hidden="true" />
           </a>
           <a
+            target="_blank"
             className="text-2xl hover:text-white"
             href="https://discord.com/invite/TcmA2kbJeA"
           >
@@ -19,6 +21,7 @@ const Footer = () => {
             <FaDiscord aria-hidden="true" />
           </a>
           <a
+            target="_blank"
             className="text-2xl hover:text-white"
             href="https://twitter.com/4ccommunityhq"
           >
@@ -26,6 +29,7 @@ const Footer = () => {
             <FaTwitter aria-hidden="true" />
           </a>
           <a
+            target="_blank"
             className="text-2xl hover:text-white"
             href="https://www.linkedin.com/company/4ccommunity/about/"
           >
