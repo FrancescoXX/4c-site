@@ -7,10 +7,7 @@ import activeMembers from "../content/activemembers.json";
 import Title from "./Title";
 
 const ActiveMembers = () => {
-  let vr = {
-    profiles: [],
-  };
-  const [currentUsers, setCurrentUsers] = useState(activeMembers);
+  const [currentUsers, setCurrentUsers] = useState(activeMembers.profiles);
 
   const searchHandler = (event) => {
     console.log(event.target.value);
@@ -25,24 +22,29 @@ const ActiveMembers = () => {
         console.log(true);
       }
     }
-    vr.profiles.push(user);
-    setCurrentUsers(vr);
-    // console.log(currentUsers,"dd", vr,"dd", activeMembers);
+    setCurrentUsers(user);
+    console.log(
+      currentUsers.profiles,
+      "dd",
+      user,
+      "dd",
+      activeMembers.profiles
+    );
   };
   const [tab] = useState("Active Members");
   return (
     <div className="mt-[3em] flex items-center justify-center">
-      <section className="max-w-bodyContainer items-center  justify-center flex-1 text-center  font-bold text-white">
+      <section className="max-w-bodyContainer flex-1  items-center justify-center text-center  font-bold text-white">
         <Title heading="Active Members" />
-        <div className="flex self-center m-auto max-w-[800px] relative">
+        <div className="relative m-auto flex max-w-[800px] self-center">
           <input
             placeholder="Search here"
-            className="w-full h-10 border-slate-200 placeholder-slate-700 contrast-more:border-slate-400 py-3 outline-none px-5 text-black contrast-more:placeholder-slate-500"
+            className="contrast-more:border-slate-400 contrast-more:placeholder-slate-500 h-10 w-full border-slate-200 py-3 px-5 text-black placeholder-slate-700 outline-none"
             onInput={searchHandler}
           />
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5 text-white rotate-90 sm:text-slate-400 absolute right-3 top-1/2 -translate-y-1/2"
+            className="absolute right-3 top-1/2 h-5 w-5 -translate-y-1/2 rotate-90 text-white sm:text-slate-400"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -57,9 +59,9 @@ const ActiveMembers = () => {
         </div>
         <div className="m-2 flex flex-wrap items-center justify-center overflow-y-auto pb-4">
           {tab === "Active Members" ? (
-            <GetActivemembers users={currentUsers.profiles} />
+            <GetActivemembers users={currentUsers} />
           ) : (
-            <Users users={currentUsers.profiles} />
+            <Users users={activeMembers.profiles} />
           )}
         </div>
       </section>

@@ -1,6 +1,6 @@
 import { motion, useReducedMotion } from "framer-motion";
 import ProfileCard from "./ProfileCard";
-import React, { useEffect, useState } from "react";
+import React from "react";
 const GetActivemembers = ({ users }) => {
   const shouldReduceMotion = useReducedMotion();
   const hoverAnimation = shouldReduceMotion
