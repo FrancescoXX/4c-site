@@ -10,7 +10,7 @@ const GetStaff = ({ users }) => {
         scale: [1, 1.1, 1.1],
       };
 
-  return users.profiles.map((user) => (
+  return users.map((user) => (
     <motion.div key={user.name} whileHover={hoverAnimation}>
       <ProfileCard
         username={user.name}

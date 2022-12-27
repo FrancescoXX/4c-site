@@ -5,31 +5,20 @@ import Users from "./Users";
 // import contributors data
 import activeMembers from "../content/activemembers.json";
 import Title from "./Title";
+import { FilterUsers } from "../utils/filterUsers";
 
 const ActiveMembers = () => {
+  //state for currentUsers
   const [currentUsers, setCurrentUsers] = useState(activeMembers.profiles);
 
+  // filter handler
   const searchHandler = (event) => {
-    console.log(event.target.value);
     event.preventDefault();
-
-    let user = [];
-    for (let i = 0; i < activeMembers.profiles.length; i++) {
-      let name = activeMembers.profiles[i].name.toLowerCase();
-      let cas = event.target.value.toLowerCase();
-      if (name.includes(cas)) {
-        user.push(activeMembers.profiles[i]);
-        console.log(true);
-      }
-    }
-    setCurrentUsers(user);
-    console.log(
-      currentUsers.profiles,
-      "dd",
-      user,
-      "dd",
-      activeMembers.profiles
+    const filterdUsers = FilterUsers(
+      activeMembers.profiles,
+      event.target.value
     );
+    setCurrentUsers(filterdUsers);
   };
   const [tab] = useState("Active Members");
   return (
@@ -61,7 +50,7 @@ const ActiveMembers = () => {
           {tab === "Active Members" ? (
             <GetActivemembers users={currentUsers} />
           ) : (
-            <Users users={activeMembers.profiles} />
+            <Users users={currentUsers} />
           )}
         </div>
       </section>

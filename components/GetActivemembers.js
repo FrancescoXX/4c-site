@@ -9,11 +9,9 @@ const GetActivemembers = ({ users }) => {
         zIndex: 1,
         scale: [1, 1.1, 1.1],
       };
-  console.log(users, "ff");
 
   return users.map((user, index) => (
     <motion.div key={index} whileHover={hoverAnimation}>
-      {user.name}
       <ProfileCard
         username={user.name}
         avatarUrl={user.avatarUrl}
