@@ -21,7 +21,7 @@ const Staff = () => {
   return (
     <div className="flex items-center justify-center">
       <div className="mt-[3em] flex max-w-bodyContainer items-start justify-start">
-        <section className="flex-1 text-center  font-bold text-white">
+        <section className="flex-1 text-center font-bold text-white">
           <Title heading="Staff" />
           <div className="relative m-auto flex max-w-[800px] self-center">
             <input

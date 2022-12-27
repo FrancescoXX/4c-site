@@ -317,6 +317,33 @@
       "blogUrl": "https://devvsakib.me",
       "linkedin": "devvsakib",
       "contributions": "null"
+    },
+    {
+      "name": "Aleex",
+      "avatarUrl": "https://cdn.discordapp.com/avatars/918754514322980875/2cae3aaefa598523a8565f22005f11a2.webp",
+      "github": "",
+      "twitter": "",
+      "blogUrl": "",
+      "linkedin": "",
+      "contributions": "null"
+    },
+    {
+      "name": "Ctofanin",
+      "avatarUrl": "https://cdn.discordapp.com/avatars/724994694270156861/0aec050e69cba95470ddf10c4251ad44.webp",
+      "github": "https://github.com/ctoffanin",
+      "twitter": "https://twitter.com/ctoffaninDev",
+      "blogUrl": "",
+      "linkedin": "",
+      "contributions": "null"
+    },
+    {
+      "name": "Krupali",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99717469?v=4",
+      "github": "https://github.com/krupalitrivedi",
+      "twitter": "https://twitter.com/chai_really",
+      "blogUrl": "",
+      "linkedin": "",
+      "contributions": "null"
     }
   ]
 }
