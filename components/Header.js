@@ -29,11 +29,11 @@ const Navbar = () => {
     }
   }, [screenSize]);
   return (
-    <div className="container flex max-w-bodyContainer items-center justify-center">
-      <header className="my-[0] w-full px-0 py-[3em] md:p-[3em]">
+    <div className="container flex items-center justify-center max-w-bodyContainer">
+      <header className="w-full px-0 my-[0] py-[3em] md:p-[3em]">
         <div className="container">
           <nav className="flex items-start justify-between  md:justify-center">
-            <div className="relative flex w-[100%] flex-wrap items-center justify-between gap-6">
+            <div className="relative flex flex-wrap items-center justify-between w-[100%] gap-6">
               <Link href="/">
                 <img
                   className="w-[100%] max-w-[50px] hover:cursor-pointer"
@@ -52,7 +52,7 @@ const Navbar = () => {
                 >
                   <BsX />
                 </button>
-                <div className="flex list-none flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
+                <div className="flex flex-col items-center justify-center list-none gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
                   {navItems.map((navItem, idx) => (
                     <Link href={navItem.href} key={idx}>
                       <span
@@ -74,7 +74,7 @@ const Navbar = () => {
                 </div>
               </div>
               <button
-                className="hamburger text-3xl"
+                className="text-3xl hamburger"
                 onClick={() => setMenuActive(!menuActive)}
               >
                 <GiHamburgerMenu className="text-white" />

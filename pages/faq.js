@@ -7,8 +7,8 @@ import Title from "../components/Title";
 const Faq = () => {
   return (
     <div>
-      <Layout className="items-left mt-4 flex flex-col justify-center px-3">
-        <div className="page-title mb-16 mt-[30px] text-center text-white">
+      <Layout className="flex flex-col justify-center px-3 mt-4 items-left">
+        <div className="mb-16 text-center text-white page-title mt-[30px]">
           <Title heading="Frequently asked questions" />
         </div>
         <ul className="flex flex-col items-center justify-center">
