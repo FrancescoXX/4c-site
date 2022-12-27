@@ -135,22 +135,11 @@ Run this command
 
 >Prettier
 ```console
-    $ npx prettier --write .
-```
-For specific file
-
-```console
-    $ npx prettier --write "[file_path/filename]"
+    $ npm run format .
 ```
 >Lint
 ```console
-    $ npm run lint -- --fix
-```
-
-For specific file
-
-```console
-    $ eslint --fix "[file_path/filename]"
+    $ npm run lint
 ```
 
 Done!
