@@ -133,16 +133,20 @@ Before PR, please check formatting first. Eslint may show error, just make sure 
 If you get this error "Code style issues found in the above file(s). Forgot to run Prettier?"
 Run this command
 
->Prettier
+> Prettier
+
 ```console
     $ npx prettier --write .
 ```
+
 For specific file
 
 ```console
     $ npx prettier --write "[file_path/filename]"
 ```
->Lint
+
+> Lint
+
 ```console
     $ npm run lint -- --fix
 ```
