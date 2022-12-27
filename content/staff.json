@@ -119,7 +119,7 @@
       "twitter": "toby_solutions",
       "blogUrl": "",
       "linkedin": "tobiloba-adedeji",
-      "contributions": 1
+      "contributions": 34
     },
     {
       "name": "Yudai",
@@ -128,6 +128,55 @@
       "description": "Code | Design | Buildin in Public 🚀",
       "twitter": "creator_yudai",
       "blogUrl": "https://yudaicreator.com/",
+      "contributions": 0
+    },
+    {
+      "name": "Emy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81039882?v=4",
+      "github": "Njong392",
+      "twitter": "njong_emy",
+      "description": "Ambassador at GitKraken | Technical Writer at LogRocket | Front end developer 💻 | Open Source enthusiast 💥| Spaces host 🎙| dev advocate wannabe 🥑",
+      "blogUrl": "https://linkfree.eddiehub.io/Njong392",
+      "contributions": 0
+    },
+    {
+      "name": "Louëlla Creemers",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92865452?v=4",
+      "github": "lovelacecoding",
+      "linkedin": "louelladev",
+      "description": "Web Developer 🌍 | Public Speaker 🗣️ | .NET & C# 🖥️  | Dad Joke Enthusiast 🤓 | Learning and Joking With You While Working and Studying CS",
+      "twitter": "lovelacecoding",
+      "twitch": "https://www.twitch.tv/lovelacecoding",
+      "blogUrl": "https://lovelacecoding.hashnode.dev/",
+      "contributions": null
+    },
+    {
+      "name": "Madhu Saini",
+      "avatarUrl": "https://avatars.githubusercontent.com/MadhuSaini22",
+      "github": "MadhuSaini22",
+      "description": "Enthusiastic Open-Source Developer | MERN Stack | Student",
+      "twitter": "MadhuSaini22",
+      "blogUrl": "https://madhusaini.netlify.app/",
+      "linkedin": "madhu-saini",
+      "contributions": 24
+    },
+    {
+      "name": "Krupali",
+      "description": "20 🚀 || talking about blogging and communities|| web3 and web dev learner | summarising spaces in threads | chillin' in discord servers |books 💜",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99717469?v=4",
+      "github": "https://github.com/krupalitrivedi",
+      "twitter": "https://twitter.com/chai_really",
+      "blogUrl": "",
+      "linkedin": "",
+      "contributions": "null"
+    },
+    {
+      "name": "Arda Sevinç",
+      "description": "Generalist software dev and student, Tweets about web2, web3 and everything in between, Developer Dao #6095 at AlchemyLearn | EarnWeb3DAO",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42278637?v=4",
+      "github": "ardasevinc",
+      "twitter": "ardasevinc_4",
+      "blogUrl": "https://www.ardasevinc.com/",
       "contributions": 0
     }
   ]
