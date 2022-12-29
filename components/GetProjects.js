@@ -3,18 +3,17 @@ import React from "react";
 // import contributors data
 import allProjects from "../content/projects.json";
 import Title from "./Title";
-
 const GetProjects = () => {
   return (
     <div className="mt-[3em] flex items-start justify-start">
-      <section className="flex-1 text-center text-white">
+      <section className="projectSection flex-1 text-center text-white">
         <Title heading="Projects" />
         <p className="text-black/70 sm:text-white/70">
           Projects by 4c community Members
         </p>
-        <div className="flex items-center justify-center">
+        <div className="mx-auto grid grid-flow-row justify-center overflow-x-hidden sm:w-auto">
           <div className="max-w-bodyContainer">
-            <div className="my-[1rem] flex flex-wrap items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="projectContainer my-[1rem] grid grid-flow-row items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {allProjects.projects.map((project) => (
                 <div
                   key={project.name}
@@ -26,7 +25,7 @@ const GetProjects = () => {
                       src={project?.screenshot}
                     />
                   </div>
-                  <div className="flex w-full flex-col gap-[.2rem] justify-self-end rounded-br-xl rounded-bl-xl bg-[#f1f5f9] p-[20px]">
+                  <div className="projDetail flex w-full flex-col gap-[.2rem] justify-self-end rounded-br-xl rounded-bl-xl bg-[#f1f5f9] p-[20px]">
                     <div className="text-black ">
                       <h2 className="w-[30ch] text-base text-[.95rem]">
                         {project.title}

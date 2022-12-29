@@ -128,10 +128,14 @@ To check if everything has worked, restart your shell and run `node -v`. The out
 
 Before PR, please check formatting first. ESLint may show formatting errors, but just make sure that the prettier formatting is OK.
 
+> Prettier
+
 ```console
 $ npm run format:check
 $ npm run lint:check
 ```
+
+> Lint
 
 If you get the error `Code style issues found in the above file(s). Forgot to run Prettier?`, format and lint the files:
 
