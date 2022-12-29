@@ -39,8 +39,6 @@ For contributing to code, you will need;
 > Disclaimer: \*In order to run this project locally, you might require some additional configurations.
 > If you try to run the project locally and you get something similar to this:
 
--
-
 <img src='https://media.discordapp.net/attachments/881808811344683028/1051093955518935060/image.png' alt='node error'>
 
 #### Follow the steps below to resolve the issue
