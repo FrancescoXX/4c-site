@@ -61,3 +61,24 @@ img {
     display: none;
   }
 }
+@media (max-width: 400px) {
+  .group {
+    width: 339px;
+  }
+}
+@media (max-width: 358px) {
+  .group {
+    width: 310px;
+  }
+}
+@media (max-width: 310px) {
+  .projectContainer {
+    width: 93vw;
+  }
+  .group {
+    width: 95vw;
+  }
+  .projDetail {
+    overflow-x: hidden;
+  }
+}

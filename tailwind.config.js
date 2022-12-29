@@ -13,9 +13,9 @@ module.exports = {
     },
     extend: {
       screens: {
-        bigScreen:"1100px",
+        bigScreen: "1100px",
         laptop: "801px",
-        medium:"450px",
+        medium: "450px",
         break: "500px",
         mobile: "300px",
       },
