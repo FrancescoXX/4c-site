@@ -162,8 +162,7 @@ For example,
   "description": "A list of resources to learn Web3 for FREE",
   "link": "https://github.com/FrancescoXX/free-Web3-resources",
   "twitter": "https://twitter.com/FrancescoCiull4",
-  "live_link": "https://www.freeweb3resources.com",
-  "stack":  ["React", "CSS", "Solidity"]
+  "live_link": "https://www.freeweb3resources.com"
 }
 ```
 
