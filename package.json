@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "format": "npx prettier --write \"{components,content,docs,pages,styles,utils}/**/*.{js,jsx,ts,tsx,css,scss,json,yaml,md}\"",
+    "format": "prettier --write \"{components,content,docs,pages,styles,utils}/**/*.{js,jsx,ts,tsx,css,scss,json,yaml,md}\"",
     "format:check": "prettier --check \"{components,content,docs,pages,styles,utils}/**/*.{js,jsx,ts,tsx,css,scss,json,yaml,md}\"",
     "lint": "eslint --fix '{components,pages,utils}/**/*.{js,jsx,ts,tsx}'",
     "lint:check": "eslint '{components,pages,utils}/**/*.{js,jsx,ts,tsx}'",
