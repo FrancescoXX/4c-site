@@ -55,7 +55,7 @@ const GetProjects = () => {
                       </div>
                       <div className="flex w-full flex-col gap-[.2rem] justify-self-end rounded-b-xl bg-[#f1f5f9] p-[20px]">
                         <div className="text-black ">
-                          <h2 className="w-[30ch] text-base text-[.95rem]">
+                          <h2 className="w-[30ch] text-[.95rem]">
                             {project.title}
                           </h2>
                           <h4 className="flex items-center gap-2 text-sm font-normal opacity-75">
