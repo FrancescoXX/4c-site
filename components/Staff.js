@@ -20,19 +20,19 @@ const Staff = () => {
   };
   return (
     <div className="flex items-center justify-center">
-      <div className="flex items-start justify-start mt-[3em] max-w-bodyContainer">
-        <section className="flex-1 font-bold text-center text-white">
+      <div className="mt-[3em] flex max-w-bodyContainer items-start justify-start">
+        <section className="flex-1 text-center font-bold text-white">
           <Title heading="Staff" />
           <div className="flex items-center justify-center ">
-            <div className="relative flex self-center m-auto break:w[500px] max-w-[800px] bigScreen:w-[800px] laptop:w-[600px] mobile:mx-10">
+            <div className="break:w[500px] relative m-auto flex max-w-[800px] self-center mobile:mx-10 laptop:w-[600px] bigScreen:w-[800px]">
               <input
                 placeholder="Search here"
-                className="w-full h-10 px-5 py-3 text-black outline-none contrast-more:border-slate-400 contrast-more:placeholder-slate-500 border-slate-200 placeholder-slate-700"
+                className="h-10 w-full border-slate-200 px-5 py-3 text-black outline-none placeholder:text-slate-700 contrast-more:border-slate-400 contrast-more:placeholder:text-slate-500"
                 onInput={searchHandler}
               />
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="absolute w-5 h-5 text-white right-3 top-1/2 -translate-y-1/2 rotate-90 sm:text-slate-400"
+                className="absolute right-3 top-1/2 h-5 w-5 -translate-y-1/2 rotate-90 text-white sm:text-slate-400"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -46,7 +46,7 @@ const Staff = () => {
               </svg>
             </div>
           </div>
-          <div className="flex flex-wrap items-center justify-center pt-5 pb-4 m-2 overflow-y-auto gap-[1.8rem]">
+          <div className="m-2 flex flex-wrap items-center justify-center gap-[1.8rem] overflow-y-auto pt-5 pb-4">
             {tab === "Staff" ? (
               <GetStaff users={currentUsers} />
             ) : (
