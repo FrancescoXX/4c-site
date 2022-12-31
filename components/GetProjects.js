@@ -82,13 +82,13 @@ const GetProjects = () => {
                     key={index}
                     className="group flex w-[280px] shrink flex-col rounded-lg p-2 transition-all duration-300 ease-in-out hover:scale-110"
                   >
-                    <div className="flex h-full w-full items-center justify-center rounded-tl-xl rounded-tr-xl text-center shadow-sm">
+                    <div className="flex h-full w-full items-center justify-center rounded-t-xl text-center shadow-sm">
                       <img
-                        className="h-full max-h-[8rem] w-full overflow-hidden rounded-tl-xl rounded-tr-xl object-cover transition-all duration-300 ease-in-out"
+                        className="h-full max-h-[8rem] w-full overflow-hidden rounded-t-xl object-cover transition-all duration-300 ease-in-out"
                         src={project?.screenshot}
                       />
                     </div>
-                    <div className="flex w-full flex-col gap-[.2rem] justify-self-end rounded-br-xl rounded-bl-xl bg-[#f1f5f9] p-[20px]">
+                    <div className="flex w-full flex-col gap-[.2rem] justify-self-end rounded-b-xl bg-[#f1f5f9] p-[20px]">
                       <div className="text-black ">
                         <h2 className="w-[30ch] text-base">{project.title}</h2>
                         <h4 className="flex items-center gap-2 text-sm font-normal opacity-75">
