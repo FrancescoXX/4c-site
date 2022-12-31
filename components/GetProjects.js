@@ -68,6 +68,7 @@ const GetProjects = () => {
                   placeholder="Filter By Tech Stack"
                   ref={multiselectRef}
                   className="text-black"
+                  showArrow={true}
                 />
               </div>
             </div>
