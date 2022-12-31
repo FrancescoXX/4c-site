@@ -6,7 +6,7 @@ Gain access to exclusive talks/workshops with popular content creators, and henc
 
 We have games too! :video_game:
 
-Join our amazing community on discord and twitter.
+Join our amazing community on Discord and Twitter.
 
 <a href="https://discord.com/invite/cRjhjFRRre"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="40"/></a> <a href="https://twitter.com/4ccommunityhq"><img src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" title="Twitter" alt="Twitter Account" width="40"/></a>
 
