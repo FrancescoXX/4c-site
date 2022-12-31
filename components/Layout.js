@@ -13,7 +13,7 @@ const Layout = ({ header, children, ...rest }) => {
   };
   return (
     <>
-      <div className="min-h-screen bg-theme">
+      <div className="bg-theme min-h-screen">
         <Header {...header} />
         <Head>
           <link rel="icon" href={config.favicon} />
