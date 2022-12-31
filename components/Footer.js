@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="md:max-md: text-xs font-medium text-white/80">
-        4C | Developed by 4C Community &#169; 2022
+        4C | Developed by 4C Community &#169; {new Date().getFullYear()}
       </p>
     </footer>
   );
