@@ -68,7 +68,9 @@ const GetProjects = () => {
                   placeholder="Filter By Tech Stack"
                   ref={multiselectRef}
                   className="text-black"
-                  showArrow={true}
+                  showCheckbox={true}
+                  closeOnSelect={true}
+                  avoidHighlightFirstOption={true}
                 />
               </div>
             </div>
