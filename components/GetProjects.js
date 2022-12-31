@@ -9,7 +9,6 @@ const stacks = stackList.stack.map((stack) => stack.name);
 const GetProjects = () => {
   const [selected, setSelected] = useState([]);
   const [filteredProjects, setFilteredProjects] = useState([]);
-  const [filter, setFilter] = useState("All");
 
   // get options from stacks
   const options = [];
