@@ -1,14 +1,7 @@
-const withPWA = require("next-pwa");
-
-module.exports = withPWA({
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
     domains: ["avatars.githubusercontent.com", "cdn.discordapp.com"],
-  },
-  pwa: {
-    dest: "public",
-    register: true,
-    skipWaiting: true,
-    disable: process.env.NODE_ENV === "development",
   },
   async redirects() {
     return [
@@ -19,4 +12,11 @@ module.exports = withPWA({
       },
     ];
   },
+};
+const withPWA = require("next-pwa")({
+  dest: "public",
+  register: true,
+  skipWaiting: true,
+  disable: process.env.NODE_ENV === "development",
 });
+module.exports = withPWA(nextConfig);

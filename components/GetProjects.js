@@ -13,7 +13,7 @@ const GetProjects = () => {
   }
 
   return (
-    <div className="flex items-start justify-start mt-[3em]">
+    <div className="mt-[3em] flex items-start justify-start">
       <section className="flex-1 text-center text-white">
         <Title heading="Projects" />
         <p className="text-black/70 sm:text-white/70">
@@ -27,7 +27,7 @@ const GetProjects = () => {
             <p className="mb-5 text-lg">
               Get started by selecting the language you want to work with!
             </p>
-            <div className="flex flex-col items-center justify-center mx-4 mt-5 mb-10 list-none gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
+            <div className="mx-4 mt-5 mb-10 flex list-none flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
               {stacks.map((stack) => (
                 <div
                   key={stack}
@@ -39,26 +39,26 @@ const GetProjects = () => {
               ))}
             </div>
             <h1 className="text-2xl">{filter} Projects</h1>
-            <div className="flex flex-wrap items-center justify-center pt-4 text-left my-[1rem] gap-[1.5rem] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="my-[1rem] flex flex-wrap items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {allProjects.projects.map((project) => {
                 return (
                   project.stack.includes(filter) && (
                     <div
                       key={project.name}
-                      className="flex flex-col p-2 rounded-lg group w-[280px] shrink transition-all duration-300 ease-in-out hover:scale-110"
+                      className="group flex w-[280px] shrink flex-col rounded-lg p-2 transition-all duration-300 ease-in-out hover:scale-110"
                     >
-                      <div className="flex items-center justify-center w-full h-full text-center rounded-tl-xl rounded-tr-xl shadow-sm">
+                      <div className="flex h-full w-full items-center justify-center rounded-tl-xl rounded-tr-xl text-center shadow-sm">
                         <img
-                          className="object-cover w-full h-full overflow-hidden max-h-[8rem] rounded-tl-xl rounded-tr-xl transition-all duration-300 ease-in-out"
+                          className="h-full max-h-[8rem] w-full overflow-hidden rounded-tl-xl rounded-tr-xl object-cover transition-all duration-300 ease-in-out"
                           src={project?.screenshot}
                         />
                       </div>
-                      <div className="flex flex-col w-full gap-[.2rem] justify-self-end rounded-br-xl rounded-bl-xl bg-[#f1f5f9] p-[20px]">
+                      <div className="flex w-full flex-col gap-[.2rem] justify-self-end rounded-br-xl rounded-bl-xl bg-[#f1f5f9] p-[20px]">
                         <div className="text-black ">
-                          <h2 className="text-base w-[30ch] text-[.95rem]">
+                          <h2 className="w-[30ch] text-base text-[.95rem]">
                             {project.title}
                           </h2>
-                          <h4 className="flex items-center text-sm font-normal opacity-75 gap-2">
+                          <h4 className="flex items-center gap-2 text-sm font-normal opacity-75">
                             <svg
                               width="12"
                               height="24"
@@ -80,13 +80,13 @@ const GetProjects = () => {
                             </svg>
                             {project.name}
                           </h4>
-                          <div className="flex flex-auto my-[.5rem]">
-                            <p className="w-full text-sm truncate">
+                          <div className="my-[.5rem] flex flex-auto">
+                            <p className="w-full truncate text-sm">
                               {project.description}
                             </p>
                           </div>
                         </div>
-                        <div className="flex items-center self-end w-full h-10 mt-auto bg-red my-[10px]">
+                        <div className="bg-red my-[10px] mt-auto flex h-10 w-full items-center self-end">
                           <a
                             className={
                               project.live_link == ""
@@ -118,7 +118,7 @@ const GetProjects = () => {
                             View
                           </a>
                           <a
-                            className="flex items-center px-3 mr-3 text-sm rounded-full gap-2 bg-[#111827] py-1.5 transition-all ease-in hover:bg-sky-700"
+                            className="mr-3 flex items-center gap-2 rounded-full bg-[#111827] px-3 py-1.5 text-sm transition-all ease-in hover:bg-sky-700"
                             href={project.link}
                             target="_blank"
                           >

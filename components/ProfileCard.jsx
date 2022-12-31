@@ -58,8 +58,8 @@ const getSocials = (socials, username) => {
 
 const ProfileCard = ({ username, avatarUrl, socials = [], description }) => {
   return (
-    <div className="flex flex-col items-center justify-center w-64 h-64 m-4 rounded-md">
-      <div className="w-32 h-32 overflow-hidden rounded-full shadow-sm">
+    <div className="m-4 flex h-64 w-64 flex-col items-center justify-center rounded-md">
+      <div className="h-32 w-32 overflow-hidden rounded-full shadow-sm">
         <Image
           src={avatarUrl}
           alt={username}
@@ -70,13 +70,13 @@ const ProfileCard = ({ username, avatarUrl, socials = [], description }) => {
       </div>
       <span className="mt-3 text-lg text-white">{username}</span>
       {description?.length > 0 ? (
-        <div className="text-sm truncate mt-[.2em] w-[20ch] p-[.4em] hover:w-[30ch] hover:text-clip">
+        <div className="mt-[.2em] w-[20ch] truncate p-[.4em] text-sm hover:w-[30ch] hover:text-clip">
           {description}
         </div>
       ) : (
         ""
       )}
-      <div className="flex items-center justify-center pt-1 pb-1 pl-4 pr-4 rounded space-x-3 bg-blue-500/60">
+      <div className="flex items-center justify-center space-x-3 rounded bg-blue-500/60 pt-1 pb-1 pl-4 pr-4">
         {getSocials(socials, username)}
       </div>
     </div>

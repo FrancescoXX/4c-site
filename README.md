@@ -67,7 +67,7 @@ Or, to work on it locally,
     ```console
     $ npm run dev
     ```
-    
+
 ##### Troubleshooting
 
 In the course of trying to set up the project locally, if you come across an errror that says `PWA is not supported`, you can try the following steps below to fix it;
@@ -77,11 +77,13 @@ In the course of trying to set up the project locally, if you come across an err
 1.  Go to 4c-site folder using `cd 4c-site`
 
 2.  In the terminal,
+
     ```console
     $ export NODE_OPTIONS=--openssl-legacy-provider
     ```
 
 3.  If you get an error in the above code then use the option below
+
     ```console
     $ unset NODE_OPTIONS=""
     ```
@@ -102,7 +104,7 @@ In the course of trying to set up the project locally, if you come across an err
     ```console
     $ npm run dev
     ```
-    
+
 In order to run this project locally, you might require some additional configurations, such as downgrading your `node` version to v16.
 You may get an error similar to this:
 
@@ -116,12 +118,11 @@ To fix this, downgrade your `node` version to v16. Here is a simple way of doing
     ```console
     $ nvm install 16.16.0
     ```
-    
 3.  Make your system use version 16 of node
     ```console
     $ nvm use 16.16.0
     ```
-    
+
 To check if everything has worked, restart your shell and run `node -v`. The output should be `v16.16.0`. If it is, you can continue working on the project!
 
 #### Format check
@@ -163,7 +164,7 @@ For example,
   "link": "https://github.com/FrancescoXX/free-Web3-resources",
   "twitter": "https://twitter.com/FrancescoCiull4",
   "live_link": "https://www.freeweb3resources.com",
-  "stack":  ["React", "CSS", "Solidity"]
+  "stack": ["React", "CSS", "Solidity"]
 }
 ```
 
