@@ -3,7 +3,7 @@ import allProjects from "../content/projects.json";
 import Title from "./Title";
 import stackList from "../content/stacks.json";
 
-const stacks = stackList.stack.map(stack => stack.name);
+const stacks = stackList.stack.map((stack) => stack.name);
 const GetProjects = () => {
   const [filter, setFilter] = useState("All");
   function filterProjects(name) {
@@ -27,7 +27,7 @@ const GetProjects = () => {
             <p className="mb-5 text-lg">
               Get started by selecting the language you want to work with!
             </p>
-            <div className="flex flex-col items-center justify-center mt-5 mb-10 list-none gap-[2rem] lg:flex-row lg:gap-[0.6rem] mx-4">
+            <div className="flex flex-col items-center justify-center mx-4 mt-5 mb-10 list-none gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
               {stacks.map((stack) => (
                 <div
                   key={stack}
