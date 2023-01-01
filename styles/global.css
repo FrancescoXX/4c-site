@@ -7,6 +7,16 @@
 
 @import "tailwindcss/utilities";
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 h1,
 h2,
 h3,
@@ -61,23 +71,28 @@ img {
     display: none;
   }
 }
+
 @media (max-width: 400px) {
   .group {
     width: 339px;
   }
 }
+
 @media (max-width: 358px) {
   .group {
     width: 310px;
   }
 }
+
 @media (max-width: 310px) {
   .projectContainer {
     width: 93vw;
   }
+
   .group {
     width: 95vw;
   }
+
   .projDetail {
     overflow-x: hidden;
   }

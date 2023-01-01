@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="container">
           <nav className="flex items-start justify-between  md:justify-center">
             <div className="relative flex w-[100%] flex-wrap items-center justify-between gap-6">
-              <Link href="/"  legacyBehavior>
+              <Link href="/" legacyBehavior>
                 <img
                   className="w-[100%] max-w-[50px] hover:cursor-pointer"
                   frameBorder="0"
