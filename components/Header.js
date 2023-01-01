@@ -34,7 +34,7 @@ const Navbar = () => {
         <div className="container">
           <nav className="flex items-start justify-between  md:justify-center">
             <div className="relative flex w-[100%] flex-wrap items-center justify-between gap-6">
-              <Link href="/">
+              <Link href="/"  legacyBehavior>
                 <img
                   className="w-[100%] max-w-[50px] hover:cursor-pointer"
                   frameBorder="0"
@@ -54,7 +54,7 @@ const Navbar = () => {
                 </button>
                 <div className="flex list-none flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
                   {navItems.map((navItem, idx) => (
-                    <Link href={navItem.href} key={idx}>
+                    <Link href={navItem.href} key={idx} legacyBehavior>
                       <span
                         onClick={() => {
                           window.localStorage.setItem("active", navItem.href);
