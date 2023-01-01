@@ -76,7 +76,7 @@ const ProfileCard = ({ username, avatarUrl, socials = [], description }) => {
       ) : (
         ""
       )}
-      <div className="flex items-center justify-center space-x-3 rounded bg-blue-500/60 pt-1 pb-1 pl-4 pr-4">
+      <div className="flex items-center justify-center space-x-3 rounded bg-blue-500/60 py-1 px-4">
         {getSocials(socials, username)}
       </div>
     </div>

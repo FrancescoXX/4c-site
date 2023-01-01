@@ -57,7 +57,7 @@ const JoinusForm = () => {
                 type="text"
                 name="fullName"
                 placeholder="John Doe"
-                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
+                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder:text-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
                 onChange={formik.handleChange}
               />
               {formik.errors.fullName && (
@@ -79,7 +79,7 @@ const JoinusForm = () => {
                 id="email"
                 placeholder="you@email.com"
                 required
-                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
+                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder:text-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
                 onChange={formik.handleChange}
               />
               {formik.errors.email && (
@@ -101,7 +101,7 @@ const JoinusForm = () => {
                 id="github"
                 placeholder="@"
                 required
-                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
+                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder:text-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
                 onChange={formik.handleChange}
               />
               {formik.errors.github && (
@@ -123,7 +123,7 @@ const JoinusForm = () => {
                 id="twitter"
                 placeholder="@"
                 required
-                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
+                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder:text-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
                 onChange={formik.handleChange}
               />
               {formik.errors.twitter && (
@@ -145,7 +145,7 @@ const JoinusForm = () => {
                 name="question1"
                 id="question1"
                 placeholder="Your Message"
-                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
+                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder:text-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
                 onChange={formik.handleChange}
                 required
               ></textarea>
@@ -169,7 +169,7 @@ const JoinusForm = () => {
                 name="question2"
                 id="question2"
                 placeholder="Your Message"
-                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
+                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder:text-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
                 onChange={formik.handleChange}
                 required
               ></textarea>
@@ -192,7 +192,7 @@ const JoinusForm = () => {
                 name="question3"
                 id="question3"
                 placeholder="Your Message"
-                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
+                className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm text-black placeholder:text-gray-300 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-100"
                 onChange={formik.handleChange}
                 required
               ></textarea>
