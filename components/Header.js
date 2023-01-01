@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div className="container flex max-w-bodyContainer items-center justify-center">
       <header className="my-[0] w-full px-0 py-[3em] md:p-[3em]">
-        <div className="container">
+        <div className="container px-1 sm:px-2">
           <nav className="flex items-start justify-between  md:justify-center">
             <div className="relative flex w-[100%] flex-wrap items-center justify-between gap-6">
               <Link href="/" legacyBehavior>
