@@ -1,40 +1,40 @@
 {
-    "stack": [
-        {
-            "key": 0,
-            "name": "All"
-        },
-        {
-            "key": 1,
-            "name": "HTML"
-        },
-        {
-            "key": 2,
-            "name": "CSS"
-        },
-        {
-            "key": 3,
-            "name": "JS/TS"
-        },
-        {
-            "key": 4,
-            "name": "React"
-        },
-        {
-            "key": 5,
-            "name": "Tailwind"
-        },
-        {
-            "key": 6,
-            "name": "Next"
-        },
-        {
-            "key": 7,
-            "name": "Markdown"
-        },
-        {
-            "key": 8,
-            "name": "Others"
-        }
-    ]
+  "stack": [
+    {
+      "key": 0,
+      "name": "All"
+    },
+    {
+      "key": 1,
+      "name": "HTML"
+    },
+    {
+      "key": 2,
+      "name": "CSS"
+    },
+    {
+      "key": 3,
+      "name": "JS/TS"
+    },
+    {
+      "key": 4,
+      "name": "React"
+    },
+    {
+      "key": 5,
+      "name": "Tailwind"
+    },
+    {
+      "key": 6,
+      "name": "Next"
+    },
+    {
+      "key": 7,
+      "name": "Markdown"
+    },
+    {
+      "key": 8,
+      "name": "Others"
+    }
+  ]
 }
