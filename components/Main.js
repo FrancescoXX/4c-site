@@ -23,6 +23,7 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
           </div>
           <div>
             <iframe
+              title="Discord Widget"
               width="95%"
               height="500"
               frameBorder="0"
