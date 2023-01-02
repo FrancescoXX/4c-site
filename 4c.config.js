@@ -9,6 +9,6 @@ module.exports = {
     long: "The Cool Community For Content Creators or 4C is a community where different content creator from every domain have come together to help each other and grow.",
   },
   url: "https://www.4c.rocks/",
-  logo: "/logo.jpg", // Relative public path to Base URL or Absolute Path
+  logo: "https://www.4c.rocks/logo.jpg", // Relative public path to Base URL or Absolute Path
   favicon: "/favicon.ico",
 };
