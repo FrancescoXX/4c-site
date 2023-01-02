@@ -36,7 +36,13 @@ const GoToTop = () => {
   );
 
   return (
-    <div onClick={goToBtn} className={wrapperClasses}>
+    <div
+      onClick={goToBtn}
+      onKeyDown={goToBtn}
+      role="button"
+      tabIndex={0}
+      className={wrapperClasses}
+    >
       {isVisible && (
         <div>
           <FaArrowUp className="text-black" />

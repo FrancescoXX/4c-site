@@ -84,6 +84,7 @@ const GetProjects = () => {
                   >
                     <div className="flex h-full w-full items-center justify-center rounded-t-xl text-center shadow-sm">
                       <img
+                        alt={`Screenshot of ${project.title}`}
                         className="h-full max-h-[8rem] w-full overflow-hidden rounded-t-xl object-cover transition-all duration-300 ease-in-out"
                         src={project?.screenshot}
                       />

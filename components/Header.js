@@ -56,20 +56,25 @@ const Navbar = () => {
                 </button>
                 <div className="flex list-none flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
                   {navItems.map((navItem, idx) => (
-                    <Link href={navItem.href} key={idx} legacyBehavior>
-                      <span
-                        onClick={() => {
-                          window.localStorage.setItem("active", navItem.href);
-                        }}
-                        className={`hov-bg-theme w-[100%] rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto 
-                       ${
-                         activeButton == navItem.href
-                           ? "bg-theme bg-[#70b7e6] text-white"
-                           : "bg-white text-black"
-                       }`}
-                      >
-                        {navItem.pageName}
-                      </span>
+                    <Link
+                      href={navItem.href}
+                      key={idx}
+                      onClick={() => {
+                        window.localStorage.setItem("active", navItem.href);
+                      }}
+                      onKeyDown={() => {
+                        window.localStorage.setItem("active", navItem.href);
+                      }}
+                      role="menuitem"
+                      tabIndex={0}
+                      className={`hov-bg-theme w-[100%] rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto 
+                   ${
+                     activeButton == navItem.href
+                       ? "bg-theme bg-[#70b7e6] text-white"
+                       : "bg-white text-black"
+                   }`}
+                    >
+                      {navItem.pageName}
                     </Link>
                   ))}
                 </div>

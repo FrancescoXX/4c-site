@@ -24,6 +24,7 @@ const BlogCard = () => {
           </div>
           <a href={blog.link} target="_blank">
             <img
+              alt={`Screenshot of ${blog.title}`}
               className="max-h-[20rem] rounded-md object-contain"
               src={blog.screenshot}
             />
