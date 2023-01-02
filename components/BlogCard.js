@@ -5,7 +5,7 @@ import blogs from "../content/blog.json";
 const styles = "transition-all ease-in cursor-pointer";
 const BlogCard = () => {
   return (
-    <section className="flex w-full flex-wrap items-center justify-center p-10">
+    <section className="flex w-full flex-wrap items-center justify-center p-4 sm:p-10">
       {blogs.blogs.map((blog, index) => (
         <div
           key={index}
