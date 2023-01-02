@@ -5,7 +5,8 @@ import Link from "next/link";
 
 // import navbar data
 import navbarData from "../content/navbar.json";
-
+import Image from "next/image";
+import logoImage from "../mediakit/4c-logo-circle.png";
 const navItems = navbarData.pages;
 
 const Navbar = () => {
@@ -35,11 +36,12 @@ const Navbar = () => {
           <nav className="flex items-start justify-between  md:justify-center">
             <div className="relative flex w-[100%] flex-wrap items-center justify-between gap-6">
               <Link href="/" legacyBehavior>
-                <img
-                  className="w-[100%] max-w-[50px] hover:cursor-pointer"
-                  frameBorder="0"
-                  allowtransparency="true"
-                  src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/mediakit/4c-logo-circle.png"
+                <Image
+                  width={50}
+                  height={50}
+                  className="hover:cursor-pointer"
+                  alt="4C Logo"
+                  src={logoImage}
                 />
               </Link>
               <div
