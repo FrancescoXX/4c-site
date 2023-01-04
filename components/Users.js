@@ -1,4 +1,4 @@
-import ProfileCard from "./ProfileCard";
+import ProfileCard from './ProfileCard';
 
 const Contributors = ({ users }) => {
   if (users.length === 0) {
@@ -8,14 +8,15 @@ const Contributors = ({ users }) => {
       </div>
     );
   }
-  return users.map((user) => (
+  return users.map((user, index) => (
     <ProfileCard
+      key={index}
       username={user.name}
       avatarUrl={user.avatarUrl}
       socials={[
-        { type: "github", username: user.github },
-        { type: "twitter", username: user.twitter },
-        { type: "blog", username: user.blogUrl },
+        { type: 'github', username: user.github },
+        { type: 'twitter', username: user.twitter },
+        { type: 'blog', username: user.blogUrl },
       ]}
     />
   ));

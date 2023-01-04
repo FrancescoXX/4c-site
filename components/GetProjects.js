@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from "react";
-import allProjects from "../content/projects.json";
-import Title from "./Title";
-import stackList from "../content/stacks.json";
-import Multiselect from "multiselect-react-dropdown";
+import React, { useState, useEffect } from 'react';
+import allProjects from '../content/projects.json';
+import Title from './Title';
+import stackList from '../content/stacks.json';
+import Multiselect from 'multiselect-react-dropdown';
+import Image from 'next/image';
 const multiselectRef = React.createRef();
 
 const stacks = stackList.stack.map((stack) => stack.name);
@@ -13,15 +14,15 @@ const GetProjects = () => {
   // get options from stacks
   const options = [];
   for (let i = 0; i < stacks.length; i++) {
-    let obj = {};
-    obj["id"] = i;
-    obj["value"] = stacks[i];
+    const obj = {};
+    obj.id = i;
+    obj.value = stacks[i];
     options.push(obj);
   }
 
-  //useEffect for filtering the projects
+  // useEffect for filtering the projects
   useEffect(() => {
-    let arr = [];
+    const arr = [];
     for (let i = 0; i < allProjects.projects.length; i++) {
       for (let j = 0; j < selected.length; j++) {
         if (allProjects.projects[i].stack.includes(selected[j])) {
@@ -34,10 +35,10 @@ const GetProjects = () => {
     } else {
       setFilteredProjects(allProjects.projects);
     }
-  });
+  }, [selected]);
 
-  //get selected values in dropdown
-  function getSelectedValues() {
+  // get selected values in dropdown
+  function getSelectedValues () {
     const items = multiselectRef.current.getSelectedItems();
     const newArray = items.map((element) => element.value);
     setSelected(newArray);
@@ -61,7 +62,7 @@ const GetProjects = () => {
               <div className="py-2  ">
                 <Multiselect
                   options={options}
-                  displayValue={"value"}
+                  displayValue={'value'}
                   selectedValues={options.selectedValues}
                   onSelect={getSelectedValues}
                   onRemove={getSelectedValues}
@@ -83,10 +84,12 @@ const GetProjects = () => {
                     className="group flex w-[280px] shrink flex-col rounded-lg p-2 transition-all duration-300 ease-in-out hover:scale-110"
                   >
                     <div className="flex h-full w-full items-center justify-center rounded-t-xl text-center shadow-sm">
-                      <img
+                      <Image
                         alt={`Screenshot of ${project.title}`}
                         className="h-full max-h-[8rem] w-full overflow-hidden rounded-t-xl object-cover transition-all duration-300 ease-in-out"
                         src={project?.screenshot}
+                        width={272}
+                        height={128}
                       />
                     </div>
                     <div className="flex w-full flex-col gap-[.2rem] justify-self-end rounded-b-xl bg-[#f1f5f9] p-[20px]">
@@ -123,17 +126,17 @@ const GetProjects = () => {
                       <div className="bg-red my-[10px] mt-auto flex h-10 w-full items-center self-end">
                         <a
                           className={
-                            project.live_link == ""
-                              ? "mr-3 flex items-center gap-2 rounded-full bg-gray-500 px-4 py-1.5 text-sm transition-all ease-in  hover:bg-sky-700"
-                              : "mr-3 flex items-center gap-2 rounded-full bg-[#1e293b] px-4 py-1.5 text-sm transition-all ease-in  hover:bg-sky-700"
+                            project.live_link === ''
+                              ? 'mr-3 flex items-center gap-2 rounded-full bg-gray-500 px-4 py-1.5 text-sm transition-all ease-in  hover:bg-sky-700'
+                              : 'mr-3 flex items-center gap-2 rounded-full bg-[#1e293b] px-4 py-1.5 text-sm transition-all ease-in  hover:bg-sky-700'
                           }
                           href={project.live_link}
                           target="_blank"
                           style={
-                            project.live_link == ""
-                              ? { pointerEvents: "none" }
-                              : { pointerEvents: "auto" }
-                          }
+                            project.live_link === ''
+                              ? { pointerEvents: 'none' }
+                              : { pointerEvents: 'auto' }
+                          } rel="noreferrer"
                         >
                           <svg
                             stroke="currentColor"
@@ -154,7 +157,7 @@ const GetProjects = () => {
                         <a
                           className="mr-3 flex items-center gap-2 rounded-full bg-[#111827] px-3 py-1.5 text-sm transition-all ease-in hover:bg-sky-700"
                           href={project.link}
-                          target="_blank"
+                          target="_blank" rel="noreferrer"
                         >
                           <svg
                             stroke="currentColor"

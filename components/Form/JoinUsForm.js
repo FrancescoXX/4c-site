@@ -1,20 +1,20 @@
-import React from "react";
-import router from "next/router";
-import { useFormik } from "formik";
-import { formSchema } from "./validation/formSchema";
-import Loading from "../Loading.jsx";
-import Axios from "axios";
+import React from 'react';
+import router from 'next/router';
+import { useFormik } from 'formik';
+import { formSchema } from './validation/formSchema';
+import Loading from '../Loading.jsx';
+import Axios from 'axios';
 
 const JoinusForm = () => {
   const formik = useFormik({
     initialValues: {
-      fullName: "",
-      email: "",
-      github: "",
-      twitter: "",
-      question1: "",
-      question2: "",
-      question3: "",
+      fullName: '',
+      email: '',
+      github: '',
+      twitter: '',
+      question1: '',
+      question2: '',
+      question3: '',
     },
     validationSchema: formSchema,
   });
@@ -27,8 +27,8 @@ const JoinusForm = () => {
     Axios.post(process.env.NEXT_PUBLIC_SHEETS_API, formik.values)
       .then(function () {
         setLoading(false);
-        alert("Thank you!! Your form has been submitted successfully!!");
-        router.push("/");
+        alert('Thank you!! Your form has been submitted successfully!!');
+        router.push('/');
       })
       .catch(function (error) {
         setLoading(false);
@@ -137,7 +137,7 @@ const JoinusForm = () => {
                 htmlFor="message"
                 className="mb-2 ml-2 block text-left text-sm text-gray-600"
               >
-                What do you know about 4C Community?{" "}
+                What do you know about 4C Community?{' '}
               </label>
 
               <textarea
@@ -203,9 +203,11 @@ const JoinusForm = () => {
               )}
             </div>
             <div className="mb-4">
-              {loading ? (
+              {loading
+                ? (
                 <Loading />
-              ) : (
+                  )
+                : (
                 <button
                   form="loginform"
                   onClick={handleSubmit}
@@ -214,7 +216,7 @@ const JoinusForm = () => {
                 >
                   Submit your application
                 </button>
-              )}
+                  )}
             </div>
           </form>
         </div>

@@ -1,6 +1,6 @@
-import Layout from "../components/Layout";
-import GetVideos from "../components/GetVideos";
-import GoToTop from "../components/GoToTop";
+import Layout from '../components/Layout';
+import GetVideos from '../components/GetVideos';
+import GoToTop from '../components/GoToTop';
 
 const Videos = () => {
   return (

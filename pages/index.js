@@ -1,15 +1,16 @@
-import Layout from "../components/Layout";
-import Main from "../components/Main";
-import content from "../content/homepage";
-import { useRouter } from "next/router";
-import React from "react";
-import GoToTop from "../components/GoToTop";
+import Layout from '../components/Layout';
+import Main from '../components/Main';
+import content from '../content/homepage';
+import { useRouter } from 'next/router';
+import React from 'react';
+import GoToTop from '../components/GoToTop';
 
-export default function Home() {
+export default function Home () {
   const router = useRouter();
-  if (typeof window !== "undefined") {
-    if (router.pathname == "/") {
-      localStorage.removeItem("active");
+
+  if (typeof window !== 'undefined') {
+    if (router.pathname === '/') {
+      localStorage.removeItem('active');
     }
   }
 

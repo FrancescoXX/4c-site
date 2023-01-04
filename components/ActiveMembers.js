@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import GetActivemembers from "./GetActivemembers";
-import Users from "./Users";
+import React, { useState } from 'react';
+import GetActivemembers from './GetActivemembers';
+import Users from './Users';
 
 // import contributors data
-import activeMembers from "../content/activemembers.json";
-import Title from "./Title";
-import { FilterUsers } from "../utils/filterUsers";
+import activeMembers from '../content/activemembers.json';
+import Title from './Title';
+import { FilterUsers } from '../utils/filterUsers';
 
 const ActiveMembers = () => {
-  //state for currentUsers
+  // state for currentUsers
   const [currentUsers, setCurrentUsers] = useState(activeMembers.profiles);
 
   // filter handler
@@ -16,11 +16,11 @@ const ActiveMembers = () => {
     event.preventDefault();
     const filterdUsers = FilterUsers(
       activeMembers.profiles,
-      event.target.value
+      event.target.value,
     );
     setCurrentUsers(filterdUsers);
   };
-  const [tab] = useState("Active Members");
+  const [tab] = useState('Active Members');
   return (
     <div className="mt-[3em] flex items-center justify-center">
       <section className="max-w-bodyContainer flex-1 text-center font-bold text-white">
@@ -49,11 +49,13 @@ const ActiveMembers = () => {
           </div>
         </div>
         <div className="m-2 flex flex-wrap items-center justify-center overflow-y-auto pb-4">
-          {tab === "Active Members" ? (
-            <GetActivemembers users={currentUsers} />
-          ) : (
-            <Users users={currentUsers} />
-          )}
+          {tab === 'Active Members'
+            ? (
+              <GetActivemembers users={currentUsers} />
+              )
+            : (
+              <Users users={currentUsers} />
+              )}
         </div>
       </section>
     </div>

@@ -1,6 +1,6 @@
-import GoToTop from "../components/GoToTop";
-import Layout from "../components/Layout";
-import Title from "../components/Title";
+import GoToTop from '../components/GoToTop';
+import Layout from '../components/Layout';
+import Title from '../components/Title';
 
 const Projects = () => {
   return (

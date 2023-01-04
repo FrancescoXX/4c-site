@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const SocialLink = ({ link, Icon, label }) => (
   <a href={link} target="_blank" rel="noopener noreferrer">

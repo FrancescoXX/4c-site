@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   FaBlog,
   FaGithub,
@@ -6,17 +6,17 @@ import {
   FaYoutube,
   FaTwitch,
   FaLinkedin,
-} from "react-icons/fa";
-import SocialLink from "./SocialLink";
-import Image from "next/image";
+} from 'react-icons/fa';
+import SocialLink from './SocialLink';
+import Image from 'next/image';
 
 const socialMediaData = {
   github: {
-    url: "https://github.com/",
+    url: 'https://github.com/',
     icon: FaGithub,
   },
   twitter: {
-    url: "https://twitter.com/",
+    url: 'https://twitter.com/',
     icon: FaTwitter,
   },
   blog: {
@@ -30,7 +30,7 @@ const socialMediaData = {
   },
   linkedin: {
     icon: FaLinkedin,
-    url: "https://www.linkedin.com/in/",
+    url: 'https://www.linkedin.com/in/',
   },
 };
 
@@ -40,7 +40,7 @@ const getSocials = (socials, username) => {
   return socials.map((social) => {
     const socialMedia = socialMediaData[social.type];
 
-    if (social.type == "blog" && !social?.username?.includes("http")) {
+    if (social.type === 'blog' && !social?.username?.includes('http')) {
       social.username = `http://${social.username}`;
     }
     return (
@@ -69,13 +69,15 @@ const ProfileCard = ({ username, avatarUrl, socials = [], description }) => {
         />
       </div>
       <span className="mt-3 text-lg text-white">{username}</span>
-      {description?.length > 0 ? (
-        <div className="mt-[.2em] w-[20ch] truncate p-[.4em] text-sm hover:w-[30ch] hover:text-clip">
-          {description}
-        </div>
-      ) : (
-        ""
-      )}
+      {description?.length > 0
+        ? (
+          <div className="mt-[.2em] w-[20ch] truncate p-[.4em] text-sm hover:w-[30ch] hover:text-clip">
+            {description}
+          </div>
+          )
+        : (
+            ''
+          )}
       <div className="flex items-center justify-center space-x-3 rounded bg-blue-500/60 py-1 px-4">
         {getSocials(socials, username)}
       </div>

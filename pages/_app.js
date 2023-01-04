@@ -1,23 +1,22 @@
-import "../styles/global.css";
-import Head from "next/head";
-import Router from "next/router";
-import { useEffect } from "react";
-import { GTMPageView } from "../utils/gtm";
-import { AnimatePresence } from "framer-motion";
+import '../styles/global.css';
+import Head from 'next/head';
+import { AnimatePresence } from 'framer-motion';
+import { Poppins, Red_Hat_Display as RedHatDisplay } from '@next/font/google';
 
-function MyApp({ Component, pageProps }) {
-  // Initiate GTM
-  useEffect(() => {
-    const handleRouteChange = (url) => GTMPageView(url);
-    Router.events.on("routeChangeComplete", handleRouteChange);
-    return () => {
-      Router.events.off("routeChangeComplete", handleRouteChange);
-    };
-  }, []);
+const poppins = Poppins({
+  weight: ['400', '500', '600'],
+  variable: '--font-poppins',
+});
+
+const redHatDisplay = RedHatDisplay({
+  weight: ['700'],
+  variable: '--font-redhat',
+});
+
+export default function App ({ Component, pageProps }) {
   return (
-    <div>
+    <div className={`${poppins.variable} ${redHatDisplay.variable} font-sans`}>
       <Head>
-        {/* <link rel="icon" href="/icon-192x192.png" /> */}
         <meta
           name="description"
           content="4C: The Cool Community for Content Creators"
@@ -25,7 +24,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <AnimatePresence
-        exitBeforeEnter
+        mode='wait'
         onExitComplete={() => window.scrollTo(0, 0)}
       >
         <Component {...pageProps} />
@@ -33,5 +32,3 @@ function MyApp({ Component, pageProps }) {
     </div>
   );
 }
-
-export default MyApp;

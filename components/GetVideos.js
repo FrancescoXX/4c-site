@@ -1,6 +1,7 @@
-import React from "react";
-import allVideos from "../content/videos.json";
-import Title from "./Title";
+import React from 'react';
+import allVideos from '../content/videos.json';
+import Title from './Title';
+import Image from 'next/image';
 
 const GetVideos = () => {
   return (
@@ -17,12 +18,14 @@ const GetVideos = () => {
               >
                 <a
                   href={`https://www.youtube.com/watch?v=${video.videoId}`}
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
-                  <img
+                  <Image
                     src={`https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`}
                     className="rounded"
                     alt={video.videoTitle}
+                    width={272}
+                    height={153}
                   />
                   <div>
                     <h2>{video.videoTitle}</h2>

@@ -1,12 +1,12 @@
-import { BsX } from "react-icons/bs";
-import { useState, useEffect } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
-import Link from "next/link";
+import { BsX } from 'react-icons/bs';
+import { useState, useEffect } from 'react';
+import { GiHamburgerMenu } from 'react-icons/gi';
+import Link from 'next/link';
 
 // import navbar data
-import navbarData from "../content/navbar.json";
-import Image from "next/image";
-import logoImage from "../mediakit/4c-logo-circle.png";
+import navbarData from '../content/navbar.json';
+import Image from 'next/image';
+import logoImage from '../mediakit/4c-logo-circle.png';
 const navItems = navbarData.pages;
 
 const Navbar = () => {
@@ -15,12 +15,12 @@ const Navbar = () => {
   const [activeButton, setActiveButton] = useState();
 
   useEffect(() => {
-    const local = window.localStorage.getItem("active");
+    const local = window.localStorage.getItem('active');
     setActiveButton(local);
     const handleResize = () => setScreenSize(window.innerWidth);
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
     handleResize();
-    return () => window.removeEventListener("resize", handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
   useEffect(() => {
     if (screenSize <= 1024) {
@@ -45,8 +45,8 @@ const Navbar = () => {
                 />
               </Link>
               <div
-                className={`all fixed top-0 right-0 flex h-[100vh] flex-col gap-6 bg-[#708fe6] p-2 drop-shadow-3xl transition delay-150 ease-in-out lg:relative lg:top-0 lg:right-0 lg:h-full lg:flex-row lg:bg-transparent lg:drop-shadow-sm 
-              ${menuActive ? "" : "hidden"} z-50  `}
+                className={`all fixed top-0 right-0 flex h-[100vh] flex-col gap-6 bg-[#708fe6] p-2 drop-shadow-3xl transition delay-150 ease-in-out lg:relative lg:top-0 lg:right-0 lg:h-full lg:flex-row lg:bg-transparent lg:drop-shadow-sm
+              ${menuActive ? '' : 'hidden'} z-50  `}
               >
                 <button
                   className="text-3xl text-white lg:hidden"
@@ -60,19 +60,18 @@ const Navbar = () => {
                       href={navItem.href}
                       key={idx}
                       onClick={() => {
-                        window.localStorage.setItem("active", navItem.href);
+                        window.localStorage.setItem('active', navItem.href);
                       }}
                       onKeyDown={() => {
-                        window.localStorage.setItem("active", navItem.href);
+                        window.localStorage.setItem('active', navItem.href);
                       }}
                       role="menuitem"
                       tabIndex={0}
-                      className={`hov-bg-theme w-[100%] rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto 
-                   ${
-                     activeButton == navItem.href
-                       ? "bg-theme bg-[#70b7e6] text-white"
-                       : "bg-white text-black"
-                   }`}
+                      className={`hov-bg-theme w-[100%] rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto
+                    ${activeButton === navItem.href
+                          ? 'bg-theme bg-[#70b7e6] text-white'
+                          : 'bg-white text-black'
+                        }`}
                     >
                       {navItem.pageName}
                     </Link>

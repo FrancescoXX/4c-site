@@ -1,7 +1,7 @@
-import Layout from "../components/Layout";
-import BlogCard from "../components/BlogCard";
-import GoToTop from "../components/GoToTop";
-import Title from "../components/Title";
+import Layout from '../components/Layout';
+import BlogCard from '../components/BlogCard';
+import GoToTop from '../components/GoToTop';
+import Title from '../components/Title';
 
 const Projects = () => {
   return (
