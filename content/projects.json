@@ -187,7 +187,7 @@
       "description": "My portfolio website",
       "link": "https://github.com/Yagazie-davidson/Portfolio",
       "twitter": "https://twitter.com/LetamDavidson",
-      "live_link": "",
+      "live_link": "https://letam.vercel.app/",
       "stack": ["All", "React"]
     }
   ]
