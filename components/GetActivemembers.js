@@ -1,6 +1,6 @@
-import { motion, useReducedMotion } from "framer-motion";
-import ProfileCard from "./ProfileCard";
-import React from "react";
+import { motion, useReducedMotion } from 'framer-motion';
+import ProfileCard from './ProfileCard';
+import React from 'react';
 const GetActivemembers = ({ users }) => {
   const shouldReduceMotion = useReducedMotion();
   const hoverAnimation = shouldReduceMotion
@@ -16,12 +16,12 @@ const GetActivemembers = ({ users }) => {
         username={user.name}
         avatarUrl={user.avatarUrl}
         socials={[
-          { type: "github", username: user.github },
-          { type: "twitter", username: user.twitter },
-          { type: "youtube", username: user.youtube },
-          { type: "twitch", username: user.twitch },
-          { type: "blog", username: user.blogUrl },
-          { type: "linkedin", username: user.linkedin },
+          { type: 'github', username: user.github },
+          { type: 'twitter', username: user.twitter },
+          { type: 'youtube', username: user.youtube },
+          { type: 'twitch', username: user.twitch },
+          { type: 'blog', username: user.blogUrl },
+          { type: 'linkedin', username: user.linkedin },
         ]}
       />
     </motion.div>

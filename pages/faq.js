@@ -1,8 +1,8 @@
-import Layout from "../components/Layout";
-import Faqs from "../content/faq.json";
-import FaqAccordian from "../components/FaqAccordian";
-import GoToTop from "../components/GoToTop";
-import Title from "../components/Title";
+import Layout from '../components/Layout';
+import Faqs from '../content/faq.json';
+import FaqAccordian from '../components/FaqAccordian';
+import GoToTop from '../components/GoToTop';
+import Title from '../components/Title';
 
 const Faq = () => {
   return (

@@ -1,9 +1,9 @@
-import Head from "next/head";
-import { NextSeo } from "next-seo";
-import Header from "./Header";
-import config from "../4c.config";
-import { motion } from "framer-motion";
-import Footer from "./Footer";
+import Head from 'next/head';
+import { NextSeo } from 'next-seo';
+import Header from './Header';
+import config from '../4c.config';
+import { motion } from 'framer-motion';
+import Footer from './Footer';
 
 const Layout = ({ header, children, ...rest }) => {
   const variants = {
@@ -32,7 +32,7 @@ const Layout = ({ header, children, ...rest }) => {
                 width: 1200,
                 height: 630,
                 alt: config.title.short,
-                type: "image/jpeg",
+                type: 'image/jpeg',
               },
             ],
             site_name: config.siteName,
@@ -44,7 +44,7 @@ const Layout = ({ header, children, ...rest }) => {
           initial="hidden"
           animate="enter"
           exit="exit"
-          transition={{ type: "linear" }}
+          transition={{ type: 'linear' }}
         >
           {children}
         </motion.main>

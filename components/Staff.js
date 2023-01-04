@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import GetStaff from "./GetStaff";
-import Users from "./Users";
+import React, { useState } from 'react';
+import GetStaff from './GetStaff';
+import Users from './Users';
 
 // import staff data
-import staff from "../content/staff.json";
-import Title from "./Title";
-import { FilterUsers } from "../utils/filterUsers";
+import staff from '../content/staff.json';
+import Title from './Title';
+import { FilterUsers } from '../utils/filterUsers';
 
 const Staff = () => {
-  const [tab] = useState("Staff");
-  //state for currentUsers
+  const [tab] = useState('Staff');
+  // state for currentUsers
   const [currentUsers, setCurrentUsers] = useState(staff.profiles);
 
   // filter handler
@@ -47,11 +47,13 @@ const Staff = () => {
             </div>
           </div>
           <div className="m-2 flex flex-wrap items-center justify-center gap-[1.8rem] overflow-y-auto pt-5 pb-4">
-            {tab === "Staff" ? (
+            {tab === 'Staff'
+              ? (
               <GetStaff users={currentUsers} />
-            ) : (
+                )
+              : (
               <Users users={currentUsers} />
-            )}
+                )}
           </div>
         </section>
       </div>

@@ -1,22 +1,27 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["avatars.githubusercontent.com", "cdn.discordapp.com"],
+    domains: ['avatars.githubusercontent.com', 'user-images.githubusercontent.com', 'cdn.discordapp.com', 'i.ibb.co', 'i.postimg.cc', 'images2.imgbox.com', 'raw.githubusercontent.com', 'img.youtube.com'],
   },
   async redirects() {
     return [
       {
-        source: "/join",
-        destination: "https://discord.com/invite/TcmA2kbJeA",
+        destination: 'https://discord.com/invite/TcmA2kbJeA',
+        source: '/join',
         permanent: true,
       },
     ];
   },
+  experimental: {
+    fontLoaders: [
+      {
+        loader: '@next/font/google', options: {
+          subsets: ['latin'],
+          display: 'swap'
+        }
+      }
+    ]
+  }
 };
-const withPWA = require("next-pwa")({
-  dest: "public",
-  register: true,
-  skipWaiting: true,
-  disable: process.env.NODE_ENV === "development",
-});
-module.exports = withPWA(nextConfig);
+
+module.exports = nextConfig;

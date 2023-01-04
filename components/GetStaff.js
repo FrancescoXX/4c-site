@@ -1,5 +1,5 @@
-import { motion, useReducedMotion } from "framer-motion";
-import ProfileCard from "./ProfileCard";
+import { motion, useReducedMotion } from 'framer-motion';
+import ProfileCard from './ProfileCard';
 
 const GetStaff = ({ users }) => {
   const shouldReduceMotion = useReducedMotion();
@@ -17,12 +17,12 @@ const GetStaff = ({ users }) => {
         avatarUrl={user.avatarUrl}
         description={user.description}
         socials={[
-          { type: "github", username: user.github },
-          { type: "twitter", username: user.twitter },
-          { type: "youtube", username: user.youtube },
-          { type: "twitch", username: user.twitch },
-          { type: "blog", username: user.blogUrl },
-          { type: "linkedin", username: user.linkedin },
+          { type: 'github', username: user.github },
+          { type: 'twitter', username: user.twitter },
+          { type: 'youtube', username: user.youtube },
+          { type: 'twitch', username: user.twitch },
+          { type: 'blog', username: user.blogUrl },
+          { type: 'linkedin', username: user.linkedin },
         ]}
       />
     </motion.div>

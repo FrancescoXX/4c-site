@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-function Title({ heading }) {
+function Title ({ heading }) {
   // Main Heading component
   return (
     <>
