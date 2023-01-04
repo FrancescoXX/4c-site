@@ -80,6 +80,7 @@ const Navbar = () => {
               </div>
               <button
                 className="hamburger text-3xl"
+                aria-label="Menu button"
                 onClick={() => setMenuActive(!menuActive)}
               >
                 <GiHamburgerMenu className="text-white" />
