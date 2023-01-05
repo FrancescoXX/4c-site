@@ -10,11 +10,11 @@ Join our amazing community on Discord and Twitter.
 
 <a href="https://discord.com/invite/cRjhjFRRre"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="40"/></a> <a href="https://twitter.com/4ccommunityhq"><img src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" title="Twitter" alt="Twitter Account" width="40"/></a>
 
-<img src='./mediakit/4c_banner.jpg' alt='4C logo'>
+<img src="./mediakit/4c_banner.jpg" alt="4C logo">
 
 ## :camera: Website overview
 
-This repository concerns the 4C community [website](https://www.4c.rocks/). Visit the website to stay up to date with community members' projects, active memebers, and other amazing content!
+This repository concerns the 4C community [website](https://www.4c.rocks/). Visit the website to stay up to date with community members" projects, active memebers, and other amazing content!
 
 ## :tada: Want to contribute?
 
@@ -170,7 +170,7 @@ For example,
 - Create a new object similar to the one above.
 - Follow the example above and create project details like;
   - Your name
-  - The project's title
+  - The project"s title
   - A screenshot
   - A short description
   - A link to the GitHub repo (If it is open source)

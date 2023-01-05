@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint '{components,pages,utils}/**/*.{js,json,jsx,ts,tsx}'",
+    "lint": "eslint \"src/**/**/*.{js,json,jsx,ts,tsx}\"",
     "lint:fix": "yarn lint --fix",
     "commit": "commit",
     "prepare": "husky install"
