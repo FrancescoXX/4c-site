@@ -14,7 +14,7 @@ Join our amazing community on Discord and Twitter.
 
 ## :camera: Website overview
 
-This repository concerns the 4C community [website](https://www.4c.rocks/). Visit the website to stay up to date with community members" projects, active memebers, and other amazing content!
+This repository concerns the 4C community [website](https://www.4c.rocks/). Visit the website to stay up to date with community members' projects, active memebers, and other amazing content!
 
 ## :tada: Want to contribute?
 
