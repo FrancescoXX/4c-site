@@ -40,14 +40,14 @@ const eslintConfig = {
   rules: {
     "comma-dangle": ["warn", "always-multiline"],
     "no-console": "warn",
-    "quotes": ["warn", "double"],
+    quotes: ["warn", "double"],
     "space-before-function-paren": ["warn", "never"],
   },
   settings: {
     react: {
       version: "detect",
     },
-  }
-};
+  },
+}
 
-module.exports = eslintConfig;
+module.exports = eslintConfig

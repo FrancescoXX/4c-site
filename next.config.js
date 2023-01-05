@@ -10,18 +10,19 @@ const nextConfig = {
         source: "/join",
         permanent: true,
       },
-    ];
+    ]
   },
   experimental: {
     fontLoaders: [
       {
-        loader: "@next/font/google", options: {
+        loader: "@next/font/google",
+        options: {
           subsets: ["latin"],
-          display: "swap"
-        }
-      }
-    ]
+          display: "swap",
+        },
+      },
+    ],
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig

@@ -1,13 +1,22 @@
 {
+  "name": "4c",
+  "version": "0.0.0",
   "private": true,
+  "description": "4C Community: Website, Media Kit and More",
+  "homepage": "https://4c.rocks",
+  "bugs": {
+    "url": "https://github.com/FrancescoXX/4c-site/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc"
+  },
+  "license": "MIT",
+  "author": "4C Community",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "commit": "commit",
+    "dev": "next dev",
     "lint": "eslint \"src/**/**/*.{js,json,jsx,ts,tsx}\"",
     "lint:fix": "yarn lint --fix",
-    "commit": "commit",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "next start"
   },
   "dependencies": {
     "@next/font": "^13.1.1",
@@ -59,14 +68,8 @@
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-tailwindcss": "^3.8.0",
     "husky": "^8.0.3",
-    "prettier": "^2.8.1",
-    "prettier-plugin-tailwindcss": "^0.2.1",
+    "semantic-release": "^19.0.5",
     "typescript": "^4.9.4",
     "yarn": "^1.22.19"
-  },
-  "version": "0.10.0",
-  "name": "4c-site",
-  "main": "index.js",
-  "author": "epicadidash <dradwaitdash@gmail.com>",
-  "license": "MIT"
+  }
 }
