@@ -1,9 +1,13 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { fontFamily: _fontFamily } = require("tailwindcss/defaultTheme")
 
-module.exports = {
+/**
+ * @type {import("tailwindcss").Config}
+ */
+
+const tailwindConfig = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./**/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     container: {
@@ -19,7 +23,7 @@ module.exports = {
         mobile: "300px",
       },
       fontFamily: {
-        sans: ['var(--font-poppins)', ...defaultTheme.fontFamily.sans],
+        sans: ["var(--font-poppins)", ..._fontFamily.sans],
       },
       dropShadow: {
         "3xl": "0 0 10px #0000006e",
@@ -34,4 +38,6 @@ module.exports = {
     require("@tailwindcss/typography"),
     require("@tailwindcss/line-clamp"),
   ],
-};
+}
+
+module.exports = tailwindConfig
