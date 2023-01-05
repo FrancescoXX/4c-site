@@ -170,7 +170,7 @@ For example,
 - Create a new object similar to the one above.
 - Follow the example above and create project details like;
   - Your name
-  - The project"s title
+  - The project's title
   - A screenshot
   - A short description
   - A link to the GitHub repo (If it is open source)
