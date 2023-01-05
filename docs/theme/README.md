@@ -17,7 +17,7 @@ Our goal is to create a  decentralized community, where everyone contributes to 
 
 ### 4C Logo
 
-![4C Logo](https://raw.githubusercontent.com/FrancescoXX/4c-site/main/src/assets/logo.jpg)
+![4C Logo](https://raw.githubusercontent.com/FrancescoXX/4c-site/main/src/assets/logo.png)
 
 #### Square Variation
 
