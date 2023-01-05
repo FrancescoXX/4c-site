@@ -16,6 +16,7 @@
     "lint": "eslint \"src/**/**/*.{js,json,jsx,ts,tsx}\"",
     "lint:fix": "yarn lint --fix",
     "prepare": "husky install",
+    "release": "semantic-release",
     "start": "next start"
   },
   "dependencies": {
@@ -44,6 +45,11 @@
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@commitlint/prompt-cli": "^17.3.0",
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "@types/eslint": "^8.4.10",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.26",
