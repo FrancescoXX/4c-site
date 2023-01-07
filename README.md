@@ -1,6 +1,6 @@
 # :gem: 4C (The Cool Community of Content Creators)
 
-Imagine **The Cool Community For Content Creators** or **4C**, as a chill coffee shop (cooler even :bomb:). An inclusive and helpful environment, where we help content creators reach their goal by sharing experiences.
+Imagine **The Cool Community For Content Creators** or **4C**, as a chill coffee shop (cooler even :bomb:). An inclusive and helpful environment, where we help content creators reach their goals by sharing experiences.
 
 Gain access to exclusive talks/workshops with popular content creators, and hence, opportunities to collaborate.
 
@@ -14,7 +14,7 @@ Join our amazing community on Discord and Twitter.
 
 ## :camera: Website overview
 
-This repository concerns the 4C community [website](https://www.4c.rocks/). Visit the website to stay up to date with community members' projects, active memebers, and other amazing content!
+This repository concerns the 4C community [website](https://www.4c.rocks/). Visit the website to stay up to date with community members' projects, active members, and other amazing content!
 
 ## :tada: Want to contribute?
 
@@ -29,7 +29,7 @@ The code base of this repo uses
 - [NextJS](https://nextjs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 
-For contributing to code, you will need
+For contributing to the code, you will need
 
 - [Node](https://nodejs.org/en/) installed on your computer.
 - Basic knowledge of [Git](https://git-scm.com/)
@@ -70,7 +70,7 @@ Or, to work on it locally,
     
 ##### Troubleshooting
 
-In the course of trying to set up the project locally, if you come across an errror that says `PWA is not supported`, you can try the following steps below to fix it;
+In the course of trying to set up the project locally, if you come across an error that says `PWA is not supported`, you can try the following steps below to fix it;
 
 > For Linux or Mac 👇
 
@@ -126,7 +126,7 @@ To check if everything has worked, restart your shell and run `node -v`. The out
 
 #### Format check
 
-Before PR, please check formatting first. ESLint may show formatting errors, but just make sure that the prettier formatting is OK.
+Before PR, please check the formatting first. ESLint may show formatting errors, but just make sure that the prettier formatting is OK.
 
 > Prettier
 
@@ -174,15 +174,15 @@ For example,
   - A screenshot
   - A short description
   - A link to the GitHub repo (If it is open source)
-  - A link to your twitter profile
-  - A live link of the project.
+  - A link to your Twitter profile
+  - A live link to the project.
 - Open a pull request :+1:
 
 ---
 
 Notice anything odd and/or missing from this README or on the website itself? Feel free to raise an [issue](https://github.com/FrancescoXX/4c-site/issues).
 
-Join the amazing [4C community](https://discord.com/invite/cRjhjFRRre) on discord, and follow us on [twitter](https://twitter.com/4ccommunityhq) to stay in the loop.
+Join the amazing [4C community](https://discord.com/invite/cRjhjFRRre) on discord, and follow us on [Twitter](https://twitter.com/4ccommunityhq) to stay in the loop.
 
 # :key: License
 
