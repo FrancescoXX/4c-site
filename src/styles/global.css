@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  overflow: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
 h1,
 h2,
 h3,
@@ -16,16 +10,6 @@ h5,
 h6 {
   @apply font-sans;
   font-family: var(--font-redhat)
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
 }
 
 .hamburger {
@@ -112,4 +96,3 @@ img {
 .btn-twitter {
   @apply translate-x-0 transform rounded-full rounded-bl-none bg-gray-900 font-medium text-white shadow-2xl hover:translate-y-1 hover:bg-[rgb(29,161,242)] hover:shadow-md;
 }
-

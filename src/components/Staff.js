@@ -3,19 +3,19 @@ import GetStaff from "components/GetStaff"
 import Users from "components/Users"
 
 // import staff data
-import staff from "data/staff.json"
+import staff from "data/staff"
 import Title from "components/Title"
 import { FilterUsers } from "utils/filterUsers"
 
 const Staff = () => {
   const [tab] = useState("Staff")
   // state for currentUsers
-  const [currentUsers, setCurrentUsers] = useState(staff.profiles)
+  const [currentUsers, setCurrentUsers] = useState(staff)
 
   // filter handler
   const searchHandler = (event) => {
     event.preventDefault()
-    const filterdUsers = FilterUsers(staff.profiles, event.target.value)
+    const filterdUsers = FilterUsers(staff, event.target.value)
     setCurrentUsers(filterdUsers)
   }
   return (

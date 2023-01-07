@@ -87,7 +87,7 @@ const GetProjects = () => {
                       <Image
                         alt={`Screenshot of ${project.title}`}
                         className="h-full max-h-[8rem] w-full overflow-hidden rounded-t-xl object-cover transition-all duration-300 ease-in-out"
-                        src={project?.screenshot}
+                        src={project.screenshot}
                         width={272}
                         height={128}
                       />
