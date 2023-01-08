@@ -22,7 +22,7 @@ const GetProjects = () => {
 
   // useEffect for filtering the projects
   useEffect(() => {
-    const arr = []
+    let arr = []
     for (let i = 0; i < allProjects.projects.length; i++) {
       for (let j = 0; j < selected.length; j++) {
         if (allProjects.projects[i].stack?.includes(selected[j])) {
@@ -31,6 +31,7 @@ const GetProjects = () => {
       }
     }
     if (arr.length > 0) {
+      arr = [...new Set(arr)]
       setFilteredProjects(arr)
     } else {
       setFilteredProjects(allProjects.projects)
