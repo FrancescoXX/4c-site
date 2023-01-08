@@ -10,7 +10,7 @@ Join our amazing community on Discord and Twitter.
 
 <a href="https://discord.com/invite/cRjhjFRRre"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="40"/></a> <a href="https://twitter.com/4ccommunityhq"><img src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" title="Twitter" alt="Twitter Account" width="40"/></a>
 
-<img src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/src/assets/banner.jpg" alt="4C logo">
+![4c logo](https://www.4c.rocks/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.9b920fc5.png&w=64&q=75)
 
 ## :camera: Website overview
 
