@@ -25,7 +25,7 @@ const GetProjects = () => {
     const arr = []
     for (let i = 0; i < allProjects.projects.length; i++) {
       for (let j = 0; j < selected.length; j++) {
-        if (allProjects.projects[i].stack.includes(selected[j])) {
+        if (allProjects.projects[i].stack?.includes(selected[j])) {
           arr.push(allProjects.projects[i])
         }
       }
