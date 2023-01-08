@@ -18,7 +18,7 @@ This repository concerns the 4C community [website](https://www.4c.rocks/). Visi
 
 ## :tada: Want to contribute?
 
-Whether you are a community member or not, we would love your point of view! Feel free to first check out our [code of conduct](https://github.com/FrancescoXX/4c-site/blob/main/CODE_OF_CONDUCT.md) and also the [contribution guidelines](https://github.com/FrancescoXX/4c-site/blob/main/CONTRIBUTING.md) for any missing steps.
+Whether you are a community member or not, we would love your point of view! Feel free to first check out our [code of conduct](https://github.com/FrancescoXX/4c-site/blob/main/docs/CODE_OF_CONDUCT.md) and also the [contribution guidelines](https://github.com/FrancescoXX/4c-site/blob/main/docs/CONTRIBUTING.md) for any missing steps.
 
 ### :computer: For Contributors
 
