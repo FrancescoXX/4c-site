@@ -12,7 +12,7 @@ const Contributors = ({ users }) => {
     <ProfileCard
       key={index}
       username={user.name}
-      avatarUrl={user.avatarUrl}
+      avatar={user.avatar}
       socials={[
         { type: "github", username: user.github },
         { type: "twitter", username: user.twitter },

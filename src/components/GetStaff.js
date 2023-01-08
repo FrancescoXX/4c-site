@@ -14,7 +14,7 @@ const GetStaff = ({ users }) => {
     <motion.div key={user.name} whileHover={hoverAnimation}>
       <ProfileCard
         username={user.name}
-        avatarUrl={user.avatarUrl}
+        avatar={user.avatar}
         description={user.description}
         socials={[
           { type: "github", username: user.github },

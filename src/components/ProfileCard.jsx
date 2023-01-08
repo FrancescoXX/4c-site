@@ -56,12 +56,12 @@ const getSocials = (socials, username) => {
   })
 }
 
-const ProfileCard = ({ username, avatarUrl, socials = [], description }) => {
+const ProfileCard = ({ username, avatar, socials = [], description }) => {
   return (
     <div className="m-4 flex h-64 w-64 flex-col items-center justify-center rounded-md">
       <div className="h-32 w-32 overflow-hidden rounded-full shadow-sm">
         <Image
-          src={avatarUrl}
+          src={avatar}
           alt={username}
           width={200}
           height={200}
