@@ -1,15 +1,6 @@
 {
   "events": [
     {
-      "name": "Women in Tech: Opportunities and Drawbacks",
-      "image": "https://user-images.githubusercontent.com/86878236/210306731-15fcc50d-5bd0-4a73-82ce-a568998dc6c2.png",
-      "organizer": "TobySolutions",
-      "venue": "Twitter",
-      "date": "07/01/2023",
-      "link": "https://twitter.com/i/spaces/1mnGeRnwQDZJX",
-      "isActive": true
-    },
-    {
       "name": "4Call",
       "image": "https://user-images.githubusercontent.com/86878236/210950060-a1e5ec9f-e21f-4a83-97b7-7bb371d5c88a.png",
       "organizer": "4C Community",
