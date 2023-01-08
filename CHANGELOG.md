@@ -1,3 +1,10 @@
+# [0.13.0](https://github.com/FrancescoXX/4c-site/compare/v0.12.0...v0.13.0) (2023-01-08)
+
+
+### Features
+
+* remove tobiloba's event ([147114e](https://github.com/FrancescoXX/4c-site/commit/147114eae048f249bbe0d436f1282ea21303e57e))
+
 # [0.12.0](https://github.com/FrancescoXX/4c-site/compare/v0.11.0...v0.12.0) (2023-01-08)
 
 
