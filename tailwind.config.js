@@ -7,7 +7,7 @@ const { fontFamily: _fontFamily } = require("tailwindcss/defaultTheme")
 
 const tailwindConfig = {
   content: [
-    "./**/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     container: {

@@ -1,40 +1,40 @@
-# :gem: 4C (The Cool Community of Content Creators)
+# 💎 4C (The Cool Community of Content Creators)
 
-Imagine **The Cool Community For Content Creators** or **4C**, as a chill coffee shop (cooler even :bomb:). An inclusive and helpful environment, where we help content creators reach their goal by sharing experiences.
+Imagine **The Cool Community For Content Creators** or **4C**, as a chill coffee shop (cooler even 💣). An inclusive and helpful environment, where we help content creators reach their goals by sharing experiences.
 
 Gain access to exclusive talks/workshops with popular content creators, and hence, opportunities to collaborate.
 
-We have games too! :video_game:
+We have games too! 🎮
 
 Join our amazing community on Discord and Twitter.
 
-<a href="https://discord.com/invite/cRjhjFRRre"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="40"/></a> <a href="https://twitter.com/4ccommunityhq"><img src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" title="Twitter" alt="Twitter Account" width="40"/></a>
+<a href="https://discord.com/invite/cRjhjFRRre"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="40"/></a><a href="https://twitter.com/4ccommunityhq"><img src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" title="Twitter" alt="Twitter Account" width="40"/></a>
 
-<img src="./mediakit/4c_banner.jpg" alt="4C logo">
+<img src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/src/assets/banner.jpg" alt="4C logo">
 
-## :camera: Website overview
+## 📷 Website overview
 
-This repository concerns the 4C community [website](https://www.4c.rocks/). Visit the website to stay up to date with community members' projects, active memebers, and other amazing content!
+This repository concerns the 4C community [website](https://www.4c.rocks/). Visit the website to stay up to date with community members' projects, active members, and other amazing content!
 
-## :tada: Want to contribute?
+## 🎉 Want to contribute?
 
 Whether you are a community member or not, we would love your point of view! Feel free to first check out our [code of conduct](https://github.com/FrancescoXX/4c-site/blob/main/CODE_OF_CONDUCT.md) and also the [contribution guidelines](https://github.com/FrancescoXX/4c-site/blob/main/CONTRIBUTING.md) for any missing steps.
 
-### :computer: For Contributors
+### 💻 For Contributors
 
-#### :bookmark: Tech Stack
+#### 🔖 Tech Stack
 
 The code base of this repo uses
 
 - [NextJS](https://nextjs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
 
-For contributing to code, you will need
+For contributing to the code, you will need
 
 - [Node](https://nodejs.org/en/) installed on your computer.
 - Basic knowledge of [Git](https://git-scm.com/)
 
-#### :bookmark: Contribution steps
+#### 🔖 Contribution steps
 
 You can directly work on this project on Gitpod!
 
@@ -42,67 +42,63 @@ You can directly work on this project on Gitpod!
 
 Or, to work on it locally,
 
-1.  [Fork](https://github.com/FrancescoXX/4c-site) this repository
+1. [Fork](https://github.com/FrancescoXX/4c-site) this repository
+2. Clone the repo
 
-2.  Clone the repo
+   ```console
+   $ git clone git@github.com:<your github username>/4c-site.git
+   ```
+3. Navigate to the cloned directory
 
-    ```console
-    $ git clone git@github.com:<your github username>/4c-site.git
-    ```
+   ```console
+   $ cd 4c-site
+   ```
+4. Install dependencies
 
-3.  Navigate to the cloned directory
+   ```console
+   $ npm install
+   ```
+5. Start the project on `localhost`
 
-    ```console
-    $ cd 4c-site
-    ```
+   ```console
+   $ npm run dev
+   ```
 
-4.  Install dependencies
-
-    ```console
-    $ npm install
-    ```
-
-5.  Start the project on `localhost`
-
-    ```console
-    $ npm run dev
-    ```
-    
 ##### Troubleshooting
 
-In the course of trying to set up the project locally, if you come across an errror that says `PWA is not supported`, you can try the following steps below to fix it;
+In the course of trying to set up the project locally, if you come across an error that says `PWA is not supported`, you can try the following steps below to fix it;
 
 > For Linux or Mac 👇
 
-1.  Go to 4c-site folder using `cd 4c-site`
+1. Go to 4c-site folder using `cd 4c-site`
+2. In the terminal,
 
-2.  In the terminal,
-    ```console
-    $ export NODE_OPTIONS=--openssl-legacy-provider
-    ```
+   ```console
+   $ export NODE_OPTIONS=--openssl-legacy-provider
+   ```
+3. If you get an error in the above code then use the option below
 
-3.  If you get an error in the above code then use the option below
-    ```console
-    $ unset NODE_OPTIONS=""
-    ```
+   ```console
+   $ unset NODE_OPTIONS=""
+   ```
+4. Start the development server with
 
-4.  Start the development server with
-    ```console
-    $ npm run dev
-    ```
+   ```console
+   $ npm run dev
+   ```
 
 > For Windows 👇
 
-1.  Go to 4c-site folder using `cd 4c-site`
-2.  In the terminal,
-    ```console
-    $ set NODE_OPTIONS=--openssl-legacy-provider
-    ```
-3.  Start the development server with
-    ```console
-    $ npm run dev
-    ```
-    
+1. Go to 4c-site folder using `cd 4c-site`
+2. In the terminal,
+   ```console
+   $ set NODE_OPTIONS=--openssl-legacy-provider
+   ```
+3. Start the development server with
+   ```console
+   $ npm run dev
+   ```
+
 In order to run this project locally, you might require some additional configurations, such as downgrading your `node` version to v16.
 You may get an error similar to this:
 
@@ -110,23 +106,23 @@ You may get an error similar to this:
 
 To fix this, downgrade your `node` version to v16. Here is a simple way of doing that with the [`nvm` node version manager](https://github.com/nvm-sh/nvm):
 
-1.  Download and install `nvm`. Use [nvm-setup.exe](https://github.com/coreybutler/nvm-windows/releases) for windows, or [install.sh](https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh) on other systems.
+1. Download and install `nvm`. Use [nvm-setup.exe](https://github.com/coreybutler/nvm-windows/releases) for windows, or [install.sh](https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh) on other systems.
+2. Install version v16
 
-2.  Install version v16
-    ```console
-    $ nvm install 16.16.0
-    ```
-    
-3.  Make your system use version 16 of node
-    ```console
-    $ nvm use 16.16.0
-    ```
-    
+   ```console
+   $ nvm install 16.16.0
+   ```
+3. Make your system use version 16 of node
+
+   ```console
+   $ nvm use 16.16.0
+   ```
+
 To check if everything has worked, restart your shell and run `node -v`. The output should be `v16.16.0`. If it is, you can continue working on the project!
 
 #### Format check
 
-Before PR, please check formatting first. ESLint may show formatting errors, but just make sure that the prettier formatting is OK.
+Before PR, please check the formatting first. ESLint may show formatting errors, but just make sure that the prettier formatting is OK.
 
 > Prettier
 
@@ -146,7 +142,7 @@ $ npm run lint
 
 Done!
 
-#### :bookmark: Adding a project to the project page
+#### 🔖 Adding a project to the project page
 
 > Note: _The project page is reserved to display projects for community members only. Each member can put up only one project._
 
@@ -174,18 +170,18 @@ For example,
   - A screenshot
   - A short description
   - A link to the GitHub repo (If it is open source)
-  - A link to your twitter profile
-  - A live link of the project.
-- Open a pull request :+1:
+  - A link to your Twitter profile
+  - A live link to the project.
+- Open a pull request 👍
 
 ---
 
 Notice anything odd and/or missing from this README or on the website itself? Feel free to raise an [issue](https://github.com/FrancescoXX/4c-site/issues).
 
-Join the amazing [4C community](https://discord.com/invite/cRjhjFRRre) on discord, and follow us on [twitter](https://twitter.com/4ccommunityhq) to stay in the loop.
+Join the amazing [4C community](https://discord.com/invite/cRjhjFRRre) on discord, and follow us on [Twitter](https://twitter.com/4ccommunityhq) to stay in the loop.
 
-# :key: License
+# 🔑 License
 
 This repository is under the [MIT](./LICENSE) license.
 
-Please leave a star :star: All support is highly appreciated.
+Please leave a star ⭐️ All support is highly appreciated.

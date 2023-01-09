@@ -1,13 +1,13 @@
 import React from "react"
 import { FaTwitter, FaLink } from "react-icons/fa"
-import blogs from "data/blog.json"
+import blogs from "data/blog"
 import Image from "next/image"
 
 const styles = "transition-all ease-in cursor-pointer"
 const BlogCard = () => {
   return (
     <section className="flex w-full flex-wrap items-center justify-center p-4 sm:p-10">
-      {blogs.blogs.map((blog, index) => (
+      {blogs.map((blog, index) => (
         <div
           key={index}
           className="hov-bg-theme m-5 h-[450px] w-[330px] rounded-xl bg-[#f1f5f9] p-5 text-black shadow-md transition-all ease-out hover:-translate-y-1 xl:w-[380px]"

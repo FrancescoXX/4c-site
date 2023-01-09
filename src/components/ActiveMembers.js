@@ -3,19 +3,19 @@ import GetActivemembers from "components/GetActivemembers"
 import Users from "components/Users"
 
 // import contributors data
-import activeMembers from "data/activemembers.json"
+import activeMembers from "data/activemembers"
 import Title from "components/Title"
 import { FilterUsers } from "utils/filterUsers"
 
 const ActiveMembers = () => {
   // state for currentUsers
-  const [currentUsers, setCurrentUsers] = useState(activeMembers.profiles)
+  const [currentUsers, setCurrentUsers] = useState(activeMembers)
 
   // filter handler
   const searchHandler = (event) => {
     event.preventDefault()
     const filterdUsers = FilterUsers(
-      activeMembers.profiles,
+      activeMembers,
       event.target.value,
     )
     setCurrentUsers(filterdUsers)

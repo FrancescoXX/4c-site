@@ -22,15 +22,16 @@ const GetProjects = () => {
 
   // useEffect for filtering the projects
   useEffect(() => {
-    const arr = []
+    let arr = []
     for (let i = 0; i < allProjects.projects.length; i++) {
       for (let j = 0; j < selected.length; j++) {
-        if (allProjects.projects[i].stack.includes(selected[j])) {
+        if (allProjects.projects[i].stack?.includes(selected[j])) {
           arr.push(allProjects.projects[i])
         }
       }
     }
     if (arr.length > 0) {
+      arr = [...new Set(arr)]
       setFilteredProjects(arr)
     } else {
       setFilteredProjects(allProjects.projects)
@@ -68,7 +69,7 @@ const GetProjects = () => {
                   onRemove={getSelectedValues}
                   placeholder="Filter By Tech Stack"
                   ref={multiselectRef}
-                  className="text-black"
+                  className="bg-[#FEFEFE] text-[#314c89]"
                   showCheckbox={true}
                   closeOnSelect={true}
                   avoidHighlightFirstOption={true}
@@ -87,7 +88,7 @@ const GetProjects = () => {
                       <Image
                         alt={`Screenshot of ${project.title}`}
                         className="h-full max-h-[8rem] w-full overflow-hidden rounded-t-xl object-cover transition-all duration-300 ease-in-out"
-                        src={project?.screenshot}
+                        src={project.screenshot}
                         width={272}
                         height={128}
                       />

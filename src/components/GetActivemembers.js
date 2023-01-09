@@ -14,7 +14,7 @@ const GetActivemembers = ({ users }) => {
     <motion.div key={index} whileHover={hoverAnimation}>
       <ProfileCard
         username={user.name}
-        avatarUrl={user.avatarUrl}
+        avatar={user.avatar}
         socials={[
           { type: "github", username: user.github },
           { type: "twitter", username: user.twitter },
