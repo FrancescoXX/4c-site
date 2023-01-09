@@ -1,3 +1,11 @@
+## [0.13.1](https://github.com/FrancescoXX/4c-site/compare/v0.13.0...v0.13.1) (2023-01-09)
+
+
+### Bug Fixes
+
+* **fix responsivenes:** responsivenes and image width changed for a better look ([b50c5a5](https://github.com/FrancescoXX/4c-site/commit/b50c5a56acd453a0bbf052a143a4409e33d9128a))
+* **video page:** fixed videos page responsivenes by addjusting and adding tailwind classes ([4bc85ef](https://github.com/FrancescoXX/4c-site/commit/4bc85ef962e968e63a86dc0f99ca5f3212d058d2)), closes [#578](https://github.com/FrancescoXX/4c-site/issues/578)
+
 # [0.13.0](https://github.com/FrancescoXX/4c-site/compare/v0.12.0...v0.13.0) (2023-01-08)
 
 
