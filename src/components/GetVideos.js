@@ -10,11 +10,11 @@ const GetVideos = () => {
         <Title heading="Videos" />
         <p className="text-white/70">Videos by 4c community Members</p>
         <div className="mx-4 lg:mx-12">
-          <div className="flex w-full flex-wrap items-center justify-center p-10">
+          <div className="flex w-full flex-wrap items-center justify-center mt-4">
             {allVideos.videos.map((video, index) => (
               <div
                 key={index}
-                className="details hov-bg-theme my-4 cursor-pointer rounded bg-white bg-opacity-[.2] py-6 text-white shadow backdrop-blur-lg transition-all ease-out hover:-translate-y-1 m-5 w-[22rem]"
+                className="details hov-bg-theme medium:my-4 cursor-pointer rounded bg-white bg-opacity-[.2] :py-6 text-white shadow backdrop-blur-lg transition-all ease-out hover:-translate-y-1 m-4 w-[14rem] mobile:w-[17rem] medium:w-[20rem] laptop:w-[22rem]"
               >
                 <a
                   href={`https://www.youtube.com/watch?v=${video.videoId}`}
@@ -22,7 +22,7 @@ const GetVideos = () => {
                 >
                   <Image
                     src={`https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`}
-                    className="rounded mx-auto"
+                    className="rounded mx-auto w-full"
                     alt={video.videoTitle}
                     width={272}
                     height={153}
