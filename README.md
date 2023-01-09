@@ -14,7 +14,7 @@ Join our amazing community on Discord and Twitter.
 
 ## 📷 Website overview
 
-This repository concerns the 4C community [website](https://www.4c.rocks/). Visit the website to stay up to date with community members' projects, active members, and other amazing content!
+This repository concerns the 4C community [website](https://www.4c.rocks/). Visit the website to stay up to date with community member's projects, active members, and other amazing content!
 
 ## 🎉 Want to contribute?
 
