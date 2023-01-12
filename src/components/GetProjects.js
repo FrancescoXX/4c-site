@@ -53,9 +53,6 @@ const GetProjects = () => {
         </p>
         <div className="flex items-center justify-center">
           <div className="max-w-bodyContainer">
-            <h1 className="mt-10 mb-1 text-2xl">
-              Want to Contribute to these projects?
-            </h1>
             <p className="mb-5 text-lg">
               Get started by selecting the language you want to work with!
             </p>
