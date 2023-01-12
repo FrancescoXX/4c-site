@@ -53,12 +53,6 @@ const GetProjects = () => {
         </p>
         <div className="flex items-center justify-center">
           <div className="max-w-bodyContainer">
-            <h1 className="mt-10 mb-1 text-2xl">
-              Want to Contribute to these projects?
-            </h1>
-            <p className="mb-5 text-lg">
-              Get started by selecting the language you want to work with!
-            </p>
             <div className="mx-4 mt-5 mb-10 flex list-none flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
               <div className="py-2  ">
                 <Multiselect
@@ -76,7 +70,6 @@ const GetProjects = () => {
                 />
               </div>
             </div>
-            <h1 className="text-2xl">Projects</h1>
             <div className="my-[1rem] flex flex-wrap items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {filteredProjects.map((project, index) => {
                 return (
