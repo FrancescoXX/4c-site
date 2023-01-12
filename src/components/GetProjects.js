@@ -76,7 +76,6 @@ const GetProjects = () => {
                 />
               </div>
             </div>
-            <h1 className="text-2xl">Projects</h1>
             <div className="my-[1rem] flex flex-wrap items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {filteredProjects.map((project, index) => {
                 return (
