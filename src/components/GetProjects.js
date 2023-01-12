@@ -53,9 +53,6 @@ const GetProjects = () => {
         </p>
         <div className="flex items-center justify-center">
           <div className="max-w-bodyContainer">
-            <p className="mb-5 text-lg">
-              Get started by selecting the language you want to work with!
-            </p>
             <div className="mx-4 mt-5 mb-10 flex list-none flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
               <div className="py-2  ">
                 <Multiselect
