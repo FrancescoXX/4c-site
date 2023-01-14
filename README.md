@@ -120,24 +120,17 @@ To fix this, downgrade your `node` version to v16. Here is a simple way of doing
 
 To check if everything has worked, restart your shell and run `node -v`. The output should be `v16.16.0`. If it is, you can continue working on the project!
 
-#### Format and Lint check
-
-Before PR, please check the formatting first. ESLint may show formatting errors, but just make sure that the prettier formatting is OK.
-
-$ npm run lint
-
 
 #### Run commit 
 
  After checking the lint and immediately after staging your changes with "git add", type the command:
-
- $  npm run commit
-
-After running the command you will be asked to input a couple of details regarding your commit. Please ensure you fill accordingly. A one-liner text will do. This step is important to help us with the releases of the project.
-
+ 
+   ```console
+   $ npm run commit
+   ```
+   
+After running the command you will be asked to input a couple of details regarding your commit.
 This is what the details you fill in on the terminal will appear as:
-(N.B: In my case I was just writing "fix readme")
-
 
 Pay attention to:
 
@@ -156,6 +149,8 @@ This is what mine looks like after I set my:
 - "footer" to fix readme
 
 ![1673738575728](image/README/1673738575728.png)
+
+N.B: In my case I was just writing "fix readme"
 You can then push your changes.
 
 Done!
