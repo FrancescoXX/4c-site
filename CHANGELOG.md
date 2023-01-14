@@ -1,3 +1,11 @@
+## [0.13.2](https://github.com/FrancescoXX/4c-site/compare/v0.13.1...v0.13.2) (2023-01-14)
+
+
+### Bug Fixes
+
+* **readme:** fix readme ([57ce88d](https://github.com/FrancescoXX/4c-site/commit/57ce88d446443eff2bc7ab4c1962ca75c277f384))
+* **readme:** fix readme ([5895762](https://github.com/FrancescoXX/4c-site/commit/5895762c735b5915b218d41d53ce0407097c2b88))
+
 ## [0.13.1](https://github.com/FrancescoXX/4c-site/compare/v0.13.0...v0.13.1) (2023-01-09)
 
 
