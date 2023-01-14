@@ -139,6 +139,22 @@ This is what the details you fill in on the terminal will appear as:
 (N.B: In my case I was just writing "fix readme")
 
 
+Pay attention to:
+
+- type
+- scope
+- subject
+- body
+- footer
+
+This is what mine looks like after I set my:
+
+- "type" to fix
+- "scope" to readme
+- "subject" to fix readme
+- "body" to fix readme
+- "footer" to fix readme
+
 ![1673738575728](image/README/1673738575728.png)
 You can then push your changes.
 
