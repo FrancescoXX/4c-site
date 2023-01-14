@@ -38,6 +38,7 @@ const Navbar = () => {
                 <Image
                   width={50}
                   height={50}
+                  id="four-c-logo"
                   className="hover:cursor-pointer"
                   alt="4C Logo"
                   src={logoImage}
