@@ -133,7 +133,14 @@ $ npm run lint
 
  $  npm run commit
 
-After running the command, you can then push your changes.
+After running the command you will be asked to input a couple of details regarding your commit. Please ensure you fill accordingly. A one-liner text will do. This step is important to help us with the releases of the project.
+
+This is what the details you fill in on the terminal will appear as:
+(N.B: In my case I was just writing "fix readme")
+
+
+![1673738575728](image/README/1673738575728.png)
+You can then push your changes.
 
 Done!
 
