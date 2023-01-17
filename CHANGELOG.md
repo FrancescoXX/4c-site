@@ -1,3 +1,10 @@
+## [0.13.4](https://github.com/FrancescoXX/4c-site/compare/v0.13.3...v0.13.4) (2023-01-17)
+
+
+### Bug Fixes
+
+* activities card design improvd and card broke fixed" ([12c1ce7](https://github.com/FrancescoXX/4c-site/commit/12c1ce72287be676322feaf83c1311addf67383b))
+
 ## [0.13.3](https://github.com/FrancescoXX/4c-site/compare/v0.13.2...v0.13.3) (2023-01-14)
 
 
