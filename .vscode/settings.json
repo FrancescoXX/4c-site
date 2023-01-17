@@ -1,5 +1,12 @@
 {
   "eslint.enable": true,
   "editor.formatOnSave": false,
-  "eslint.validate": ["javascript", "javascriptreact", "json"]
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json"
+  ],
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
+  ]
 }

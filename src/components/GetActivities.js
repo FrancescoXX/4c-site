@@ -26,10 +26,10 @@ const GetActivities = () => (
                     {event.venue === "Twitter"
                       ? (
                         <FaTwitter className={styles} />
-                      )
+                        )
                       : (
                         <FaDiscord className={styles} />
-                      )}
+                        )}
                   </a>
                 </div>
               </div>
