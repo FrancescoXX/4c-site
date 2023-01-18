@@ -1,3 +1,10 @@
+## [0.13.5](https://github.com/FrancescoXX/4c-site/compare/v0.13.4...v0.13.5) (2023-01-18)
+
+
+### Bug Fixes
+
+* activities card width fixed for md lg xl device ([505a607](https://github.com/FrancescoXX/4c-site/commit/505a6078840804df630191c054252f353aed06cf))
+
 ## [0.13.4](https://github.com/FrancescoXX/4c-site/compare/v0.13.3...v0.13.4) (2023-01-17)
 
 
