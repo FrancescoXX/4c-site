@@ -1,6 +1,5 @@
 import Layout from "components/Layout"
 import BlogCard from "components/BlogCard"
-import GoToTop from "components/GoToTop"
 import Title from "components/Title"
 
 const Projects = () => {
@@ -10,7 +9,6 @@ const Projects = () => {
         <Title heading="Blogs" />
         <BlogCard />
       </Layout>
-      <GoToTop />
     </div>
   )
 }

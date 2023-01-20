@@ -34,7 +34,9 @@ const GoToTop = () => {
       onKeyDown={goToBtn}
       role="button"
       tabIndex={0}
-      className={`fixed bg-[#63b5ec] cursor-pointer  rounded-full p-3 right-12 bottom-12 ${!isVisible ? "hidden" : ""}`}
+      className={`fixed bg-gradient-to-b  from-green-400 to-blue-600 animate-bounce cursor-pointer  rounded-full p-3 right-12 bottom-12 ${
+        !isVisible ? "hidden" : ""
+      }`}
     >
       {isVisible && (
         <div>
@@ -42,7 +44,7 @@ const GoToTop = () => {
         </div>
       )}
     </div>
-  )
+  );
 }
 
 export default GoToTop
