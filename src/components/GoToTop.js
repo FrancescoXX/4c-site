@@ -1,30 +1,30 @@
-import React, { useEffect, useState } from "react"
-import { FaArrowUp } from "react-icons/fa"
+import React, { useEffect, useState } from "react";
+import { FaArrowUp } from "react-icons/fa";
 
 const GoToTop = () => {
   // state to display toggler
-  const [isVisible, setIsVisible] = useState(false)
+  const [isVisible, setIsVisible] = useState(false);
 
   const goToBtn = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
-  }
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
 
   const listenToScroll = () => {
-    const heightToHidden = 20
+    const heightToHidden = 20;
     const winScroll =
-      document.body.scrollTop || document.documentElement.scrollTop
+      document.body.scrollTop || document.documentElement.scrollTop;
 
     if (winScroll > heightToHidden) {
-      setIsVisible(true)
+      setIsVisible(true);
     } else {
-      setIsVisible(false)
+      setIsVisible(false);
     }
-  }
+  };
 
   useEffect(() => {
-    window.addEventListener("scroll", listenToScroll)
-    return () => window.removeEventListener("scroll", listenToScroll)
-  }, [])
+    window.addEventListener("scroll", listenToScroll);
+    return () => window.removeEventListener("scroll", listenToScroll);
+  }, []);
 
   // classes for Back to Top button
 
@@ -45,6 +45,6 @@ const GoToTop = () => {
       )}
     </div>
   );
-}
+};
 
-export default GoToTop
+export default GoToTop;
