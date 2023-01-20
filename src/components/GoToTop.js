@@ -26,7 +26,7 @@ const GoToTop = () => {
     return () => window.removeEventListener("scroll", listenToScroll)
   }, [])
 
-  // classes for gototop button
+  // classes for Back to Top button
 
   return (
     <div
