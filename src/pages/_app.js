@@ -4,6 +4,7 @@ import Head from "next/head"
 import { AnimatePresence } from "framer-motion"
 import { Poppins, Red_Hat_Display as RedHatDisplay } from "@next/font/google"
 import pages from "data/navbar"
+import GoToTop from "components/GoToTop"
 
 const poppins = Poppins({
   weight: ["400", "500", "600"],
@@ -50,6 +51,7 @@ export default function App({ Component, pageProps }) {
       >
         <Component {...pageProps} />
       </AnimatePresence>
+      <GoToTop/>
     </div>
   )
 }
