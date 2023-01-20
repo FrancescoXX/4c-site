@@ -1,3 +1,12 @@
+## [0.13.6](https://github.com/FrancescoXX/4c-site/compare/v0.13.5...v0.13.6) (2023-01-20)
+
+
+### Bug Fixes
+
+* fix lint error ([08331f0](https://github.com/FrancescoXX/4c-site/commit/08331f0adf623c54e4accea8b482cd940b8ead94))
+* lint ([f523c99](https://github.com/FrancescoXX/4c-site/commit/f523c9971410381127c8e3a6e671d171cf52756a))
+* lint error ([0b2019f](https://github.com/FrancescoXX/4c-site/commit/0b2019fab89422fb1e968a62ca1dd54b745b643b))
+
 ## [0.13.5](https://github.com/FrancescoXX/4c-site/compare/v0.13.4...v0.13.5) (2023-01-18)
 
 
