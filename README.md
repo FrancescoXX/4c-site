@@ -6,10 +6,12 @@ Gain access to exclusive talks/workshops with popular content creators, and henc
 
 We have games too! 🎮
 
+## 👋 Join Us :
 Join our amazing community on Discord and Twitter.
 
 <a href="https://discord.com/invite/cRjhjFRRre"><img src="https://cdn.worldvectorlogo.com/logos/discord-6.svg" title="Discord" alt="Discord Community" width="40"/></a><a href="https://twitter.com/4ccommunityhq"><img src="https://cdn.worldvectorlogo.com/logos/twitter-6.svg" title="Twitter" alt="Twitter Account" width="40"/></a>
 
+<br>
 <img src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/src/assets/banner.jpg" alt="4C logo">
 
 ## 📷 Website overview
@@ -120,25 +122,38 @@ To fix this, downgrade your `node` version to v16. Here is a simple way of doing
 
 To check if everything has worked, restart your shell and run `node -v`. The output should be `v16.16.0`. If it is, you can continue working on the project!
 
-#### Format check
 
-Before PR, please check the formatting first. ESLint may show formatting errors, but just make sure that the prettier formatting is OK.
+#### Run commit 
 
-> Prettier
+ After checking the lint and immediately after staging your changes with "git add", type the command:
+ 
+   ```console
+   $ npm run commit
+   ```
+   
+After running the command you will be asked to input a couple of details regarding your commit.
+This is what the details you fill in on the terminal will appear as:
 
-```console
-$ npm run format:check
-$ npm run lint:check
-```
+Pay attention to:
 
-> Lint
+- type
+- scope
+- subject
+- body
+- footer
 
-If you get the error `Code style issues found in the above file(s). Forgot to run Prettier?`, format and lint the files:
+This is what mine looks like after I set my:
 
-```console
-$ npm run format .
-$ npm run lint
-```
+- "type" to fix
+- "scope" to readme
+- "subject" to fix readme
+- "body" to fix readme
+- "footer" to fix readme
+
+![1673738575728](image/README/1673738575728.png)
+
+N.B: In my case I was just writing "fix readme"
+You can then push your changes.
 
 Done!
 

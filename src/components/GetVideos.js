@@ -10,7 +10,7 @@ const GetVideos = () => {
         <Title heading="Videos" />
         <p className="text-white/70">Videos by 4c community Members</p>
         <div className="mx-4 lg:mx-12">
-          <div className="flex w-full flex-wrap items-center justify-center mt-4">
+          <div className="flex w-full flex-wrap justify-center mt-4">
             {allVideos.videos.map((video, index) => (
               <div
                 key={index}
