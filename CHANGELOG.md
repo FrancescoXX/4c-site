@@ -1,3 +1,10 @@
+# [0.14.0](https://github.com/FrancescoXX/4c-site/compare/v0.13.6...v0.14.0) (2023-01-24)
+
+
+### Features
+
+* made navbar good ([7217471](https://github.com/FrancescoXX/4c-site/commit/7217471a9544083feb1dff2c369ac6653fae2cf7))
+
 ## [0.13.6](https://github.com/FrancescoXX/4c-site/compare/v0.13.5...v0.13.6) (2023-01-20)
 
 
