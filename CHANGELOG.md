@@ -1,3 +1,10 @@
+## [0.14.1](https://github.com/FrancescoXX/4c-site/compare/v0.14.0...v0.14.1) (2023-01-24)
+
+
+### Bug Fixes
+
+* adding favicon ([d341718](https://github.com/FrancescoXX/4c-site/commit/d34171892c730dd471498fbc972ba8b001675270))
+
 # [0.14.0](https://github.com/FrancescoXX/4c-site/compare/v0.13.6...v0.14.0) (2023-01-24)
 
 
