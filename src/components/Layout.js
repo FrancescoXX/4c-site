@@ -4,6 +4,7 @@ import Header from "components/Header"
 import config from "4c.config"
 import { motion } from "framer-motion"
 import Footer from "components/Footer"
+import favicon from "../public/favicon.ico"
 
 const Layout = ({ header, children, ...rest }) => {
   const variants = {
@@ -16,7 +17,7 @@ const Layout = ({ header, children, ...rest }) => {
       <div className="bg-theme min-h-screen" id="get-projects-scroll">
         <Header {...header} />
         <Head>
-          <link rel="icon" href={config.favicon} />
+          <link rel="shortcut icon" type="image/x-icon" href={favicon.src} />
         </Head>
         <NextSeo
           title={config.title.short}
