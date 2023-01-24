@@ -280,6 +280,20 @@
       "link": "https://github.com/Ellamsg/folio2",
       "twitter": "https://twitter.com/ellamsgeorge1",
       "live_link": "https://ellamsfolio.netlify.app/"
+    },
+    {
+      "name": "Suman Paik",
+      "title": "Plant Store",
+      "screenshot": "https://user-images.githubusercontent.com/93247057/214245266-3404f4b8-aa12-4529-86d8-8f2e02bb67db.png",
+      "description": "Select and shop your favourite plant.",
+      "link": "https://github.com/sumanpaikdev/Plant-Store-Online",
+      "twitter": "https://twitter.com/sumanpaikdev",
+      "live_link": "https://shop-plant.netlify.app/",
+      "stack": [
+        "All",
+        "React",
+        "Tailwind"
+      ]
     }
   ]
 }
