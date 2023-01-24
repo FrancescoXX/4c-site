@@ -161,7 +161,7 @@ Done!
 
 > Note: _The project page is reserved to display projects for community members only. Each member can put up only one project._
 
-To add your project to the project page, head over to the `/content` directory, and subsequently, the `projects.json` file. There, you will find objects for each project.
+To add your project to the project page, head over to the [`/data`](https://github.com/FrancescoXX/4c-site/tree/main/src/data) directory, and subsequently, the `projects.json` file. There, you will find objects for each project.
 
 For example,
 
