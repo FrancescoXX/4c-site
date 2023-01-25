@@ -109,6 +109,9 @@ const base = [
     avatar: EpicAdidashAvatar,
     github: "epicadidash",
     twitter: "epicadidash",
+    youtube: "https://www.youtube.com/@epicadidash",
+    twitch: "https://www.twitch.tv/epicadidash",
+    linkedin: "epicadidash",
     blogUrl: "",
     contributions: 0,
   },
@@ -214,41 +217,47 @@ const base = [
   },
 ].sort((a, b) => (a.name > b.name ? 1 : -1))
 
-const staffMembersAlsoActive = [
-  "InHuOfficial",
-  "avneesh0612",
-  "ardasevinc",
-  "AliReza1083",
-  "avie-dev",
-  "Dun-sin",
-  "Njong392",
-  "FrancescoXX",
-  "44jax44",
-  "naomi-lgbt",
-  "Pradumnasaraf",
-  "codewithshubhi",
-  "sumitsaurabh927",
-  "TechSquidTV",
-  "tobySolutions",
-  "Yudai-creator",
-  "MadhuSaini22",
-  "krupalitrivedi",
-]
+// const staffMembersAlsoActive = [
+//   "InHuOfficial",
+//   "avneesh0612",
+//   "ardasevinc",
+//   "AliReza1083",
+//   "avie-dev",
+//   "Dun-sin",
+//   "Njong392",
+//   "FrancescoXX",
+//   "44jax44",
+//   "naomi-lgbt",
+//   "Pradumnasaraf",
+//   "codewithshubhi",
+//   "sumitsaurabh927",
+//   "TechSquidTV",
+//   "tobySolutions",
+//   "Yudai-creator",
+//   "MadhuSaini22",
+//   "krupalitrivedi",
+// ]
 
 /**
  * @type {Profile[]}
  */
-const activeMembers = [
-  ...base,
-  ...staff.filter((member) => staffMembersAlsoActive.includes(member.github)),
-].sort((a, b) => (a.name > b.name ? 1 : -1))
 
-if (activeMembers.length !== base.length + staffMembersAlsoActive.length) {
-  throw new Error(
-    "One of the staff members who are also active is not in the list of staff members",
-  )
+function sorting(star) {
+  const names = []
+  const sorted = []
+  star.forEach((hei) => {
+    const phil = hei.name
+    const kar = phil[0].toUpperCase() + phil.substring(1)
+    names.push(kar)
+  })
+  names.sort()
+  names.forEach((kyle) => {
+    const stlt = star.find(e => kyle.localeCompare(e.name, undefined, { sensitivity: "accent" }) === 0)
+    sorted.push(stlt)
+  })
+  return sorted
 }
-
+const activeMembers = sorting(staff.concat(base))
 export default activeMembers
 // module.exports = activeMembers
 // module.exports.base = base
