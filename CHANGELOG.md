@@ -1,3 +1,10 @@
+## [0.14.2](https://github.com/FrancescoXX/4c-site/compare/v0.14.1...v0.14.2) (2023-01-25)
+
+
+### Bug Fixes
+
+* **activemembers.js:** fix ([3dedc9d](https://github.com/FrancescoXX/4c-site/commit/3dedc9d29a5dd04da09fe39be41e94a261093ada))
+
 ## [0.14.1](https://github.com/FrancescoXX/4c-site/compare/v0.14.0...v0.14.1) (2023-01-24)
 
 
