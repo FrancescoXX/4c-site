@@ -242,20 +242,20 @@ const base = [
  * @type {Profile[]}
  */
 
-function sorting(star) {
+function sorting(arraytobesorted) {
   const names = []
-  const sorted = []
-  star.forEach((hei) => {
-    const phil = hei.name
-    const kar = phil[0].toUpperCase() + phil.substring(1)
-    names.push(kar)
+  const sortedarray = []
+  arraytobesorted.forEach((object) => {
+    const name = object.name
+    const updatedname = name[0].toUpperCase() + name.substring(1)
+    names.push(updatedname)
   })
   names.sort()
-  names.forEach((kyle) => {
-    const stlt = star.find(e => kyle.localeCompare(e.name, undefined, { sensitivity: "accent" }) === 0)
-    sorted.push(stlt)
+  names.forEach((object) => {
+    const foundobject = arraytobesorted.find(searchedobject => object.localeCompare(searchedobject.name, undefined, { sensitivity: "accent" }) === 0)
+    sortedarray.push(foundobject)
   })
-  return sorted
+  return sortedarray
 }
 const activeMembers = sorting(staff.concat(base))
 export default activeMembers
