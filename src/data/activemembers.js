@@ -109,6 +109,9 @@ const base = [
     avatar: EpicAdidashAvatar,
     github: "epicadidash",
     twitter: "epicadidash",
+    youtube: "https://www.youtube.com/@epicadidash",
+    twitch: "https://www.twitch.tv/epicadidash",
+    linkedin: "epicadidash",
     blogUrl: "",
     contributions: 0,
   },
@@ -214,41 +217,47 @@ const base = [
   },
 ].sort((a, b) => (a.name > b.name ? 1 : -1))
 
-const staffMembersAlsoActive = [
-  "InHuOfficial",
-  "avneesh0612",
-  "ardasevinc",
-  "AliReza1083",
-  "avie-dev",
-  "Dun-sin",
-  "Njong392",
-  "FrancescoXX",
-  "44jax44",
-  "naomi-lgbt",
-  "Pradumnasaraf",
-  "codewithshubhi",
-  "sumitsaurabh927",
-  "TechSquidTV",
-  "tobySolutions",
-  "Yudai-creator",
-  "MadhuSaini22",
-  "krupalitrivedi",
-]
+// const staffMembersAlsoActive = [
+//   "InHuOfficial",
+//   "avneesh0612",
+//   "ardasevinc",
+//   "AliReza1083",
+//   "avie-dev",
+//   "Dun-sin",
+//   "Njong392",
+//   "FrancescoXX",
+//   "44jax44",
+//   "naomi-lgbt",
+//   "Pradumnasaraf",
+//   "codewithshubhi",
+//   "sumitsaurabh927",
+//   "TechSquidTV",
+//   "tobySolutions",
+//   "Yudai-creator",
+//   "MadhuSaini22",
+//   "krupalitrivedi",
+// ]
 
 /**
  * @type {Profile[]}
  */
-const activeMembers = [
-  ...base,
-  ...staff.filter((member) => staffMembersAlsoActive.includes(member.github)),
-].sort((a, b) => (a.name > b.name ? 1 : -1))
 
-if (activeMembers.length !== base.length + staffMembersAlsoActive.length) {
-  throw new Error(
-    "One of the staff members who are also active is not in the list of staff members",
-  )
+function sorting(arraytobesorted) {
+  const names = []
+  const sortedarray = []
+  arraytobesorted.forEach((object) => {
+    const name = object.name
+    const updatedname = name[0].toUpperCase() + name.substring(1)
+    names.push(updatedname)
+  })
+  names.sort()
+  names.forEach((object) => {
+    const foundobject = arraytobesorted.find(searchedobject => object.localeCompare(searchedobject.name, undefined, { sensitivity: "accent" }) === 0)
+    sortedarray.push(foundobject)
+  })
+  return sortedarray
 }
-
+const activeMembers = sorting(staff.concat(base))
 export default activeMembers
 // module.exports = activeMembers
 // module.exports.base = base
