@@ -15,9 +15,8 @@ const GetActivities = () => (
             <div key={idx} className='hov-bg-theme m-5  h-auto rounded-xl bg-[#f1f5f9] p-5 text-black shadow-md relative transition-all ease-out xl:w-[380px]'>
               <div>
                 <h2 className="title mt-5 text-2xl">{event.name}</h2>
-                <div className="flex justify-between flex-col sm:flex-row items-start sm:items-center w-full">
-                  <p className="text-md text-right text-[14px] text-gray-600">By {event.organizer}</p>
-                  <h6 className="text-sm">{event.date}</h6>
+                <div className="w-full">
+                  <p className="text-md  text-[14px] text-gray-600 leading-[20px] mt-3">By {event.organizer} <span className="block sm:inline text-sm font-[600] text-black">{event.date}</span> </p>
                 </div>
                 <img src={event?.image} alt={event.name} className='w-full mb-4 rounded-md object-contain my-4' />
 
