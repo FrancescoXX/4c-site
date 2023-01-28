@@ -26,7 +26,6 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
               title="Discord Widget"
               width="95%"
               height="500"
-              frameBorder="0"
               allowtransparency="true"
               sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
               src="https://discord.com/widget?id=784142072763383858&theme=dark"
