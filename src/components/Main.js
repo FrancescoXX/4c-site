@@ -1,18 +1,18 @@
 const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
   return (
     <div className="flex items-center justify-center">
-      <section className="container my-[4em] max-w-bodyContainer p-[2em] md:mb-[0em]">
+      <section className="container mb-[4em] md:my-[4em] max-w-bodyContainer md:p-[2em] md:mb-[0em]">
         <div className="grid items-center gap-12 md:grid-cols-1 lg:grid-cols-2">
           <div className="col-span-1">
             <p className="hidden text-2xl font-bold uppercase tracking-wide text-white md:block">
               {eyebrow}
             </p>
 
-            <h1 className="mt-2 text-5xl font-extrabold tracking-tight text-white md:text-6xl">
+            <h1 className="mt-2 text-5xl font-extrabold tracking-tight text-white md:text-6xl text-center md:text-left ">
               {title}
             </h1>
 
-            <div className="prose-lg my-8 mx-[auto] text-slate-200">
+            <div className="prose-lg my-8 mx-[auto] text-slate-200 md:text-left text-center">
               {description}
             </div>
 
