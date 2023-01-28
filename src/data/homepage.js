@@ -5,8 +5,8 @@ export const main = {
   eyebrow: "👋 ",
   title: (
     <>
-      <div className="">The</div>
-      <div>
+      <div className="">The Cool Community of Content Creators</div>
+      {/* <div>
         <span className="text-primary">
           <span className="text-theme">C</span>ool{" "}
         </span>
@@ -22,7 +22,7 @@ export const main = {
         <span className="text-primary">
           <span className="text-theme">C</span>reators
         </span>
-      </div>
+      </div> */}
     </>
   ),
   description: (
