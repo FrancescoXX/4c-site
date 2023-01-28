@@ -1,3 +1,11 @@
+## [0.14.4](https://github.com/FrancescoXX/4c-site/compare/v0.14.3...v0.14.4) (2023-01-28)
+
+
+### Bug Fixes
+
+* **homepage:** mobile responsiveness ([5652922](https://github.com/FrancescoXX/4c-site/commit/56529226283f011642c7f4f9c699e5a8d9a796be))
+* **homepage:** remove deprecated frame ([752cb38](https://github.com/FrancescoXX/4c-site/commit/752cb38f687112810ab970208327171aa28d1190))
+
 ## [0.14.3](https://github.com/FrancescoXX/4c-site/compare/v0.14.2...v0.14.3) (2023-01-27)
 
 
