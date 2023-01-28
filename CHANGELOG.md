@@ -1,3 +1,11 @@
+## [0.14.3](https://github.com/FrancescoXX/4c-site/compare/v0.14.2...v0.14.3) (2023-01-27)
+
+
+### Bug Fixes
+
+* **cards:** fixes for activity, blog card ([d69a4f4](https://github.com/FrancescoXX/4c-site/commit/d69a4f4a50ef6c0c41ea243bcdee075db67605ea))
+* **cards:** removing extra code ([60dc4c4](https://github.com/FrancescoXX/4c-site/commit/60dc4c41e2a6dd56b346eaaccf3eb7c0d552f11d))
+
 ## [0.14.2](https://github.com/FrancescoXX/4c-site/compare/v0.14.1...v0.14.2) (2023-01-25)
 
 
