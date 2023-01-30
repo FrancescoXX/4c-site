@@ -29,7 +29,7 @@ Example how to mark a checkbox:-
 
 ## Code of Conduct
 
-- [ ] I agree to follow this project's [Code of Conduct](https://github.com/FrancescoXX/4c-site/blob/main/docs/CODE_OF_CONDUCT.md)## Related Issue
+- [ ] I agree to follow this project's [Code of Conduct](https://github.com/FrancescoXX/4c-site/blob/main/CODE_OF_CONDUCT.md)## Related Issue
 
 Closes: # <!-- issue number that will be closed through this PR -->
 
@@ -60,7 +60,7 @@ Example how to mark a checkbox:-
 
 ## Code of Conduct
 
-- [ ] I agree to follow this project's [Code of Conduct](https://github.com/FrancescoXX/4c-site/blob/main/docs/CODE_OF_CONDUCT.md)
+- [ ] I agree to follow this project's [Code of Conduct](https://github.com/FrancescoXX/4c-site/blob/main/CODE_OF_CONDUCT.md)
 
 **Please keep up with the [Discord Conversation](https://discord.gg/4c) for more information.**
 
