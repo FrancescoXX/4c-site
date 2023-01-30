@@ -1,6 +1,6 @@
-import Image from "next/image";
-import React from "react";
-import partnerCommunities from "../data/partnerCommunities.json";
+import Image from "next/image"
+import React from "react"
+import partnerCommunities from "../data/partnerCommunities.json"
 function CommunityPartners() {
   console.log(partnerCommunities[0])
   return (
@@ -36,7 +36,7 @@ function CommunityPartners() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default CommunityPartners;
+export default CommunityPartners
