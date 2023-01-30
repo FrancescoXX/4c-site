@@ -1,8 +1,8 @@
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 import partnerCommunities from "../data/partnerCommunities.json"
 function CommunityPartners() {
-  console.log(partnerCommunities[0])
   return (
     <div className="container text-white flex items-center justify-center mt-20 mb-10">
       <div className="p-3 max-w-bodyContainer w-full">
@@ -16,13 +16,15 @@ function CommunityPartners() {
           {partnerCommunities.map((community) => (
             <div key={community.community_name} className="flex">
               <div>
-                <Image
-                  src={community.logo}
-                  alt={community.community_name}
-                  width={100}
-                  height={100}
-                  className="object-contain"
-                />
+                <Link href={community.website}>
+                  <Image
+                    src={community.logo}
+                    alt={community.community_name}
+                    width={100}
+                    height={100}
+                    className="object-contain transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  />
+                </Link>
               </div>
               <div className="flex items-center justify-center px-6 ">
                 <div>
@@ -36,7 +38,7 @@ function CommunityPartners() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default CommunityPartners
