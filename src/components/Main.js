@@ -39,7 +39,7 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
       </div>
       <CommunityPartners />
     </div>
-  );
+  )
 }
 
 export default Main

@@ -38,7 +38,7 @@ function CommunityPartners() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default CommunityPartners
