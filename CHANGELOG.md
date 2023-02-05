@@ -1,3 +1,10 @@
+## [0.14.5](https://github.com/FrancescoXX/4c-site/compare/v0.14.4...v0.14.5) (2023-02-05)
+
+
+### Bug Fixes
+
+* **bug:** fixed faq accordion answer not taking entire width ([a952dde](https://github.com/FrancescoXX/4c-site/commit/a952dde93138625cff7847e28fdd44588fb6bbfa))
+
 ## [0.14.4](https://github.com/FrancescoXX/4c-site/compare/v0.14.3...v0.14.4) (2023-01-28)
 
 
