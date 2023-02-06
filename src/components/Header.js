@@ -64,10 +64,10 @@ const Navbar = () => {
                     href={navItem.href}
                     key={idx}
                     onClick={() => {
-                      window.localStorage.setItem("active", navItem.href);
+                      window.localStorage.setItem("active", navItem.href)
                     }}
                     onKeyDown={() => {
-                      window.localStorage.setItem("active", navItem.href);
+                      window.localStorage.setItem("active", navItem.href)
                     }}
                     role="menuitem"
                     tabIndex={0}
@@ -87,7 +87,7 @@ const Navbar = () => {
         </div>
       </header>
     </div>
-  );
+  )
 }
 
 export default Navbar
