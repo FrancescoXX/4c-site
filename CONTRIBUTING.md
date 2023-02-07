@@ -1,6 +1,6 @@
 # ✨ Contributing to this project
 
-First off all, thanks for taking the time to contribute! 🎉👍
+First of all, thanks for taking the time to contribute! 🎉👍
 
 ## 💣 Reporting Bugs
 
