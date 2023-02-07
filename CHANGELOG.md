@@ -1,3 +1,11 @@
+## [0.14.6](https://github.com/FrancescoXX/4c-site/compare/v0.14.5...v0.14.6) (2023-02-07)
+
+
+### Bug Fixes
+
+* **scrollable sidebar:** fix scrollable sidebar ([59cd24a](https://github.com/FrancescoXX/4c-site/commit/59cd24a320124b3d65c1722d14a4945f9d70c82f))
+* **sidebar:** fix scrollable sidebar ([c9adf70](https://github.com/FrancescoXX/4c-site/commit/c9adf70b552eb6ad3de24d7281b7372b82fc99df))
+
 ## [0.14.5](https://github.com/FrancescoXX/4c-site/compare/v0.14.4...v0.14.5) (2023-02-05)
 
 
