@@ -1,3 +1,10 @@
+# [0.15.0](https://github.com/FrancescoXX/4c-site/compare/v0.14.6...v0.15.0) (2023-02-10)
+
+
+### Features
+
+* add background for navbar ([abd132c](https://github.com/FrancescoXX/4c-site/commit/abd132c8d66b3204d308802078b99abe7f629f9c))
+
 ## [0.14.6](https://github.com/FrancescoXX/4c-site/compare/v0.14.5...v0.14.6) (2023-02-07)
 
 
