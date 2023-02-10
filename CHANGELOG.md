@@ -1,3 +1,18 @@
+## [0.14.6](https://github.com/FrancescoXX/4c-site/compare/v0.14.5...v0.14.6) (2023-02-07)
+
+
+### Bug Fixes
+
+* **scrollable sidebar:** fix scrollable sidebar ([59cd24a](https://github.com/FrancescoXX/4c-site/commit/59cd24a320124b3d65c1722d14a4945f9d70c82f))
+* **sidebar:** fix scrollable sidebar ([c9adf70](https://github.com/FrancescoXX/4c-site/commit/c9adf70b552eb6ad3de24d7281b7372b82fc99df))
+
+## [0.14.5](https://github.com/FrancescoXX/4c-site/compare/v0.14.4...v0.14.5) (2023-02-05)
+
+
+### Bug Fixes
+
+* **bug:** fixed faq accordion answer not taking entire width ([a952dde](https://github.com/FrancescoXX/4c-site/commit/a952dde93138625cff7847e28fdd44588fb6bbfa))
+
 ## [0.14.4](https://github.com/FrancescoXX/4c-site/compare/v0.14.3...v0.14.4) (2023-01-28)
 
 

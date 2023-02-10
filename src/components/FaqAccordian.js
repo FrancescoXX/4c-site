@@ -17,7 +17,7 @@ const FaqAccordian = ({ faq }) => {
         </summary>
 
         {isOpen && (
-          <p className="mt-4 text-base leading-normal text-white lg:w-96">
+          <p className="mt-4 text-base leading-normal text-white">
             {faq.answers}
           </p>
         )}
