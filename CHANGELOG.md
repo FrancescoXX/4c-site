@@ -1,3 +1,10 @@
+## [0.15.1](https://github.com/FrancescoXX/4c-site/compare/v0.15.0...v0.15.1) (2023-02-12)
+
+
+### Bug Fixes
+
+* **ui:** enhanace search bar UI ([75baf95](https://github.com/FrancescoXX/4c-site/commit/75baf95a43dd85eeefb4159921aa674662d2769b))
+
 # [0.15.0](https://github.com/FrancescoXX/4c-site/compare/v0.14.6...v0.15.0) (2023-02-10)
 
 
