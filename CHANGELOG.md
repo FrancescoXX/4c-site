@@ -1,3 +1,10 @@
+## [0.15.2](https://github.com/FrancescoXX/4c-site/compare/v0.15.1...v0.15.2) (2023-02-12)
+
+
+### Bug Fixes
+
+* **data/activemembers.js:** fix social links for singh-vaibhav08 ([899568e](https://github.com/FrancescoXX/4c-site/commit/899568e3fd870be56f42de3640a696a68504cff1)), closes [sin#vaibhav08](https://github.com/sin/issues/vaibhav08)
+
 ## [0.15.1](https://github.com/FrancescoXX/4c-site/compare/v0.15.0...v0.15.1) (2023-02-12)
 
 
