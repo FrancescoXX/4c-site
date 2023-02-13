@@ -14,7 +14,7 @@ const GetVideos = () => {
             {allVideos.videos.map((video, index) => (
               <div
                 key={index}
-                className="details hov-bg-theme medium:my-4 cursor-pointer rounded bg-white bg-opacity-[.2] :py-6 text-white shadow backdrop-blur-lg transition-all ease-out hover:-translate-y-1 m-4 w-[14rem] mobile:w-[17rem] medium:w-[20rem] laptop:w-[22rem]"
+                className="details overflow-hidden hov-bg-theme medium:my-4 cursor-pointer rounded-md bg-white/10 text-white shadow-lg backdrop-blur-[30px] transition-all ease-out hover:-translate-y-2 m-4 w-[14rem] mobile:w-[17rem] medium:w-[20rem] laptop:w-[22rem]"
               >
                 <a
                   href={`https://www.youtube.com/watch?v=${video.videoId}`}
@@ -22,12 +22,12 @@ const GetVideos = () => {
                 >
                   <Image
                     src={`https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`}
-                    className="rounded mx-auto w-full"
+                    className="mx-auto w-full"
                     alt={video.videoTitle}
                     width={272}
                     height={153}
                   />
-                  <div>
+                  <div className="py-3 px-2">
                     <h2>{video.videoTitle}</h2>
                     <span className="text-sm font-thin text-gray-300">
                       {video.videoAuthor}
