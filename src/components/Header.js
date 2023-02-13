@@ -17,7 +17,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <div className="container flex max-w-bodyContainer items-center justify-center">
+    <div style={headingStyle} className="container flex max-w-bodyContainer items-center justify-center">
       <header className="my-[0] w-full px-0 py-[3em] md:p-[3em]">
         <div className="container px-1 sm:px-2">
           <nav className="flex items-start justify-between  md:justify-center">
@@ -73,6 +73,12 @@ const Navbar = () => {
       </header>
     </div>
   )
+}
+
+const headingStyle = {
+  backgroundColor: '#000',
+  height: '70px',
+  width: '100vw'
 }
 
 export default Navbar
