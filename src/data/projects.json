@@ -226,14 +226,15 @@
     },
     {
       "name": "Ibrahim",
-      "title": "Free Frontend Resources",
-      "screenshot": "https://i.ibb.co/ysBfwq9/banner.jpg",
-      "description": "Free Resources and Tools For Frontend Developers",
-      "link": "https://github.com/ibrahimraimi/free-frontend-resources",
+      "title": "Frontend Resources",
+      "screenshot": "https://i.ibb.co/BKt0kn2/Frontend-Resources-Banner.png",
+      "description": "A curated list of resources for Frontend development",
+      "link": "https://github.com/ibrahimraimi/frontend-resources",
       "twitter": "https://twitter.com/ibrahimraimi_",
-      "live_link": "",
+      "live_link": "https://frontend-dev-resources.vercel.app/",
       "stack": [
         "All",
+        "Next",
         "Markdown"
       ]
     },
