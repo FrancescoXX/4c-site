@@ -1,3 +1,10 @@
+## [0.15.3](https://github.com/FrancescoXX/4c-site/compare/v0.15.2...v0.15.3) (2023-02-16)
+
+
+### Bug Fixes
+
+* fixed linting issues ([ee84210](https://github.com/FrancescoXX/4c-site/commit/ee84210fc9b75c6fa944768ca720eb340f05cd41))
+
 ## [0.15.2](https://github.com/FrancescoXX/4c-site/compare/v0.15.1...v0.15.2) (2023-02-12)
 
 
