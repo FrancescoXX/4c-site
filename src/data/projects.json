@@ -61,16 +61,18 @@
     },
     {
       "name": "Ali Reza",
-      "title": "Portfolio",
-      "screenshot": "https://i.ibb.co/xFFgTKv/Banner.png",
-      "description": "I want to make a Portfolio to show my talents and show what skills I have.",
-      "link": "https://github.com/AliReza1083/Portfolio",
+      "title": "AniLearn.dev",
+      "screenshot": "https://i.ibb.co/WzY25g1/banner-anilearn.png",
+      "description": "Learning something with animation doesn't get easier than this",
+      "link": "https://github.com/AliReza1083/AniLearn.dev",
       "twitter": "https://twitter.com/Ali_Developer05",
-      "live_link": "https://alireza05.netlify.app",
+      "live_link": "https://www.anilearn.dev/",
       "stack": [
         "All",
-        "React",
-        "CSS",
+        "Next",
+        "Tailwind",
+        "Markdown",
+        "JS/TS",
         "Others"
       ]
     },
