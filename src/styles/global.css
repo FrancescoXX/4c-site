@@ -52,6 +52,16 @@ h6 {
   .group {
     width: 339px;
   }
+
+  .main-title {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+
+  .main-description {
+    text-align: justify;
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 358px) {

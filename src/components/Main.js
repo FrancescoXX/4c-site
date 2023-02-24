@@ -11,11 +11,11 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
                 {eyebrow}
               </p>
 
-              <h1 className="mt-2 text-5xl font-extrabold tracking-tight text-white md:text-6xl text-center md:text-left ">
+              <h1 className="main-title mt-2 text-5xl font-extrabold tracking-tight text-white md:text-6xl text-center md:text-left ">
                 {title}
               </h1>
 
-              <div className="prose-lg my-8 mx-[auto] text-slate-200 md:text-left text-center">
+              <div className="main-description prose-lg my-8 mx-[auto] text-slate-200 md:text-left text-center">
                 {description}
               </div>
 
