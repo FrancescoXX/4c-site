@@ -17,9 +17,9 @@ const Navbar = () => {
   }, [])
 
   return (
-    <div className="container flex max-w-bodyContainer items-center justify-center">
-      <header className="my-[0] w-full px-0 py-[3em] md:p-[3em]">
-        <div className="container px-1 sm:px-2">
+    <div className="container -ml-4  items-center justify-center left-0 right-0 z-[1] block fixed">
+      <header className="my-[0] w-[100vw] bg-[#314C89]/10 backdrop-blur-sm px-5 py-[1.4rem] md:px-[2rem]">
+        <div className="container max-w-bodyContainer  px-1 sm:px-2">
           <nav className="flex items-start justify-between  md:justify-center">
             <div className="relative flex w-full flex-wrap items-center justify-between gap-6 z-50">
               <Link href="/">
