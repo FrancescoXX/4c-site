@@ -54,7 +54,7 @@ const GetProjects = () => {
         <div className="flex items-center justify-center">
           <div className="max-w-bodyContainer">
             <div className="mx-4 mt-5 mb-10 flex list-none flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
-              <div className="py-2  ">
+              <div className="py-2">
                 <Multiselect
                   options={options}
                   displayValue={"value"}

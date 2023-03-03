@@ -61,16 +61,18 @@
     },
     {
       "name": "Ali Reza",
-      "title": "Portfolio",
-      "screenshot": "https://i.ibb.co/xFFgTKv/Banner.png",
-      "description": "I want to make a Portfolio to show my talents and show what skills I have.",
-      "link": "https://github.com/AliReza1083/Portfolio",
+      "title": "AniLearn.dev",
+      "screenshot": "https://i.ibb.co/WzY25g1/banner-anilearn.png",
+      "description": "Learning something with animation doesn't get easier than this",
+      "link": "https://github.com/AliReza1083/AniLearn.dev",
       "twitter": "https://twitter.com/Ali_Developer05",
-      "live_link": "https://alireza05.netlify.app",
+      "live_link": "https://www.anilearn.dev/",
       "stack": [
         "All",
-        "React",
-        "CSS",
+        "Next",
+        "Tailwind",
+        "Markdown",
+        "JS/TS",
         "Others"
       ]
     },
@@ -226,14 +228,15 @@
     },
     {
       "name": "Ibrahim",
-      "title": "Free Frontend Resources",
-      "screenshot": "https://i.ibb.co/ysBfwq9/banner.jpg",
-      "description": "Free Resources and Tools For Frontend Developers",
-      "link": "https://github.com/ibrahimraimi/free-frontend-resources",
+      "title": "Frontend Resources",
+      "screenshot": "https://i.ibb.co/BKt0kn2/Frontend-Resources-Banner.png",
+      "description": "A curated list of resources for Frontend development",
+      "link": "https://github.com/ibrahimraimi/frontend-resources",
       "twitter": "https://twitter.com/ibrahimraimi_",
-      "live_link": "",
+      "live_link": "https://frontend-dev-resources.vercel.app/",
       "stack": [
         "All",
+        "Next",
         "Markdown"
       ]
     },

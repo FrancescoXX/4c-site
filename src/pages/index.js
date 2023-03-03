@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <div>
-      <Layout className="flex flex-col justify-center">
+      <Layout className="flex flex-col justify-center mt-[13rem] md:mt-[5rem]">
         <Main {...main} />
       </Layout>
     </div>

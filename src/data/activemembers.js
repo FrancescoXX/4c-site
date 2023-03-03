@@ -18,7 +18,7 @@ import ShorunAvatar from "assets/sources/activemembers/ShorunTech.webp"
 import SiddharthAvatar from "assets/sources/activemembers/SiddharthShyniben.webp"
 import BobbyAvatar from "assets/sources/activemembers/thedevdojo.webp"
 import BigDogTristAvatar from "assets/sources/activemembers/thePlebDev.webp"
-import VaibhavAvatar from "assets/sources/activemembers/VaibhavSinghDev.webp"
+import VaibhavAvatar from "assets/sources/activemembers/singh-vaibhav08.webp"
 import staff from "./staff"
 
 // const staff = []
@@ -174,10 +174,11 @@ const base = [
   {
     name: "Vaibhav",
     avatar: VaibhavAvatar,
-    github: "VaibhavSinghDev",
-    twitter: "",
-    blogUrl: "",
-    contributions: 0,
+    github: "singh-vaibhav08",
+    twitter: "singh_vaibhav08",
+    blogUrl: "https://vaibhavsblog.hashnode.dev/",
+    linkedin: "singh-vaibhav08",
+    contributions: 1,
   },
   {
     name: "DevvSakib",

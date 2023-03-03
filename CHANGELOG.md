@@ -1,3 +1,46 @@
+## [0.15.3](https://github.com/FrancescoXX/4c-site/compare/v0.15.2...v0.15.3) (2023-02-16)
+
+
+### Bug Fixes
+
+* fixed linting issues ([ee84210](https://github.com/FrancescoXX/4c-site/commit/ee84210fc9b75c6fa944768ca720eb340f05cd41))
+
+## [0.15.2](https://github.com/FrancescoXX/4c-site/compare/v0.15.1...v0.15.2) (2023-02-12)
+
+
+### Bug Fixes
+
+* **data/activemembers.js:** fix social links for singh-vaibhav08 ([899568e](https://github.com/FrancescoXX/4c-site/commit/899568e3fd870be56f42de3640a696a68504cff1)), closes [sin#vaibhav08](https://github.com/sin/issues/vaibhav08)
+
+## [0.15.1](https://github.com/FrancescoXX/4c-site/compare/v0.15.0...v0.15.1) (2023-02-12)
+
+
+### Bug Fixes
+
+* **ui:** enhanace search bar UI ([75baf95](https://github.com/FrancescoXX/4c-site/commit/75baf95a43dd85eeefb4159921aa674662d2769b))
+
+# [0.15.0](https://github.com/FrancescoXX/4c-site/compare/v0.14.6...v0.15.0) (2023-02-10)
+
+
+### Features
+
+* add background for navbar ([abd132c](https://github.com/FrancescoXX/4c-site/commit/abd132c8d66b3204d308802078b99abe7f629f9c))
+
+## [0.14.6](https://github.com/FrancescoXX/4c-site/compare/v0.14.5...v0.14.6) (2023-02-07)
+
+
+### Bug Fixes
+
+* **scrollable sidebar:** fix scrollable sidebar ([59cd24a](https://github.com/FrancescoXX/4c-site/commit/59cd24a320124b3d65c1722d14a4945f9d70c82f))
+* **sidebar:** fix scrollable sidebar ([c9adf70](https://github.com/FrancescoXX/4c-site/commit/c9adf70b552eb6ad3de24d7281b7372b82fc99df))
+
+## [0.14.5](https://github.com/FrancescoXX/4c-site/compare/v0.14.4...v0.14.5) (2023-02-05)
+
+
+### Bug Fixes
+
+* **bug:** fixed faq accordion answer not taking entire width ([a952dde](https://github.com/FrancescoXX/4c-site/commit/a952dde93138625cff7847e28fdd44588fb6bbfa))
+
 ## [0.14.4](https://github.com/FrancescoXX/4c-site/compare/v0.14.3...v0.14.4) (2023-01-28)
 
 

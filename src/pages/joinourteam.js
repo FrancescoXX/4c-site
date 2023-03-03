@@ -3,7 +3,7 @@ import JoinOurTeam from "components/JoinOurTeam"
 
 export default function joinOurTeam() {
   return (
-    <Layout className="flex flex-col justify-center">
+    <Layout className="flex flex-col justify-center mt-[9rem]">
       <JoinOurTeam />
     </Layout>
   )

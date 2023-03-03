@@ -24,7 +24,7 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
                 <li className="self-center break:self-start">{twitterLink}</li>
               </ul>
             </div>
-            <div>
+            <div className="flex justify-end">
               <iframe
                 title="Discord Widget"
                 width="95%"

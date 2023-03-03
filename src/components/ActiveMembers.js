@@ -29,7 +29,7 @@ const ActiveMembers = () => {
           <div className="break:w[500px] relative m-auto flex max-w-[800px] self-center mobile:mx-10 laptop:w-[600px] bigScreen:w-[800px]">
             <input
               placeholder="Search here"
-              className="h-10 w-full border-slate-200 px-5 py-3 text-black outline-none placeholder:text-slate-700 contrast-more:border-slate-400 contrast-more:placeholder:text-slate-500"
+              className="h-10 w-full border-slate-200 px-5 py-3 text-white outline-none placeholder:text-slate-700 contrast-more:border-slate-400 contrast-more:placeholder:text-slate-500 rounded-3xl  bg-white bg-opacity-[.2] p-8 shadow backdrop-blur-3xl"
               onInput={searchHandler}
             />
             <svg
@@ -37,7 +37,7 @@ const ActiveMembers = () => {
               className="absolute right-3 top-1/2 h-5 w-5 -translate-y-1/2 rotate-90 text-white sm:text-slate-400"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="#000000"
               strokeWidth={2}
             >
               <path

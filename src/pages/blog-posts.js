@@ -5,7 +5,7 @@ import Title from "components/Title"
 const Projects = () => {
   return (
     <div>
-      <Layout className="flex flex-col  items-center justify-center">
+      <Layout className="flex flex-col  items-center justify-center mt-[10rem]">
         <Title heading="Blogs" />
         <BlogCard />
       </Layout>
