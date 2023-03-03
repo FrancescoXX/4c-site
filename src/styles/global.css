@@ -54,13 +54,13 @@ h6 {
   }
 
   .main-title {
-    font-size: 35px;
-    margin-top: 20px;
+    font-size: 2.1875rem;
+    margin-top: 1.25rem;
   }
 
   .main-description {
     text-align: justify;
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 }
 
