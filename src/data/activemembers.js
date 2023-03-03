@@ -19,6 +19,7 @@ import SiddharthAvatar from "assets/sources/activemembers/SiddharthShyniben.webp
 import BobbyAvatar from "assets/sources/activemembers/thedevdojo.webp"
 import BigDogTristAvatar from "assets/sources/activemembers/thePlebDev.webp"
 import VaibhavAvatar from "assets/sources/activemembers/singh-vaibhav08.webp"
+import LBD from "assets/sources/activemembers/lbd.webp"
 import staff from "./staff"
 
 // const staff = []
@@ -40,6 +41,16 @@ import staff from "./staff"
 
 // export const base = [
 const base = [
+  {
+    name: "L.B.D",
+    avatar: LBD,
+    github: "lambeboluwatife",
+    twitter: "Danibholie",
+    blogUrl: "https://boluwatifeportfolio.netlify.app/",
+    youtube: "https://www.youtube.com/@LBDmedia/videos",
+    linkedin: "lambe-boluwatife-87b0b6136",
+    contributions: 0,
+  },
   {
     name: "Aayush™",
     avatar: AyushAvatar,
