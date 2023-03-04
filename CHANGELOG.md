@@ -1,3 +1,10 @@
+# [0.17.0](https://github.com/FrancescoXX/4c-site/compare/v0.16.0...v0.17.0) (2023-03-04)
+
+
+### Features
+
+* add LBD profile to active members page ([b47f445](https://github.com/FrancescoXX/4c-site/commit/b47f4459e2124ba5c42e29e10ab9e4281ba643bd))
+
 # [0.16.0](https://github.com/FrancescoXX/4c-site/compare/v0.15.3...v0.16.0) (2023-03-04)
 
 
