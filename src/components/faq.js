@@ -1,4 +1,3 @@
-import Layout from "components/Layout"
 import Faqs from "data/faq.json"
 import FaqAccordian from "components/FaqAccordian"
 import Title from "components/Title"
@@ -6,7 +5,6 @@ import Title from "components/Title"
 const Faq = () => {
   return (
     <div>
-      <Layout className="items-left flex flex-col justify-center px-3 mt-[8rem]">
         <div className="page-title mb-16 mt-[30px] text-center text-white">
           <Title heading="Frequently asked questions" />
         </div>
@@ -15,7 +13,6 @@ const Faq = () => {
             <FaqAccordian key={idx} faq={faq} />
           ))}
         </ul>
-      </Layout>
     </div>
   )
 }

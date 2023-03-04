@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const GetVideos = () => {
   return (
-    <div className="mt-[3em] flex items-center justify-center">
+    <div className="flex items-center justify-center">
       <section className="max-w-bodyContainer flex-1 text-center text-white">
         <Title heading="Videos" />
         <p className="text-white/70">Videos by 4c community Members</p>

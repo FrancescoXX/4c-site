@@ -1,3 +1,8 @@
+import Blogs from "components/blog-posts"
+import CommunityPartners from "components/CommunityPartners"
+import Faq from "components/faq"
+import GetActivities from "components/GetActivities"
+import GetVideos from "components/GetVideos"
 import Layout from "components/Layout"
 import Main from "components/Main"
 import { main } from "data/homepage"
@@ -17,6 +22,13 @@ export default function Home() {
     <div>
       <Layout className="flex flex-col justify-center mt-[13rem] md:mt-[5rem]">
         <Main {...main} />
+        <div className="flex flex-col gap-16">
+          <GetActivities />
+          <GetVideos />
+          <Blogs />
+          <Faq />
+        </div>
+        <CommunityPartners />
       </Layout>
     </div>
   )
