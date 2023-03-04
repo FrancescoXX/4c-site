@@ -1,3 +1,10 @@
+# [0.16.0](https://github.com/FrancescoXX/4c-site/compare/v0.15.3...v0.16.0) (2023-03-04)
+
+
+### Features
+
+* remove unnecessary pages ([aceb834](https://github.com/FrancescoXX/4c-site/commit/aceb834dfe8f09f506f424d15bd3e67574eaea70))
+
 ## [0.15.3](https://github.com/FrancescoXX/4c-site/compare/v0.15.2...v0.15.3) (2023-02-16)
 
 
