@@ -1,3 +1,13 @@
+# [0.18.0](https://github.com/FrancescoXX/4c-site/compare/v0.17.0...v0.18.0) (2023-03-04)
+
+
+### Features
+
+* change px to rem in global css ([d73b797](https://github.com/FrancescoXX/4c-site/commit/d73b7975d34a984a8b27f90a6511e385aa26d294))
+* mobile font size reduced for home page ([d3fd2fc](https://github.com/FrancescoXX/4c-site/commit/d3fd2fcb88d106f0a8a2e4baa3a3d01cc547d99e))
+* mobile font size reduced for home page ([34b4cbe](https://github.com/FrancescoXX/4c-site/commit/34b4cbea68eda254cce83aae7423397192cb0afa))
+* nav bar background color ([b06ec05](https://github.com/FrancescoXX/4c-site/commit/b06ec05e4cadd76f0e3ed8f8d3b927b02ab54ee4))
+
 # [0.17.0](https://github.com/FrancescoXX/4c-site/compare/v0.16.0...v0.17.0) (2023-03-04)
 
 
