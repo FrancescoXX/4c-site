@@ -1,5 +1,3 @@
-import CommunityPartners from "./CommunityPartners"
-
 const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
   return (
     <div>
@@ -37,7 +35,6 @@ const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
           </div>
         </section>
       </div>
-      <CommunityPartners />
     </div>
   )
 }
