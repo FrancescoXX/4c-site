@@ -19,10 +19,10 @@ const blogs = [
     screenshotUrl:
       "https://raw.githubusercontent.com/devvsakib/random-image-for-thumbnail/main/Screenshot_2.png",
     description: "A home of content creator",
-    link: "https://github.com/FrancescoXX/free-Web3-resources",
+    link: "https://github.com/FrancescoXX/4c-site",
     twitter: "https://twitter.com/FrancescoCiull4",
   },
-]
+];
 
 export default blogs
 // module.exports = blogs
