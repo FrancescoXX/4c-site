@@ -19,6 +19,20 @@ const GoToTop = () => {
     } else {
       setIsVisible(false)
     }
+
+    const footer = document.querySelector(".footer")
+    const backToTopButton = document.querySelector(".backToTopButton")
+    const mediaQuery = window.matchMedia("(max-width: 400px)")
+    const footerIsVisible = footer.getBoundingClientRect().top <= window.innerHeight
+
+    if (mediaQuery.matches) {
+      if (footerIsVisible) {
+        backToTopButton.style.bottom = `${footer.offsetHeight}px`
+        backToTopButton.style.transition = "0.5s"
+      } else {
+        backToTopButton.style.bottom = "48px"
+      }
+    }
   }
 
   useEffect(() => {
@@ -34,7 +48,7 @@ const GoToTop = () => {
       onKeyDown={goToBtn}
       role="button"
       tabIndex={0}
-      className={`fixed bg-gradient-to-b from-green-400 to-blue-600 animate-bounce cursor-pointer  rounded-full p-3 right-12 bottom-12 ${!isVisible ? "hidden" : ""}`}
+      className={`backToTopButton fixed bg-gradient-to-b from-green-400 to-blue-600 animate-bounce cursor-pointer  rounded-full p-3 right-12 bottom-12 ${!isVisible ? "hidden" : "backToTop"}`}
     >
       {isVisible && (
         <div>

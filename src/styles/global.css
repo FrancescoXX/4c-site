@@ -36,6 +36,7 @@ h6 {
   color: #fff;
 }
 
+
 @media (min-width: 768px) {
   .text-theme {
     color: #fff;
@@ -45,6 +46,12 @@ h6 {
 @media (min-width: 1024px) {
   .hamburger {
     display: none;
+  }
+}
+
+@media (max-width: 430px){
+  .backToTop{
+    right: 20px;
   }
 }
 
@@ -61,6 +68,10 @@ h6 {
   .main-description {
     text-align: justify;
     font-size: 0.9375rem;
+  }
+
+  .backToTop{
+    right: 10px;
   }
 }
 
