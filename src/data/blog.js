@@ -22,7 +22,7 @@ const blogs = [
     link: "https://github.com/FrancescoXX/4c-site",
     twitter: "https://twitter.com/FrancescoCiull4",
   },
-];
+]
 
 export default blogs
 // module.exports = blogs
