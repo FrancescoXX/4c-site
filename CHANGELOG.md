@@ -1,3 +1,10 @@
+## [0.18.1](https://github.com/FrancescoXX/4c-site/compare/v0.18.0...v0.18.1) (2023-03-08)
+
+
+### Bug Fixes
+
+* **incorrect link:** fix incorrect link ([c8b9a29](https://github.com/FrancescoXX/4c-site/commit/c8b9a292e81eae4d1909973d351b7d1510d6e20d))
+
 # [0.18.0](https://github.com/FrancescoXX/4c-site/compare/v0.17.0...v0.18.0) (2023-03-04)
 
 
