@@ -1,3 +1,10 @@
+## [0.18.2](https://github.com/FrancescoXX/4c-site/compare/v0.18.1...v0.18.2) (2023-03-08)
+
+
+### Bug Fixes
+
+* **Back To Top Button:** Solves back to top button overlapping footer icons in mobile-devices ([33a8198](https://github.com/FrancescoXX/4c-site/commit/33a8198bee66f6697c7e9ba912568cce1e4c6f8a))
+
 ## [0.18.1](https://github.com/FrancescoXX/4c-site/compare/v0.18.0...v0.18.1) (2023-03-08)
 
 
