@@ -3,7 +3,7 @@ import { FaDiscord, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
 
 function Footer() {
   return (
-    <footer className="md:max-md flex flex-col items-center gap-4 bg-[#0d1117] p-4 py-8 text-center text-white/80">
+    <footer className="md:max-md flex flex-col items-center gap-4 bg-[#0d1117] p-4 py-8 text-center text-white/80 footer">
       <div className="flex items-center">
         <div className="flex gap-10">
           <a
