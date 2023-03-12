@@ -63,7 +63,7 @@ const GetProjects = () => {
                   onRemove={getSelectedValues}
                   placeholder="Filter By Tech Stack"
                   ref={multiselectRef}
-                  className="bg-[#FEFEFE] text-[#314c89]"
+                  className="bg-[#FEFEFE] text-[#314c89] w-full border-slate-200 px-2 outline-none placeholder:text-slate-700 contrast-more:border-slate-400 contrast-more:placeholder:text-slate-500 rounded-3xl bg-opacity-[.2] shadow backdrop-blur-3xl"
                   showCheckbox={true}
                   closeOnSelect={true}
                   avoidHighlightFirstOption={true}
