@@ -1,3 +1,10 @@
+## [0.18.3](https://github.com/FrancescoXX/4c-site/compare/v0.18.2...v0.18.3) (2023-03-12)
+
+
+### Bug Fixes
+
+* **search-tab:** Improved search-tab of the projects page ([13a0c15](https://github.com/FrancescoXX/4c-site/commit/13a0c1508ee98ba85030e99c3846bb477a28a103))
+
 ## [0.18.2](https://github.com/FrancescoXX/4c-site/compare/v0.18.1...v0.18.2) (2023-03-08)
 
 
