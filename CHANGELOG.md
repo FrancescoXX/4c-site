@@ -1,3 +1,10 @@
+## [0.18.4](https://github.com/FrancescoXX/4c-site/compare/v0.18.3...v0.18.4) (2023-03-20)
+
+
+### Bug Fixes
+
+* search icon added in projects search bar ([608c163](https://github.com/FrancescoXX/4c-site/commit/608c163e6cadc0fdb09fbcc0a60dd165b3423317))
+
 ## [0.18.3](https://github.com/FrancescoXX/4c-site/compare/v0.18.2...v0.18.3) (2023-03-12)
 
 
