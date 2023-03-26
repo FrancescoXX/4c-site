@@ -85,14 +85,14 @@ const GetProjects = () => {
                 </div>
               </div>
             </div>
-            <div className="my-[1rem] flex flex-wrap items-center justify-center gap-[1.5rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="my-[1rem] flex flex-wrap items-center justify-center gap-[2.6rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {filteredProjects.map((project, index) => {
                 return (
                   <div
                     key={index}
-                    className="group flex w-[280px] shrink flex-col rounded-lg p-2 transition-all duration-300 ease-in-out hover:scale-110"
+                    className="group flex w-[285px] shrink flex-col rounded-lg p-2 transition-all duration-300 ease-in-out hover:scale-110"
                   >
-                    <div className="flex h-full w-full items-center justify-center rounded-t-xl text-center shadow-sm">
+                    <div className="flex h-full w-[16rem] items-center justify-center rounded-t-xl text-center shadow-sm">
                       <Image
                         alt={`Screenshot of ${project.title}`}
                         className="h-full max-h-[8rem] w-full overflow-hidden rounded-t-xl object-cover transition-all duration-300 ease-in-out"
@@ -101,9 +101,9 @@ const GetProjects = () => {
                         height={128}
                       />
                     </div>
-                    <div className="flex w-full flex-col gap-[.2rem] justify-self-end rounded-b-xl bg-[#f1f5f9] p-[20px]">
+                    <div className="flex w-[16rem] flex-col gap-[.2rem] justify-self-end rounded-b-xl bg-[#f1f5f9] p-[20px]">
                       <div className="text-black ">
-                        <h2 className="w-[35] font-base ">{project.title}</h2>
+                        <h2 className="w-[30] font-base ">{project.title}</h2>
                         <h4 className="flex items-center gap-2 text-sm font-normal opacity-75">
                           <svg
                             width="12"
