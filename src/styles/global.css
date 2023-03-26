@@ -49,6 +49,38 @@ h6 {
   }
 }
 
+@media (max-width: 613px) {
+  body .before-multiselect{
+    @apply bg-transparent shadow-none outline-none backdrop-blur-none;
+  }
+
+  body #multiselectContainerReact .searchWrapper input {
+    @apply bg-[#FEFEFE] text-[#314c89] w-full border-slate-200 px-3 outline-none placeholder:text-slate-700 contrast-more:border-slate-400 contrast-more:placeholder:text-slate-500 rounded-3xl bg-opacity-[.2] shadow backdrop-blur-3xl ml-0 p-2;
+  }
+
+  body #multiselectContainerReact .searchWrapper .chip {
+    @apply mb-3;
+  }
+
+  .searchIcon {
+    @apply absolute right-8 bottom-[15px];
+  }
+}
+
+/* @media (max-width: 600px) {
+  body .before-multiselect{
+    @apply bg-transparent shadow-none outline-none backdrop-blur-none;
+  }
+
+  body #multiselectContainerReact .searchWrapper input {
+    @apply bg-[#FEFEFE] text-[#314c89] w-full border-slate-200 px-3 outline-none placeholder:text-slate-700 contrast-more:border-slate-400 contrast-more:placeholder:text-slate-500 rounded-3xl bg-opacity-[.2] shadow backdrop-blur-3xl ml-0 h-10 my-3;
+  }
+
+  body #multiselectContainerReact{
+    @apply bg-transparent shadow-none outline-none placeholder:text-slate-700 contrast-more:border-slate-400 contrast-more:placeholder:text-slate-500;
+  }
+} */
+
 @media (max-width: 430px){
   .backToTop{
     right: 20px;
@@ -118,12 +150,24 @@ h6 {
   @apply translate-x-0 transform rounded-full rounded-bl-none bg-gray-900 font-medium text-white shadow-2xl hover:translate-y-1 hover:bg-[rgb(29,161,242)] hover:shadow-md;
 }
 
-#multiselectContainerReact .searchWrapper{
-  @apply border-none;
+#multiselectContainerReact {
+  @apply w-full border-slate-200 px-2 outline-none placeholder:text-slate-700 contrast-more:border-slate-400 contrast-more:placeholder:text-slate-500;
 }
 
+#multiselectContainerReact .searchWrapper{
+  @apply text-[#314c89] border-none flex flex-wrap items-center h-auto;
+}
+
+#multiselectContainerReact .searchWrapper .chip{
+  @apply mb-0; 
+}
+
+/* #multiselectContainerReact .searchWrapper{
+  @apply border-none;
+} */
+
 #multiselectContainerReact .searchWrapper input{
-  @apply placeholder:text-slate-700 text-white font-bold;
+  @apply placeholder:text-slate-700 text-white font-bold ml-2 mt-0;
 }
 
 #get-projects-scroll{
