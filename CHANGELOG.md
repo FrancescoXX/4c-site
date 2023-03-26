@@ -1,3 +1,11 @@
+## [0.18.5](https://github.com/FrancescoXX/4c-site/compare/v0.18.4...v0.18.5) (2023-03-26)
+
+
+### Bug Fixes
+
+* **comments:** removed commented code ([f77cb5c](https://github.com/FrancescoXX/4c-site/commit/f77cb5c893c56cca170fca09d3fb71b513392fc9))
+* **search-tab:** improved user experience and icon-positioning issue in search-tab of projects page ([83f1d1f](https://github.com/FrancescoXX/4c-site/commit/83f1d1f90c33537e54f3d45d57f2b21e6f6d767b))
+
 ## [0.18.4](https://github.com/FrancescoXX/4c-site/compare/v0.18.3...v0.18.4) (2023-03-20)
 
 
