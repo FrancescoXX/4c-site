@@ -55,7 +55,7 @@ const GetProjects = () => {
           <div className="max-w-bodyContainer">
             <div className="mx-4 mt-5 mb-10 flex list-none flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[0.6rem]">
               <div className="py-2">
-                <div className="bg-[#FEFEFE] text-[#314c89] w-full border-slate-200 px-2 outline-none placeholder:text-slate-700 contrast-more:border-slate-400 contrast-more:placeholder:text-slate-500 rounded-3xl bg-opacity-[.2] shadow backdrop-blur-3xl flex items-center flex-row ">
+                <div className="before-multiselect bg-[#FEFEFE] text-[#314c89] w-full border-slate-200 px-2 outline-none placeholder:text-slate-700 contrast-more:border-slate-400 contrast-more:placeholder:text-slate-500 rounded-3xl bg-opacity-[.2] shadow backdrop-blur-3xl flex items-center flex-row ">
                   <Multiselect
                     options={options}
                     displayValue={"value"}
@@ -70,7 +70,7 @@ const GetProjects = () => {
                   />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 rotate-90 text-white sm:text-slate-400"
+                    className="searchIcon h-5 w-5 rotate-90 text-white sm:text-slate-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="#000000"
