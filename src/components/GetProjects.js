@@ -132,7 +132,7 @@ const GetProjects = () => {
                           </p>
                         </div>
                       </div>
-                      <div className="bg-red my-[10px] mt-auto flex h-10 w-full items-center self-end">
+                      <div className="bg-red my-[10px] mt-auto flex h-10 w-full items-center self-end justify-evenly pl-2.5">
                         <a
                           className={
                             project.live_link === ""
