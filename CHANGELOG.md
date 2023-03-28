@@ -1,3 +1,10 @@
+## [0.18.6](https://github.com/FrancescoXX/4c-site/compare/v0.18.5...v0.18.6) (2023-03-28)
+
+
+### Bug Fixes
+
+* **project-link-centered:** centered links in the project card ([4b339ca](https://github.com/FrancescoXX/4c-site/commit/4b339caf6fda586836d2955fcd2a0f92cc4d3ef4))
+
 ## [0.18.5](https://github.com/FrancescoXX/4c-site/compare/v0.18.4...v0.18.5) (2023-03-26)
 
 
