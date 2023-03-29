@@ -85,10 +85,10 @@ const GetProjects = () => {
                 </div>
               </div>
             </div>
-            <div className="my-[1rem] flex flex-wrap items-center justify-center gap-[2.6rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <article className="my-[1rem] flex flex-wrap items-center justify-center gap-[2.6rem] pt-4 text-left md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {filteredProjects.map((project, index) => {
                 return (
-                  <div
+                  <article
                     key={index}
                     className="group flex w-[285px] shrink flex-col rounded-lg p-2 transition-all duration-300 ease-in-out hover:scale-110"
                   >
@@ -101,8 +101,8 @@ const GetProjects = () => {
                         height={128}
                       />
                     </div>
-                    <div className="flex w-[16rem] flex-col gap-[.2rem] justify-self-end rounded-b-xl bg-[#f1f5f9] p-[20px]">
-                      <div className="text-black ">
+                    <article className="flex w-[16rem] flex-col gap-[.2rem] justify-self-end rounded-b-xl bg-[#f1f5f9] p-[20px]">
+                      <article className="text-black ">
                         <h2 className="w-[30] font-base ">{project.title}</h2>
                         <h4 className="flex items-center gap-2 text-sm font-normal opacity-75">
                           <svg
