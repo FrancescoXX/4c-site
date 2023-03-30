@@ -1,9 +1,9 @@
-import eventList from "../data/events.json";
-import Title from "./Title";
-import { FaTwitter, FaDiscord } from "react-icons/fa";
+import eventList from "../data/events.json"
+import Title from "./Title"
+import { FaTwitter, FaDiscord } from "react-icons/fa"
 
-const events = eventList.events;
-const styles = "transition-all ease-in cursor-pointer";
+const events = eventList.events
+const styles = "transition-all ease-in cursor-pointer"
 
 const GetActivities = () => (
   <div className="flex flex-col items-center">
@@ -39,20 +39,22 @@ const GetActivities = () => (
                     className="bg-theme my-4 rounded-md flex h-14 w-full items-center justify-center bg-[#70b7e6] text-4xl text-white"
                     rel="noreferrer"
                   >
-                    {event.venue === "Twitter" ? (
+                    {event.venue === "Twitter"
+                      ? (
                       <FaTwitter className={styles} />
-                    ) : (
+                        )
+                      : (
                       <FaDiscord className={styles} />
-                    )}
+                        )}
                   </a>
                 </div>
               </div>
             </div>
           )
-        );
+        )
       })}
     </section>
   </div>
-);
+)
 
-export default GetActivities;
+export default GetActivities
