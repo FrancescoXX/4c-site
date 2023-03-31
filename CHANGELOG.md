@@ -1,3 +1,13 @@
+## [0.18.7](https://github.com/FrancescoXX/4c-site/compare/v0.18.6...v0.18.7) (2023-03-31)
+
+
+### Bug Fixes
+
+* added  to the card title ([4b9b06b](https://github.com/FrancescoXX/4c-site/commit/4b9b06b31bdb47b2942694bf164ecb1c5b9c2642))
+* blog card size(height to full) ([fc04ac4](https://github.com/FrancescoXX/4c-site/commit/fc04ac46e6b44566e6473f257473bfcc1642af85))
+* image replaced ([3a2c0b5](https://github.com/FrancescoXX/4c-site/commit/3a2c0b5c4cd5af203130fdd045f4dd6c11cf256b))
+* image replaced & blog card problem fixed ([84d4761](https://github.com/FrancescoXX/4c-site/commit/84d476155625cd12b5d7e813248334c72dd12aba))
+
 ## [0.18.6](https://github.com/FrancescoXX/4c-site/compare/v0.18.5...v0.18.6) (2023-03-28)
 
 
