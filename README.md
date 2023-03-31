@@ -58,12 +58,12 @@ Or, to work on it locally,
 4. Install dependencies
 
    ```console
-   $ yarn install
+   $ npm install
    ```
 5. Start the project on `localhost`
 
    ```console
-   $ yarn run dev
+   $ npm run dev
    ```
 
 ##### Troubleshooting
