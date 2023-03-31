@@ -1,5 +1,5 @@
 import FreeWeb3Resources from "assets/sources/blog/free-web3-resources-demo-blog.webp"
-import ContentCreator from "assets/sources/blog/4c-content-creatordemo-blog.webp"
+import ContentCreator from "assets/sources/blog/4c.png"
 
 const blogs = [
   {
@@ -16,9 +16,8 @@ const blogs = [
     name: "Francesco Ciulla 2",
     title: "4C - Content Creator(demo blog)",
     screenshot: ContentCreator,
-    screenshotUrl:
-      "https://raw.githubusercontent.com/devvsakib/random-image-for-thumbnail/main/Screenshot_2.png",
-    description: "A home of content creator",
+    screenshotUrl: "https://user-images.githubusercontent.com/88102392/229171789-7d74c9bd-946b-494a-97a9-86612fdf2f27.png",
+    description: "The Cool Community of Content Creators",
     link: "https://github.com/FrancescoXX/4c-site",
     twitter: "https://twitter.com/FrancescoCiull4",
   },

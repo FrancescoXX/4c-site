@@ -26,7 +26,7 @@ const BlogCard = () => {
           <a href={blog.link} target="_blank" rel="noreferrer">
             <Image
               alt={`Screenshot of ${blog.title}`}
-              className="rounded-md object-contain"
+              className="rounded-md object-contain "
               src={blog.screenshot}
               height={320}
               width={568.87}
