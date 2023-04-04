@@ -6,7 +6,7 @@ const events = eventList.events
 const styles = "transition-all ease-in cursor-pointer"
 
 const GetActivities = () => (
-  <div className="flex flex-col items-center">
+  <div style={{ marginTop: "50px" }} className="flex flex-col items-center">
     <Title heading="Activities" />
     <section className="flex justify-center sm:w-[500px] xl:w-auto  p-4 sm:p-10">
       {events.map((event, idx) => {
