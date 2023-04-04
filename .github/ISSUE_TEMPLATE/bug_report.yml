@@ -49,5 +49,3 @@ body:
       label: Call to Action
       value: | 
         To Commit on this project you should use `npm run commit`. Do not use `git commit` to avoid unwanted issues
-      validations:
-        required: true
