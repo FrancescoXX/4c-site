@@ -43,5 +43,10 @@ body:
       options:
         - label: I agree to follow this project's [Code of Conduct](https://github.com/FrancescoXX/4c-site/blob/main/CODE_OF_CONDUCT.md)
           required: true
-          
-    - note: To commit, you need to use `npm run commit` not `git commit`
+         
+- type: textarea
+    attributes:
+      label: Call to Action
+      value: | To Commit on this project you should use `npm run commit`. Do not use `git commit` to avoid unwanted issues
+    validations:
+      required: true
