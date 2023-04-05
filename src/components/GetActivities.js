@@ -27,8 +27,8 @@ const GetActivities = () => (
                   </p>
                 </div>
                 <img
-                  src={event?.image}
-                  alt={event.name}
+                  src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/src/assets/logo-square.jpg"
+                  alt="logo"
                   className="w-full mb-4 rounded-md object-contain my-4"
                 />
 
