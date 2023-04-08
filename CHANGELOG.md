@@ -1,3 +1,10 @@
+## [0.18.8](https://github.com/FrancescoXX/4c-site/compare/v0.18.7...v0.18.8) (2023-04-08)
+
+
+### Bug Fixes
+
+* activities section a bit far from previous section ([cb9dbf2](https://github.com/FrancescoXX/4c-site/commit/cb9dbf25d9644370f1018663e0e1330440af22be))
+
 ## [0.18.7](https://github.com/FrancescoXX/4c-site/compare/v0.18.6...v0.18.7) (2023-03-31)
 
 
