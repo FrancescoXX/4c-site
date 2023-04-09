@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className="container -ml-4  items-center justify-center left-0 right-0 z-[1] block fixed">
-      <header className="my-[0] w-[100vw] bg-[#314C89]/10 backdrop-blur-sm px-5 py-[1.4rem] md:px-[2rem]">
+      <header className="my-[0] w-[100vw] bg-[#314C89]/10 backdrop-blur-sm px-5 py-[0.7rem] md:px-[2rem]">
         <div className="container max-w-bodyContainer  px-1 sm:px-2">
           <nav className="flex items-start justify-between  md:justify-center">
             <div className="relative flex w-full flex-wrap items-center justify-between gap-6 z-50">
@@ -71,7 +71,7 @@ const Navbar = () => {
                     }}
                     role="menuitem"
                     tabIndex={0}
-                    className={`hov-bg-theme w-full rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto
+                    className={`hov-bg-theme w-full rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto text-center
                     ${
                       activeButton === navItem.href
                         ? "bg-theme bg-[#70b7e6] text-white"
