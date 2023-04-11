@@ -26,7 +26,7 @@ const GetActivities = () => (
                     </span>{" "}
                   </p>
                 </div>
-                <img
+                <Image
                   src="https://raw.githubusercontent.com/FrancescoXX/4c-site/main/src/assets/logo-square.jpg"
                   alt="logo"
                   className="w-full mb-4 rounded-md object-contain my-4"
