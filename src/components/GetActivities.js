@@ -26,7 +26,7 @@ const GetActivities = () => (
                     </span>{" "}
                   </p>
                 </div>
-                <img
+                <Image
                   src={event?.image}
                   alt={event.name}
                   className="w-full mb-4 rounded-md object-contain my-4"
