@@ -71,7 +71,7 @@ const Navbar = () => {
                     }}
                     role="menuitem"
                     tabIndex={0}
-                    className={`hov-bg-theme w-full rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto
+                    className={`hov-bg-theme w-full rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto text-center
                     ${
                       activeButton === navItem.href
                         ? "bg-theme bg-[#70b7e6] text-white"
