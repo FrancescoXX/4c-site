@@ -1,3 +1,10 @@
+## [0.18.9](https://github.com/FrancescoXX/4c-site/compare/v0.18.8...v0.18.9) (2023-04-11)
+
+
+### Bug Fixes
+
+* centered the menu-item! ([baea93d](https://github.com/FrancescoXX/4c-site/commit/baea93d1f3ae40eb342efbaaea053a5ccd53bfdd))
+
 ## [0.18.8](https://github.com/FrancescoXX/4c-site/compare/v0.18.7...v0.18.8) (2023-04-08)
 
 
