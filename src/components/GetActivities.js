@@ -31,7 +31,7 @@ const GetActivities = () => (
                   alt={event.name}
                   className="w-full mb-4 rounded-md object-contain my-4"
                 />
-
+               </div> 
                 <div className="flex justify-between text-2xl  bottom-1 w-[100%]">
                   <a
                     href={event.link}
