@@ -125,37 +125,9 @@ To check if everything has worked, restart your shell and run `node -v`. The out
 
 #### Run commit 
 
- After checking the lint and immediately after staging your changes with "git add", type the command:
- 
-   ```console
-   $ npm run commit
+```console
+   $ git commit -m <Commit-message>
    ```
-   
-After running the command you will be asked to input a couple of details regarding your commit.
-This is what the details you fill in on the terminal will appear as:
-
-Pay attention to:
-
-- type
-- scope
-- subject
-- body
-- footer
-
-This is what mine looks like after I set my:
-
-- "type" to fix
-- "scope" to readme
-- "subject" to fix readme
-- "body" to fix readme
-- "footer" to fix readme
-
-![1673738575728](image/README/1673738575728.png)
-
-N.B: In my case I was just writing "fix readme"
-You can then push your changes.
-
-Done!
 
 #### 🔖 Adding a project to the project page
 
