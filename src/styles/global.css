@@ -160,3 +160,20 @@ h6 {
   height: auto;
   width: 56px;
 }
+
+.wrapper:hover .target {
+  animation-name: rightToLeft;
+ animation-duration: 5.5s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(-500px);
+  }
+}
