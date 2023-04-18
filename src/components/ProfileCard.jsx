@@ -71,8 +71,8 @@ const ProfileCard = ({ username, avatar, socials = [], description }) => {
       <span className="mt-3 text-lg text-white">{username}</span>
       {description?.length > 0
         ? (
-          <div className="mt-[.2em] w-[20ch] truncate p-[.4em] text-sm hover:w-[30ch] hover:text-clip">
-            {description}
+          <div className="mt-[.2em] w-[20ch] truncate p-[.4em] text-sm hover:w-[30ch] hover:text-clip wrapper">
+            <p className="target">{description}</p>
           </div>
           )
         : (
