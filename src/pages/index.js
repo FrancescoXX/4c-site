@@ -16,9 +16,8 @@ export default function Home() {
     if (router.pathname === "/") {
       localStorage.removeItem("active")
     }
-  } 
+  }
 
-  console.log("Hey")
 
   return (
     <div>
