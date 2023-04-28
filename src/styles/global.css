@@ -113,9 +113,9 @@ h6 {
   }
 }
 
-.details summary::after {
-  content: "^";
-}
+/* .details summary::after {
+  content: ">";
+} */
 
 
 .headTitle {
