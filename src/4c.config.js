@@ -10,5 +10,6 @@ module.exports = {
   },
   url: "https://www.4c.rocks/",
   logo: "https://www.4c.rocks/logo.jpg", // Relative public path to Base URL or Absolute Path
+  ogImage: "https://www.4c.rocks/_next/static/media/logo.9b920fc5.png", 
   favicon: "/favicon.ico",
 }
