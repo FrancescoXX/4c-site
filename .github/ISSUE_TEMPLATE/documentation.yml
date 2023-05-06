@@ -1,4 +1,4 @@
-name: Documentation Report
+name: "Documentation Report"
 description: Suggest improvements for the docs
 title: '[Docs]: '
 labels: ['🚦 status: awaiting triage']
