@@ -31,7 +31,7 @@ body:
           required: true
 
  - type: markdown
-    attributes:
+   attributes:
       value: |
         ### Call to Action
 
