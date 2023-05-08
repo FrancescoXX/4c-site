@@ -113,13 +113,10 @@ h6 {
   }
 }
 
-.details summary::after {
+/* .details summary::after {
   content: ">";
-}
+} */
 
-.details[open] summary::after {
-  @apply rotate-[270deg];
-}
 
 .headTitle {
   @apply text-2xl md:text-2xl lg:text-3xl;
@@ -159,21 +156,4 @@ h6 {
 #four-c-logo{
   height: auto;
   width: 56px;
-}
-
-.wrapper:hover .target {
-  animation-name: rightToLeft;
- animation-duration: 5.5s;
- animation-timing-function: linear;
- animation-iteration-count: infinite;
-}
-
-
-@keyframes rightToLeft {
-  0% {
-    transform: translateX(200px);
-  }
-  100% {
-    transform: translateX(-500px);
-  }
 }

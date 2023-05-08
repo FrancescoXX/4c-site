@@ -1,26 +1,43 @@
 import React, { useState } from "react"
+import { AnimatePresence, motion } from "framer-motion"
+
+import { IoIosArrowDown } from "react-icons/io"
 
 const FaqAccordian = ({ faq }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <li className="flex-column mb-8 flex w-9/12 items-center justify-center sm:w-9/12 md:w-8/12 lg:w-1/2">
+    <li className="flex items-center justify-center w-9/12 mb-8 flex-column sm:w-9/12 md:w-8/12 lg:w-1/2">
       <div
         onClick={() => setIsOpen(!isOpen)}
         onKeyDown={() => setIsOpen(!isOpen)}
         tabIndex={0}
         role="button"
-        className="details w-full cursor-pointer rounded bg-white bg-opacity-[.2] p-8 shadow backdrop-blur-lg"
+        className={`w-full p-8 rounded shadow cursor-pointer details backdrop-blur-lg ${
+          isOpen ? "bg-white/30" : "bg-white/20"
+        }`}
       >
-        <summary className="relative list-none pr-4 text-base font-bold leading-none text-white after:absolute after:-top-2 after:right-0 after:rotate-90 after:text-2xl after:font-light after:text-[#fdfdfd] after:transition-all after:duration-300 after:ease-in-out">
-          {faq.questions}
-        </summary>
+        <p className="relative flex items-center justify-between pr-4 text-base font-bold leading-none text-white list-none">
+          <span>{faq.questions}</span>
+          <IoIosArrowDown
+            className={`text-2xl duration-200 ${
+              isOpen && "rotate-180"
+            }`}
+          />
+        </p>
 
-        {isOpen && (
-          <p className="mt-4 text-base leading-normal text-white">
-            {faq.answers}
-          </p>
-        )}
+        <AnimatePresence>
+          {isOpen && (
+            <motion.p
+              initial={{ opacity: 0, height: 0, marginTop: 0 }}
+              animate={{ opacity: 1, height: "auto", marginTop: 12 }}
+              exit={{ opacity: 0, height: 0, margin: 0 }}
+              className={"overflow-hidden text-base leading-normal text-white"}
+            >
+              {faq.answers}
+            </motion.p>
+          )}
+        </AnimatePresence>
       </div>
     </li>
   )
