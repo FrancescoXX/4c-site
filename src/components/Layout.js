@@ -29,7 +29,7 @@ const Layout = ({ header, children, ...rest }) => {
             description: config.description.long,
             images: [
               {
-                url: config.logo,
+                url: config.ogImage,
                 width: 1200,
                 height: 630,
                 alt: config.title.short,
