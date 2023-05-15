@@ -1,3 +1,11 @@
+## [0.19.1](https://github.com/FrancescoXX/4c-site/compare/v0.19.0...v0.19.1) (2023-05-15)
+
+
+### Bug Fixes
+
+* og image url ([f7e1afa](https://github.com/FrancescoXX/4c-site/commit/f7e1afa7c9cf693c3415d9fa8b7e674b43488be6))
+* remove trailing space ([a7d102d](https://github.com/FrancescoXX/4c-site/commit/a7d102d9b495c66df813ec4b886c7c1cb05855be))
+
 # [0.19.0](https://github.com/FrancescoXX/4c-site/compare/v0.18.9...v0.19.0) (2023-04-26)
 
 
