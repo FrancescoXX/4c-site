@@ -14,7 +14,7 @@ const GetActivities = () => (
           event.isActive && (
             <div
               key={idx}
-              className="hov-bg-theme m-5  h-auto rounded-xl bg-[#f1f5f9] p-5 text-black shadow-md relative transition-all ease-out xl:w-[380px]"
+              className="hov-bg-theme m-5 h-full w-[330px] rounded-xl bg-[#f1f5f9] p-5 text-black shadow-md transition-all ease-out hover:-translate-y-1 xl:w-[380px]"
             >
               <div>
                 <h2 className="title mt-5 text-2xl">{event.name}</h2>
