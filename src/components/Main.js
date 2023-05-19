@@ -1,6 +1,6 @@
 const Main = ({ eyebrow, title, description, primaryLink, twitterLink }) => {
   return (
-    <div>
+    <div id="about">
       <div className="flex items-center justify-center">
         <section className="container mb-[4em] md:my-[4em] max-w-bodyContainer md:p-[2em] md:mb-[0em]">
           <div className="grid items-center gap-12 md:grid-cols-1 lg:grid-cols-2">
