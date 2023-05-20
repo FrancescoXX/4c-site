@@ -1,34 +1,25 @@
 import { RiMenu4Fill, RiCloseFill } from "react-icons/ri"
-import { useState, useEffect } from "react"
+// import { useState, useEffect } from "react"
+import { useState } from "react"
 import Link from "next/link"
 
 // import navbar data
-import navItems from "data/navbar"
+// import navItems from "data/navbar"
 import Image from "next/image"
 import logoImage from "assets/logo.png"
 
 const Navbar = () => {
   const [menuActive, setMenuActive] = useState(false)
-  const [activeButton, setActiveButton] = useState()
-  const [navbar, setNavbar] = useState(false)
+  // const [activeButton, setActiveButton] = useState()
 
-  useEffect(() => {
-    const local = window.localStorage.getItem("active")
-    setActiveButton(local)
-  }, [])
-
-  const addBlur = () => {
-    if (window.scrollY >= 80) {
-      setNavbar(true)
-    } else {
-      setNavbar(false)
-    }
-  }
+  // useEffect(() => {
+  //   const local = window.localStorage.getItem("active")
+  //   setActiveButton(local)
+  // }, [])
 
   return (
     <div className="container -ml-4  items-center justify-center z-[1] block fixed">
-      <div className={ navbar ? "backdrop-blur-lg" : "bg-transparent"}>
-        <header className="w-[100vw] px-5 py-[0.7rem] md:px-[2rem]">
+        <header className="w-[100vw] px-5 py-[0.7rem] md:px-[2rem] backdrop-blur-md">
           <div className="container max-w-bodyContainer  px-1 sm:px-2">
             <nav className="flex items-start justify-between  md:justify-center">
               <div className="relative flex w-full flex-wrap items-center justify-between gap-6 z-50">
@@ -133,7 +124,6 @@ const Navbar = () => {
             </nav>
           </div>
         </header>
-      </div>
     </div>
   )
 }
