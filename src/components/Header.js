@@ -1,21 +1,11 @@
 import { RiMenu4Fill, RiCloseFill } from "react-icons/ri"
-// import { useState, useEffect } from "react"
 import { useState } from "react"
 import Link from "next/link"
-
-// import navbar data
-// import navItems from "data/navbar"
 import Image from "next/image"
 import logoImage from "assets/logo.png"
 
 const Navbar = () => {
   const [menuActive, setMenuActive] = useState(false)
-  // const [activeButton, setActiveButton] = useState()
-
-  // useEffect(() => {
-  //   const local = window.localStorage.getItem("active")
-  //   setActiveButton(local)
-  // }, [])
 
   return (
     <div className="container -ml-4  items-center justify-center z-[1] block fixed">
@@ -60,28 +50,6 @@ const Navbar = () => {
                   >
                     <RiCloseFill />
                   </button>
-                  {/* {navItems.map((navItem, idx) => (
-                    <Link
-                      href={navItem.href}
-                      key={idx}
-                      onClick={() => {
-                        window.localStorage.setItem("active", navItem.href)
-                      }}
-                      onKeyDown={() => {
-                        window.localStorage.setItem("active", navItem.href)
-                      }}
-                      role="menuitem"
-                      tabIndex={0}
-                      className={`hov-bg-theme w-full rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto text-center
-                      ${
-                        activeButton === navItem.href
-                          ? "bg-theme bg-[#70b7e6] text-white"
-                          : "bg-white text-black"
-                      }`}
-                    >
-                      {navItem.pageName}
-                    </Link>
-                    ))} */}
                     <div className="flex gap-20 font-bold text-white text-lg">
                       <a href="#about">About</a>
                       <a href="#discover">Activities</a>

@@ -9,7 +9,6 @@ const styles = "transition-all ease-in cursor-pointer"
 
 const GetActivities = () => (
 
-
   <div style={{ marginTop: "50px" }} className="flex flex-col items-center" id="discover">
     <Title heading="Activities" />
     <section className="flex justify-center sm:w-[500px] xl:w-auto  p-4 sm:p-10 items-start">
@@ -64,7 +63,7 @@ const GetActivities = () => (
           href={navItems[1].href}
           role="menuitem"
           tabIndex={0}
-          className={`w-full rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto text-center text-black w-8 bg-white`}
+          className={"w-full rounded  px-4 py-2 font-bold transition-all ease-out hover:-translate-y-1 hover:cursor-pointer lg:w-auto text-center text-black w-8 bg-white"}
         >
           {navItems[1].pageName}
         </Link>
