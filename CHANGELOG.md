@@ -1,3 +1,11 @@
+## [0.19.2](https://github.com/FrancescoXX/4c-site/compare/v0.19.1...v0.19.2) (2023-05-28)
+
+
+### Bug Fixes
+
+* improve user experience ([cb7b237](https://github.com/FrancescoXX/4c-site/commit/cb7b237f952d0a789024a6068ad5e3e1a0bc5fac))
+* user interface ([45a6a52](https://github.com/FrancescoXX/4c-site/commit/45a6a52620b152f0c036f8c616b2bcdfc5a1deea))
+
 ## [0.19.1](https://github.com/FrancescoXX/4c-site/compare/v0.19.0...v0.19.1) (2023-05-15)
 
 
