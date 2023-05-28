@@ -2,7 +2,6 @@ import { FaDiscord, FaTwitter } from "react-icons/fa"
 import "react-toastify/dist/ReactToastify.css"
 
 export const main = {
-  eyebrow: "👋 ",
   title: (
     <>
       <div className="">The Cool Community of Content Creators</div>

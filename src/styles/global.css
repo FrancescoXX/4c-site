@@ -19,7 +19,7 @@ h6 {
 .bg-theme {
   background: rgb(68, 18, 115);
   background: linear-gradient(
-    34deg,
+    75deg,
     rgba(68, 18, 115, 1) 0%,
     rgba(5, 30, 75, 1) 21%,
     rgba(52, 79, 141, 1) 58%,
@@ -155,5 +155,5 @@ h6 {
 
 #four-c-logo{
   height: auto;
-  width: 56px;
+  width: 75px;
 }

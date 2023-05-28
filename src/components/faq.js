@@ -4,7 +4,7 @@ import Title from "components/Title"
 
 const Faq = () => {
   return (
-    <div>
+    <div id="faq">
         <div className="page-title mb-16 mt-[30px] text-center text-white">
           <Title heading="Frequently asked questions" />
         </div>
