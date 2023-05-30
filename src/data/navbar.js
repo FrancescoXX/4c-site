@@ -9,7 +9,7 @@ const pages = [
   },
   {
     href: "/staff",
-    pageName: "See Our Staff Members",
+    pageName: "Staff",
   },
 ]
 

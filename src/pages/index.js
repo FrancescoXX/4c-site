@@ -17,11 +17,12 @@ export default function Home() {
       localStorage.removeItem("active")
     }
   }
+
   return (
     <div>
       <Layout className="flex flex-col justify-center mt-[13rem] md:mt-[5rem]">
         <Main {...main} />
-        <div className="flex flex-col gap-32">
+        <div className="flex flex-col gap-16">
           <GetActivities />
           <GetVideos />
           <Blogs />

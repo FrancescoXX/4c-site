@@ -3,7 +3,7 @@ import Title from "components/Title"
 
 const Blogs = () => {
   return (
-    <div className="flex items-center flex-col justify-center" id="blogs">
+    <div className="flex items-center flex-col justify-center">
       <Title heading="Blogs" />
       <BlogCard />
     </div>
