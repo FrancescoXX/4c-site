@@ -75,7 +75,7 @@ const Navbar = () => {
                     ${
                       activeButton === navItem.href
                         ? "bg-theme bg-[#70b7e6] text-white"
-                        : "bg-white text-black"
+                        : "bg-[#111827] text-white"
                     }`}
                   >
                     {navItem.pageName}
