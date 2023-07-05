@@ -58,12 +58,12 @@ Or, to work on it locally,
 4. Install dependencies
 
    ```console
-   $ npm install
+   $ yarn install
    ```
 5. Start the project on `localhost`
 
    ```console
-   $ npm run dev
+   $ yarn run dev
    ```
 
 ##### Troubleshooting
@@ -86,7 +86,7 @@ In the course of trying to set up the project locally, if you come across an err
 4. Start the development server with
 
    ```console
-   $ npm run dev
+   $ yarn run dev
    ```
 
 > For Windows 👇
@@ -98,7 +98,7 @@ In the course of trying to set up the project locally, if you come across an err
    ```
 3. Start the development server with
    ```console
-   $ npm run dev
+   $ yarn run dev
    ```
 
 In order to run this project locally, you might require some additional configurations, such as downgrading your `node` version to v16.
