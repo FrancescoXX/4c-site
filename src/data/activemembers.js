@@ -87,9 +87,9 @@ const base = [
     name: "Baran",
     avatar: BaranAvatar,
     github: "baranbbr",
-    twitter: "____baran",
-    blogUrl: "",
-    contributions: 2,
+    twitter: "banf",
+    blogUrl: "https://dev.to/banf",
+    contributions: 3,
   },
   {
     name: "bigdogtrist",
