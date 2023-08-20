@@ -1,4 +1,4 @@
-# 💎 4C (The Cool Community of Content Creators)
+# 4C (The Cool Community of Content Creators)
 
 Imagine **The Cool Community For Content Creators** or **4C**, as a chill coffee shop (cooler even 💣). An inclusive and helpful environment, where we help content creators reach their goals by sharing experiences.
 
