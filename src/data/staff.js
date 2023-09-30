@@ -1,17 +1,17 @@
-import JaxAvatar from "assets/sources/staff/44jax44.webp";
-import AliRezaAvatar from "assets/sources/staff/AliReza1083.webp";
-import AvieAvatar from "assets/sources/staff/avie-dev.webp";
-import DunsinAvatar from "assets/sources/staff/Dun-sin.webp";
-import FrancescoAvatar from "assets/sources/staff/FrancescoXX.webp";
-import GrahamAvatar from "assets/sources/staff/InHuOfficial.webp";
-import KrupaliAvatar from "assets/sources/staff/krupalitrivedi.webp";
-import LouellaAvatar from "assets/sources/staff/lovelacecoding.webp";
-import MadhuAvatar from "assets/sources/staff/MadhuSaini22.webp";
-import PradumnaAvatar from "assets/sources/staff/Pradumnasaraf.webp";
-import SumitAvatar from "assets/sources/staff/sumitsaurabh927.webp";
-import TobiAvatar from "assets/sources/staff/tobySolutions.webp";
-import ElderAvatar from "assets/sources/staff/Elder.webp";
-import TiyaAvatar from "assets/sources/staff/Tiya.webp";
+import JaxAvatar from "assets/sources/staff/44jax44.webp"
+import AliRezaAvatar from "assets/sources/staff/AliReza1083.webp"
+import AvieAvatar from "assets/sources/staff/avie-dev.webp"
+import DunsinAvatar from "assets/sources/staff/Dun-sin.webp"
+import FrancescoAvatar from "assets/sources/staff/FrancescoXX.webp"
+import GrahamAvatar from "assets/sources/staff/InHuOfficial.webp"
+import KrupaliAvatar from "assets/sources/staff/krupalitrivedi.webp"
+import LouellaAvatar from "assets/sources/staff/lovelacecoding.webp"
+import MadhuAvatar from "assets/sources/staff/MadhuSaini22.webp"
+import PradumnaAvatar from "assets/sources/staff/Pradumnasaraf.webp"
+import SumitAvatar from "assets/sources/staff/sumitsaurabh927.webp"
+import TobiAvatar from "assets/sources/staff/tobySolutions.webp"
+import ElderAvatar from "assets/sources/staff/Elder.webp"
+import TiyaAvatar from "assets/sources/staff/Tiya.webp"
 
 /**
  * @typedef {Object} Profile
@@ -172,8 +172,8 @@ const staff = [
     linkedin: "tiya-bansal",
     contributions: null,
   },
-].sort((a, b) => (a.name > b.name ? 1 : -1));
+].sort((a, b) => (a.name > b.name ? 1 : -1))
 
-export default staff;
+export default staff
 
 // module.exports = staff
