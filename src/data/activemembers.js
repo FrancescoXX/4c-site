@@ -20,7 +20,7 @@ import BobbyAvatar from "assets/sources/activemembers/thedevdojo.webp"
 import BigDogTristAvatar from "assets/sources/activemembers/thePlebDev.webp"
 import VaibhavAvatar from "assets/sources/activemembers/singh-vaibhav08.webp"
 import LBD from "assets/sources/activemembers/lbd.webp"
-import ManishAvtar from "assets/sources/activemembers/money8203.webp"
+import ManishAvatar from "assets/sources/activemembers/money8203.webp"
 import staff from "./staff"
 
 // const staff = []
