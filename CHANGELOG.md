@@ -1,3 +1,10 @@
+## [0.20.1](https://github.com/FrancescoXX/4c-site/compare/v0.20.0...v0.20.1) (2023-10-15)
+
+
+### Bug Fixes
+
+* **ActiveMembers.js and Staff.js:** added feedback message if search input does not find a match ([9373549](https://github.com/FrancescoXX/4c-site/commit/937354979799de0605c3390f62c1973e4b47dc51))
+
 # [0.20.0](https://github.com/FrancescoXX/4c-site/compare/v0.19.2...v0.20.0) (2023-10-15)
 
 
