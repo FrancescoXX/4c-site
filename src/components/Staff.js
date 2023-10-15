@@ -46,15 +46,21 @@ const Staff = () => {
               </svg>
             </div>
           </div>
-          <div className="m-2 flex flex-wrap items-center justify-center gap-[1.8rem] overflow-y-auto pt-5 pb-4">
-            {tab === "Staff"
-              ? (
-              <GetStaff users={currentUsers} />
-                )
-              : (
-              <Users users={currentUsers} />
-                )}
-          </div>
+          {currentUsers.length
+            ? (
+            <div className="m-2 flex flex-wrap items-center justify-center gap-[1.8rem] overflow-y-auto pt-5 pb-4">
+              {tab === "Staff"
+                ? (
+                <GetStaff users={currentUsers} />
+                  )
+                : (
+                <Users users={currentUsers} />
+                  )}
+            </div>
+              )
+            : (
+            <p className="mt-3">User does not exist!</p>
+              )}
         </section>
       </div>
     </div>
