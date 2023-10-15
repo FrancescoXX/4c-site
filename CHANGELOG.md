@@ -1,3 +1,10 @@
+# [0.20.0](https://github.com/FrancescoXX/4c-site/compare/v0.19.2...v0.20.0) (2023-10-15)
+
+
+### Features
+
+* Filter staff by name and description ([48bbafa](https://github.com/FrancescoXX/4c-site/commit/48bbafa88e285d0f20f9770b7142e669e009ebf8))
+
 ## [0.19.2](https://github.com/FrancescoXX/4c-site/compare/v0.19.1...v0.19.2) (2023-05-28)
 
 
