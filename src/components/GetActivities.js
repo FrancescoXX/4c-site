@@ -1,6 +1,7 @@
 import eventList from "../data/events.json"
 import Title from "./Title"
 import { FaTwitter, FaDiscord } from "react-icons/fa"
+import Image from "next/image"
 
 const events = eventList.events
 const styles = "transition-all ease-in cursor-pointer"
@@ -26,7 +27,7 @@ const GetActivities = () => (
                     </span>{" "}
                   </p>
                 </div>
-                <img
+                <Image
                   src={event?.image}
                   alt={event.name}
                   className="w-full mb-4 rounded-md object-contain my-4"
