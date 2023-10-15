@@ -1,0 +1,18 @@
+name: Renovate
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+
+jobs:
+  renovate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Renovate
+        run: |
+          npm install -g renovate
+          renovate --config renovate.json

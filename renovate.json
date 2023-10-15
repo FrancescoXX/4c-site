@@ -1,0 +1,11 @@
+{
+    "extends": ["config:base"],
+    "packageRules": [
+      {
+        "packagePatterns": ["^github-actions/"],
+        "groupName": "GitHub Actions",
+        "schedule": ["daily"]
+      }
+    ]
+  }
+  
