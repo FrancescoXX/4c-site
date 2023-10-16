@@ -1,16 +1,20 @@
-import Faqs from "data/faq.json"
 import FaqAccordian from "components/FaqAccordian"
 import Title from "components/Title"
 
+import { faqData } from "data/faq"
+import { useState } from "react"
+
 const Faq = () => {
+  const [currentQuestion, setCurrentQuestion] = useState(1);
+
   return (
     <div>
         <div className="page-title mb-16 mt-[30px] text-center text-white">
           <Title heading="Frequently asked questions" />
         </div>
         <ul className="flex flex-col items-center justify-center">
-          {Faqs.map((faq, idx) => (
-            <FaqAccordian key={idx} faq={faq} />
+          {faqData.map((faq) => (
+            <FaqAccordian key={faq.id} faq={faq} currentQuestion={currentQuestion} setCurrentQuestion={setCurrentQuestion} />
           ))}
         </ul>
     </div>

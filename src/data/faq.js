@@ -1,0 +1,36 @@
+export const faqData = [
+  {
+    id: 1,
+    questions: 'What does "4C" stands for?',
+    answers: '4C stands for "Cool Community of Content Creators".',
+  },
+  {
+    id: 2,
+    questions: 'What is the goal of "4C"? ',
+    answers:
+      "We discuss Content Creation using Videos, Articles and Social Media. Our goal is to create a decentralized community, where everyone can create some events related to the community on their channels.",
+  },
+  {
+    id: 3,
+    questions: 'Is "4C" open-source and how can I contribute?',
+    answers:
+      "4C is open source. All contributions are welcome. Visit our contributions page to learn how you can contribute.",
+  },
+  {
+    id: 4,
+    questions: "How can I join the community?",
+    answers: "Join our Discord Server and visit the #start-here channel.",
+  },
+  {
+    id: 5,
+    questions: 'Is "4C" only for experienced content creators?',
+    answers:
+      "Absolutely no. The community fosters growth on all levels, irrespective of prior experience —a platform where you can talk about your ideas and get opinions on how to execute them.",
+  },
+  {
+    id: 6,
+    questions: 'What are the benefits of the "4C" community?',
+    answers:
+      "You get support, activities, collaborations, free dedicated content creation webinars (yes, you got it right ! 😄), coffee chat, and a meme channel! ",
+  },
+];
