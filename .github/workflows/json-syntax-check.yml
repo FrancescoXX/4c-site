@@ -1,4 +1,4 @@
-name: JSON check
+name: JSON Syntax Check
 
 on:
   push:

@@ -5,7 +5,7 @@ import Users from "components/Users"
 // import staff data
 import staff from "data/staff"
 import Title from "components/Title"
-import { FilterUsers } from "utils/filterUsers"
+import { FilterUsersByNameAndDesc } from "utils/filterUsers"
 
 const Staff = () => {
   const [tab] = useState("Staff")
@@ -15,7 +15,7 @@ const Staff = () => {
   // filter handler
   const searchHandler = (event) => {
     event.preventDefault()
-    const filterdUsers = FilterUsers(staff, event.target.value)
+    const filterdUsers = FilterUsersByNameAndDesc(staff, event.target.value)
     setCurrentUsers(filterdUsers)
   }
   return (
@@ -46,15 +46,21 @@ const Staff = () => {
               </svg>
             </div>
           </div>
-          <div className="m-2 flex flex-wrap items-center justify-center gap-[1.8rem] overflow-y-auto pt-5 pb-4">
-            {tab === "Staff"
-              ? (
-              <GetStaff users={currentUsers} />
-                )
-              : (
-              <Users users={currentUsers} />
-                )}
-          </div>
+          {currentUsers.length
+            ? (
+            <div className="m-2 flex flex-wrap items-center justify-center gap-[1.8rem] overflow-y-auto pt-5 pb-4">
+              {tab === "Staff"
+                ? (
+                <GetStaff users={currentUsers} />
+                  )
+                : (
+                <Users users={currentUsers} />
+                  )}
+            </div>
+              )
+            : (
+            <p className="mt-3">User does not exist!</p>
+              )}
         </section>
       </div>
     </div>
