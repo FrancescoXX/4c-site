@@ -1,11 +1,18 @@
 {
-    "extends": ["config:base"],
-    "packageRules": [
-      {
-        "packagePatterns": ["^github-actions/"],
-        "groupName": "GitHub Actions",
-        "schedule": ["daily"]
-      }
-    ]
-  }
-  
+  "extends": [
+    "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": false
+    }
+  ],
+  "timezone": "America/Toronto",
+  "schedule": [
+    "After 11:30pm"
+  ]
+}
