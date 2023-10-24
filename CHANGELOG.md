@@ -1,3 +1,17 @@
+## [0.21.1](https://github.com/FrancescoXX/4c-site/compare/v0.21.0...v0.21.1) (2023-10-24)
+
+
+### Bug Fixes
+
+* lint issue ([6bceaaf](https://github.com/FrancescoXX/4c-site/commit/6bceaaf0e3cdeb6174d00b51be59f2a18f7b99fc))
+
+# [0.21.0](https://github.com/FrancescoXX/4c-site/compare/v0.20.1...v0.21.0) (2023-10-24)
+
+
+### Features
+
+* **plugin:** commitizen-support-782 ([8c6af10](https://github.com/FrancescoXX/4c-site/commit/8c6af1067383c79cc95d51d9102a30377bbaa7ff))
+
 ## [0.20.1](https://github.com/FrancescoXX/4c-site/compare/v0.20.0...v0.20.1) (2023-10-15)
 
 

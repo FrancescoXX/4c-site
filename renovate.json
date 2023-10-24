@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "automerge": false
+    }
+  ],
+  "timezone": "America/Toronto",
+  "schedule": [
+    "After 11:30pm"
+  ]
+}
