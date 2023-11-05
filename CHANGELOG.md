@@ -1,3 +1,12 @@
+## [0.21.2](https://github.com/FrancescoXX/4c-site/compare/v0.21.1...v0.21.2) (2023-11-05)
+
+
+### Bug Fixes
+
+* next image issue ([09d79b6](https://github.com/FrancescoXX/4c-site/commit/09d79b62af95ffa43556956bb338a137f3f0080a))
+* next image issue ([39a5660](https://github.com/FrancescoXX/4c-site/commit/39a56609bb6cca3a12e7efb17363399091350234))
+* next image issue ([f7294e8](https://github.com/FrancescoXX/4c-site/commit/f7294e8415150d68cbcaacdcdb0abd9ade783de7))
+
 ## [0.21.1](https://github.com/FrancescoXX/4c-site/compare/v0.21.0...v0.21.1) (2023-10-24)
 
 
