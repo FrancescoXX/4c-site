@@ -31,6 +31,8 @@ const GetActivities = () => (
                   src={event?.image}
                   alt={event.name}
                   className="w-full mb-4 rounded-md object-contain my-4"
+                  width={20}
+                  height={20}
                 />
 
                 <div className="flex justify-between text-2xl  bottom-1 w-[100%]">
