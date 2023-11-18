@@ -1,4 +1,4 @@
-import { FaDiscord, FaTwitter } from "react-icons/fa"
+import { FaDiscord, FaXTwitter } from "react-icons/fa"
 import "react-toastify/dist/ReactToastify.css"
 
 export const main = {
