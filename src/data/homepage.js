@@ -53,8 +53,8 @@ export const main = {
       className="btn btn-twitter"
       target="_blank" rel="noreferrer"
     >
-      <FaTwitter />
-      Follow on Twitter
+     <FaXTwitter />
+      Follow on X
     </a>
   ),
 }
