@@ -9,7 +9,7 @@ import LouellaAvatar from "assets/sources/staff/lovelacecoding.webp"
 import MadhuAvatar from "assets/sources/staff/MadhuSaini22.webp"
 import PradumnaAvatar from "assets/sources/staff/Pradumnasaraf.webp"
 import SumitAvatar from "assets/sources/staff/sumitsaurabh927.webp"
-import TobiAvatar from "assets/sources/staff/tobySolutions.webp"
+import TobiAvatar from "assets/sources/staff/tobySolutions.jpeg"
 import ElderAvatar from "assets/sources/staff/Elder.webp"
 import TiyaAvatar from "assets/sources/staff/Tiya.webp"
 
@@ -113,7 +113,7 @@ const staff = [
     avatar: TobiAvatar,
     github: "tobySolutions",
     description:
-      "Frontend Engineer  | YouTuber | Communicator | Accessibility Advocate | Open Source Enthusiast. Software Engineer Intern Nithub,  Staff  @4ccommunityhq",
+      "Frontend Engineer | Accessibility Advocate  l Developer Advocate at Million.js",
     twitter: "toby_solutions",
     blogUrl: "",
     linkedin: "tobiloba-adedeji",
