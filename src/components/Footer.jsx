@@ -1,5 +1,5 @@
 import React from "react"
-import { FaDiscord, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaDiscord, FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa"
 
 function Footer() {
   return (
@@ -42,7 +42,7 @@ function Footer() {
               Twitter
             </span>
 
-            <FaTwitter aria-hidden="true" />
+            <FaXTwitter aria-hidden="true" />
           </a>
 
           <a
