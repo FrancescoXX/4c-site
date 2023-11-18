@@ -6,7 +6,7 @@ import {
   FaTwitch,
   FaLinkedin,
 } from "react-icons/fa"
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6"
 import SocialLink from "components/SocialLink"
 import Image from "next/image"
 
