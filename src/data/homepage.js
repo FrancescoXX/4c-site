@@ -1,4 +1,5 @@
-import { FaDiscord, FaTwitter } from "react-icons/fa"
+import { FaDiscord } from "react-icons/fa"
+import { FaXTwitter } from "react-icons/fa6";
 import "react-toastify/dist/ReactToastify.css"
 
 export const main = {
@@ -53,8 +54,8 @@ export const main = {
       className="btn btn-twitter"
       target="_blank" rel="noreferrer"
     >
-      <FaTwitter />
-       X
+      <FaXTwitter />
+       X (Twitter)
     </a>
   ),
 }

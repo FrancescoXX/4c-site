@@ -2,11 +2,11 @@ import React from "react"
 import {
   FaBlog,
   FaGithub,
-  FaTwitter,
   FaYoutube,
   FaTwitch,
   FaLinkedin,
 } from "react-icons/fa"
+import { FaXTwitter } from "react-icons/fa6";
 import SocialLink from "components/SocialLink"
 import Image from "next/image"
 
@@ -17,7 +17,7 @@ const socialMediaData = {
   },
   twitter: {
     url: "https://twitter.com/",
-    icon: FaTwitter,
+    icon: FaXTwitter,
   },
   blog: {
     icon: FaBlog,

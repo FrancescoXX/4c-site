@@ -1,5 +1,6 @@
 import React from "react"
-import { FaDiscord, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
@@ -39,10 +40,10 @@ function Footer() {
             target="_blank"
           >
             <span className="sr-only">
-              Twitter
+              X
             </span>
 
-            <FaTwitter aria-hidden="true" />
+            <FaXTwitter aria-hidden="true" />
           </a>
 
           <a
