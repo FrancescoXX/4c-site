@@ -2,7 +2,7 @@ import React from "react"
 import {
   FaBlog,
   FaGithub,
-  FaTwitter,
+  FaXTwitter,
   FaYoutube,
   FaTwitch,
   FaLinkedin,
@@ -17,7 +17,7 @@ const socialMediaData = {
   },
   twitter: {
     url: "https://twitter.com/",
-    icon: FaTwitter,
+    icon: FaXTwitter,
   },
   blog: {
     icon: FaBlog,
