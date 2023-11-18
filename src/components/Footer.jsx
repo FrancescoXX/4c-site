@@ -39,7 +39,7 @@ function Footer() {
             target="_blank"
           >
             <span className="sr-only">
-              Twitter
+              X
             </span>
 
             <FaXTwitter aria-hidden="true" />
