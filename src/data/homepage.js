@@ -54,7 +54,7 @@ export const main = {
       target="_blank" rel="noreferrer"
     >
       <FaTwitter />
-      Follow on Twitter
+       X
     </a>
   ),
 }
