@@ -1,3 +1,10 @@
+## [0.21.4](https://github.com/FrancescoXX/4c-site/compare/v0.21.3...v0.21.4) (2023-11-18)
+
+
+### Bug Fixes
+
+* image in activitie ([2d11869](https://github.com/FrancescoXX/4c-site/commit/2d11869601019af5f255a43694192dfa2713d74f))
+
 ## [0.21.3](https://github.com/FrancescoXX/4c-site/compare/v0.21.2...v0.21.3) (2023-11-18)
 
 
