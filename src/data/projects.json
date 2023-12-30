@@ -146,16 +146,16 @@
     },
     {
       "name": "Tobiloba Adedeji",
-      "title": "Tobiloba Adedeji",
+      "title": "Million.js",
       "screenshot": "https://i.ibb.co/Hq16Q2L/tobiloba-portfolio.png",
-      "description": "My portfolio website, version 1.0",
-      "link": "https://github.com/tobySolutions/tobiloba-portfolio",
+      "description": "Virtual DOM that makes React faster",
+      "link": "https://github.com/aidenybai/million",
       "twitter": "https://twitter.com/toby_solutions",
-      "live_link": "",
+      "live_link": "https://million.dev",
       "stack": [
         "All",
-        "React",
-        "Tailwind"
+        "Javascript",
+        "Typescript"
       ]
     },
     {
