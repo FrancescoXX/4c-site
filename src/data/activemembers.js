@@ -154,7 +154,7 @@ const base = [
     name: "Posandu Mapa",
     avatar: PosanduAvatar,
     github: "Posandu",
-    twitter: null,
+    twitter: "",
     blogUrl: "https://www.tronic247.com",
     contributions: 3,
   },
@@ -198,7 +198,7 @@ const base = [
     twitter: "devvsakib",
     blogUrl: "https://devvsakib.me",
     linkedin: "devvsakib",
-    contributions: null,
+    contributions: 0,
   },
   {
     name: "Ctofanin",
@@ -207,7 +207,7 @@ const base = [
     twitter: "ctoffaninDev",
     blogUrl: "",
     linkedin: "",
-    contributions: null,
+    contributions: 0,
   },
   {
     name: "Haider Ali Punjabi",
@@ -225,7 +225,7 @@ const base = [
     twitter: "krshkun",
     blogUrl: "https://links.krsh.eu.org",
     linkedin: "krshkun",
-    contributions: null,
+    contributions: 0,
   },
 ].sort((a, b) => (a.name > b.name ? 1 : -1))
 

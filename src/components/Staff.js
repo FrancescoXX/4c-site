@@ -1,23 +1,41 @@
-import React, { useState } from "react"
+import React, { useContext, useState } from "react"
+import { OramaContext } from "context/OramaProvider"
+
 import GetStaff from "components/GetStaff"
 import Users from "components/Users"
 
 // import staff data
 import staff from "data/staff"
 import Title from "components/Title"
-import { FilterUsersByNameAndDesc } from "utils/filterUsers"
 
 const Staff = () => {
+  const { searchDatabase } = useContext(OramaContext)
+
   const [tab] = useState("Staff")
   // state for currentUsers
   const [currentUsers, setCurrentUsers] = useState(staff)
 
-  // filter handler
-  const searchHandler = (event) => {
+  // Search handler
+  const searchHandler = async(event) => {
     event.preventDefault()
-    const filterdUsers = FilterUsersByNameAndDesc(staff, event.target.value)
-    setCurrentUsers(filterdUsers)
+
+    const value = event.target.value
+
+    try {
+      const results = await searchDatabase(
+        value
+          ? {
+              term: value,
+            }
+          : null,
+      )
+
+      setCurrentUsers(results)
+    } catch (error) {
+      setCurrentUsers([])
+    }
   }
+
   return (
     <div className="flex items-center justify-center">
       <div className="mt-[3em] flex max-w-bodyContainer items-start justify-start">
