@@ -7,15 +7,15 @@ export const OramaProvider = ({ children, schema, initialData }) => {
   const [db, setDb] = useState(null)
 
   useEffect(() => {
-    const init = async () => {
+    const init = async() => {
       const database = await create({
         schema,
-      });
+      })
 
-      setDb(database);
+      setDb(database)
 
-      await insertMultiple(database, initialData);
-    };
+      await insertMultiple(database, initialData)
+    }
 
     init()
   }, [schema, initialData])
