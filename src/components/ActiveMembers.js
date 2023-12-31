@@ -1,24 +1,38 @@
-import React, { useState } from "react"
+import React, { useContext, useState } from "react"
+
+import { OramaContext } from "context/OramaProvider"
 import GetActivemembers from "components/GetActivemembers"
 import Users from "components/Users"
 
 // import contributors data
 import activeMembers from "data/activemembers"
 import Title from "components/Title"
-import { FilterUsers } from "utils/filterUsers"
 
 const ActiveMembers = () => {
+  const { searchDatabase } = useContext(OramaContext)
+
   // state for currentUsers
   const [currentUsers, setCurrentUsers] = useState(activeMembers)
 
-  // filter handler
-  const searchHandler = (event) => {
+  // Search handler
+  const searchHandler = async(event) => {
     event.preventDefault()
-    const filterdUsers = FilterUsers(
-      activeMembers,
-      event.target.value,
-    )
-    setCurrentUsers(filterdUsers)
+
+    const value = event.target.value
+
+    try {
+      const results = await searchDatabase(
+        value
+          ? {
+              term: value,
+            }
+          : null,
+      )
+
+      setCurrentUsers(results)
+    } catch (error) {
+      setCurrentUsers([])
+    }
   }
 
   const [tab] = useState("Active Members")
@@ -50,17 +64,21 @@ const ActiveMembers = () => {
             </svg>
           </div>
         </div>
-      {currentUsers.length
-        ? <div className="m-2 flex flex-wrap items-center justify-center overflow-y-auto pb-4">
-          {tab === "Active Members"
-            ? (
+        {currentUsers.length
+          ? (
+          <div className="m-2 flex flex-wrap items-center justify-center overflow-y-auto pb-4">
+            {tab === "Active Members"
+              ? (
               <GetActivemembers users={currentUsers} />
-              )
-            : (
+                )
+              : (
               <Users users={currentUsers} />
-              )}
-        </div>
-        : <p className="mt-3">User does not exist!</p>}
+                )}
+          </div>
+            )
+          : (
+          <p className="mt-3">User does not exist!</p>
+            )}
       </section>
     </div>
   )
