@@ -1,5 +1,6 @@
 import React from "react"
-import { FaTwitter, FaLink } from "react-icons/fa"
+import { FaLink } from "react-icons/fa"
+import { BsTwitterX } from "react-icons/bs"
 import blogs from "data/blog"
 import Image from "next/image"
 
@@ -14,7 +15,7 @@ const BlogCard = () => {
         >
           <div className="flex justify-between text-2xl">
             <a href={blog.twitter} target="_blank" rel="noreferrer">
-              <FaTwitter className={styles} />
+              <BsTwitterX className={styles} />
             </a>
             <a href={blog.link} target="_blank" rel="noreferrer">
               <FaLink className={styles} />
