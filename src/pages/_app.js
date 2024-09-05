@@ -45,13 +45,10 @@ export default function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <AnimatePresence
-        mode="wait"
-        onExitComplete={() => window.scrollTo(0, 0)}
-      >
-        <Component {...pageProps} />
+      <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
+          <Component {...pageProps} />
       </AnimatePresence>
-      <GoToTop/>
+      <GoToTop />
     </div>
   )
 }
