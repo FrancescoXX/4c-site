@@ -1,3 +1,10 @@
+# [0.22.0](https://github.com/FrancescoXX/4c-site/compare/v0.21.4...v0.22.0) (2024-10-22)
+
+
+### Features
+
+* add detailed readme ([b00381a](https://github.com/FrancescoXX/4c-site/commit/b00381a96bc728d69e5e2e0923c2e4552b10b9e2))
+
 ## [0.21.4](https://github.com/FrancescoXX/4c-site/compare/v0.21.3...v0.21.4) (2023-11-18)
 
 
